@@ -3,12 +3,6 @@
   "excludes": "This manifest itself and duplicate ZIP bundles",
   "files": [
     {
-      "path": ".DS_Store",
-      "bytes": 10244,
-      "sha256": "5ce2f4e083e7c65f8bd56de77a526dc2c883c04907caed1802489976ecc59704",
-      "git_blob_sha": "60b912411e0d7014706e1c8d9107473f3b734b0c"
-    },
-    {
       "path": ".gitignore",
       "bytes": 72,
       "sha256": "032bfc66a7a3d103fcaec2bca91fc0129c2e72f923255f21383a8a54d785cd6d",
