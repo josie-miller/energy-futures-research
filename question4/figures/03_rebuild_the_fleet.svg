@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="819.36pt" height="465.551719pt" viewBox="0 0 819.36 465.551719" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-24T16:05:29.955739</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 465.551719 
+L 819.36 465.551719 
+L 819.36 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 147.6 372.24 
+L 812.16 372.24 
+L 812.16 96.12 
+L 147.6 96.12 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 147.6 108.670909 
+L 566.616393 108.670909 
+L 566.616393 162.812086 
+L 147.6 162.812086 
+z
+" clip-path="url(#p98522f88be)" style="fill: #b8c9d0"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 566.616393 108.670909 
+L 692.321311 108.670909 
+L 692.321311 162.812086 
+L 566.616393 162.812086 
+z
+" clip-path="url(#p98522f88be)" style="fill: #126e91"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 147.6 207.109412 
+L 321.414208 207.109412 
+L 321.414208 261.250588 
+L 147.6 261.250588 
+z
+" clip-path="url(#p98522f88be)" style="fill: #b8c9d0"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 321.414208 207.109412 
+L 373.55847 207.109412 
+L 373.55847 261.250588 
+L 321.414208 261.250588 
+z
+" clip-path="url(#p98522f88be)" style="fill: #126e91"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 147.6 305.547914 
+L 154.172806 305.547914 
+L 154.172806 359.689091 
+L 147.6 359.689091 
+z
+" clip-path="url(#p98522f88be)" style="fill: #b8c9d0"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 154.172806 305.547914 
+L 158.11649 305.547914 
+L 158.11649 359.689091 
+L 154.172806 359.689091 
+z
+" clip-path="url(#p98522f88be)" style="fill: #126e91"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mcc256e8ddc" d="M 0 0 
+L 0 3.5 
+" style="stroke: #48616b; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mcc256e8ddc" x="147.6" y="372.24" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="147.6" y="387.598281" transform="rotate(-0 147.6 387.598281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mcc256e8ddc" x="294.423344" y="372.24" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="294.423344" y="387.598281" transform="rotate(-0 294.423344 387.598281)">500</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mcc256e8ddc" x="441.246689" y="372.24" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="441.246689" y="387.598281" transform="rotate(-0 441.246689 387.598281)">1000</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mcc256e8ddc" x="588.070033" y="372.24" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="588.070033" y="387.598281" transform="rotate(-0 588.070033 387.598281)">1500</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mcc256e8ddc" x="734.893377" y="372.24" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="734.893377" y="387.598281" transform="rotate(-0 734.893377 387.598281)">2000</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: middle" x="479.88" y="402.244219" transform="rotate(-0 479.88 402.244219)">Illustrative annual gross construction, GW</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <defs>
+       <path id="m8a42a8a76e" d="M 0 0 
+L -3.5 0 
+" style="stroke: #48616b; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8a42a8a76e" x="147.6" y="135.741497" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: end" x="140.6" y="139.920638" transform="rotate(-0 140.6 139.920638)">Land solar</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m8a42a8a76e" x="147.6" y="234.18" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: end" x="140.6" y="238.359141" transform="rotate(-0 140.6 238.359141)">Offshore wind</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m8a42a8a76e" x="147.6" y="332.618503" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: end" x="140.6" y="336.797643" transform="rotate(-0 140.6 336.797643)">Fission</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 147.6 372.24 
+L 812.16 372.24 
+" style="fill: none; stroke: #bac5c9; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_10">
+    <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: start" x="695.845072" y="138.77681" transform="rotate(-0 695.845072 138.77681)">1,855 GW/year</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: start" x="377.08223" y="237.215312" transform="rotate(-0 377.08223 237.215312)">769 GW/year</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: start" x="161.64025" y="335.653815" transform="rotate(-0 161.64025 335.653815)">36 GW/year</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_10">
+     <path d="M 623.9225 343.906406 
+L 645.9225 343.906406 
+L 645.9225 336.206406 
+L 623.9225 336.206406 
+z
+" style="fill: #b8c9d0"/>
+    </g>
+    <g id="text_13">
+     <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: start" x="654.7225" y="343.906406" transform="rotate(-0 654.7225 343.906406)">Replace ageing equipment</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 623.9225 360.052344 
+L 645.9225 360.052344 
+L 645.9225 352.352344 
+L 623.9225 352.352344 
+z
+" style="fill: #126e91"/>
+    </g>
+    <g id="text_14">
+     <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: start" x="654.7225" y="360.052344" transform="rotate(-0 654.7225 360.052344)">Add capacity for growth</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="fill: #233840; font: 700 19px 'DejaVu Sans'; text-anchor: start" x="7.2" y="21.637031" transform="rotate(-0 7.2 21.637031)">Keeping the lights on also means rebuilding the fleet</text>
+  </g>
+  <g id="text_16">
+   <text style="fill: #536a74; font: 10.5px 'DejaVu Sans'; text-anchor: start" x="7.2" y="39.96" transform="rotate(-0 7.2 39.96)">Illustrative annual construction at the 2100 fleet size, with 1% continuing growth.</text>
+  </g>
+  <g id="text_17">
+   <text style="fill: #536a74; font: 9px 'DejaVu Sans'" transform="translate(7.2 446.401969)">Replacement approximation: fleet ÷ lifetime, assuming a spread of equipment ages; actual cohorts can differ greatly.</text>
+   <text style="fill: #536a74; font: 9px 'DejaVu Sans'" transform="translate(7.2 456.48)">Assumed lifetimes: solar/offshore 30 years, fission 60 years. This is manufacturing scale, not a timed retirement forecast.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p98522f88be">
+   <rect x="147.6" y="96.12" width="664.56" height="276.12"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="890.082188pt" height="465.551719pt" viewBox="0 0 890.082188 465.551719" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-24T16:07:52.395922</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 465.551719 
+L 890.082188 465.551719 
+L 890.082188 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 49.842188 367.56 
+L 408.911153 367.56 
+L 408.911153 96.12 
+L 49.842188 96.12 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m9de90632f7" d="M 0 0 
+L 0 3.5 
+" style="stroke: #43585f; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m9de90632f7" x="79.764601" y="367.56" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: middle" x="79.764601" y="382.918281" transform="rotate(-0 79.764601 382.918281)">140</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m9de90632f7" x="199.454256" y="367.56" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: middle" x="199.454256" y="382.918281" transform="rotate(-0 199.454256 382.918281)">120</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m9de90632f7" x="319.143912" y="367.56" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: middle" x="319.143912" y="382.918281" transform="rotate(-0 319.143912 382.918281)">100</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m9de90632f7" x="378.988739" y="367.56" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: middle" x="378.988739" y="382.918281" transform="rotate(-0 378.988739 382.918281)">90</text>
+     </g>
+    </g>
+    <g id="text_5">
+     <text style="fill: #25383e; font: 11px 'DejaVu Sans'; text-anchor: middle" x="229.37667" y="397.564219" transform="rotate(-0 229.37667 397.564219)">Assumed tidal generation cost ($/MWh)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="mc64a948afd" d="M 0 0 
+L -3.5 0 
+" style="stroke: #43585f; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mc64a948afd" x="49.842188" y="353.006591" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.842188" y="357.185731" transform="rotate(-0 42.842188 357.185731)">170</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mc64a948afd" x="49.842188" y="316.308882" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.842188" y="320.488022" transform="rotate(-0 42.842188 320.488022)">180</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mc64a948afd" x="49.842188" y="279.611173" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.842188" y="283.790313" transform="rotate(-0 42.842188 283.790313)">190</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mc64a948afd" x="49.842188" y="242.913464" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.842188" y="247.092604" transform="rotate(-0 42.842188 247.092604)">200</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mc64a948afd" x="49.842188" y="206.215754" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.842188" y="210.394895" transform="rotate(-0 42.842188 210.394895)">210</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mc64a948afd" x="49.842188" y="169.518045" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.842188" y="173.697186" transform="rotate(-0 42.842188 173.697186)">220</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mc64a948afd" x="49.842188" y="132.820336" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.842188" y="136.999477" transform="rotate(-0 42.842188 136.999477)">230</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mc64a948afd" x="49.842188" y="96.122627" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="42.842188" y="100.301768" transform="rotate(-0 42.842188 100.301768)">240</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="fill: #25383e; font: 11px 'DejaVu Sans'; text-anchor: middle" x="15.558281" y="231.84" transform="rotate(-90 15.558281 231.84)">Whole modeled supply cost ($/MWh)</text>
+    </g>
+   </g>
+   <g id="line2d_13">
+    <path d="M 49.842188 169.515418 
+L 408.911153 169.515418 
+" clip-path="url(#pcea34cdc89)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #677a80; stroke-width: 1.5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 49.842188 367.56 
+L 408.911153 367.56 
+" style="fill: none; stroke: #b8c4c5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="ma74eb712f0" d="M 0 4.031129 
+C 1.069068 4.031129 2.094493 3.606384 2.850439 2.850439 
+C 3.606384 2.094493 4.031129 1.069068 4.031129 0 
+C 4.031129 -1.069068 3.606384 -2.094493 2.850439 -2.850439 
+C 2.094493 -3.606384 1.069068 -4.031129 0 -4.031129 
+C -1.069068 -4.031129 -2.094493 -3.606384 -2.850439 -2.850439 
+C -3.606384 -2.094493 -4.031129 -1.069068 -4.031129 0 
+C -4.031129 1.069068 -3.606384 2.094493 -2.850439 2.850439 
+C -2.094493 3.606384 -1.069068 4.031129 0 4.031129 
+z
+" style="stroke: #008a76"/>
+    </defs>
+    <g clip-path="url(#pcea34cdc89)">
+     <use xlink:href="#ma74eb712f0" x="79.764601" y="195.58395" style="fill: #008a76; stroke: #008a76"/>
+     <use xlink:href="#ma74eb712f0" x="199.454256" y="232.827095" style="fill: #008a76; stroke: #008a76"/>
+     <use xlink:href="#ma74eb712f0" x="378.988739" y="316.183207" style="fill: #008a76; stroke: #008a76"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="fill: #25383e; font: 11px 'DejaVu Sans'; text-anchor: middle" x="79.764601" y="213.58395" transform="rotate(-0 79.764601 213.58395)">$213</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #25383e; font: 11px 'DejaVu Sans'; text-anchor: middle" x="199.454256" y="250.827095" transform="rotate(-0 199.454256 250.827095)">$203</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #25383e; font: 11px 'DejaVu Sans'; text-anchor: middle" x="378.988739" y="334.183207" transform="rotate(-0 378.988739 334.183207)">$180</text>
+   </g>
+   <g id="legend_1">
+    <g id="PathCollection_2">
+     <g>
+      <use xlink:href="#ma74eb712f0" x="295.556153" y="108.696094" style="fill: #008a76; stroke: #008a76"/>
+     </g>
+    </g>
+    <g id="text_18">
+     <text style="fill: #25383e; font: 9px 'DejaVu Sans'; text-anchor: start" x="311.756153" y="111.058594" transform="rotate(-0 311.756153 111.058594)">Tidal allowed</text>
+    </g>
+    <g id="line2d_14">
+     <path d="M 286.556153 121.118906 
+L 295.556153 121.118906 
+L 304.556153 121.118906 
+" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #677a80; stroke-width: 1.5"/>
+    </g>
+    <g id="text_19">
+     <text style="fill: #25383e; font: 9px 'DejaVu Sans'; text-anchor: start" x="311.756153" y="124.268906" transform="rotate(-0 311.756153 124.268906)">No tidal: $220/MWh</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
+    <path d="M 523.813222 367.56 
+L 882.882188 367.56 
+L 882.882188 96.12 
+L 523.813222 96.12 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 540.134539 367.56 
+L 613.517202 367.56 
+L 613.517202 261.802875 
+L 540.134539 261.802875 
+z
+" clip-path="url(#p70a3ecf5d6)" style="fill: #008a76"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 666.656373 367.56 
+L 740.039037 367.56 
+L 740.039037 174.859499 
+L 666.656373 174.859499 
+z
+" clip-path="url(#p70a3ecf5d6)" style="fill: #008a76"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 793.178207 367.56 
+L 866.560871 367.56 
+L 866.560871 137.623818 
+L 793.178207 137.623818 
+z
+" clip-path="url(#p70a3ecf5d6)" style="fill: #008a76"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_5">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m9de90632f7" x="576.825871" y="367.56" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: middle" x="576.825871" y="382.918281" transform="rotate(-0 576.825871 382.918281)">$140</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m9de90632f7" x="703.347705" y="367.56" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_21">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: middle" x="703.347705" y="382.918281" transform="rotate(-0 703.347705 382.918281)">$120</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m9de90632f7" x="829.869539" y="367.56" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_22">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: middle" x="829.869539" y="382.918281" transform="rotate(-0 829.869539 382.918281)">$90</text>
+     </g>
+    </g>
+    <g id="text_23">
+     <text style="fill: #25383e; font: 11px 'DejaVu Sans'; text-anchor: middle" x="703.347705" y="397.564219" transform="rotate(-0 703.347705 397.564219)">Assumed tidal generation cost ($/MWh)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_9">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mc64a948afd" x="523.813222" y="367.56" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_24">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="516.813222" y="371.739141" transform="rotate(-0 516.813222 371.739141)">0</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#mc64a948afd" x="523.813222" y="326.056182" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="516.813222" y="330.235322" transform="rotate(-0 516.813222 330.235322)">10</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#mc64a948afd" x="523.813222" y="284.552364" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="516.813222" y="288.731504" transform="rotate(-0 516.813222 288.731504)">20</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#mc64a948afd" x="523.813222" y="243.048546" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="516.813222" y="247.227686" transform="rotate(-0 516.813222 247.227686)">30</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#mc64a948afd" x="523.813222" y="201.544727" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="516.813222" y="205.723868" transform="rotate(-0 516.813222 205.723868)">40</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#mc64a948afd" x="523.813222" y="160.040909" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="516.813222" y="164.22005" transform="rotate(-0 516.813222 164.22005)">50</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#mc64a948afd" x="523.813222" y="118.537091" style="fill: #43585f; stroke: #43585f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="fill: #43585f; font: 11px 'DejaVu Sans'; text-anchor: end" x="516.813222" y="122.716232" transform="rotate(-0 516.813222 122.716232)">60</text>
+     </g>
+    </g>
+    <g id="text_31">
+     <text style="fill: #25383e; font: 11px 'DejaVu Sans'; text-anchor: middle" x="496.528066" y="231.84" transform="rotate(-90 496.528066 231.84)">Tidal share of dispatched generation (%)</text>
+    </g>
+   </g>
+   <g id="patch_8">
+    <path d="M 523.813222 367.56 
+L 882.882188 367.56 
+" style="fill: none; stroke: #b8c4c5; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_32">
+    <text style="fill: #25383e; font: 11px 'DejaVu Sans'; text-anchor: middle" x="576.825871" y="257.652493" transform="rotate(-0 576.825871 257.652493)">25%</text>
+   </g>
+   <g id="text_33">
+    <text style="fill: #25383e; font: 11px 'DejaVu Sans'; text-anchor: middle" x="703.347705" y="170.709117" transform="rotate(-0 703.347705 170.709117)">46%</text>
+   </g>
+   <g id="text_34">
+    <text style="fill: #25383e; font: 11px 'DejaVu Sans'; text-anchor: middle" x="829.869539" y="133.473436" transform="rotate(-0 829.869539 133.473436)">55%</text>
+   </g>
+  </g>
+  <g id="text_35">
+   <text style="fill: #25383e; font: 700 20px 'DejaVu Sans'; text-anchor: start" x="49.842188" y="22.396875" transform="rotate(-0 49.842188 22.396875)">Cheaper tides can lower coastal supply cost</text>
+  </g>
+  <g id="text_36">
+   <text style="fill: #526870; font: 11px 'DejaVu Sans'; text-anchor: start" x="49.842188" y="39.96" transform="rotate(-0 49.842188 39.96)">Only completed cases shown. Isolated 1 GW load, northern Scotland, 2022–24 supplied profiles.</text>
+  </g>
+  <g id="text_37">
+   <text style="fill: #526870; font: 9px 'DejaVu Sans'" transform="translate(49.842188 446.401969)">Every modeled hour served. Floating wind $74/MWh; supplied future storage costs; no nuclear in this sweep.</text>
+   <text style="fill: #526870; font: 9px 'DejaVu Sans'" transform="translate(49.842188 456.48)">Shares include storage charging. No transmission, reserves or equipment outages. Prices are assumptions, not bids.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcea34cdc89">
+   <rect x="49.842188" y="96.12" width="359.068966" height="271.44"/>
+  </clipPath>
+  <clipPath id="p70a3ecf5d6">
+   <rect x="523.813222" y="96.12" width="359.068966" height="271.44"/>
+  </clipPath>
+ </defs>
+</svg>

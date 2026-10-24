@@ -1,0 +1,86 @@
+{
+  "status": "ok",
+  "cost_usd_mwh": 228.8174315339454,
+  "caps": {
+    "offwind_floating": 0.0,
+    "onwind": 2.1742977594008748,
+    "solar": 3.8634048910028915,
+    "wave": 0.0,
+    "tidal": 2.008157669068354,
+    "batt_E": 6.881792741478707,
+    "batt_P": 1.0,
+    "ldes_E": 121.80381893742226,
+    "ldes_P": 0.8530485943078446,
+    "nuc": 0.0
+  },
+  "generation_GWh": {
+    "offwind_floating": 0.0,
+    "onwind": 11469.159515915431,
+    "solar": 5840.147497859503,
+    "wave": 0.0,
+    "tidal": 11150.961010733725,
+    "nuclear": 0.0
+  },
+  "primary_generation_share": {
+    "offwind_floating": 0.0,
+    "onwind": 0.4029884576645141,
+    "solar": 0.2052035312116611,
+    "wave": 0.0,
+    "tidal": 0.39180801112382485,
+    "nuclear": 0.0
+  },
+  "demand_GWh": 26304.0,
+  "unserved_GWh": 0.0,
+  "storage_loss_GWh": 2156.2680245086585,
+  "discarded_potential_GWh": 17910.449211985433,
+  "max_equation_error_GW": 1.438849039914203e-13,
+  "max_constraint_error": 2.4424906541753444e-15,
+  "energy_balance_error_GWh": 0.0,
+  "seconds": 80.11,
+  "attribution": "Used renewable generation attributed pro rata to available output each hour; not unique dispatch.",
+  "job": {
+    "id": "scotland_3yr_tidal100_ldes50",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 100,
+    "ldes_energy_multiplier": 2
+  },
+  "costs": {
+    "solar": 46.2528,
+    "onwind": 129.276,
+    "offwind_floating": 356.8307952842294,
+    "tidal": 306.59999999993886,
+    "wave": 315.36,
+    "otec": 1355.55744,
+    "batt_E": 15.575354964120779,
+    "batt_P": 15.575354964120779,
+    "ldes_E": 5.469646287162783,
+    "ldes_P": 164.0893886148835,
+    "nuc_fix": 1220.5575179999998,
+    "nuc_var": 12.0
+  },
+  "price_calibration": {
+    "offwind_floating": {
+      "reference_lcoe_usd_mwh": 74,
+      "reference_2022_2024_mean": 0.5504609331177178,
+      "fixed_usd_kw_year": 356.8307952842294
+    },
+    "tidal": {
+      "reference_lcoe_usd_mwh": 100,
+      "reference_2022_2024_mean": 0.3499999999999302,
+      "fixed_usd_kw_year": 306.59999999993886
+    }
+  },
+  "clipped_hours": {},
+  "profile_sha256": "b47f6f53cff9460c2739fc4fe38924e3e64d9774f68f5b4f0028759a44738d29",
+  "hours": 26304,
+  "profile_means": {
+    "offwind_floating": 0.5504609331177178,
+    "onwind": 0.3223229295316016,
+    "solar": 0.09297389902676398,
+    "wave": 0.29332748042558476,
+    "tidal": 0.3499999999999302
+  },
+  "note": "Exploratory isolated 1 GW flat-load case. Every hour served. Perfect foresight. No grid, reserves, explicit outages or resource limits."
+}

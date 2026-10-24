@@ -122,37 +122,48 @@ save(fig,'03_tides_during_wind_lull')
 for p in sorted((ROOT/'experiments').glob('*.json')):
     out['experiments'].append(json.loads(p.read_text()))
 good={r['job']['id']:r for r in out['experiments'] if r['status']=='ok'}
-ids=['scotland_3yr_no_tidal','scotland_3yr_tidal_140','scotland_3yr_tidal_120','scotland_3yr_tidal_100','scotland_3yr_tidal_90']
-if all(i in good for i in ids):
+base_id='scotland_3yr_no_tidal'
+prices=[p for p in [140,120,100,90] if 'scotland_3yr_tidal_'+str(p) in good]
+if base_id in good and prices:
     fig,axs=plt.subplots(1,2,figsize=(13,6.5));fig.subplots_adjust(left=.08,right=.97,top=.79,bottom=.21,wspace=.32)
-    title(fig,'What cheaper tidal power changes in the coastal model',
-          'All 26,304 hours are served. Isolated 1 GW load, northern Scotland, 2022–24 supplied profiles.')
-    prices=[140,120,100,90];rs=[good[i] for i in ids[1:]];base=good[ids[0]]['cost_usd_mwh']
+    title(fig,'Cheaper tides can lower coastal supply cost',
+          'Only completed cases shown. Isolated 1 GW load, northern Scotland, 2022–24 supplied profiles.')
+    rs=[good['scotland_3yr_tidal_'+str(p)] for p in prices];base=good[base_id]['cost_usd_mwh']
     vals=[r['cost_usd_mwh'] for r in rs]
-    axs[0].plot(prices,vals,'o-',color=colors['tidal'],lw=2.5,label='Tidal allowed')
+    axs[0].scatter(prices,vals,color=colors['tidal'],s=65,label='Tidal allowed',zorder=3)
     axs[0].axhline(base,color='#677a80',ls='--',label=f'No tidal: ${base:.0f}/MWh')
-    for x,y in zip(prices,vals):axs[0].annotate(f'${y:.0f}',(x,y),xytext=(0,-17),textcoords='offset points',ha='center')
-    axs[0].set_xlim(145,85);axs[0].set_xlabel('Assumed tidal generation cost ($/MWh)');axs[0].set_ylabel('Whole modeled supply cost ($/MWh)');axs[0].legend(frameon=False,fontsize=10)
+    for x,y in zip(prices,vals):axs[0].annotate(f'${y:.0f}',(x,y),xytext=(0,-18),textcoords='offset points',ha='center')
+    axs[0].set_xlim(145,85);axs[0].set_ylim(min(vals)-14,base+20)
+    axs[0].set_xticks([140,120,100,90]);axs[0].set_xlabel('Assumed tidal generation cost ($/MWh)')
+    axs[0].set_ylabel('Whole modeled supply cost ($/MWh)');axs[0].legend(frameon=False,fontsize=9,loc='upper right')
     shares=[100*r['primary_generation_share'].get('tidal',0) for r in rs]
-    axs[1].bar(range(4),shares,color=colors['tidal'],width=.58)
+    axs[1].bar(range(len(prices)),shares,color=colors['tidal'],width=.58)
     for x,y in enumerate(shares):axs[1].text(x,y+1,f'{y:.0f}%',ha='center')
-    axs[1].set_xticks(range(4),[f'${p}' for p in prices]);axs[1].set_ylim(0,max(shares+[40])+10)
+    axs[1].set_xticks(range(len(prices)),[f'${p}' for p in prices]);axs[1].set_ylim(0,max(shares+[40])+10)
     axs[1].set_xlabel('Assumed tidal generation cost ($/MWh)');axs[1].set_ylabel('Tidal share of dispatched generation (%)')
-    foot(fig,'Conditional model, not commercial bids. Floating wind $74/MWh; cheap long-duration storage; no nuclear in these cases.\nShares include generation sent into storage. No transmission, reserve requirement or explicit equipment outages.')
+    foot(fig,'Every modeled hour served. Floating wind $74/MWh; supplied future storage costs; no nuclear in this sweep.\nShares include storage charging. No transmission, reserves or equipment outages. Prices are assumptions, not bids.')
     save(fig,'04_checked_tidal_costs')
 
-ids2=['scotland_3yr_tidal_100','scotland_3yr_tidal100_ldes50','scotland_3yr_tidal100_battery_only','scotland_3yr_nuclear_allowed','scotland_3yr_firm100']
-if all(i in good for i in ids2):
-    labels=['Tidal $100 + long storage','Same, storage energy costs 2×','Same, batteries only','Add supplied nuclear option','Add $100/MWh firm option']
-    fig,ax=plt.subplots(figsize=(13,6.6));fig.subplots_adjust(left=.33,right=.96,top=.78,bottom=.19)
-    title(fig,'Ocean power works best with the right partners',
-          'Same three-year profiles and 1 GW load. Each case serves every modeled hour.')
-    vals=[good[i]['cost_usd_mwh'] for i in ids2]
-    ax.barh(range(5),vals,color=[colors['ocean'],colors['ocean'],colors['ocean'],colors['fission'],colors['geothermal']],height=.55)
+options=[('scotland_3yr_tidal_100','Base storage assumptions',colors['ocean']),
+ ('scotland_3yr_tidal100_ldes50','Long-storage energy costs 2×',colors['ocean']),
+ ('scotland_3yr_tidal100_battery_only','Batteries only',colors['ocean']),
+ ('scotland_3yr_nuclear_allowed','Supplied nuclear option allowed',colors['fission']),
+ ('scotland_3yr_firm100','$100/MWh firm option allowed',colors['geothermal'])]
+options=[x for x in options if x[0] in good]
+if len(options)>=2:
+    fig,ax=plt.subplots(figsize=(13,6.6));fig.subplots_adjust(left=.34,right=.96,top=.78,bottom=.22)
+    title(fig,'Firm power can win this simplified coastal test',
+          'Tidal price $100/MWh in every case. Same three-year profiles and 1 GW load; all hours served.')
+    vals=[good[i]['cost_usd_mwh'] for i,_,_ in options]
+    ax.barh(range(len(options)),vals,color=[c for _,_,c in options],height=.55)
     for j,v in enumerate(vals):ax.text(v+2,j,f'${v:.0f}/MWh',va='center')
-    ax.set_yticks(range(5),labels);ax.invert_yaxis();ax.set_xlim(0,max(vals)*1.18);ax.set_xlabel('Whole modeled supply cost ($/MWh)')
-    foot(fig,'The firm option is a sensitivity with a 90% output ceiling available every hour, not a realistic outage model or a bid.\nIt demonstrates why ocean-first should allow clean firm generation rather than require ocean-only supply.')
+    ax.set_yticks(range(len(options)),[label for _,label,_ in options]);ax.invert_yaxis()
+    ax.set_xlim(0,max(vals)*1.18);ax.set_xlabel('Whole modeled supply cost ($/MWh)')
+    foot(fig,'Both firm-power cases choose 100% idealized nuclear generation and no storage. This assumes 90% output available every hour.\nNo outages, reserves or construction constraints are modeled. Only completed cases shown; see the results table for status.')
     save(fig,'05_storage_and_firm_power')
+
+if (ROOT/'BATCH_FAILURE.json').exists():
+    out['experiment_batch_failure']=json.loads((ROOT/'BATCH_FAILURE.json').read_text())
 
 (ROOT/'proposal_results.json').write_text(json.dumps(out,indent=2)+'\n')
 print(json.dumps({'portfolio_totals':[out['portfolio'][k]['total_TWh'] for k in out['portfolio']],

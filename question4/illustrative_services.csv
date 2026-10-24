@@ -1,0 +1,5 @@
+service,electricity_TWh,fraction_reference_2100_generation
+500 Mt/year hydrogen,27500.0,0.12771273458507293
+10 Gt/year carbon removal,20000.0,0.09288198878914396
+1 TW continuous computing,8760,0.040682311089645054
+1 billion m³/day desalination,1095.0,0.005085288886205632

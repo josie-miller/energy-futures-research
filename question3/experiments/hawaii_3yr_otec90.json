@@ -1,0 +1,88 @@
+{
+  "status": "ok",
+  "cost_usd_mwh": 98.60664853588037,
+  "caps": {
+    "offwind_floating": 0.0,
+    "onwind": 0.09136875142869025,
+    "solar": 3.4886561652647967,
+    "wave": 0.02190735961745895,
+    "otec": 0.633230173078631,
+    "batt_E": 6.174311312621741,
+    "batt_P": 1.0688989908033453,
+    "ldes_E": 27.268445962712512,
+    "ldes_P": 0.24164355205317037,
+    "nuc": 0.0
+  },
+  "generation_GWh": {
+    "offwind_floating": 0.0,
+    "onwind": 508.3147635229316,
+    "solar": 13297.553326082656,
+    "wave": 149.17831899160694,
+    "otec": 13497.908226072124,
+    "nuclear": 0.0
+  },
+  "primary_generation_share": {
+    "offwind_floating": 0.0,
+    "onwind": 0.018515849032912462,
+    "solar": 0.4843760354045705,
+    "wave": 0.0054339622447492466,
+    "otec": 0.4916741533177677,
+    "nuclear": 0.0
+  },
+  "demand_GWh": 26304.0,
+  "unserved_GWh": 0.0,
+  "storage_loss_GWh": 1148.9546346693212,
+  "discarded_potential_GWh": 8002.416644263325,
+  "max_equation_error_GW": 6.7346128673762e-13,
+  "max_constraint_error": 7.993605777301127e-15,
+  "energy_balance_error_GWh": 0.0,
+  "seconds": 58.98,
+  "attribution": "Used renewable generation attributed pro rata to available output each hour; not unique dispatch.",
+  "job": {
+    "id": "hawaii_3yr_otec90",
+    "site": "hawaii",
+    "year": null,
+    "float_price": 74,
+    "otec_price": 90,
+    "exclude_otec": false
+  },
+  "costs": {
+    "solar": 46.2528,
+    "onwind": 129.276,
+    "offwind_floating": 273.88079252465855,
+    "tidal": 431.27950319999997,
+    "wave": 315.36,
+    "otec": 721.1793778738767,
+    "batt_E": 15.575354964120779,
+    "batt_P": 15.575354964120779,
+    "ldes_E": 2.7348231435813917,
+    "ldes_P": 164.0893886148835,
+    "nuc_fix": 1220.5575179999998,
+    "nuc_var": 12.0
+  },
+  "price_calibration": {
+    "offwind_floating": {
+      "reference_lcoe_usd_mwh": 74,
+      "reference_2022_2024_mean": 0.4224990628851329,
+      "fixed_usd_kw_year": 273.88079252465855
+    },
+    "otec": {
+      "reference_lcoe_usd_mwh": 90,
+      "reference_2022_2024_mean": 0.9147379222144554,
+      "fixed_usd_kw_year": 721.1793778738767
+    }
+  },
+  "clipped_hours": {
+    "otec": 6379
+  },
+  "profile_sha256": "0453bd0a1cdc055eb1bba55cba57c48ee0442a170fe4cfd4e9571d491e9e17c2",
+  "hours": 26304,
+  "profile_means": {
+    "offwind_floating": 0.4224990628851329,
+    "onwind": 0.23971072180969039,
+    "solar": 0.2122795764902676,
+    "wave": 0.28281801344221763,
+    "otec": 0.9147379222144554
+  },
+  "note": "Exploratory isolated 1 GW flat-load case. Every hour served. Perfect foresight. No grid, reserves, explicit outages or resource limits."
+}

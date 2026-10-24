@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="791.28pt" height="472.463719pt" viewBox="0 0 791.28 472.463719" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-24T16:05:30.270732</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 472.463719 
+L 791.28 472.463719 
+L 791.28 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 213.12 377.856 
+L 784.08 377.856 
+L 784.08 102.24 
+L 213.12 102.24 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 213.12 114.768 
+L 674.925882 114.768 
+L 674.925882 153.587155 
+L 213.12 153.587155 
+z
+" clip-path="url(#p9cd70db42f)" style="fill: #126e91"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 213.12 185.348282 
+L 548.978824 185.348282 
+L 548.978824 224.167437 
+L 213.12 224.167437 
+z
+" clip-path="url(#p9cd70db42f)" style="fill: #89aa85"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 213.12 255.928563 
+L 360.226165 255.928563 
+L 360.226165 294.747718 
+L 213.12 294.747718 
+z
+" clip-path="url(#p9cd70db42f)" style="fill: #a087be"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 213.12 326.508845 
+L 231.508271 326.508845 
+L 231.508271 365.328 
+L 213.12 365.328 
+z
+" clip-path="url(#p9cd70db42f)" style="fill: #6cbdc1"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m3baf2caa0a" d="M 0 0 
+L 0 3.5 
+" style="stroke: #48616b; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m3baf2caa0a" x="213.12" y="377.856" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="213.12" y="393.214281" transform="rotate(-0 213.12 393.214281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m3baf2caa0a" x="297.084706" y="377.856" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="297.084706" y="393.214281" transform="rotate(-0 297.084706 393.214281)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m3baf2caa0a" x="381.049412" y="377.856" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="381.049412" y="393.214281" transform="rotate(-0 381.049412 393.214281)">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m3baf2caa0a" x="465.014118" y="377.856" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="465.014118" y="393.214281" transform="rotate(-0 465.014118 393.214281)">15</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m3baf2caa0a" x="548.978824" y="377.856" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="548.978824" y="393.214281" transform="rotate(-0 548.978824 393.214281)">20</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m3baf2caa0a" x="632.943529" y="377.856" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="632.943529" y="393.214281" transform="rotate(-0 632.943529 393.214281)">25</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m3baf2caa0a" x="716.908235" y="377.856" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: middle" x="716.908235" y="393.214281" transform="rotate(-0 716.908235 393.214281)">30</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: middle" x="498.6" y="407.860219" transform="rotate(-0 498.6 407.860219)">Thousand TWh of electricity per year</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <defs>
+       <path id="m249c4f6d74" d="M 0 0 
+L -3.5 0 
+" style="stroke: #48616b; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m249c4f6d74" x="213.12" y="134.177577" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: end" x="206.12" y="138.356718" transform="rotate(-0 206.12 138.356718)">500 Mt/year hydrogen</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m249c4f6d74" x="213.12" y="204.757859" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: end" x="206.12" y="208.937" transform="rotate(-0 206.12 208.937)">10 Gt/year carbon removal</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m249c4f6d74" x="213.12" y="275.338141" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: end" x="206.12" y="279.517281" transform="rotate(-0 206.12 279.517281)">1 TW continuous computing</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m249c4f6d74" x="213.12" y="345.918423" style="fill: #48616b; stroke: #48616b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill: #48616b; font: 11px 'DejaVu Sans'; text-anchor: end" x="206.12" y="350.097563" transform="rotate(-0 206.12 350.097563)">1 billion m³/day desalination</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 213.12 377.856 
+L 784.08 377.856 
+" style="fill: none; stroke: #bac5c9; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: start" x="681.643059" y="137.21289" transform="rotate(-0 681.643059 137.21289)">27,500 TWh</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: start" x="555.696" y="207.793172" transform="rotate(-0 555.696 207.793172)">20,000 TWh</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: start" x="366.943341" y="278.373453" transform="rotate(-0 366.943341 278.373453)">8,760 TWh</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #233840; font: 11px 'DejaVu Sans'; text-anchor: start" x="238.225447" y="348.953735" transform="rotate(-0 238.225447 348.953735)">1,095 TWh</text>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="fill: #233840; font: 700 19px 'DejaVu Sans'; text-anchor: start" x="7.2" y="21.637031" transform="rotate(-0 7.2 21.637031)">Abundant electricity could buy more than more appliances</text>
+  </g>
+  <g id="text_18">
+   <text style="fill: #536a74; font: 10.5px 'DejaVu Sans'; text-anchor: start" x="7.2" y="40.464" transform="rotate(-0 7.2 40.464)">Four illustrative service budgets. These are choices inside a future energy budget, not extra forecast demand.</text>
+  </g>
+  <g id="text_19">
+   <text style="fill: #536a74; font: 9px 'DejaVu Sans'" transform="translate(7.2 453.313969)">Hydrogen: 55 kWh/kg. Water: 3 kWh/m³, before inland delivery. Carbon removal: assumed all-electric 2 MWh/t.</text>
+   <text style="fill: #536a74; font: 9px 'DejaVu Sans'" transform="translate(7.2 463.392)">Carbon removal still needs verified net removals and permanent storage. Computing is a chosen 1 TW load, not a forecast.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9cd70db42f">
+   <rect x="213.12" y="102.24" width="570.96" height="275.616"/>
+  </clipPath>
+ </defs>
+</svg>

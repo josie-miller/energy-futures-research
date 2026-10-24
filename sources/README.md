@@ -148,6 +148,33 @@ Original research reports are linked rather than copied into the repository. The
 - [NASA2024](https://www.nasa.gov/wp-content/uploads/2024/01/otps-sbsp-report-final-tagged-approved-1-8-24-tagged-v2.pdf): 2024-01; Previously reviewed Q2 conceptual space-to-Earth solar models. No commercial Earth power service established.
 - [SuppliedData](inputs/UPLOADS.md): 2026-10-24; User-supplied raw time series, processing script, profiles and LP results; provenance and corrections recorded in MODEL_AUDIT.md. Reproduction is not independent validation of ocean-model accuracy.
 
+### question4/results.json
+
+- [IPCC_AR6](https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-6/): 2022; Published energy-system scenarios through 2100; not a forecast for 2200. Demand, electrification and supply options vary across pathways.
+- [IAU_constants](https://www.iau.org/static/resolutions/IAU2015_English.pdf): 2015; Resolution B3: nominal solar irradiance 1361 W/m2 and luminosity 3.828e26 W.
+- [NASA_solar](https://earth.gsfc.nasa.gov/climate/projects/solar-irradiance/science): accessed 2026-10-24; Solar irradiance at Earth and geometry of global-average incoming sunlight.
+- [NASA_Earth](https://science.nasa.gov/earth/facts/): accessed 2026-10-24; Planet size; model uses rounded mean radius 6371 km and spherical surface area.
+- [NASA_Mars](https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html): accessed 2026-10-24; Mars solar irradiance 586.2 W/m2, above the atmosphere at average orbital distance.
+- [NASA_thermal](https://www.nasa.gov/wp-content/uploads/2021/10/7.soa_thermal_2021_0.pdf): 2021; Spacecraft reject heat radiatively; area, emissivity, temperature and surroundings matter.
+- [NASA_lunar_night](https://ntrs.nasa.gov/api/citations/20170008159/downloads/20170008159.pdf): 2017; Illustrative 14-Earth-day lunar night, not universal polar darkness duration.
+- [NASA_fission](https://www.nasa.gov/exploration-systems-development-mission-directorate/fission-surface-power/): accessed 2026-10-24; 40 kW-class lunar fission development reference; not an operating lunar fleet.
+- [NASA_2030](https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/): 2026-01-13; Lunar reactor development target; not delivered capability.
+- [NASA_SBSP](https://www.nasa.gov/organizations/otps/space-based-solar-power-report/): 2024-01-11; Concept-level assessment of solar power beamed to Earth; distinct from electricity used in space.
+- [NASA_ISAM](https://www.nasa.gov/isam/): accessed 2026-10-24; Servicing, assembly and manufacturing research. Does not demonstrate self-sufficient orbital industry.
+- [ITER_tritium](https://www.iter.org/machine/supporting-systems/tritium-breeding): accessed 2026-10-24; Blanket testing and fuel-cycle development remain prerequisites for relevant fusion routes.
+- [DOE_fast_reactor](https://www.energy.gov/ne/articles/nuclear-101-what-fast-reactor): 2025; Fast reactors and repeated fuel recycling can extend resource use; full fuel-cycle engineering and economics remain necessary.
+- [DOE_electrolysis](https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf): 2024-12; Electrolyzer performance targets; 55 kWh/kg system electricity used as a transparent present-scale budgeting assumption, not a 2100 prediction.
+- [IEA_desalination](https://www.iea.org/commentaries/wired-for-water-how-electrification-is-transforming-desalination): 2026; Seawater reverse-osmosis electricity varies with process and boundaries. Model assumes 3 kWh/m3 and excludes inland distribution.
+- [Heat_research](https://arxiv.org/abs/2409.06737): 2025 journal version;2024preprint; Theoretical study of persistent energy growth and waste heat; not used to assign a catastrophe date or a temperature forecast.
+- [Q1](https://github.com/josie-miller/energy-futures-research/blob/main/question1/ANSWER.md): 2026-10-24; Project electricity-generation baseline and 2050 planning cases.
+- [Q3](https://github.com/josie-miller/energy-futures-research/blob/main/question3/ANSWER.md): 2026-10-24; Project ocean proposal; 15% ocean in 2050. Q4 is a separate speculative extension.
+- [OTEC_2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12069477/): 2025; Primary coupled-model study: OTEC sustainability depends on output, duration and climate state. It does not certify a 7 TW ecological safety limit.
+- [OTEC_2013](https://doi.org/10.1016/j.renene.2012.07.014): 2013; Early global circulation model assessment. The 7 TW result is a comparison, not a universal ecological safety threshold.
+- [Tidal_review](https://ora.ox.ac.uk/objects/uuid%3A25b79764-64f0-47ad-9f8d-883dee27eba2): 2025/2026 record; Quasi-practical 110 TWh/year estimate from 90 sites, about 20% of 426 candidates; not a complete global resource ceiling.
+- [FPV_ecology](https://os.copernicus.org/articles/16/195/2020/index.html): 2020; Three North Sea water-column simulations. Results for coverage and primary production are local model findings, not a global permitting rule.
+- [Open_ocean_wind](https://www.pnas.org/doi/10.1073/pnas.1705710114): 2017; North Atlantic simulation with large kinetic-energy replenishment. The 6 W/m² result is context-specific, not a guaranteed global farm yield.
+- [UNCLOS](https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_e.pdf): 1982 convention;accessed2026-10-24; Articles 56, 60 and 87 establish relevant jurisdiction, freedoms and obligations; the high seas are not a legal vacuum.
+
 ## Boundaries
 
 WEO 2025 Annex A identifies CC BY-NC-SA 4.0, and Annex B CC BY 4.0. Retain the figure attributions. Other sources have their own terms. Company releases establish announcements, not independent verification. Historical sources are dated and must not be presented as fresh observations.

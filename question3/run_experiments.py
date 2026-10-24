@@ -4,7 +4,7 @@ python run_experiments.py [--workers 2] [--only case_id ...]
 Results are written individually so completed work survives interruption.
 """
 from pathlib import Path
-import argparse, json, hashlib
+import argparse, json, hashlib, time, traceback
 import pandas as pd
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from ocean_model_checked import solve, serializable
@@ -16,7 +16,7 @@ def cases():
     def add(name,site='scotland',year=None,**settings):
         jobs.append(dict(id=name,site=site,year=year,**settings))
     add('original_2023_reliability_check',year='2023',float_price=None,tidal_price=None)
-    # Correct the stated floating-wind price to $74/MWh at each case's mean output.
+    # Correct the stated floating-wind price to $74/MWh using a common 2022–24 reference profile.
     for price in [None,140,120,100,90]:
         add('scotland_3yr_'+('no_tidal' if price is None else 'tidal_'+str(price)),
             float_price=74,tidal_price=price,exclude_tidal=price is None)
@@ -36,7 +36,7 @@ def cases():
             site='hawaii',float_price=74,otec_price=price,exclude_otec=price is None)
     return jobs
 
-def run(job):
+def _run(job):
     path=ROOT/'inputs'/('profiles_'+job['site']+'.csv')
     cf=pd.read_csv(path,index_col=0,parse_dates=True)
     if job.get('year'): cf=cf.loc[job['year']]
@@ -67,10 +67,40 @@ def run(job):
     out=serializable(result)
     out.update(job=job,costs=costs,price_calibration=applied,clipped_hours=clipping,profile_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
                hours=len(cf),profile_means=cf.mean().to_dict(),
-               note='Exploratory isolated 1 GW flat-load case. Every hour served. Perfect foresight. No grid, reserves, explicit outages or resource limits.')
+               note='Exploratory isolated 1 GW flat-load case requiring every hour served. Only optimal solver results establish modeled service. Perfect foresight. No grid, reserves, explicit outages or resource limits.')
     dest=ROOT/'experiments';dest.mkdir(exist_ok=True)
     (dest/(job['id']+'.json')).write_text(json.dumps(out,indent=2)+'\n')
     return job['id'],out.get('cost_usd_mwh'),out['status'],out.get('seconds')
+
+
+def run(job):
+    """Record failed validation without accepting partial solver output.
+
+    Each worker returns an outcome, so one assertion does not discard unrelated
+    completed cases or stop collection of the remaining submitted jobs.
+    """
+    started=time.time()
+    try:
+        return _run(job)
+    except AssertionError as error:
+        path=ROOT/'inputs'/('profiles_'+job['site']+'.csv')
+        frames=traceback.extract_tb(error.__traceback__)
+        out={
+            'status':'failed_validation',
+            'message':'An input, physical or accounting assertion failed; no solution accepted.',
+            'validation_error':{
+                'type':type(error).__name__,
+                'detail':str(error),
+                'frames':[{'file':Path(frame.filename).name,'line':frame.lineno,
+                           'function':frame.name} for frame in frames]},
+            'job':job,
+            'profile_sha256':hashlib.sha256(path.read_bytes()).hexdigest() if path.exists() else None,
+            'seconds':round(time.time()-started,2),
+            'note':'No cost, capacity, generation or service claim is valid for this failed case. Residual acceptance criteria have not been relaxed.'}
+        dest=ROOT/'experiments';dest.mkdir(exist_ok=True)
+        (dest/(job['id']+'.json')).write_text(json.dumps(out,indent=2)+'\n')
+        return job['id'],None,out['status'],out['seconds']
+
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--workers',type=int,default=2)

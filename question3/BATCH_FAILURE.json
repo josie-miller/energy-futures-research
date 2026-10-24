@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-10-24",
+  "status": "terminated_validation_error",
+  "exit_code": 1,
+  "error_type": "AssertionError",
+  "source_file": "ocean_model_checked.py",
+  "source_line_at_failure": 223,
+  "check": "eq_error < 2e-5 and ub_error < 2e-5 and abs(gap) < 1e-3",
+  "case_id": null,
+  "case_attribution": "The collected traceback did not identify the individual case. Do not attribute the error to either unsaved case without a separate rerun.",
+  "unsaved_case_ids": [
+    "scotland_3yr_tidal_100",
+    "scotland_3yr_tidalcf30"
+  ],
+  "interpretation": "These cases are not validated. The batch has ended; they are not pending runs. Saved optimal cases remain available and have separately passed their checks.",
+  "future_runner": "run_experiments.py now records AssertionError as failed_validation for the individual case and continues collecting other outcomes. No residual criteria were relaxed."
+}

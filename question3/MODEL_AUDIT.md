@@ -64,3 +64,11 @@ The checked runs preserve the original round-trip storage efficiencies and cost 
 The 2010 stress case also retains the three-year reference annual fixed costs, rather than making equipment cheaper merely because a weather year produces less energy. Case definitions, solver outcomes and input hashes are saved with each result. Failed or timed-out optimizations are not reported as optimal solutions.
 
 **Still needed for an investment-grade result:** multiple measured/validated sites, finer tidal hydrodynamics, actual regional demand, many weather years, out-of-sample fixed-capacity dispatch, transmission and cable failures, operating reserves, maintenance schedules, resource limits, environmental constraints, financing terms and retirement/replacement schedules. Reoptimizing separately for each weather case is not the same as proving that one built fleet survives every case.
+
+## Final batch outcome and failed validation
+
+The 24 October checked batch ended with exit code 1 after an `AssertionError` at the physical/accounting residual check in `ocean_model_checked.py` (line 223 in the executed version). That check requires the hourly equation residual below `2e-5`, the constraint residual below `2e-5`, and the absolute horizon energy-balance gap below `1e-3` GWh. The traceback does not identify which individual case triggered the failure.
+
+The saved case files contain **16 optimal outcomes and one solver time-limit outcome**. Two cases have no saved validated result: `scotland_3yr_tidal_100` and `scotland_3yr_tidalcf30`. They are **not pending** and no cost or mix is inferred for them. The error cannot be assigned to one specific unsaved case from the available record. See [the batch failure record](BATCH_FAILURE.json) and [the full outcome table](checked_experiments.csv).
+
+Saved optimal cases were retained and their stored physical residuals rechecked. The runner now catches assertion failures per case, saves `failed_validation` with the job identity and traceback locations, omits partial costs and capacities, and continues collecting the other cases. **No residual tolerances were weakened and no invalid solution was accepted.** The failing cases require a separate diagnosis before they can support conclusions; this publication does not claim that diagnosis is complete.

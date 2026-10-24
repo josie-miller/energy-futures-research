@@ -1,0 +1,304 @@
+{
+  "as_of": "2026-10-24",
+  "baseline_2024_TWh": 31229,
+  "start_year": 2050,
+  "start_TWh": 80000,
+  "alternative_start_TWh": 60000,
+  "annual_growth_rates": [
+    0.005,
+    0.01,
+    0.02,
+    0.03
+  ],
+  "reference_rate": 0.01,
+  "years": [
+    2050,
+    2100,
+    2200,
+    2300
+  ],
+  "earth_radius_m": 6371000,
+  "new_heat_electricity_fraction": 0.25,
+  "thermal_conversion_efficiency": 0.4,
+  "flux_benchmarks_W_m2": [
+    0.1,
+    1.0
+  ],
+  "solar_flux_1au_W_m2": 1361,
+  "solar_flux_mars_W_m2": 586.2,
+  "space_panel_efficiency": 0.3,
+  "radiator_emissivity": 0.9,
+  "sigma_W_m2_K4": 5.670374419e-08,
+  "radiator_temperatures_K": [
+    300,
+    400,
+    600
+  ],
+  "sun_luminosity_W": 3.828e+26,
+  "collector_areal_mass_kg_m2": 1.0,
+  "lunar_night_hours": 336,
+  "battery_Wh_kg": 250,
+  "future_services": {
+    "hydrogen_Mt_year": 500,
+    "hydrogen_kWh_kg": 55,
+    "water_m3_day": 1000000000.0,
+    "water_kWh_m3": 3,
+    "carbon_removal_Gt_year": 10,
+    "carbon_removal_electric_MWh_t": 2,
+    "computing_TW_continuous": 1
+  },
+  "notes": [
+    "Post-2050 growth rates and portfolios are designed scenarios, not forecasts or probabilities.",
+    "Thermal flux is a selected source-origin accounting experiment, not a global climate model.",
+    "Carbon-removal electricity is a hypothetical all-electric process budget, not an observed generic DAC intensity.",
+    "Solar and radiator areas are idealized active/emitting areas; hardware and operational margins are additional."
+  ],
+  "blue_growth_to_2100": 0.02,
+  "blue_growth_after_2100": 0.01,
+  "ocean_area_km2": 361000000,
+  "fpv_average_power_W_m2": 12.3,
+  "offshore_cf": 0.45,
+  "otec_cf": 0.85,
+  "wind_average_density_W_m2": [
+    1.5,
+    6
+  ],
+  "nuclear_heat_conversion_efficiency": 0.4,
+  "source_table_note": "2100 and2200 allocations from user-provided designed scenario;2050 from currentQ3, not draft historical model claims.",
+  "future_portfolios": {
+    "2100": [
+      {
+        "id": "offshore_wind",
+        "name": "Offshore wind",
+        "cf": 0.45,
+        "life_years": 30,
+        "TWh": 70000.0
+      },
+      {
+        "id": "solar",
+        "name": "Land solar",
+        "cf": 0.2,
+        "life_years": 30,
+        "TWh": 75000.0
+      },
+      {
+        "id": "land_wind",
+        "name": "Land wind",
+        "cf": 0.35,
+        "life_years": 30,
+        "TWh": 18000.0
+      },
+      {
+        "id": "hydro",
+        "name": "Hydro",
+        "cf": 0.45,
+        "life_years": 60,
+        "TWh": 8000.0
+      },
+      {
+        "id": "fission",
+        "name": "Fission",
+        "cf": 0.85,
+        "life_years": 60,
+        "TWh": 10000.0
+      },
+      {
+        "id": "bioenergy",
+        "name": "Bioenergy",
+        "cf": null,
+        "life_years": null,
+        "TWh": 0.0
+      },
+      {
+        "id": "geothermal",
+        "name": "Geothermal",
+        "cf": 0.85,
+        "life_years": 30,
+        "TWh": 2127.0
+      },
+      {
+        "id": "tidal",
+        "name": "Tidal stream",
+        "cf": 0.35,
+        "life_years": 30,
+        "TWh": 100.0
+      },
+      {
+        "id": "fossil",
+        "name": "Unabated fossil",
+        "cf": null,
+        "life_years": null,
+        "TWh": 0.0
+      },
+      {
+        "id": "csp",
+        "name": "Solar thermal",
+        "cf": null,
+        "life_years": null,
+        "TWh": 0.0
+      },
+      {
+        "id": "wave",
+        "name": "Wave",
+        "cf": 0.3,
+        "life_years": 30,
+        "TWh": 800.0
+      },
+      {
+        "id": "otec",
+        "name": "Ocean thermal",
+        "cf": 0.85,
+        "life_years": 30,
+        "TWh": 8000.0
+      },
+      {
+        "id": "fpv",
+        "name": "Offshore solar",
+        "cf": 0.15,
+        "life_years": 30,
+        "TWh": 20000.0
+      },
+      {
+        "id": "salinity",
+        "name": "Salinity gradient",
+        "cf": null,
+        "life_years": null,
+        "TWh": 300.0
+      },
+      {
+        "id": "fusion",
+        "name": "Fusion",
+        "cf": 0.85,
+        "life_years": 60,
+        "TWh": 3000.0
+      }
+    ],
+    "2200": [
+      {
+        "id": "offshore_wind",
+        "name": "Offshore wind",
+        "cf": 0.45,
+        "life_years": 30,
+        "TWh": 180000.0
+      },
+      {
+        "id": "solar",
+        "name": "Land solar",
+        "cf": 0.2,
+        "life_years": 30,
+        "TWh": 120000.0
+      },
+      {
+        "id": "land_wind",
+        "name": "Land wind",
+        "cf": 0.35,
+        "life_years": 30,
+        "TWh": 22000.0
+      },
+      {
+        "id": "hydro",
+        "name": "Hydro",
+        "cf": 0.45,
+        "life_years": 60,
+        "TWh": 9000.0
+      },
+      {
+        "id": "fission",
+        "name": "Fission",
+        "cf": 0.85,
+        "life_years": 60,
+        "TWh": 12000.0
+      },
+      {
+        "id": "bioenergy",
+        "name": "Bioenergy",
+        "cf": null,
+        "life_years": null,
+        "TWh": 0.0
+      },
+      {
+        "id": "geothermal",
+        "name": "Geothermal",
+        "cf": 0.85,
+        "life_years": 30,
+        "TWh": 8020.0
+      },
+      {
+        "id": "tidal",
+        "name": "Tidal stream",
+        "cf": 0.35,
+        "life_years": 30,
+        "TWh": 110.0
+      },
+      {
+        "id": "fossil",
+        "name": "Unabated fossil",
+        "cf": null,
+        "life_years": null,
+        "TWh": 0.0
+      },
+      {
+        "id": "csp",
+        "name": "Solar thermal",
+        "cf": null,
+        "life_years": null,
+        "TWh": 0.0
+      },
+      {
+        "id": "wave",
+        "name": "Wave",
+        "cf": 0.3,
+        "life_years": 30,
+        "TWh": 850.0
+      },
+      {
+        "id": "otec",
+        "name": "Ocean thermal",
+        "cf": 0.85,
+        "life_years": 30,
+        "TWh": 40000.0
+      },
+      {
+        "id": "fpv",
+        "name": "Offshore solar",
+        "cf": 0.15,
+        "life_years": 30,
+        "TWh": 150000.0
+      },
+      {
+        "id": "salinity",
+        "name": "Salinity gradient",
+        "cf": null,
+        "life_years": null,
+        "TWh": 440.0
+      },
+      {
+        "id": "fusion",
+        "name": "Fusion",
+        "cf": 0.85,
+        "life_years": 60,
+        "TWh": 40000.0
+      }
+    ]
+  },
+  "portfolio_2050_TWh": {
+    "solar": 32000,
+    "land_wind": 16000,
+    "offshore_wind": 11600,
+    "tidal": 200,
+    "wave": 133.33333333333334,
+    "otec": 66.66666666666667,
+    "hydro": 6400,
+    "fission": 8800,
+    "geothermal": 4000,
+    "other": 800
+  },
+  "ocean_ids": [
+    "offshore_wind",
+    "fpv",
+    "tidal",
+    "wave",
+    "otec",
+    "salinity"
+  ]
+}

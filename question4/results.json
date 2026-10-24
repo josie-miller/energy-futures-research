@@ -1,0 +1,1035 @@
+{
+  "as_of": "2026-10-24",
+  "sources": {
+    "IPCC_AR6": {
+      "url": "https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-6/",
+      "date": "2022",
+      "basis": "Published energy-system scenarios through 2100; not a forecast for 2200. Demand, electrification and supply options vary across pathways."
+    },
+    "IAU_constants": {
+      "url": "https://www.iau.org/static/resolutions/IAU2015_English.pdf",
+      "date": "2015",
+      "basis": "Resolution B3: nominal solar irradiance 1361 W/m2 and luminosity 3.828e26 W."
+    },
+    "NASA_solar": {
+      "url": "https://earth.gsfc.nasa.gov/climate/projects/solar-irradiance/science",
+      "date": "accessed 2026-10-24",
+      "basis": "Solar irradiance at Earth and geometry of global-average incoming sunlight."
+    },
+    "NASA_Earth": {
+      "url": "https://science.nasa.gov/earth/facts/",
+      "date": "accessed 2026-10-24",
+      "basis": "Planet size; model uses rounded mean radius 6371 km and spherical surface area."
+    },
+    "NASA_Mars": {
+      "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+      "date": "accessed 2026-10-24",
+      "basis": "Mars solar irradiance 586.2 W/m2, above the atmosphere at average orbital distance."
+    },
+    "NASA_thermal": {
+      "url": "https://www.nasa.gov/wp-content/uploads/2021/10/7.soa_thermal_2021_0.pdf",
+      "date": "2021",
+      "basis": "Spacecraft reject heat radiatively; area, emissivity, temperature and surroundings matter."
+    },
+    "NASA_lunar_night": {
+      "url": "https://ntrs.nasa.gov/api/citations/20170008159/downloads/20170008159.pdf",
+      "date": "2017",
+      "basis": "Illustrative 14-Earth-day lunar night, not universal polar darkness duration."
+    },
+    "NASA_fission": {
+      "url": "https://www.nasa.gov/exploration-systems-development-mission-directorate/fission-surface-power/",
+      "date": "accessed 2026-10-24",
+      "basis": "40 kW-class lunar fission development reference; not an operating lunar fleet."
+    },
+    "NASA_2030": {
+      "url": "https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/",
+      "date": "2026-01-13",
+      "basis": "Lunar reactor development target; not delivered capability."
+    },
+    "NASA_SBSP": {
+      "url": "https://www.nasa.gov/organizations/otps/space-based-solar-power-report/",
+      "date": "2024-01-11",
+      "basis": "Concept-level assessment of solar power beamed to Earth; distinct from electricity used in space."
+    },
+    "NASA_ISAM": {
+      "url": "https://www.nasa.gov/isam/",
+      "date": "accessed 2026-10-24",
+      "basis": "Servicing, assembly and manufacturing research. Does not demonstrate self-sufficient orbital industry."
+    },
+    "ITER_tritium": {
+      "url": "https://www.iter.org/machine/supporting-systems/tritium-breeding",
+      "date": "accessed 2026-10-24",
+      "basis": "Blanket testing and fuel-cycle development remain prerequisites for relevant fusion routes."
+    },
+    "DOE_fast_reactor": {
+      "url": "https://www.energy.gov/ne/articles/nuclear-101-what-fast-reactor",
+      "date": "2025",
+      "basis": "Fast reactors and repeated fuel recycling can extend resource use; full fuel-cycle engineering and economics remain necessary."
+    },
+    "DOE_electrolysis": {
+      "url": "https://www.energy.gov/sites/default/files/2024-12/hydrogen-shot-water-electrolysis-technology-assessment.pdf",
+      "date": "2024-12",
+      "basis": "Electrolyzer performance targets; 55 kWh/kg system electricity used as a transparent present-scale budgeting assumption, not a 2100 prediction."
+    },
+    "IEA_desalination": {
+      "url": "https://www.iea.org/commentaries/wired-for-water-how-electrification-is-transforming-desalination",
+      "date": "2026",
+      "basis": "Seawater reverse-osmosis electricity varies with process and boundaries. Model assumes 3 kWh/m3 and excludes inland distribution."
+    },
+    "Heat_research": {
+      "url": "https://arxiv.org/abs/2409.06737",
+      "date": "2025 journal version;2024preprint",
+      "basis": "Theoretical study of persistent energy growth and waste heat; not used to assign a catastrophe date or a temperature forecast."
+    },
+    "Q1": {
+      "url": "https://github.com/josie-miller/energy-futures-research/blob/main/question1/ANSWER.md",
+      "date": "2026-10-24",
+      "basis": "Project electricity-generation baseline and 2050 planning cases."
+    },
+    "Q3": {
+      "url": "https://github.com/josie-miller/energy-futures-research/blob/main/question3/ANSWER.md",
+      "date": "2026-10-24",
+      "basis": "Project ocean proposal; 15% ocean in 2050. Q4 is a separate speculative extension."
+    },
+    "OTEC_2025": {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12069477/",
+      "date": "2025",
+      "basis": "Primary coupled-model study: OTEC sustainability depends on output, duration and climate state. It does not certify a 7 TW ecological safety limit."
+    },
+    "OTEC_2013": {
+      "url": "https://doi.org/10.1016/j.renene.2012.07.014",
+      "date": "2013",
+      "basis": "Early global circulation model assessment. The 7 TW result is a comparison, not a universal ecological safety threshold."
+    },
+    "Tidal_review": {
+      "url": "https://ora.ox.ac.uk/objects/uuid%3A25b79764-64f0-47ad-9f8d-883dee27eba2",
+      "date": "2025/2026 record",
+      "basis": "Quasi-practical 110 TWh/year estimate from 90 sites, about 20% of 426 candidates; not a complete global resource ceiling."
+    },
+    "FPV_ecology": {
+      "url": "https://os.copernicus.org/articles/16/195/2020/index.html",
+      "date": "2020",
+      "basis": "Three North Sea water-column simulations. Results for coverage and primary production are local model findings, not a global permitting rule."
+    },
+    "Open_ocean_wind": {
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1705710114",
+      "date": "2017",
+      "basis": "North Atlantic simulation with large kinetic-energy replenishment. The 6 W/m\u00b2 result is context-specific, not a guaranteed global farm yield."
+    },
+    "UNCLOS": {
+      "url": "https://www.un.org/Depts/los/convention_agreements/texts/unclos/unclos_e.pdf",
+      "date": "1982 convention;accessed2026-10-24",
+      "basis": "Articles 56, 60 and 87 establish relevant jurisdiction, freedoms and obligations; the high seas are not a legal vacuum."
+    }
+  },
+  "blue_planet_growth": [
+    {
+      "year": 2050,
+      "generation_TWh": 80000.0,
+      "mean_electric_TW": 9.132420091324201,
+      "ocean_TWh": 12000.0,
+      "ocean_share": 0.15,
+      "following_year_growth": 0.02
+    },
+    {
+      "year": 2100,
+      "generation_TWh": 215327.04232588861,
+      "mean_electric_TW": 24.58071259427952,
+      "ocean_TWh": 99200.0,
+      "ocean_share": 0.460694664394154,
+      "following_year_growth": 0.01
+    },
+    {
+      "year": 2200,
+      "generation_TWh": 582419.5619314983,
+      "mean_electric_TW": 66.48625136204319,
+      "ocean_TWh": 371400.0,
+      "ocean_share": 0.6376841454620377,
+      "following_year_growth": 0.01
+    },
+    {
+      "year": 2300,
+      "generation_TWh": 1575336.4856379451,
+      "mean_electric_TW": 179.83293215045035,
+      "ocean_TWh": null,
+      "ocean_share": null,
+      "following_year_growth": 0.01
+    }
+  ],
+  "blue_planet_mix": [
+    {
+      "id": "offshore_wind",
+      "name": "Offshore wind",
+      "cf": 0.45,
+      "life_years": 30,
+      "TWh": 70000.0,
+      "year": 2100,
+      "share": 0.32508696076200383,
+      "capacity_GW": 17757.48351090817,
+      "replacement_GW_year": 591.9161170302723,
+      "growth_GW_year": 177.5748351090817,
+      "gross_build_GW_year": 769.490952139354
+    },
+    {
+      "id": "solar",
+      "name": "Land solar",
+      "cf": 0.2,
+      "life_years": 30,
+      "TWh": 75000.0,
+      "year": 2100,
+      "share": 0.3483074579592898,
+      "capacity_GW": 42808.21917808219,
+      "replacement_GW_year": 1426.9406392694063,
+      "growth_GW_year": 428.0821917808219,
+      "gross_build_GW_year": 1855.0228310502282
+    },
+    {
+      "id": "land_wind",
+      "name": "Land wind",
+      "cf": 0.35,
+      "life_years": 30,
+      "TWh": 18000.0,
+      "year": 2100,
+      "share": 0.08359378991022956,
+      "capacity_GW": 5870.841487279844,
+      "replacement_GW_year": 195.69471624266146,
+      "growth_GW_year": 58.70841487279844,
+      "gross_build_GW_year": 254.4031311154599
+    },
+    {
+      "id": "hydro",
+      "name": "Hydro",
+      "cf": 0.45,
+      "life_years": 60,
+      "TWh": 8000.0,
+      "year": 2100,
+      "share": 0.03715279551565758,
+      "capacity_GW": 2029.4266869609335,
+      "replacement_GW_year": 33.82377811601556,
+      "growth_GW_year": 20.294266869609334,
+      "gross_build_GW_year": 54.11804498562489
+    },
+    {
+      "id": "fission",
+      "name": "Fission",
+      "cf": 0.85,
+      "life_years": 60,
+      "TWh": 10000.0,
+      "year": 2100,
+      "share": 0.04644099439457198,
+      "capacity_GW": 1343.0029546065002,
+      "replacement_GW_year": 22.383382576775002,
+      "growth_GW_year": 13.430029546065002,
+      "gross_build_GW_year": 35.813412122840006
+    },
+    {
+      "id": "bioenergy",
+      "name": "Bioenergy",
+      "cf": null,
+      "life_years": null,
+      "TWh": 0.0,
+      "year": 2100,
+      "share": 0.0,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "geothermal",
+      "name": "Geothermal",
+      "cf": 0.85,
+      "life_years": 30,
+      "TWh": 2127.0,
+      "year": 2100,
+      "share": 0.009877999507725459,
+      "capacity_GW": 285.6567284448026,
+      "replacement_GW_year": 9.521890948160086,
+      "growth_GW_year": 2.8565672844480257,
+      "gross_build_GW_year": 12.378458232608113
+    },
+    {
+      "id": "tidal",
+      "name": "Tidal stream",
+      "cf": 0.35,
+      "life_years": 30,
+      "TWh": 100.0,
+      "year": 2100,
+      "share": 0.00046440994394571976,
+      "capacity_GW": 32.615786040443574,
+      "replacement_GW_year": 1.0871928680147858,
+      "growth_GW_year": 0.32615786040443573,
+      "gross_build_GW_year": 1.4133507284192215
+    },
+    {
+      "id": "fossil",
+      "name": "Unabated fossil",
+      "cf": null,
+      "life_years": null,
+      "TWh": 0.0,
+      "year": 2100,
+      "share": 0.0,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "csp",
+      "name": "Solar thermal",
+      "cf": null,
+      "life_years": null,
+      "TWh": 0.0,
+      "year": 2100,
+      "share": 0.0,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "wave",
+      "name": "Wave",
+      "cf": 0.3,
+      "life_years": 30,
+      "TWh": 800.0,
+      "year": 2100,
+      "share": 0.003715279551565758,
+      "capacity_GW": 304.4140030441401,
+      "replacement_GW_year": 10.147133434804669,
+      "growth_GW_year": 3.044140030441401,
+      "gross_build_GW_year": 13.191273465246072
+    },
+    {
+      "id": "otec",
+      "name": "Ocean thermal",
+      "cf": 0.85,
+      "life_years": 30,
+      "TWh": 8000.0,
+      "year": 2100,
+      "share": 0.03715279551565758,
+      "capacity_GW": 1074.4023636852,
+      "replacement_GW_year": 35.81341212284,
+      "growth_GW_year": 10.744023636852,
+      "gross_build_GW_year": 46.557435759692005
+    },
+    {
+      "id": "fpv",
+      "name": "Offshore solar",
+      "cf": 0.15,
+      "life_years": 30,
+      "TWh": 20000.0,
+      "year": 2100,
+      "share": 0.09288198878914396,
+      "capacity_GW": 15220.700152207004,
+      "replacement_GW_year": 507.3566717402335,
+      "growth_GW_year": 152.20700152207004,
+      "gross_build_GW_year": 659.5636732623035
+    },
+    {
+      "id": "salinity",
+      "name": "Salinity gradient",
+      "cf": null,
+      "life_years": null,
+      "TWh": 300.0,
+      "year": 2100,
+      "share": 0.0013932298318371592,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "fusion",
+      "name": "Fusion",
+      "cf": 0.85,
+      "life_years": 60,
+      "TWh": 3000.0,
+      "year": 2100,
+      "share": 0.013932298318371592,
+      "capacity_GW": 402.90088638195004,
+      "replacement_GW_year": 6.715014773032501,
+      "growth_GW_year": 4.0290088638195005,
+      "gross_build_GW_year": 10.744023636852
+    },
+    {
+      "id": "offshore_wind",
+      "name": "Offshore wind",
+      "cf": 0.45,
+      "life_years": 30,
+      "TWh": 180000.0,
+      "year": 2200,
+      "share": 0.30905532090244153,
+      "capacity_GW": 45662.100456621,
+      "replacement_GW_year": 1522.0700152207,
+      "growth_GW_year": 456.62100456621005,
+      "gross_build_GW_year": 1978.6910197869101
+    },
+    {
+      "id": "solar",
+      "name": "Land solar",
+      "cf": 0.2,
+      "life_years": 30,
+      "TWh": 120000.0,
+      "year": 2200,
+      "share": 0.2060368806016277,
+      "capacity_GW": 68493.1506849315,
+      "replacement_GW_year": 2283.10502283105,
+      "growth_GW_year": 684.931506849315,
+      "gross_build_GW_year": 2968.036529680365
+    },
+    {
+      "id": "land_wind",
+      "name": "Land wind",
+      "cf": 0.35,
+      "life_years": 30,
+      "TWh": 22000.0,
+      "year": 2200,
+      "share": 0.03777342811029841,
+      "capacity_GW": 7175.472928897587,
+      "replacement_GW_year": 239.1824309632529,
+      "growth_GW_year": 71.75472928897587,
+      "gross_build_GW_year": 310.93716025222875
+    },
+    {
+      "id": "hydro",
+      "name": "Hydro",
+      "cf": 0.45,
+      "life_years": 60,
+      "TWh": 9000.0,
+      "year": 2200,
+      "share": 0.015452766045122078,
+      "capacity_GW": 2283.10502283105,
+      "replacement_GW_year": 38.051750380517504,
+      "growth_GW_year": 22.831050228310502,
+      "gross_build_GW_year": 60.882800608828
+    },
+    {
+      "id": "fission",
+      "name": "Fission",
+      "cf": 0.85,
+      "life_years": 60,
+      "TWh": 12000.0,
+      "year": 2200,
+      "share": 0.02060368806016277,
+      "capacity_GW": 1611.6035455278002,
+      "replacement_GW_year": 26.860059092130005,
+      "growth_GW_year": 16.116035455278002,
+      "gross_build_GW_year": 42.976094547408
+    },
+    {
+      "id": "bioenergy",
+      "name": "Bioenergy",
+      "cf": null,
+      "life_years": null,
+      "TWh": 0.0,
+      "year": 2200,
+      "share": 0.0,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "geothermal",
+      "name": "Geothermal",
+      "cf": 0.85,
+      "life_years": 30,
+      "TWh": 8020.0,
+      "year": 2200,
+      "share": 0.013770131520208784,
+      "capacity_GW": 1077.088369594413,
+      "replacement_GW_year": 35.9029456531471,
+      "growth_GW_year": 10.77088369594413,
+      "gross_build_GW_year": 46.673829349091235
+    },
+    {
+      "id": "tidal",
+      "name": "Tidal stream",
+      "cf": 0.35,
+      "life_years": 30,
+      "TWh": 110.0,
+      "year": 2200,
+      "share": 0.00018886714055149205,
+      "capacity_GW": 35.87736464448793,
+      "replacement_GW_year": 1.1959121548162643,
+      "growth_GW_year": 0.35877364644487936,
+      "gross_build_GW_year": 1.5546858012611438
+    },
+    {
+      "id": "fossil",
+      "name": "Unabated fossil",
+      "cf": null,
+      "life_years": null,
+      "TWh": 0.0,
+      "year": 2200,
+      "share": 0.0,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "csp",
+      "name": "Solar thermal",
+      "cf": null,
+      "life_years": null,
+      "TWh": 0.0,
+      "year": 2200,
+      "share": 0.0,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "wave",
+      "name": "Wave",
+      "cf": 0.3,
+      "life_years": 30,
+      "TWh": 850.0,
+      "year": 2200,
+      "share": 0.0014594279042615295,
+      "capacity_GW": 323.4398782343988,
+      "replacement_GW_year": 10.78132927447996,
+      "growth_GW_year": 3.234398782343988,
+      "gross_build_GW_year": 14.01572805682395
+    },
+    {
+      "id": "otec",
+      "name": "Ocean thermal",
+      "cf": 0.85,
+      "life_years": 30,
+      "TWh": 40000.0,
+      "year": 2200,
+      "share": 0.06867896020054257,
+      "capacity_GW": 5372.011818426001,
+      "replacement_GW_year": 179.06706061420002,
+      "growth_GW_year": 53.72011818426001,
+      "gross_build_GW_year": 232.78717879846005
+    },
+    {
+      "id": "fpv",
+      "name": "Offshore solar",
+      "cf": 0.15,
+      "life_years": 30,
+      "TWh": 150000.0,
+      "year": 2200,
+      "share": 0.2575461007520346,
+      "capacity_GW": 114155.25114155252,
+      "replacement_GW_year": 3805.1750380517506,
+      "growth_GW_year": 1141.5525114155253,
+      "gross_build_GW_year": 4946.727549467276
+    },
+    {
+      "id": "salinity",
+      "name": "Salinity gradient",
+      "cf": null,
+      "life_years": null,
+      "TWh": 440.0,
+      "year": 2200,
+      "share": 0.0007554685622059682,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "fusion",
+      "name": "Fusion",
+      "cf": 0.85,
+      "life_years": 60,
+      "TWh": 40000.0,
+      "year": 2200,
+      "share": 0.06867896020054257,
+      "capacity_GW": 5372.011818426001,
+      "replacement_GW_year": 89.53353030710001,
+      "growth_GW_year": 53.72011818426001,
+      "gross_build_GW_year": 143.25364849136002
+    }
+  ],
+  "blue_planet_scale_checks": [
+    {
+      "year": 2100,
+      "offshore_average_TW": 7.9908675799086755,
+      "offshore_installed_TW": 17.757483510908166,
+      "wind_area_low_km2": 1331811.2633181126,
+      "wind_area_high_km2": 5327245.05327245,
+      "wind_area_low_pct_ocean": 0.3689227876227459,
+      "wind_area_high_pct_ocean": 1.4756911504909835,
+      "fpv_area_km2": 185618.29453910977,
+      "fpv_area_pct_ocean": 0.051417810121637056,
+      "otec_average_TW": 0.91324200913242,
+      "otec_installed_TW": 1.0744023636852,
+      "fission_fusion_heat_W_m2": 0.0072736798315108445
+    },
+    {
+      "year": 2200,
+      "offshore_average_TW": 20.54794520547945,
+      "offshore_installed_TW": 45.662100456621,
+      "wind_area_low_km2": 3424657.534246575,
+      "wind_area_high_km2": 13698630.1369863,
+      "wind_area_low_pct_ocean": 0.9486585967442037,
+      "wind_area_high_pct_ocean": 3.794634386976815,
+      "fpv_area_km2": 1392137.2090433233,
+      "fpv_area_pct_ocean": 0.3856335759122779,
+      "otec_average_TW": 4.566210045662101,
+      "otec_installed_TW": 5.372011818426001,
+      "fission_fusion_heat_W_m2": 0.029094719326043378
+    }
+  ],
+  "demand": [
+    {
+      "year": 2050,
+      "growth_per_year": 0.005,
+      "generation_TWh": 80000.0,
+      "mean_electric_TW": 9.132420091324201,
+      "multiple_2024": 2.5617214768324312,
+      "next_year_extra_TWh": 400.0,
+      "selected_new_heat_W_m2": 0.011190276663862837
+    },
+    {
+      "year": 2100,
+      "growth_per_year": 0.005,
+      "generation_TWh": 102658.06519482906,
+      "mean_electric_TW": 11.718957214021582,
+      "multiple_2024": 3.287267129745719,
+      "next_year_extra_TWh": 513.2903259741453,
+      "selected_new_heat_W_m2": 0.014359651891337567
+    },
+    {
+      "year": 2200,
+      "growth_per_year": 0.005,
+      "generation_TWh": 169043.8014179693,
+      "mean_electric_TW": 19.297237604791018,
+      "multiple_2024": 5.4130392077226075,
+      "next_year_extra_TWh": 845.2190070898466,
+      "selected_new_heat_W_m2": 0.023645586327227075
+    },
+    {
+      "year": 2300,
+      "growth_per_year": 0.005,
+      "generation_TWh": 278359.10158257314,
+      "mean_electric_TW": 31.776153148695563,
+      "multiple_2024": 8.913481109948226,
+      "next_year_extra_TWh": 1391.7955079128658,
+      "selected_new_heat_W_m2": 0.038936441982666166
+    },
+    {
+      "year": 2050,
+      "growth_per_year": 0.01,
+      "generation_TWh": 80000.0,
+      "mean_electric_TW": 9.132420091324201,
+      "multiple_2024": 2.5617214768324312,
+      "next_year_extra_TWh": 800.0,
+      "selected_new_heat_W_m2": 0.011190276663862837
+    },
+    {
+      "year": 2100,
+      "growth_per_year": 0.01,
+      "generation_TWh": 131570.54574751062,
+      "mean_electric_TW": 15.019468692638199,
+      "multiple_2024": 4.213088659499523,
+      "next_year_extra_TWh": 1315.7054574751062,
+      "selected_new_heat_W_m2": 0.018403885096625824
+    },
+    {
+      "year": 2200,
+      "growth_per_year": 0.01,
+      "generation_TWh": 355873.83168240456,
+      "mean_electric_TW": 40.62486663041148,
+      "multiple_2024": 11.395620470793318,
+      "next_year_extra_TWh": 3558.738316824046,
+      "selected_new_heat_W_m2": 0.04977908292443829
+    },
+    {
+      "year": 2300,
+      "growth_per_year": 0.01,
+      "generation_TWh": 962572.4614637971,
+      "mean_electric_TW": 109.88270108034214,
+      "multiple_2024": 30.823031844240838,
+      "next_year_extra_TWh": 9625.724614637971,
+      "selected_new_heat_W_m2": 0.13464315190994175
+    },
+    {
+      "year": 2050,
+      "growth_per_year": 0.02,
+      "generation_TWh": 80000.0,
+      "mean_electric_TW": 9.132420091324201,
+      "multiple_2024": 2.5617214768324312,
+      "next_year_extra_TWh": 1600.0,
+      "selected_new_heat_W_m2": 0.011190276663862837
+    },
+    {
+      "year": 2100,
+      "growth_per_year": 0.02,
+      "generation_TWh": 215327.04232588861,
+      "mean_electric_TW": 24.58071259427952,
+      "multiple_2024": 6.8950988608629356,
+      "next_year_extra_TWh": 4306.5408465177725,
+      "selected_new_heat_W_m2": 0.030119614710474963
+    },
+    {
+      "year": 2200,
+      "growth_per_year": 0.02,
+      "generation_TWh": 1559968.2213410079,
+      "mean_electric_TW": 178.07856408002374,
+      "multiple_2024": 49.95255119731685,
+      "next_year_extra_TWh": 31199.364426820157,
+      "selected_new_heat_W_m2": 0.21820594979549876
+    },
+    {
+      "year": 2300,
+      "growth_per_year": 0.02,
+      "generation_TWh": 11301417.719335154,
+      "mean_electric_TW": 1290.1161780062962,
+      "multiple_2024": 361.8885561284432,
+      "next_year_extra_TWh": 226028.35438670308,
+      "selected_new_heat_W_m2": 1.580824887165527
+    },
+    {
+      "year": 2050,
+      "growth_per_year": 0.03,
+      "generation_TWh": 80000.0,
+      "mean_electric_TW": 9.132420091324201,
+      "multiple_2024": 2.5617214768324312,
+      "next_year_extra_TWh": 2400.0,
+      "selected_new_heat_W_m2": 0.011190276663862837
+    },
+    {
+      "year": 2100,
+      "growth_per_year": 0.03,
+      "generation_TWh": 350712.48149656766,
+      "mean_electric_TW": 40.03567140371777,
+      "multiple_2024": 11.230346200536927,
+      "next_year_extra_TWh": 10521.37444489703,
+      "selected_new_heat_W_m2": 0.049057121217705855
+    },
+    {
+      "year": 2200,
+      "growth_per_year": 0.03,
+      "generation_TWh": 6740214.112975408,
+      "mean_electric_TW": 769.4308348145444,
+      "multiple_2024": 215.831890645727,
+      "next_year_extra_TWh": 202206.42338926223,
+      "selected_new_heat_W_m2": 0.9428107587233459
+    },
+    {
+      "year": 2300,
+      "growth_per_year": 0.03,
+      "generation_TWh": 129537694.50944813,
+      "mean_electric_TW": 14787.40804902376,
+      "multiple_2024": 4147.993676052647,
+      "next_year_extra_TWh": 3886130.835283444,
+      "selected_new_heat_W_m2": 18.119532999495885
+    }
+  ],
+  "portfolio_2100": [
+    {
+      "id": "offshore_wind",
+      "name": "Offshore wind",
+      "cf": 0.45,
+      "life_years": 30,
+      "TWh": 70000.0,
+      "year": 2100,
+      "share": 0.32508696076200383,
+      "capacity_GW": 17757.48351090817,
+      "replacement_GW_year": 591.9161170302723,
+      "growth_GW_year": 177.5748351090817,
+      "gross_build_GW_year": 769.490952139354
+    },
+    {
+      "id": "solar",
+      "name": "Land solar",
+      "cf": 0.2,
+      "life_years": 30,
+      "TWh": 75000.0,
+      "year": 2100,
+      "share": 0.3483074579592898,
+      "capacity_GW": 42808.21917808219,
+      "replacement_GW_year": 1426.9406392694063,
+      "growth_GW_year": 428.0821917808219,
+      "gross_build_GW_year": 1855.0228310502282
+    },
+    {
+      "id": "land_wind",
+      "name": "Land wind",
+      "cf": 0.35,
+      "life_years": 30,
+      "TWh": 18000.0,
+      "year": 2100,
+      "share": 0.08359378991022956,
+      "capacity_GW": 5870.841487279844,
+      "replacement_GW_year": 195.69471624266146,
+      "growth_GW_year": 58.70841487279844,
+      "gross_build_GW_year": 254.4031311154599
+    },
+    {
+      "id": "hydro",
+      "name": "Hydro",
+      "cf": 0.45,
+      "life_years": 60,
+      "TWh": 8000.0,
+      "year": 2100,
+      "share": 0.03715279551565758,
+      "capacity_GW": 2029.4266869609335,
+      "replacement_GW_year": 33.82377811601556,
+      "growth_GW_year": 20.294266869609334,
+      "gross_build_GW_year": 54.11804498562489
+    },
+    {
+      "id": "fission",
+      "name": "Fission",
+      "cf": 0.85,
+      "life_years": 60,
+      "TWh": 10000.0,
+      "year": 2100,
+      "share": 0.04644099439457198,
+      "capacity_GW": 1343.0029546065002,
+      "replacement_GW_year": 22.383382576775002,
+      "growth_GW_year": 13.430029546065002,
+      "gross_build_GW_year": 35.813412122840006
+    },
+    {
+      "id": "bioenergy",
+      "name": "Bioenergy",
+      "cf": null,
+      "life_years": null,
+      "TWh": 0.0,
+      "year": 2100,
+      "share": 0.0,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "geothermal",
+      "name": "Geothermal",
+      "cf": 0.85,
+      "life_years": 30,
+      "TWh": 2127.0,
+      "year": 2100,
+      "share": 0.009877999507725459,
+      "capacity_GW": 285.6567284448026,
+      "replacement_GW_year": 9.521890948160086,
+      "growth_GW_year": 2.8565672844480257,
+      "gross_build_GW_year": 12.378458232608113
+    },
+    {
+      "id": "tidal",
+      "name": "Tidal stream",
+      "cf": 0.35,
+      "life_years": 30,
+      "TWh": 100.0,
+      "year": 2100,
+      "share": 0.00046440994394571976,
+      "capacity_GW": 32.615786040443574,
+      "replacement_GW_year": 1.0871928680147858,
+      "growth_GW_year": 0.32615786040443573,
+      "gross_build_GW_year": 1.4133507284192215
+    },
+    {
+      "id": "fossil",
+      "name": "Unabated fossil",
+      "cf": null,
+      "life_years": null,
+      "TWh": 0.0,
+      "year": 2100,
+      "share": 0.0,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "csp",
+      "name": "Solar thermal",
+      "cf": null,
+      "life_years": null,
+      "TWh": 0.0,
+      "year": 2100,
+      "share": 0.0,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "wave",
+      "name": "Wave",
+      "cf": 0.3,
+      "life_years": 30,
+      "TWh": 800.0,
+      "year": 2100,
+      "share": 0.003715279551565758,
+      "capacity_GW": 304.4140030441401,
+      "replacement_GW_year": 10.147133434804669,
+      "growth_GW_year": 3.044140030441401,
+      "gross_build_GW_year": 13.191273465246072
+    },
+    {
+      "id": "otec",
+      "name": "Ocean thermal",
+      "cf": 0.85,
+      "life_years": 30,
+      "TWh": 8000.0,
+      "year": 2100,
+      "share": 0.03715279551565758,
+      "capacity_GW": 1074.4023636852,
+      "replacement_GW_year": 35.81341212284,
+      "growth_GW_year": 10.744023636852,
+      "gross_build_GW_year": 46.557435759692005
+    },
+    {
+      "id": "fpv",
+      "name": "Offshore solar",
+      "cf": 0.15,
+      "life_years": 30,
+      "TWh": 20000.0,
+      "year": 2100,
+      "share": 0.09288198878914396,
+      "capacity_GW": 15220.700152207004,
+      "replacement_GW_year": 507.3566717402335,
+      "growth_GW_year": 152.20700152207004,
+      "gross_build_GW_year": 659.5636732623035
+    },
+    {
+      "id": "salinity",
+      "name": "Salinity gradient",
+      "cf": null,
+      "life_years": null,
+      "TWh": 300.0,
+      "year": 2100,
+      "share": 0.0013932298318371592,
+      "capacity_GW": null,
+      "replacement_GW_year": null,
+      "growth_GW_year": null,
+      "gross_build_GW_year": null
+    },
+    {
+      "id": "fusion",
+      "name": "Fusion",
+      "cf": 0.85,
+      "life_years": 60,
+      "TWh": 3000.0,
+      "year": 2100,
+      "share": 0.013932298318371592,
+      "capacity_GW": 402.90088638195004,
+      "replacement_GW_year": 6.715014773032501,
+      "growth_GW_year": 4.0290088638195005,
+      "gross_build_GW_year": 10.744023636852
+    }
+  ],
+  "heat_benchmarks": [
+    {
+      "growth_per_year": 0.005,
+      "benchmark_W_m2": 0.1,
+      "electric_TW_at_benchmark": 81.61031550556612,
+      "crossing_year_if_unchanged": 2489.1191401448255
+    },
+    {
+      "growth_per_year": 0.005,
+      "benchmark_W_m2": 1.0,
+      "electric_TW_at_benchmark": 816.1031550556613,
+      "crossing_year_if_unchanged": 2950.7864942706337
+    },
+    {
+      "growth_per_year": 0.01,
+      "benchmark_W_m2": 0.1,
+      "electric_TW_at_benchmark": 81.61031550556612,
+      "crossing_year_if_unchanged": 2270.105740410309
+    },
+    {
+      "growth_per_year": 0.01,
+      "benchmark_W_m2": 1.0,
+      "electric_TW_at_benchmark": 816.1031550556613,
+      "crossing_year_if_unchanged": 2501.51363296907
+    },
+    {
+      "growth_per_year": 0.02,
+      "benchmark_W_m2": 0.1,
+      "electric_TW_at_benchmark": 81.61031550556612,
+      "crossing_year_if_unchanged": 2160.5976952960486
+    },
+    {
+      "growth_per_year": 0.02,
+      "benchmark_W_m2": 1.0,
+      "electric_TW_at_benchmark": 816.1031550556613,
+      "crossing_year_if_unchanged": 2276.8744427475476
+    },
+    {
+      "growth_per_year": 0.03,
+      "benchmark_W_m2": 0.1,
+      "electric_TW_at_benchmark": 81.61031550556612,
+      "crossing_year_if_unchanged": 2124.093832418078
+    },
+    {
+      "growth_per_year": 0.03,
+      "benchmark_W_m2": 1.0,
+      "electric_TW_at_benchmark": 816.1031550556613,
+      "crossing_year_if_unchanged": 2201.9922896755174
+    }
+  ],
+  "space": [
+    {
+      "electrical_power_GW": 1,
+      "collector_1au_km2": 2.449179524859172,
+      "collector_mars_orbit_km2": 5.686341407938132,
+      "radiator_300K_emitting_km2": 2.4191385103009955,
+      "radiator_400K_emitting_km2": 0.7654305442749243,
+      "radiator_600K_emitting_km2": 0.15119615689381222,
+      "collector_mass_t_at_assumed_areal_mass": 2449.1795248591725
+    },
+    {
+      "electrical_power_GW": 1000,
+      "collector_1au_km2": 2449.1795248591725,
+      "collector_mars_orbit_km2": 5686.341407938132,
+      "radiator_300K_emitting_km2": 2419.138510300995,
+      "radiator_400K_emitting_km2": 765.4305442749244,
+      "radiator_600K_emitting_km2": 151.1961568938122,
+      "collector_mass_t_at_assumed_areal_mass": 2449179.5248591723
+    },
+    {
+      "electrical_power_GW": 1000000,
+      "collector_1au_km2": 2449179.524859172,
+      "collector_mars_orbit_km2": 5686341.407938132,
+      "radiator_300K_emitting_km2": 2419138.510300996,
+      "radiator_400K_emitting_km2": 765430.5442749243,
+      "radiator_600K_emitting_km2": 151196.15689381224,
+      "collector_mass_t_at_assumed_areal_mass": 2449179524.859172
+    }
+  ],
+  "services": [
+    {
+      "service": "500 Mt/year hydrogen",
+      "electricity_TWh": 27500.0,
+      "fraction_reference_2100_generation": 0.12771273458507293
+    },
+    {
+      "service": "10 Gt/year carbon removal",
+      "electricity_TWh": 20000.0,
+      "fraction_reference_2100_generation": 0.09288198878914396
+    },
+    {
+      "service": "1 TW continuous computing",
+      "electricity_TWh": 8760,
+      "fraction_reference_2100_generation": 0.040682311089645054
+    },
+    {
+      "service": "1 billion m\u00b3/day desalination",
+      "electricity_TWh": 1095.0,
+      "fraction_reference_2100_generation": 0.005085288886205632
+    }
+  ],
+  "earth_surface_m2": 510064471909788.25,
+  "lunar_night_1GW_delivered_GWh": 336,
+  "lunar_night_1GW_ideal_battery_t": 1344000.0,
+  "one_billionth_sun_electric_TW": 114840.00000000001,
+  "one_billionth_sun_collector_km2": 281263776.6348274,
+  "one_billionth_sun_multiple_2024_electricity": 32213.596336738294,
+  "reference_2200_extra_TWh_year": 5824.195619314984,
+  "reference_2200_extra_offshore_GW_equivalent": 1477.4722524898486,
+  "seawater_flow_1GW_m3_s_at1C": 244.51372333272204,
+  "ocean_1pct_fpv_TWh_year": 388970.28
+}

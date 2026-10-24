@@ -67,3 +67,5 @@ The original preprocessor uses relative folders `ocean_data/` and `ocean_model/`
 - Figures are rendered and visually inspected. Supporting values remain in JSON.
 
 These checks establish arithmetic and computational consistency. They do not establish equipment reliability, source-model accuracy, the best real site, construction feasibility or global optimality. Final investment decisions require validated regional data and full project economics.
+
+The final checked batch has a recorded residual-validation failure; see [BATCH_FAILURE.json](BATCH_FAILURE.json) and the current [outcome report](HOURLY_RESULTS.md). Unvalidated cases are not pending or accepted solutions. The runner now saves future assertion failures as `failed_validation` with the case identity, omits numerical conclusions for that case, and continues collecting other submitted outcomes. Validation tolerances are unchanged.

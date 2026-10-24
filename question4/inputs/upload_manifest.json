@@ -1,0 +1,27 @@
+[
+  {
+    "path": "BLUE_PLANET_2100_2200.md",
+    "bytes": 11498,
+    "sha256": "3556b79445d52c2b31f6fec4484d2c270446a1c8d917ee6d31ddd93b3a903c4e"
+  },
+  {
+    "path": "blue_planet_guardrails.csv",
+    "bytes": 421,
+    "sha256": "8f44e825efb09dcd8e3aecb6636d2b22f0212bb5b5bc1ad7e8b178918c01aef0"
+  },
+  {
+    "path": "blue_planet_scenario_TWh.csv",
+    "bytes": 505,
+    "sha256": "0c8c08656dc94c869163f9c35148be613e653e81933043ec0090c545024ab908"
+  },
+  {
+    "path": "fig_blue_planet_timeline.png",
+    "bytes": 84373,
+    "sha256": "a32e28d6a132af4f377b61273d2980d42d4339e97c866563e8f7ede906072ce5"
+  },
+  {
+    "path": "fig_ocean_ladder_2200.png",
+    "bytes": 105788,
+    "sha256": "24293b7dbd0d9e515e48e9493e39ff64ba52ff036bc1e7281d682c85fca12bee"
+  }
+]

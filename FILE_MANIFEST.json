@@ -10,21 +10,27 @@
     },
     {
       "path": "CLAUDE_SCIENCE_ENERGY_CONTEXT.md",
-      "bytes": 42788,
-      "sha256": "05e9f079190c1961ec45ed9c1fa30fcb11658f94d1dacda77c3d6780ac8ad90c",
-      "git_blob_sha": "2b18c5f7e8aaf76e066fef79ffd0b505bc1cb75b"
+      "bytes": 43605,
+      "sha256": "6c1a9741f6c104f7ae627fb60efca47001039087bd7d43ea451000cac2dc31ec",
+      "git_blob_sha": "a1d000b3e538628c15ff5053a02d75e351ababc5"
+    },
+    {
+      "path": "FIRST_PRINCIPLES_WEBSITE_HANDOFF.md",
+      "bytes": 18448,
+      "sha256": "c50d4ba0bacced2212e224215d5f8732919c3d2936ff9be7af627662b6fad18c",
+      "git_blob_sha": "ea2eb49093ada7513ca6df27e5fb59eb2003c415"
     },
     {
       "path": "README.md",
-      "bytes": 7384,
-      "sha256": "31cb99e84b5a4d1e8833e7ac576179e3fb2990a488279379f74765a4333a3dba",
-      "git_blob_sha": "0153161437864206fb09c586473c827e8674d630"
+      "bytes": 9194,
+      "sha256": "ee30ca3698d35bfafd91f5bdbc62e0622d9ce37679857de6db0117139ca3f2df",
+      "git_blob_sha": "083e02d173897ef599e1afa78be42db707d1c655"
     },
     {
       "path": "RESEARCH_SCOPE.md",
-      "bytes": 2635,
-      "sha256": "8e320130aafc42021189e5b5d5222f3a507bcab809d4c078cb460de14430c811",
-      "git_blob_sha": "3532aa5dff82fc8ef125534bcf5bb513067504cd"
+      "bytes": 4026,
+      "sha256": "7e28716658557699a4d6ff191fb50c90bb804d0f9c37e928f2ce95e44c01c54b",
+      "git_blob_sha": "693641d717c016f41ea6a47838450a642f54e069"
     },
     {
       "path": "candidate_build.csv",
@@ -574,27 +580,33 @@
     },
     {
       "path": "question3/ANSWER.md",
-      "bytes": 23513,
-      "sha256": "9ef1f491a768320d2e4ae35bc398534fd63f556b10bc58df5acc3d6427c953ee",
-      "git_blob_sha": "dac80303b615cbabf18d4dfb9a32836e0a7883d7"
+      "bytes": 24673,
+      "sha256": "94b4b40bc2d442152539187ecaac7e25391abf61a4abc486f6a1951d69f802a1",
+      "git_blob_sha": "4f986b86221ff28ee907b7051e367f18cb98e082"
+    },
+    {
+      "path": "question3/BATCH_FAILURE.json",
+      "bytes": 908,
+      "sha256": "386699b81e67f6c892ad8d08fda1faeaa4c58c631be393cc59353826d8eec191",
+      "git_blob_sha": "96138b4e68ac2b104f9b2c4a9daf9be4f94f1ab4"
     },
     {
       "path": "question3/HOURLY_RESULTS.md",
-      "bytes": 3401,
-      "sha256": "0622761a7ff9bce948223714135f637588a83369c3f915a302766582b9269735",
-      "git_blob_sha": "09db4fe771acab283d2cd600be854b4ad38af764"
+      "bytes": 8414,
+      "sha256": "5f708a92f7c4896a06c702c105135291c498805d4352e57c1a5030826c323e17",
+      "git_blob_sha": "44b7e14790160ddef986071caae6c6bad882a25a"
     },
     {
       "path": "question3/METHODS.md",
-      "bytes": 7259,
-      "sha256": "fefe3586181cdabfe9d58c45a5c9ad021230c348b0d58004393d59b36e7ede96",
-      "git_blob_sha": "6cba91f6d5f759a6c90b1b11232a0562ea37a322"
+      "bytes": 7708,
+      "sha256": "9c133cfc2a374c6570998307bdd075fcc69c54df4c3dd3c0176868e1e7cd2996",
+      "git_blob_sha": "91db1cd5b2aad82683705344628fe566c5070989"
     },
     {
       "path": "question3/MODEL_AUDIT.md",
-      "bytes": 11640,
-      "sha256": "abb322b4557759a0f78db87aa04fd326c2b3042a512550ab08b597cb736bd365",
-      "git_blob_sha": "f5e071323d577f3cc497fd80d81f91fbe23fb91b"
+      "bytes": 13062,
+      "sha256": "a728e5a327d4cc3ddd63d7446f9fab062d5d402313d71216f698b734f4dd9ab8",
+      "git_blob_sha": "caaf6e484e017543cae21f0cb97e23a9459c6c20"
     },
     {
       "path": "question3/WEBSITE_HANDOFF.md",
@@ -604,9 +616,15 @@
     },
     {
       "path": "question3/analyze_proposal.py",
-      "bytes": 12647,
-      "sha256": "872ea8c753c3e96c11b56bc894920a578fde729ef61b31139b7baaf293e2840f",
-      "git_blob_sha": "e7d51b8534fd79e78cdb43b070b90ff5e8e6ac9d"
+      "bytes": 13025,
+      "sha256": "de5c449ebfd8dd28f73428164b3d9a6034f15b6a7ac5196f1d0b400e21559a73",
+      "git_blob_sha": "38eaa7b7abe8d51df045ae91bfafbc6b12765019"
+    },
+    {
+      "path": "question3/checked_experiments.csv",
+      "bytes": 4890,
+      "sha256": "50561e16f80b197fe84f559fb6736169def452ea8a98c6b8ea0c652a8cbc58d3",
+      "git_blob_sha": "f5b9847f03d354ee1c13000eb764e5874a623669"
     },
     {
       "path": "question3/experiment_jobs.json",
@@ -615,10 +633,52 @@
       "git_blob_sha": "94012343aba9de44647ca5d182b4821634ebc9eb"
     },
     {
+      "path": "question3/experiments/hawaii_3yr_no_otec.json",
+      "bytes": 2278,
+      "sha256": "4f5aca5dc66289550d3da171643f63278506973bc85525adc5248282d0365efe",
+      "git_blob_sha": "e0768e3399d2a06278c1b8ca8f39836886c0ac26"
+    },
+    {
+      "path": "question3/experiments/hawaii_3yr_otec100.json",
+      "bytes": 2592,
+      "sha256": "44066e9359bc8a8738adb0a17d9b7725f3b3bead2025e6062b9640408a36049f",
+      "git_blob_sha": "3d63db36af6eb8f4a251dfe7643b440f7ba07f89"
+    },
+    {
+      "path": "question3/experiments/hawaii_3yr_otec90.json",
+      "bytes": 2614,
+      "sha256": "95f9fcf9fb89267a15c2fb223ba74de225cf27372b70f999d61f4eed5f3cd556",
+      "git_blob_sha": "e1c4ffddbacf0f43d2aff96a4cc9aa37459451df"
+    },
+    {
       "path": "question3/experiments/original_2023_reliability_check.json",
       "bytes": 2168,
       "sha256": "3bef8ec75166b39237fae46a002cb7b02d6a59fc723970fdf98b1f59d6c258f2",
       "git_blob_sha": "daf830f48792977cc2dbfa322377c6a86750d84b"
+    },
+    {
+      "path": "question3/experiments/scotland_2010_no_tidal.json",
+      "bytes": 2375,
+      "sha256": "b6c79a16077df48455a93bc4bd9b76aaaef2cf2977372b0b9d38985de5a1fc18",
+      "git_blob_sha": "dafff5af5b8d17a2ba36e43010ee561575460201"
+    },
+    {
+      "path": "question3/experiments/scotland_2010_tidal100.json",
+      "bytes": 2621,
+      "sha256": "f65ad2d75a7fc85cd86e5207fcda9a1d835c236184b587a19d24896475a7a6ca",
+      "git_blob_sha": "1f9c1c5e7a1a8caff773182be423772fe0ea2630"
+    },
+    {
+      "path": "question3/experiments/scotland_3yr_firm100.json",
+      "bytes": 2518,
+      "sha256": "0e64b95155e6accd0c9d9dac7ac12d808a21af6f35e63c78c789b7657714e175",
+      "git_blob_sha": "fe667d759bb39bbb90c47d90b2cae60f5392a7ba"
+    },
+    {
+      "path": "question3/experiments/scotland_3yr_marine30.json",
+      "bytes": 1507,
+      "sha256": "a9cf6ac806e8cf9b131ff653ceb7e6166213b04bf8f5fde34905436284d1d13b",
+      "git_blob_sha": "7b23b339c59ce32b1a298580b3241b0a7f5361ff"
     },
     {
       "path": "question3/experiments/scotland_3yr_no_tidal.json",
@@ -627,10 +687,52 @@
       "git_blob_sha": "6d3e58659a66adaad731b78995d97a9304a06204"
     },
     {
+      "path": "question3/experiments/scotland_3yr_nuclear_allowed.json",
+      "bytes": 2458,
+      "sha256": "143f133f38d1187a9a8b85e61665d96e8af5f0123d957fab42839d2fd92b1427",
+      "git_blob_sha": "5e604dc6b240ee4a04286770e985dee501b7ea45"
+    },
+    {
+      "path": "question3/experiments/scotland_3yr_tidal100_battery_only.json",
+      "bytes": 2572,
+      "sha256": "f903f45c2b7719a9c0ccd76b98e372686a62d96d72c0d3c87ad59db086d82326",
+      "git_blob_sha": "0fa5ea02f7174b3b97c5664841d2c6f712b89261"
+    },
+    {
+      "path": "question3/experiments/scotland_3yr_tidal100_ldes50.json",
+      "bytes": 2549,
+      "sha256": "ffdfea35cc4578b0e812c5d712aff71a43460c4c2653c0a222be7571fe661797",
+      "git_blob_sha": "cc085781f7e23e1a6b84b331743bcd9d012138b9"
+    },
+    {
+      "path": "question3/experiments/scotland_3yr_tidal100_wave80.json",
+      "bytes": 2763,
+      "sha256": "8ac3e9020e092c0cd10d6c7aa9f24988996857a1cd9649b1fd0a1cb67e7a8ecd",
+      "git_blob_sha": "2518c611942813bb22c2f9b431d9fdfcb0068809"
+    },
+    {
+      "path": "question3/experiments/scotland_3yr_tidal_120.json",
+      "bytes": 2540,
+      "sha256": "356bcbf0c6a8bd092d8a437c6faab0bf753b7fbb6b57dce61862b92f4d1c7f65",
+      "git_blob_sha": "efe6620ac443ce09dc23812f5e5c390783ae77e7"
+    },
+    {
       "path": "question3/experiments/scotland_3yr_tidal_140.json",
       "bytes": 2615,
       "sha256": "78ee2e26f7554e0f539ce4b22296c8ecf7e920ba1a1f62bea9173b3f2bbb37de",
       "git_blob_sha": "bc6685199c5cd3f0c8df568d2baebafe38dfb688"
+    },
+    {
+      "path": "question3/experiments/scotland_3yr_tidal_90.json",
+      "bytes": 2568,
+      "sha256": "9b4e14c168defd4fac08fc76b28d1ecc151ac6615328a057687d6df428b7bcff",
+      "git_blob_sha": "cdd3336196a7f86cb1df640900fdf801e72470b0"
+    },
+    {
+      "path": "question3/experiments/scotland_3yr_tidalcf40.json",
+      "bytes": 2537,
+      "sha256": "39896347dc9a0d887c74622c7192c854a29c44cb41bb24b537aa0e68b0e60949",
+      "git_blob_sha": "f9f83971be12689474997eb3ac3ab398c6c8c7cd"
     },
     {
       "path": "question3/figures/01_proposed_mix.png",
@@ -641,8 +743,8 @@
     {
       "path": "question3/figures/01_proposed_mix.svg",
       "bytes": 14458,
-      "sha256": "7be98bfee735e9271c53c9e541b27d670321aa897fff8927c95b2b86edf49e40",
-      "git_blob_sha": "4038c30ecfb5679f991bf54085ddf5bb73135084"
+      "sha256": "afa420811e432150ab4981f2c2cc7329fd0b88cb21a82abee33cde667f854aad",
+      "git_blob_sha": "0c703a61fe745330f332cadfe42b7a99048b9d2b"
     },
     {
       "path": "question3/figures/02_ocean_buildout.png",
@@ -653,8 +755,8 @@
     {
       "path": "question3/figures/02_ocean_buildout.svg",
       "bytes": 19028,
-      "sha256": "bc3a3bfe25dc25b72c1322bc18bd6143719ea6a07fd1868ebba2256a242bc3c8",
-      "git_blob_sha": "5dd636ddadf97441ecb73150b44a43e1db2ded04"
+      "sha256": "150439833b3bb0bd7877a73c08a85bb57509305f0476853b2884ff86baddf333",
+      "git_blob_sha": "c93e683f3bbe37767b52aa34f1b5f6e719c29cd9"
     },
     {
       "path": "question3/figures/03_tides_during_wind_lull.png",
@@ -665,8 +767,32 @@
     {
       "path": "question3/figures/03_tides_during_wind_lull.svg",
       "bytes": 39975,
-      "sha256": "b52caf6d9c92dd923ebb62772acec3c0522ab09f4318d1bff06e9b5c9ff1b599",
-      "git_blob_sha": "843de677884ff816e3846c6fd80806bbb618f4fc"
+      "sha256": "3728d49ed2ec219f3130c507972a731353edc16e98176e2484f9880e98d01cf7",
+      "git_blob_sha": "d80486c312ce753b32acbffdd7c646c1f0c5c7c4"
+    },
+    {
+      "path": "question3/figures/04_checked_tidal_costs.png",
+      "bytes": 169190,
+      "sha256": "34f3f01d34f4b26e18055c2c0e568daf6692c80ee08f453d94ca90e15f8d785e",
+      "git_blob_sha": "09a5c4f8125c0c66b2a26cbe9ddf3f0cb536608c"
+    },
+    {
+      "path": "question3/figures/04_checked_tidal_costs.svg",
+      "bytes": 17029,
+      "sha256": "1b69c407789cadce2642b638a675a029ed5760977a9435499ea0c3e70e52cb6f",
+      "git_blob_sha": "54fee366d5bfcb8c616592fd0ba41fb4f1172593"
+    },
+    {
+      "path": "question3/figures/05_storage_and_firm_power.png",
+      "bytes": 144891,
+      "sha256": "b7cf912095d37b35355d64bfac5951150a1ca2b6838660213caca4e0f2884ff1",
+      "git_blob_sha": "921df761802973042dd2077d27ffafd7fd0b0607"
+    },
+    {
+      "path": "question3/figures/05_storage_and_firm_power.svg",
+      "bytes": 9100,
+      "sha256": "fa4faaa8df1e5a652514e8495859d21c34f49e174c2930feb3bc38ed01fbd8e2",
+      "git_blob_sha": "506f02cc9ba638b6bc2f7c78c0b2700887e02e8f"
     },
     {
       "path": "question3/inputs/OCEAN_FIRST_PITCH (1).md",
@@ -874,15 +1000,15 @@
     },
     {
       "path": "question3/proposal_results.json",
-      "bytes": 25130,
-      "sha256": "6a803367056690a50dd8bde86284dda04eaafc7f893f83f898cfcd34bae001e7",
-      "git_blob_sha": "b021c21dc9b27e068dfab7ba84837428b21d4ea2"
+      "bytes": 65291,
+      "sha256": "9223a88b3d03973833edfe6d16fa844e09327f942a1445bd1671dad50b79a1a0",
+      "git_blob_sha": "f79576765b972428af71178dbc5a89a605979fea"
     },
     {
       "path": "question3/run_experiments.py",
-      "bytes": 5047,
-      "sha256": "d76fbcdfec2f8da7123d6d02160d789731457b132b239576cd7541ac7024da3c",
-      "git_blob_sha": "e734a5360d9dd4fab1c92ec0291ad17da3d29404"
+      "bytes": 6554,
+      "sha256": "b99f17e619bb54f119590ef880034555bf9c34a6e82c1745184242a82eff1c03",
+      "git_blob_sha": "e99001d55ae9a08851a763f809f7b2dd116905f4"
     },
     {
       "path": "question3/sources.json",
@@ -892,15 +1018,219 @@
     },
     {
       "path": "question3/summarize_experiments.py",
-      "bytes": 4512,
-      "sha256": "71158ec7485967c3884d189e7373cd32aaa99c62b866971f040c55950ff6e9fd",
-      "git_blob_sha": "ef13fccff769025fa527c9f6bd328228e9c372cf"
+      "bytes": 12831,
+      "sha256": "162a5aa6a4e4f8048e335144e1fb34dde0dba7668619e2ac9409c1b9f13f2dc7",
+      "git_blob_sha": "5877e94878c901d6957b7eeb3386df979db746b7"
     },
     {
       "path": "question3/test_model.py",
       "bytes": 1199,
       "sha256": "2609c460f5febede6149544823f806498dbe26156056990e4821613813b36093",
       "git_blob_sha": "6945ba330440ca875a8fc3b1ae4fbf32355550ef"
+    },
+    {
+      "path": "question4/ANSWER.md",
+      "bytes": 18601,
+      "sha256": "f624abd434c0d262244f325c933e485ec3c46bde3280bce9559037ec95673cf8",
+      "git_blob_sha": "23d5b036aa6a307dfdd889e243d02cbc7fe7126a"
+    },
+    {
+      "path": "question4/METHODS.md",
+      "bytes": 6031,
+      "sha256": "253cf497bf242fcf2565b7551126665ef5acb38550026980908a4aa7629ae58e",
+      "git_blob_sha": "0347701bb7232e3a98cf61ee901ce8eca79678a1"
+    },
+    {
+      "path": "question4/UPLOAD_REVIEW.md",
+      "bytes": 11083,
+      "sha256": "d086412f3174805c73f7964c7690c1bcc64375b1afe356ceee826cef1ab0fab9",
+      "git_blob_sha": "ba9aa9134b5c852a6c03b05fec75f6500fa6977d"
+    },
+    {
+      "path": "question4/blue_planet_growth.csv",
+      "bytes": 332,
+      "sha256": "4a3bcb3710cfd984cfaf4bbf22f00c77fa7b8492aa37a31d2b08a9ed689b1476",
+      "git_blob_sha": "51d6003b352322fef4dccaf562378782203d181a"
+    },
+    {
+      "path": "question4/blue_planet_mix.csv",
+      "bytes": 3395,
+      "sha256": "4ff7042e6970a665e9ba298d042041707584a2ed596e735e585f5a119f909af4",
+      "git_blob_sha": "8812066ed83ebca9f5871cb3359e3a7f5322bbe1"
+    },
+    {
+      "path": "question4/blue_planet_scale_checks.csv",
+      "bytes": 645,
+      "sha256": "d11cce08a3741647dca8e3534473b65af8bbf8831ce1b0ffc48d47efa3e4aac7",
+      "git_blob_sha": "972294df5152a9864c0e32b32757fa4c16e72a1c"
+    },
+    {
+      "path": "question4/centuries.py",
+      "bytes": 15742,
+      "sha256": "ba082a27e98377ab85cf39e263e41902a2d9b5447577f4a7fd40c64853d6a582",
+      "git_blob_sha": "7660c87579e13ee363da4c6d256eea52377e43be"
+    },
+    {
+      "path": "question4/demand_scenarios.csv",
+      "bytes": 1713,
+      "sha256": "9a4b6991dc47cba4e899abe831fa8311baa8e54210194ec52d3e218906bf09eb",
+      "git_blob_sha": "cd67eb681370f2406bb506adc93c0bca4b589fff"
+    },
+    {
+      "path": "question4/figures/01_centuries_of_growth.png",
+      "bytes": 193327,
+      "sha256": "f3dccbbea55d5bb40e4604ab6965b1b8679ac17748b5e64e79bb7c8cdfa1e69f",
+      "git_blob_sha": "30e49a0d1531e4195a832b6b89b25a0d9bf5e4a9"
+    },
+    {
+      "path": "question4/figures/01_centuries_of_growth.svg",
+      "bytes": 17714,
+      "sha256": "99ef126528247c5a1c090eeb9dd1bd7b1410288b7a1246d27804ad22e112573a",
+      "git_blob_sha": "2b309c7f0a66dc851024acf31068855dfd8b81ba"
+    },
+    {
+      "path": "question4/figures/02_blue_planet_mix.png",
+      "bytes": 138385,
+      "sha256": "3a2c92ee66eb3b5c320be80c02c4dd39c0d864889e2287ec72afa8e58b7d044e",
+      "git_blob_sha": "4330a69ced8143030892d4547e02fb3bda39ccde"
+    },
+    {
+      "path": "question4/figures/02_blue_planet_mix.svg",
+      "bytes": 19700,
+      "sha256": "2ea5a9161776ffd7fa64cb418bf8f16e73fa33b8cc20f391c460eb71a22bfc5b",
+      "git_blob_sha": "04e0d2152b055128e8842570a6bcf2c93a06bdc6"
+    },
+    {
+      "path": "question4/figures/03_rebuild_the_fleet.png",
+      "bytes": 116498,
+      "sha256": "4261c0939f0760a9fe6588be1be6f24e87fb47dcfd87a4edc182e0c0ce4d94ab",
+      "git_blob_sha": "70cded17abe48510e655ed8d71146a5c2fe47703"
+    },
+    {
+      "path": "question4/figures/03_rebuild_the_fleet.svg",
+      "bytes": 8791,
+      "sha256": "6bc506de08edea60c0b8c1254061dce42c2bcd84378f623163a982a7021d0e1f",
+      "git_blob_sha": "033a436d9584ec07698097b0b3786124719a6ba3"
+    },
+    {
+      "path": "question4/figures/04_growth_and_heat.png",
+      "bytes": 170278,
+      "sha256": "b90da7ee68289dfd296d989a7e9de6850d8efb8815fde9e18e825edd0e832913",
+      "git_blob_sha": "c47abe041adaccc9e771a2734ef3af6435c1caa4"
+    },
+    {
+      "path": "question4/figures/04_growth_and_heat.svg",
+      "bytes": 17569,
+      "sha256": "c8ed5dfb7c1eb89c5608bd0d9d70541583d640e98c59a6f47b07b3c674ffd895",
+      "git_blob_sha": "ef29e7e940667a297b7a4eea4ee786facffdc2f7"
+    },
+    {
+      "path": "question4/figures/05_space_hardware.png",
+      "bytes": 135326,
+      "sha256": "5a80eede054dd3877eb5577864b3404d34bf5de6e12af6770405ada718188f59",
+      "git_blob_sha": "3be9894f2af03a6a22386fd42f6d970e59053ae7"
+    },
+    {
+      "path": "question4/figures/05_space_hardware.svg",
+      "bytes": 14267,
+      "sha256": "a65c90eb2a5b56cf0ad3380b4397d9cf1b5ab107fe19a68f914f6e5abb10a104",
+      "git_blob_sha": "2bbefb5f22973c4a902a407849bc1622b478a459"
+    },
+    {
+      "path": "question4/figures/06_what_abundance_buys.png",
+      "bytes": 124135,
+      "sha256": "db8716ea8536df1257cbe8db0f9d4b715b66420764e4d7caa8ecaed0ea31c270",
+      "git_blob_sha": "a7a78c5eefd25ba981dbcab0c0272553d43bdf8a"
+    },
+    {
+      "path": "question4/figures/06_what_abundance_buys.svg",
+      "bytes": 9103,
+      "sha256": "40c7e87e03f66139fa717a76b31305a9abf96624e14d07a8363961b93527761c",
+      "git_blob_sha": "69a06411fa28ecebc2f8f4135c190e366dc81e47"
+    },
+    {
+      "path": "question4/heat_benchmarks.csv",
+      "bytes": 458,
+      "sha256": "2d2cc5ff29c2ff2929ca90648447ea32f42558f25cbdaf522b42e1ff050873f0",
+      "git_blob_sha": "fa2fef55ed81043fabb3ef98584820d27e355cd6"
+    },
+    {
+      "path": "question4/illustrative_services.csv",
+      "bytes": 278,
+      "sha256": "3e44b80d9166d3604eec7bd7f835848dcbb61642dc9ac0d7328d20cdfc175bb2",
+      "git_blob_sha": "f5c7ced6ce45f89db7004ae36861550d4c982197"
+    },
+    {
+      "path": "question4/inputs/BLUE_PLANET_2100_2200.md",
+      "bytes": 11498,
+      "sha256": "3556b79445d52c2b31f6fec4484d2c270446a1c8d917ee6d31ddd93b3a903c4e",
+      "git_blob_sha": "1758fd3cfc1d873c49fcca4149ec0bbc92b8401b"
+    },
+    {
+      "path": "question4/inputs/UPLOADS.md",
+      "bytes": 679,
+      "sha256": "5966cfe0e5dbd4db027a30f9700388dcbe1243ec5ab852de68efa91edbf56bff",
+      "git_blob_sha": "74b1d7194fe79e132f5fc79e012c54f4dbd24058"
+    },
+    {
+      "path": "question4/inputs/blue_planet_guardrails.csv",
+      "bytes": 421,
+      "sha256": "8f44e825efb09dcd8e3aecb6636d2b22f0212bb5b5bc1ad7e8b178918c01aef0",
+      "git_blob_sha": "e34fd5051e965db7ee8faadd8c9ebcde87a41e84"
+    },
+    {
+      "path": "question4/inputs/blue_planet_scenario_TWh.csv",
+      "bytes": 505,
+      "sha256": "0c8c08656dc94c869163f9c35148be613e653e81933043ec0090c545024ab908",
+      "git_blob_sha": "1e4ad338d7792510bb6a9d8aa1d9115c047738f6"
+    },
+    {
+      "path": "question4/inputs/fig_blue_planet_timeline.png",
+      "bytes": 84373,
+      "sha256": "a32e28d6a132af4f377b61273d2980d42d4339e97c866563e8f7ede906072ce5",
+      "git_blob_sha": "9b812dc6040810e30e71a3c8c643879a0076e758"
+    },
+    {
+      "path": "question4/inputs/fig_ocean_ladder_2200.png",
+      "bytes": 105788,
+      "sha256": "24293b7dbd0d9e515e48e9493e39ff64ba52ff036bc1e7281d682c85fca12bee",
+      "git_blob_sha": "ea7477b67dfac098eb4eab6dd4a1b67f0d3174e0"
+    },
+    {
+      "path": "question4/inputs/upload_manifest.json",
+      "bytes": 761,
+      "sha256": "ec9d97bceb5e23cf59bc3597a49007ab25b1f6f21942496b07d5de7aee9b6091",
+      "git_blob_sha": "7cf51526bfed8d27e75bcb8a5b6a81e02ff9ed9f"
+    },
+    {
+      "path": "question4/inputs.json",
+      "bytes": 6556,
+      "sha256": "d4328f73b6d8387207629be2d5417e1f2cb2bce4a0cec1b93a0b20c464ddeeab",
+      "git_blob_sha": "94b9af7d4bd577498a9af13cdd3f259577c8c08a"
+    },
+    {
+      "path": "question4/proposed_2100_mix.csv",
+      "bytes": 1751,
+      "sha256": "f77d092a5c445a4aeacc9d69dfb04c29d80044e5c90728806e0addc9dcd7374a",
+      "git_blob_sha": "73d35d7221167acb265e5830e5d21413c3403516"
+    },
+    {
+      "path": "question4/results.json",
+      "bytes": 32502,
+      "sha256": "4c2768c8822d1d8ef7636be10270b7a10e7f97259a296c149060bdc82730907b",
+      "git_blob_sha": "1fd508c25621eebe3ecbc1ad7826760c2b540a24"
+    },
+    {
+      "path": "question4/sources.json",
+      "bytes": 6090,
+      "sha256": "1c093cd40184e05e3992ca734d0df7fb3abc60ee5abc84e1a3a6d95a4ddb560b",
+      "git_blob_sha": "65327b539d734f0cd176ea7f29d3453f8d4e72ae"
+    },
+    {
+      "path": "question4/space_hardware.csv",
+      "bytes": 534,
+      "sha256": "48b89fbe9f34d432516590a65ee9709482ee06d3d9520724184ccb31c9563fe7",
+      "git_blob_sha": "fdd1b82d3ed31973d2b699c8d2fed0417fcb2e21"
     },
     {
       "path": "regional_growth.csv",
@@ -922,15 +1252,15 @@
     },
     {
       "path": "sources/README.md",
-      "bytes": 21667,
-      "sha256": "f896114b808bd13acd78c1db960b2837deef3905c0545f7fd00b633858407a24",
-      "git_blob_sha": "93388b97af76c476ff0d9d07c6162a19a71725a3"
+      "bytes": 26603,
+      "sha256": "7afb39612dbcff40b892c683da2cda97843365dc3ff244c4cec2a7dbe66864e3",
+      "git_blob_sha": "95e29a63e14e0fa07e1000e163af75b1b09d8419"
     },
     {
       "path": "sources/source_ledger.json",
-      "bytes": 37939,
-      "sha256": "721912b190d7ec2f62576b83ff2015acf26576496ebf591b565f6b2f554b160c",
-      "git_blob_sha": "d5528f877d3dde92ceadbb6a01817a8d54ecbf54"
+      "bytes": 44296,
+      "sha256": "9528a518663961e29d11e848a7e9f5fcffd1ec58c1acbe7837133273a3c3c637",
+      "git_blob_sha": "729592d8a187aace0000ce2ddccceb384ae5a31a"
     },
     {
       "path": "space_storage.csv",
