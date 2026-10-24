@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-10-24",
+  "status": "Author-proposed optimistic electricity-generation portfolios, not solved global optima or probabilistic forecasts",
+  "generation_boundary": "Annual plant output before downstream delivery and storage losses. Hourly integration and losses must be reconciled regionally.",
+  "baseline_generation_2024_TWh": 31229,
+  "offshore_baseline_end_2025_GW": 92.5,
+  "offshore_additions_2025_GW": 9.3,
+  "technologies": [
+    {"id":"solar","name":"Solar","policy_TWh":24000,"electrified_TWh":32000,"capacity_factor":0.20},
+    {"id":"land_wind","name":"Land-based wind","policy_TWh":12000,"electrified_TWh":16000,"capacity_factor":0.35},
+    {"id":"offshore_wind","name":"Offshore wind","policy_TWh":8700,"electrified_TWh":11600,"capacity_factor":0.45},
+    {"id":"tidal","name":"Tidal stream","policy_TWh":150,"electrified_TWh":200,"capacity_factor":0.35},
+    {"id":"wave","name":"Wave","policy_TWh":100,"electrified_TWh":133,"capacity_factor":0.30},
+    {"id":"otec","name":"Ocean thermal","policy_TWh":50,"electrified_TWh":67,"capacity_factor":0.85},
+    {"id":"hydro","name":"Hydropower","policy_TWh":6000,"electrified_TWh":6400,"capacity_factor":0.45},
+    {"id":"fission","name":"Fission","policy_TWh":6000,"electrified_TWh":8800,"capacity_factor":0.85},
+    {"id":"geothermal","name":"Geothermal","policy_TWh":2400,"electrified_TWh":4000,"capacity_factor":0.85},
+    {"id":"other","name":"Other clean generation","policy_TWh":600,"electrified_TWh":800,"capacity_factor":null}
+  ],
+  "ocean_ids": ["offshore_wind","tidal","wave","otec"],
+  "marine_ids": ["tidal","wave","otec"],
+  "offshore_checkpoints": {
+    "years": [2025,2030,2035,2040,2050],
+    "policy_GW": [92.5,250,500,1000,2207.001522070015],
+    "electrified_GW": [92.5,250,600,1300,2942.668696093353]
+  },
+  "assumption_notes": {
+    "portfolio": "40% solar, 20% land wind, 15% ocean in both cases. Hydro resource grows more slowly in the upper case; fission and geothermal take larger shares. Percentages are a transparent design choice to test, not a model-selected result.",
+    "ocean": "Offshore wind is wind energy located at sea. Strict marine energy supplies 300/400 TWh, or 0.5% of world generation, and is 3.33% of the proposed ocean total.",
+    "capacity_factors": "Illustrative fleet averages, not guaranteed plant performance; solar uses an AC basis. Dispatch, losses, degradation, outages, reserves, retirements and resource constraints require additional work.",
+    "fusion": "Zero required contribution; allow it to compete when a repeatable net-electric plant and full costs exist.",
+    "storage": "Storage shifts generation and consumes some of it; never added as a generation share.",
+    "other": "600/800 TWh placeholder for regional sustainable bioenergy, solar thermal and other clean generation. No unassessed biomass expansion or unpriced fossil backup is silently assumed.",
+    "cost": "No global total-system cost has been established by this analysis. Regional costs from the separate hourly experiment do not price the entire global portfolio."
+  }
+}

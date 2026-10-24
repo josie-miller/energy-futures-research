@@ -704,5 +704,102 @@
       "url": "https://science.nasa.gov/mars/facts/",
       "title": "NASA Mars facts; 24.6-hour sol"
     }
+  },
+  "question3/proposal_results.json": {
+    "WEO2025": {
+      "url": "https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf",
+      "date": "2025",
+      "basis": "Q1 verified generation pathways, 2024 baseline 31,229 TWh. Rounded planning cases 60,000 and 80,000 TWh; not final electricity consumption."
+    },
+    "GWEC2026": {
+      "url": "https://www.gwec.net/news/gwec-report-fast-track-offshore-wind-to-help-prevent-future-energy-crises",
+      "date": "2026-06-09",
+      "basis": "Industry report: 92.5 GW offshore at end-2025, 9.3 GW commissioned in 2025, forecast 420 GW by 2035."
+    },
+    "GOWA2050": {
+      "url": "https://www.irena.org/News/articles/2025/Sep/Offshore-Wind-From-83-GW-Today-to-2000-GW-by-2050",
+      "date": "2025-09-09",
+      "basis": "IRENA discussion of Global Offshore Wind Alliance 2,000 GW target. A target and feasibility assessment, not current forecast."
+    },
+    "IRENA2465": {
+      "url": "https://www.irena.org/Digital-content/Digital-Story/2024/Jul/The-Role-of-Offshore-Wind-in-the-Energy-Transition/detail",
+      "date": "2024-07",
+      "basis": "IRENA 1.5-degree scenario: 2,465 GW offshore wind in 2050. Relevant external scale comparison, not endorsement of our allocation."
+    },
+    "OffshoreResource": {
+      "url": "https://www.iea.org/reports/offshore-wind-outlook-2019",
+      "date": "2019-11-14",
+      "basis": "Technical resource above 420,000 TWh/year and illustrative new-project capacity factors 40–50%; technical potential is not commercially available electricity."
+    },
+    "IRENACost2025": {
+      "url": "https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025",
+      "date": "2026-07",
+      "basis": "Previously verified in Q2. 2025 USD global averages offshore wind $78/MWh and installed cost $2,931/kW; tidal/wave estimates use an earlier-stage evidence base."
+    },
+    "ORE2022": {
+      "url": "https://cms.ore.catapult.org.uk/wp-content/uploads/2022/10/Tidal-stream-cost-reduction-report-T3.4.1-v1.0-for-ICOE.pdf",
+      "date": "2022-10",
+      "basis": "Model: £78 ±25/MWh in 2012 pounds by 2035 assuming 2.6 GW global deployment, including 877 MW UK and 783 MW France. 1 GW UK/France instead corresponds to £98 ±32/MWh."
+    },
+    "TidalPracticalResource": {
+      "url": "https://research-repository.st-andrews.ac.uk/handle/10023/24268",
+      "date": "2021",
+      "basis": "Coles et al., peer-reviewed practical UK/Channel Islands tidal-stream estimate: 11.5 GW and 34 TWh/year. Regional, not global."
+    },
+    "TidalSystem2026": {
+      "url": "https://marineenergyjournal.org/imej/article/view/318",
+      "date": "2026-07-31",
+      "basis": "Coles and Adcock GB dispatch model: replacing up to 5 GW offshore wind with tidal reduced gas generation 20% and dispatch costs/emissions 6.5% in the selected case. Does not include full comparative capital costs."
+    },
+    "OEE2026": {
+      "url": "https://www.oceanenergy-europe.eu/wp-content/uploads/2026/09/Ocean-Energy-Stats-Trends-2026-1.pdf",
+      "date": "2026-09",
+      "basis": "European tidal cumulative generation 127 GWh through 2025; not annual global output. Report is titled Ocean Energy Market Outlook 2025."
+    },
+    "DOEFloatTarget": {
+      "url": "https://www.energy.gov/cmei/systems/floating-offshore-wind-shot",
+      "date": "2022 initiative, accessed 2026-10-24",
+      "basis": "Published historical goal $45/MWh by 2035, not $74. A research target, not a bid or verified current cost."
+    },
+    "Hywind": {
+      "url": "https://www.equinor.com/news/hywind-5-years-world-first-floating-wind-farm",
+      "date": "2022/2023 five-year report",
+      "basis": "Operator reports 54% mean output over first five years of 30 MW pilot. Not a global fleet performance assumption."
+    },
+    "HywindMaintenance": {
+      "url": "https://www.equinor.com/news/uk/heavy-maintenance-campaign-completed-on-hywind-scotland-floating-offshore-wind-farm",
+      "date": "Operator project update, accessed 2026-10-24",
+      "basis": "Heavy maintenance on all five turbines is a reminder that historical mean output does not remove repair and access risks."
+    },
+    "Geothermal": {
+      "url": "https://www.iea.org/reports/the-future-of-geothermal-energy/executive-summary",
+      "date": "2024-12",
+      "basis": "Conditional lower-cost development case of up to 800 GW and almost 6,000 TWh by 2050; not the agency's baseline forecast."
+    },
+    "MarineEnvironment": {
+      "url": "https://www.pnnl.gov/publications/new-report-provides-update-environmental-effects-marine-renewable-energy",
+      "date": "2024",
+      "basis": "OES-Environmental synthesis: larger-array effects and turbine collision risks need further monitoring. Small demonstrations do not settle cumulative impacts."
+    },
+    "WaveResource2012": {
+      "url": "https://tethys-engineering.pnnl.gov/publications/quantifying-global-wave-power-resource",
+      "date": "2012",
+      "basis": "Gunn and Stock-Williams: 2.11 TW gross resource, 4.6% captured by the chosen converter configuration. Not a universal limit for every device."
+    },
+    "OTECResource2013": {
+      "url": "https://doi.org/10.1115/1.4023868",
+      "date": "2013",
+      "basis": "Rajagopalan and Nihous model. Abstract retrieved through author-hosted research record; 7 and 14 TW correspond to different extraction/environmental cases, not an economic supply forecast."
+    },
+    "NASA2024": {
+      "url": "https://www.nasa.gov/wp-content/uploads/2024/01/otps-sbsp-report-final-tagged-approved-1-8-24-tagged-v2.pdf",
+      "date": "2024-01",
+      "basis": "Previously reviewed Q2 conceptual space-to-Earth solar models. No commercial Earth power service established."
+    },
+    "SuppliedData": {
+      "url": "inputs/UPLOADS.md",
+      "date": "2026-10-24",
+      "basis": "User-supplied raw time series, processing script, profiles and LP results; provenance and corrections recorded in MODEL_AUDIT.md. Reproduction is not independent validation of ocean-model accuracy."
+    }
   }
 }

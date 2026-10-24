@@ -1,3 +1,8 @@
 # Versions used to generate the current research graphics.
 numpy==2.0.2
 matplotlib==3.9.4
+pandas==2.2.3
+scipy==1.13.1
+highspy==1.15.1
+pytz==2026.5
+tzdata==2026.5

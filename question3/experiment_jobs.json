@@ -1,0 +1,162 @@
+[
+  {
+    "id": "original_2023_reliability_check",
+    "site": "scotland",
+    "year": "2023",
+    "float_price": null,
+    "tidal_price": null
+  },
+  {
+    "id": "scotland_3yr_no_tidal",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": null,
+    "exclude_tidal": true
+  },
+  {
+    "id": "scotland_3yr_tidal_140",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 140,
+    "exclude_tidal": false
+  },
+  {
+    "id": "scotland_3yr_tidal_120",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 120,
+    "exclude_tidal": false
+  },
+  {
+    "id": "scotland_3yr_tidal_100",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 100,
+    "exclude_tidal": false
+  },
+  {
+    "id": "scotland_3yr_tidal_90",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 90,
+    "exclude_tidal": false
+  },
+  {
+    "id": "scotland_3yr_tidal100_ldes50",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 100,
+    "ldes_energy_multiplier": 2
+  },
+  {
+    "id": "scotland_3yr_tidal100_battery_only",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 100,
+    "allow": [
+      "batt"
+    ]
+  },
+  {
+    "id": "scotland_3yr_marine30",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 140,
+    "min_marine_generation_share": 0.3
+  },
+  {
+    "id": "scotland_3yr_tidal100_wave80",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 100,
+    "wave_price": 80
+  },
+  {
+    "id": "scotland_3yr_nuclear_allowed",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 100,
+    "allow": [
+      "batt",
+      "ldes",
+      "nuc"
+    ]
+  },
+  {
+    "id": "scotland_3yr_firm100",
+    "site": "scotland",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 100,
+    "allow": [
+      "batt",
+      "ldes",
+      "nuc"
+    ],
+    "firm_price": 100
+  },
+  {
+    "id": "scotland_3yr_tidalcf30",
+    "site": "scotland_tcf30",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 100
+  },
+  {
+    "id": "scotland_3yr_tidalcf40",
+    "site": "scotland_tcf40",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 100
+  },
+  {
+    "id": "scotland_2010_no_tidal",
+    "site": "scotland_2010",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": null,
+    "exclude_tidal": true
+  },
+  {
+    "id": "scotland_2010_tidal100",
+    "site": "scotland_2010",
+    "year": null,
+    "float_price": 74,
+    "tidal_price": 100,
+    "exclude_tidal": false
+  },
+  {
+    "id": "hawaii_3yr_no_otec",
+    "site": "hawaii",
+    "year": null,
+    "float_price": 74,
+    "otec_price": null,
+    "exclude_otec": true
+  },
+  {
+    "id": "hawaii_3yr_otec100",
+    "site": "hawaii",
+    "year": null,
+    "float_price": 74,
+    "otec_price": 100,
+    "exclude_otec": false
+  },
+  {
+    "id": "hawaii_3yr_otec90",
+    "site": "hawaii",
+    "year": null,
+    "float_price": 74,
+    "otec_price": 90,
+    "exclude_otec": false
+  }
+]

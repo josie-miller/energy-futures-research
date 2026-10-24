@@ -1,0 +1,74 @@
+{
+  "status": "ok",
+  "cost_usd_mwh": 194.5561031872444,
+  "caps": {
+    "offwind_floating": 2.791370608171065,
+    "onwind": 0.0,
+    "solar": 2.9386926455401357,
+    "wave": 0.0,
+    "tidal": 0.0,
+    "batt_E": 15.235604876400187,
+    "batt_P": 1.0,
+    "ldes_E": 173.86160043759762,
+    "ldes_P": 0.9072989804628007,
+    "nuc": 0.0
+  },
+  "generation_GWh": {
+    "offwind_floating": 7999.950552509466,
+    "onwind": 0.0,
+    "solar": 1869.6707939581765,
+    "wave": 0.0,
+    "tidal": 0.0,
+    "nuclear": 0.0
+  },
+  "primary_generation_share": {
+    "offwind_floating": 0.8105630673838023,
+    "onwind": 0.0,
+    "solar": 0.1894369326161976,
+    "wave": 0.0,
+    "tidal": 0.0,
+    "nuclear": 0.0
+  },
+  "demand_GWh": 8760.0,
+  "unserved_GWh": 0.0,
+  "storage_loss_GWh": 1109.6213464676425,
+  "discarded_potential_GWh": 4891.954945506059,
+  "max_equation_error_GW": 1.4372947276797277e-12,
+  "max_constraint_error": 8.43769498715119e-15,
+  "energy_balance_error_GWh": 1.8189894035458565e-12,
+  "seconds": 17.52,
+  "attribution": "Used renewable generation attributed pro rata to available output each hour; not unique dispatch.",
+  "job": {
+    "id": "original_2023_reliability_check",
+    "site": "scotland",
+    "year": "2023",
+    "float_price": null,
+    "tidal_price": null
+  },
+  "costs": {
+    "solar": 46.2528,
+    "onwind": 129.276,
+    "offwind_floating": 247.60399999999998,
+    "tidal": 431.27950319999997,
+    "wave": 315.36,
+    "otec": 1355.55744,
+    "batt_E": 15.575354964120779,
+    "batt_P": 15.575354964120779,
+    "ldes_E": 2.7348231435813917,
+    "ldes_P": 164.0893886148835,
+    "nuc_fix": 1220.5575179999998,
+    "nuc_var": 12.0
+  },
+  "price_calibration": {},
+  "clipped_hours": {},
+  "profile_sha256": "b47f6f53cff9460c2739fc4fe38924e3e64d9774f68f5b4f0028759a44738d29",
+  "hours": 8760,
+  "profile_means": {
+    "offwind_floating": 0.5033682307973141,
+    "onwind": 0.29005502818345485,
+    "solar": 0.09528868721461187,
+    "wave": 0.2734611527700693,
+    "tidal": 0.35231842590469997
+  },
+  "note": "Exploratory isolated 1 GW flat-load case. Every hour served. Perfect foresight. No grid, reserves, explicit outages or resource limits."
+}

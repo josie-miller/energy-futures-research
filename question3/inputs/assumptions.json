@@ -1,0 +1,12 @@
+{
+ "GBP2012_to_USD2025": 1.8034,
+ "tidal_rated_speed_cf35": 1.8314489708780057,
+ "wind_speed_scaling": {
+  "sco_off": 0.9263280794943374,
+  "sco_on": 0.8878225253797081,
+  "haw_on": 1.1435605045692405,
+  "sco_wave_rated_flux_kW_per_m": 75.63826109899894,
+  "haw_wave_rated_flux_kW_per_m": 45.73018038679019
+ },
+ "discount_rate": 0.07
+}

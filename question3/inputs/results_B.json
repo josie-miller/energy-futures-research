@@ -1,0 +1,1182 @@
+[
+ {
+  "status": "ok",
+  "cost": 184.13573007758873,
+  "caps": {
+   "offwind_floating": 1.7928064992798796,
+   "onwind": 0.0,
+   "solar": 4.9121268681565144,
+   "wave": 0.0,
+   "tidal": 0.3666006609125139,
+   "batt_E": 5.539591388204914,
+   "batt_P": 0.6976107776841437,
+   "ldes_E": 124.82296410054728,
+   "ldes_P": 0.6280622734038799,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.7073250564307272,
+   "onwind": 0.0,
+   "solar": 0.2916526134641463,
+   "wave": 0.0,
+   "tidal": 0.09831610199708597,
+   "nuclear": 0.0,
+   "unserved": 0.0055306447321722026
+  },
+  "curt": 0.3019225759320695,
+  "secs": 217.7,
+  "label": "3yr|2035|no_nuclear",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {},
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 182.4737419796518,
+  "caps": {
+   "offwind_floating": 1.6763519143561443,
+   "onwind": 0.0,
+   "solar": 4.392572485888628,
+   "wave": 0.0,
+   "tidal": 0.5461129425853753,
+   "batt_E": 5.121200688229313,
+   "batt_P": 0.6469816152712594,
+   "ldes_E": 120.21824335397524,
+   "ldes_P": 0.6313890529493886,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.6769197012307633,
+   "onwind": 0.0,
+   "solar": 0.27184917927411495,
+   "wave": 0.0,
+   "tidal": 0.14642044554544767,
+   "nuclear": 0.0,
+   "unserved": 0.005487184982922257
+  },
+  "curt": 0.28056948874635557,
+  "secs": 162.0,
+  "label": "3yr|2035|no_nuclear|tidal_130",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 398.58
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 181.46567804484468,
+  "caps": {
+   "offwind_floating": 1.650867850987949,
+   "onwind": 0.0,
+   "solar": 3.9580421620652046,
+   "wave": 0.0,
+   "tidal": 0.6566737106581508,
+   "batt_E": 4.811663819290583,
+   "batt_P": 0.6226231453212308,
+   "ldes_E": 118.13818086401943,
+   "ldes_P": 0.6474666517284288,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.667590791969059,
+   "onwind": 0.0,
+   "solar": 0.25283826625237943,
+   "wave": 0.0,
+   "tidal": 0.17477882978703516,
+   "nuclear": 0.0,
+   "unserved": 0.005300610445767653
+  },
+  "curt": 0.2730448264858425,
+  "secs": 170.5,
+  "label": "3yr|2035|no_nuclear|tidal_125",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 383.25
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 180.1758473477292,
+  "caps": {
+   "offwind_floating": 1.5653568196403977,
+   "onwind": 0.0,
+   "solar": 3.434379087270232,
+   "wave": 0.0,
+   "tidal": 0.8266937759105643,
+   "batt_E": 5.274679048132265,
+   "batt_P": 0.6107831081597392,
+   "ldes_E": 110.1508766570403,
+   "ldes_P": 0.6212187274742318,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.6418620636107557,
+   "onwind": 0.0,
+   "solar": 0.22801410473962017,
+   "wave": 0.0,
+   "tidal": 0.21831751560814358,
+   "nuclear": 0.0,
+   "unserved": 0.005317311861830957
+  },
+  "curt": 0.2598923992530425,
+  "secs": 185.9,
+  "label": "3yr|2035|no_nuclear|tidal_120",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 367.92
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 176.66947321115106,
+  "caps": {
+   "offwind_floating": 1.3738920915368287,
+   "onwind": 0.0,
+   "solar": 2.6798714854378702,
+   "wave": 0.0,
+   "tidal": 1.1576135571615382,
+   "batt_E": 5.183847168751163,
+   "batt_P": 0.6762562362619502,
+   "ldes_E": 93.00317022528252,
+   "ldes_P": 0.6325016835939196,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.5894980015179018,
+   "onwind": 0.0,
+   "solar": 0.19145345811897013,
+   "wave": 0.0,
+   "tidal": 0.305837036623825,
+   "nuclear": 0.0,
+   "unserved": 0.0055631934289943645
+  },
+  "curt": 0.2295541004729259,
+  "secs": 152.1,
+  "label": "3yr|2035|no_nuclear|tidal_110",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 337.26
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 172.3972904601016,
+  "caps": {
+   "offwind_floating": 1.333929164629707,
+   "onwind": 0.0,
+   "solar": 2.5660524319579867,
+   "wave": 0.0,
+   "tidal": 1.2322039392334225,
+   "batt_E": 4.912490620092295,
+   "batt_P": 0.7025276729294576,
+   "ldes_E": 89.54405179256308,
+   "ldes_P": 0.641923734216437,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.5775120957617615,
+   "onwind": 0.0,
+   "solar": 0.18540795764073034,
+   "wave": 0.0,
+   "tidal": 0.32509060073795487,
+   "nuclear": 0.0,
+   "unserved": 0.0056108974547152525
+  },
+  "curt": 0.22513161485817157,
+  "secs": 213.1,
+  "label": "3yr|2035|no_nuclear|tidal_100",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 306.59999999999997
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 167.53477599106267,
+  "caps": {
+   "offwind_floating": 1.18560247696652,
+   "onwind": 0.0,
+   "solar": 1.853877101316044,
+   "wave": 0.0,
+   "tidal": 1.6001622411189744,
+   "batt_E": 3.4832380871589086,
+   "batt_P": 0.8452033744611313,
+   "ldes_E": 87.22326592772721,
+   "ldes_P": 0.718280934332432,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.536041688622145,
+   "onwind": 0.0,
+   "solar": 0.14331561656205166,
+   "wave": 0.0,
+   "tidal": 0.4240821441896942,
+   "nuclear": 0.0,
+   "unserved": 0.005089713435533794
+  },
+  "curt": 0.20331974389622431,
+  "secs": 212.2,
+  "label": "3yr|2035|no_nuclear|tidal_90",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 275.93999999999994
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 161.44569068998337,
+  "caps": {
+   "offwind_floating": 1.0417454293516533,
+   "onwind": 0.0,
+   "solar": 1.944312214497051,
+   "wave": 0.0,
+   "tidal": 1.804331601089575,
+   "batt_E": 3.047743761148674,
+   "batt_P": 0.9289165222896888,
+   "ldes_E": 85.89939252827999,
+   "ldes_P": 0.7296621321534561,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.483276305979315,
+   "onwind": 0.0,
+   "solar": 0.1497188567180248,
+   "wave": 0.0,
+   "tidal": 0.4754374708991788,
+   "nuclear": 0.0,
+   "unserved": 0.0047315118879551745
+  },
+  "curt": 0.20010721711884838,
+  "secs": 243.2,
+  "label": "3yr|2035|no_nuclear|tidal_80",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 245.28
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 205.27585155317144,
+  "caps": {
+   "offwind_floating": 1.9075807169765833,
+   "onwind": 0.0,
+   "solar": 5.077588426761447,
+   "wave": 0.0,
+   "tidal": 1.1051184001781638,
+   "batt_E": 22.00410018715739,
+   "batt_P": 1.124077087734907,
+   "ldes_E": -0.0,
+   "ldes_P": 0.0,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.5618453602280676,
+   "onwind": 0.0,
+   "solar": 0.22673610926915913,
+   "wave": 0.0,
+   "tidal": 0.21451684082333397,
+   "nuclear": 0.0,
+   "unserved": 0.008949321679224067
+  },
+  "curt": 0.4745214159025789,
+  "secs": 20.1,
+  "label": "3yr|2035|no_nuclear_no_LDES|tidal_100",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 306.59999999999997
+  },
+  "kw": {
+   "allow": [
+    "batt"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 166.81450000015215,
+  "caps": {
+   "offwind_floating": 7.976449143780318e-15,
+   "onwind": 0.0,
+   "solar": -1.8284513041077152e-14,
+   "wave": 0.0,
+   "tidal": -0.0,
+   "batt_E": 1.601044933007739e-14,
+   "batt_P": 6.701937765356582e-15,
+   "ldes_E": 8.748521906909445e-13,
+   "ldes_P": 3.865385378031974e-15,
+   "nuc": 1.1111111111111078
+  },
+  "share": {
+   "offwind_floating": 1.9236237300895147e-20,
+   "onwind": 0.0,
+   "solar": -1.5795990272183275e-21,
+   "wave": 0.0,
+   "tidal": 0.0,
+   "nuclear": 0.9999999999999964,
+   "unserved": -4.4756709827878494e-17
+  },
+  "curt": 0.9999995355597868,
+  "secs": 600.3,
+  "label": "3yr|2035|with_nuclear",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {},
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes",
+    "nuc"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 164.95246658709627,
+  "caps": {
+   "offwind_floating": 0.763863464018729,
+   "onwind": 0.0,
+   "solar": 1.497019351919737,
+   "wave": 0.0,
+   "tidal": 0.9724914537805922,
+   "batt_E": 2.51104523591775,
+   "batt_P": 0.5549171065459987,
+   "ldes_E": 51.223090808815364,
+   "ldes_P": 0.4194251845753929,
+   "nuc": 0.4203061796592733
+  },
+  "share": {
+   "offwind_floating": 0.41943040187721486,
+   "onwind": 0.0,
+   "solar": 0.13817125308052938,
+   "wave": 0.0,
+   "tidal": 0.338922921843415,
+   "nuclear": 0.16410245100157847,
+   "unserved": 0.002998544394994794
+  },
+  "curt": 0.0038978063236594362,
+  "secs": 869.5,
+  "label": "3yr|2035|with_nuclear|tidal_90",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 275.93999999999994
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes",
+    "nuc"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 160.6028572443513,
+  "caps": {
+   "offwind_floating": 0.8536651803209662,
+   "onwind": 0.0,
+   "solar": 1.5474830646245834,
+   "wave": 0.0,
+   "tidal": 1.458827306615812,
+   "batt_E": 2.666997859259351,
+   "batt_P": 0.7700658088020762,
+   "ldes_E": 65.14387100812915,
+   "ldes_P": 0.5721150094412915,
+   "nuc": 0.22785502030655136
+  },
+  "share": {
+   "offwind_floating": 0.4590784063984492,
+   "onwind": 0.0,
+   "solar": 0.13975348064713933,
+   "wave": 0.0,
+   "tidal": 0.4915658072239933,
+   "nuclear": 0.03746401200274256,
+   "unserved": 0.003618646114775658
+  },
+  "curt": 0.03021834032254911,
+  "secs": 681.0,
+  "label": "3yr|2035|with_nuclear|tidal_80",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 245.28
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes",
+    "nuc"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 154.63686165875262,
+  "caps": {
+   "offwind_floating": 0.9037859302190733,
+   "onwind": 0.0,
+   "solar": 2.028161691495352,
+   "wave": 0.0,
+   "tidal": 2.0831352178455202,
+   "batt_E": 3.1693593520286676,
+   "batt_P": 1.0492085725143008,
+   "ldes_E": 80.58270898112634,
+   "ldes_P": 0.7251015030317277,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.4209313433240517,
+   "onwind": 0.0,
+   "solar": 0.15399639793549086,
+   "wave": 0.0,
+   "tidal": 0.5327014219561332,
+   "nuclear": 0.0,
+   "unserved": 0.004221019325365763
+  },
+  "curt": 0.21731296522614463,
+  "secs": 354.2,
+  "label": "3yr|2035|with_nuclear|tidal_70",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 214.62
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes",
+    "nuc"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 185.90723694863289,
+  "caps": {
+   "offwind_floating": 1.5819903526432828,
+   "onwind": 0.0,
+   "solar": 3.0091878707978053,
+   "wave": 0.24814991510153536,
+   "tidal": 0.6491737446728262,
+   "batt_E": 4.499296644171991,
+   "batt_P": 0.5309424083141645,
+   "ldes_E": 118.93010695612526,
+   "ldes_P": 0.656727923686644,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.6556354009069709,
+   "onwind": 0.0,
+   "solar": 0.21556625012461444,
+   "wave": 0.05573678126801825,
+   "tidal": 0.17778143341152766,
+   "nuclear": 0.0,
+   "unserved": 0.00520690303815439
+  },
+  "curt": 0.23843926193512688,
+  "secs": 168.2,
+  "label": "3yr|2035|no_nuclear|min_marine_0.3",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {},
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ],
+   "min_ocean": 0.3,
+   "ocean_set": [
+    "tidal",
+    "wave"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 190.57314856633923,
+  "caps": {
+   "offwind_floating": 1.2259586938224332,
+   "onwind": 0.0,
+   "solar": 2.213074595446296,
+   "wave": 0.6509028676244176,
+   "tidal": 0.8830637195371522,
+   "batt_E": 4.251211397888164,
+   "batt_P": 0.4994819887290313,
+   "ldes_E": 104.42999585826121,
+   "ldes_P": 0.6165660196238297,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.5349218885087677,
+   "onwind": 0.0,
+   "solar": 0.1762513091494865,
+   "wave": 0.14402423688174804,
+   "tidal": 0.24804670947039362,
+   "nuclear": 0.0,
+   "unserved": 0.004945852767063209
+  },
+  "curt": 0.2008954714894695,
+  "secs": 217.3,
+  "label": "3yr|2035|no_nuclear|min_marine_0.5",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {},
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ],
+   "min_ocean": 0.5,
+   "ocean_set": [
+    "tidal",
+    "wave"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 170.0258183918059,
+  "caps": {
+   "offwind_floating": 1.2318550067812923,
+   "onwind": 0.0,
+   "solar": 2.195154752646413,
+   "wave": 0.6930282617307337,
+   "tidal": 0.9227247739284571,
+   "batt_E": 3.6969542216178635,
+   "batt_P": 0.5247718102886872,
+   "ldes_E": 101.38776713605866,
+   "ldes_P": 0.6433729791117342,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.5265971419009112,
+   "onwind": 0.0,
+   "solar": 0.1722598237372732,
+   "wave": 0.1496853937133638,
+   "tidal": 0.2532051711709767,
+   "nuclear": 0.0,
+   "unserved": 0.00469564014829859
+  },
+  "curt": 0.21774112125317624,
+  "secs": 278.4,
+  "label": "3yr|2035|no_nuclear|tidal_100|wave_80_colocated",
+  "site": "scotland",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 306.59999999999997,
+   "wave": 210.24
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 181.31498781624097,
+  "caps": {
+   "offwind_floating": 1.6591827217570636,
+   "onwind": 0.0,
+   "solar": 3.761535828343698,
+   "wave": 0.0,
+   "tidal": 0.7790742002774717,
+   "batt_E": 4.802112131505255,
+   "batt_P": 0.6160204509361512,
+   "ldes_E": 118.4963509769721,
+   "ldes_P": 0.6545716697228162,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.6756890747128697,
+   "onwind": 0.0,
+   "solar": 0.24573282353184034,
+   "wave": 0.0,
+   "tidal": 0.17655186233538883,
+   "nuclear": 0.0,
+   "unserved": 0.0055243023763976214
+  },
+  "curt": 0.2664340574110715,
+  "secs": 302.1,
+  "label": "3yr|2035|no_nuclear|tidal_120|tidalCF30",
+  "site": "scotland_tcf30",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 315.36
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 174.68207698465045,
+  "caps": {
+   "offwind_floating": 1.371092758840054,
+   "onwind": 0.0,
+   "solar": 2.4367275417431706,
+   "wave": 0.0,
+   "tidal": 1.3940438683104315,
+   "batt_E": 4.930841175128463,
+   "batt_P": 0.8047536108966987,
+   "ldes_E": 96.06703471395537,
+   "ldes_P": 0.6557911661893909,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.5989520172865176,
+   "onwind": 0.0,
+   "solar": 0.18055059971778695,
+   "wave": 0.0,
+   "tidal": 0.3144550501046601,
+   "nuclear": 0.0,
+   "unserved": 0.00575338120041695
+  },
+  "curt": 0.2183215017982707,
+  "secs": 231.0,
+  "label": "3yr|2035|no_nuclear|tidal_100|tidalCF30",
+  "site": "scotland_tcf30",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 262.8
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 178.62873020573224,
+  "caps": {
+   "offwind_floating": 1.465601330592874,
+   "onwind": 0.0,
+   "solar": 3.0382273406805407,
+   "wave": 0.0,
+   "tidal": 0.8802923810740125,
+   "batt_E": 5.834793334888531,
+   "batt_P": 0.6186683725670157,
+   "ldes_E": 95.79609152838768,
+   "ldes_P": 0.5909505767905535,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.6062218251312639,
+   "onwind": 0.0,
+   "solar": 0.20644748461678786,
+   "wave": 0.0,
+   "tidal": 0.26619754112125815,
+   "nuclear": 0.0,
+   "unserved": 0.005291278971242832
+  },
+  "curt": 0.2514881557868365,
+  "secs": 260.5,
+  "label": "3yr|2035|no_nuclear|tidal_120|tidalCF40",
+  "site": "scotland_tcf40",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 420.48
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 170.100914681305,
+  "caps": {
+   "offwind_floating": 1.240537541579559,
+   "onwind": 0.0,
+   "solar": 2.2435381997733286,
+   "wave": 0.0,
+   "tidal": 1.2834451776418685,
+   "batt_E": 3.8072930861325847,
+   "batt_P": 0.6915475372217854,
+   "ldes_E": 82.59351266600376,
+   "ldes_P": 0.6848837188516588,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.5399166325435423,
+   "onwind": 0.0,
+   "solar": 0.1641701616541217,
+   "wave": 0.0,
+   "tidal": 0.38564448771375737,
+   "nuclear": 0.0,
+   "unserved": 0.005047968059079908
+  },
+  "curt": 0.22430001217527462,
+  "secs": 193.3,
+  "label": "3yr|2035|no_nuclear|tidal_100|tidalCF40",
+  "site": "scotland_tcf40",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 350.4
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 167.4404128484977,
+  "caps": {
+   "offwind_floating": 1.831544457877239,
+   "onwind": 0.0,
+   "solar": 1.6835433841287206,
+   "wave": 0.0,
+   "tidal": 1.0366021587470164,
+   "batt_E": 5.014401071718425,
+   "batt_P": 0.7340245862906791,
+   "ldes_E": 103.49502136935473,
+   "ldes_P": 0.7055427185710152,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.7077427917376503,
+   "onwind": 0.0,
+   "solar": 0.13656772428031208,
+   "wave": 0.0,
+   "tidal": 0.2998152571903529,
+   "nuclear": 0.0,
+   "unserved": 0.0
+  },
+  "curt": 0.18065839204461998,
+  "secs": 25.8,
+  "label": "2010drought|2035|no_nuclear",
+  "site": "scotland_2010",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {},
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 158.92449708360715,
+  "caps": {
+   "offwind_floating": 1.4965385969270923,
+   "onwind": 0.0,
+   "solar": 1.596777300827994,
+   "wave": 0.0,
+   "tidal": 1.449542133136829,
+   "batt_E": 4.349280498979051,
+   "batt_P": 0.8167218987951445,
+   "ldes_E": 80.93944850450096,
+   "ldes_P": 0.686462980919114,
+   "nuc": 0.0
+  },
+  "share": {
+   "offwind_floating": 0.5859268288212874,
+   "onwind": 0.0,
+   "solar": 0.12937573899664814,
+   "wave": 0.0,
+   "tidal": 0.4104266941647689,
+   "nuclear": 0.0,
+   "unserved": 0.0
+  },
+  "curt": 0.18057419983465828,
+  "secs": 25.6,
+  "label": "2010drought|2035|no_nuclear|tidal_120",
+  "site": "scotland_2010",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 367.92
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 148.09716561025144,
+  "caps": {
+   "offwind_floating": 1.3862783360384299,
+   "onwind": 0.0,
+   "solar": 1.5971664544719013,
+   "wave": 0.0,
+   "tidal": 1.5650823754236836,
+   "batt_E": 4.448048744589374,
+   "batt_P": 0.8490089139986441,
+   "ldes_E": 74.72387791625253,
+   "ldes_P": 0.6916674484294401,
+   "nuc": -0.0
+  },
+  "share": {
+   "offwind_floating": 0.5492967890426143,
+   "onwind": 0.0,
+   "solar": 0.12947293518621875,
+   "wave": 0.0,
+   "tidal": 0.4431016884218163,
+   "nuclear": 0.0,
+   "unserved": 0.0
+  },
+  "curt": 0.17623121802614194,
+  "secs": 20.0,
+  "label": "2010drought|2035|no_nuclear|tidal_100",
+  "site": "scotland_2010",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "tidal": 306.59999999999997
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ]
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 98.93586848079103,
+  "caps": {
+   "offwind_floating": 0.01843126317881443,
+   "onwind": 0.3,
+   "solar": 7.560069182107927,
+   "wave": 0.06366534765424751,
+   "otec": 0.0,
+   "batt_E": 13.822358987005838,
+   "batt_P": 2.475456089825766,
+   "ldes_E": 28.554219811926373,
+   "ldes_P": 0.2855421981192638,
+   "nuc": -0.0
+  },
+  "share": {
+   "offwind_floating": 0.006683813618933521,
+   "onwind": 0.060872318153335894,
+   "solar": 0.9995249046285604,
+   "wave": 0.015992019396927074,
+   "otec": 0.0,
+   "nuclear": 0.0,
+   "unserved": 0.0017075443068082028
+  },
+  "curt": 0.36385406761416006,
+  "secs": 80.1,
+  "label": "3yr|2035|no_nuclear",
+  "site": "hawaii",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {},
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ],
+   "cap_max": {
+    "onwind": 0.3
+   }
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 98.93586848079103,
+  "caps": {
+   "offwind_floating": 0.01843126317881443,
+   "onwind": 0.3,
+   "solar": 7.560069182107927,
+   "wave": 0.06366534765424751,
+   "otec": 0.0,
+   "batt_E": 13.822358987005838,
+   "batt_P": 2.475456089825766,
+   "ldes_E": 28.554219811926373,
+   "ldes_P": 0.2855421981192638,
+   "nuc": -0.0
+  },
+  "share": {
+   "offwind_floating": 0.006683813618933521,
+   "onwind": 0.060872318153335894,
+   "solar": 0.9995249046285604,
+   "wave": 0.015992019396927074,
+   "otec": 0.0,
+   "nuclear": 0.0,
+   "unserved": 0.0017075443068082028
+  },
+  "curt": 0.36385406761416006,
+  "secs": 79.7,
+  "label": "3yr|2035|no_nuclear|otec_110",
+  "site": "hawaii",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "otec": 886.5120000000001
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ],
+   "cap_max": {
+    "onwind": 0.3
+   }
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 98.93586848079103,
+  "caps": {
+   "offwind_floating": 0.01843126317881443,
+   "onwind": 0.3,
+   "solar": 7.560069182107927,
+   "wave": 0.06366534765424751,
+   "otec": 0.0,
+   "batt_E": 13.822358987005838,
+   "batt_P": 2.475456089825766,
+   "ldes_E": 28.554219811926373,
+   "ldes_P": 0.2855421981192638,
+   "nuc": -0.0
+  },
+  "share": {
+   "offwind_floating": 0.006683813618933521,
+   "onwind": 0.060872318153335894,
+   "solar": 0.9995249046285604,
+   "wave": 0.015992019396927074,
+   "otec": 0.0,
+   "nuclear": 0.0,
+   "unserved": 0.0017075443068082028
+  },
+  "curt": 0.36385406761416006,
+  "secs": 79.0,
+  "label": "3yr|2035|no_nuclear|otec_100",
+  "site": "hawaii",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "otec": 805.92
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ],
+   "cap_max": {
+    "onwind": 0.3
+   }
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 96.99698649313557,
+  "caps": {
+   "offwind_floating": 0.0,
+   "onwind": 0.153630280487169,
+   "solar": 2.9296041008422016,
+   "wave": 0.0,
+   "otec": 0.7024066911141716,
+   "batt_E": 5.6639681040028025,
+   "batt_P": 0.9605583548692085,
+   "ldes_E": 13.741724994227422,
+   "ldes_P": 0.11866905718020947,
+   "nuc": -0.0
+  },
+  "share": {
+   "offwind_floating": 0.0,
+   "onwind": 0.032431082558633334,
+   "solar": 0.42459517966036275,
+   "wave": 0.0,
+   "otec": 0.5735784258884862,
+   "nuclear": 0.0,
+   "unserved": 0.0005621549972242759
+  },
+  "curt": 0.2108559789770198,
+  "secs": 79.3,
+  "label": "3yr|2035|no_nuclear|otec_90",
+  "site": "hawaii",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "otec": 725.328
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ],
+   "cap_max": {
+    "onwind": 0.3
+   }
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 94.20846878419187,
+  "caps": {
+   "offwind_floating": 0.0,
+   "onwind": 0.0,
+   "solar": 5.855760445416621,
+   "wave": 0.6918695748829239,
+   "otec": 0.0,
+   "batt_E": 11.321073605933881,
+   "batt_P": 1.9415655863781571,
+   "ldes_E": 29.77388195488736,
+   "ldes_P": 0.24285977049959534,
+   "nuc": -0.0
+  },
+  "share": {
+   "offwind_floating": 0.0,
+   "onwind": 0.0,
+   "solar": 0.9152589273051372,
+   "wave": 0.1778120366765891,
+   "otec": 0.0,
+   "nuclear": 0.0,
+   "unserved": 0.001851938002514445
+  },
+  "curt": 0.24025369282316433,
+  "secs": 92.7,
+  "label": "3yr|2035|no_nuclear|wave_80",
+  "site": "hawaii",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "wave": 210.24
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ],
+   "cap_max": {
+    "onwind": 0.3
+   }
+  }
+ },
+ {
+  "status": "ok",
+  "cost": 88.52978855472973,
+  "caps": {
+   "offwind_floating": 0.0,
+   "onwind": 0.0,
+   "solar": 4.632958651252596,
+   "wave": 1.3121876817894866,
+   "otec": 0.0,
+   "batt_E": 10.850460675203951,
+   "batt_P": 1.6909362030262647,
+   "ldes_E": 20.279230811835752,
+   "ldes_P": 0.1722525769881075,
+   "nuc": -0.0
+  },
+  "share": {
+   "offwind_floating": 0.0,
+   "onwind": 0.0,
+   "solar": 0.7413622163113256,
+   "wave": 0.32218251983136204,
+   "otec": 0.0,
+   "nuclear": 0.0,
+   "unserved": 0.001718407448454431
+  },
+  "curt": 0.21486019614275542,
+  "secs": 93.8,
+  "label": "3yr|2035|no_nuclear|wave_60",
+  "site": "hawaii",
+  "year": null,
+  "cost_key": "2035",
+  "overrides": {
+   "wave": 157.68
+  },
+  "kw": {
+   "allow": [
+    "batt",
+    "ldes"
+   ],
+   "cap_max": {
+    "onwind": 0.3
+   }
+  }
+ }
+]

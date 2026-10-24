@@ -1,0 +1,155 @@
+{
+  "received": "2026-10-24",
+  "files": [
+    {
+      "file": "OCEAN_FIRST_PITCH (1).md",
+      "bytes": 14907,
+      "sha256": "cc73e0e937d0a85bf58aeceb0b9e916a309eeb370189bd2153cef56535f49dde"
+    },
+    {
+      "file": "OCEAN_FIRST_PITCH.md",
+      "bytes": 12695,
+      "sha256": "195d90c2407b0e56878831a77231d98d32a95e73f58201c019dd94aec53fe3f0"
+    },
+    {
+      "file": "Unconfirmed 462875.crdownload",
+      "bytes": 3439,
+      "sha256": "41e3cdf2466d7a44357fb2e195a6d0f3f60212fc25afa60e30daa74741993f21"
+    },
+    {
+      "file": "assumptions.json",
+      "bytes": 335,
+      "sha256": "b2274ef9b6107c08b5b6a6c59be4c113da041666703ec59ca5a0c6865d3e625e"
+    },
+    {
+      "file": "costs.json",
+      "bytes": 704,
+      "sha256": "62d5f865e4a0c49f43c9e4072e04e4adab1a5ee088eb55a617c413253b2b341b"
+    },
+    {
+      "file": "fig_ocean_breakeven.png",
+      "bytes": 143514,
+      "sha256": "b83cc4bb8f1ce15628b7967ad5d7c74ec3446277852d1cfbb4aec98b9f33e297"
+    },
+    {
+      "file": "fig_ocean_resource_scale.png",
+      "bytes": 84890,
+      "sha256": "a3a3664d0ba5f040d090872ac6914fb2d69a487b5b7e626801938bf892074728"
+    },
+    {
+      "file": "fig_tidal_clock.png",
+      "bytes": 296396,
+      "sha256": "16fb0d6c135f776745ccc1666344a30e0d65699daf1a638ae8c8620227ff980d"
+    },
+    {
+      "file": "haw_offwind.csv.gz",
+      "bytes": 882251,
+      "sha256": "138aa7be33e7ad23d331de3571555e1fb0989960f2419aaacd3b70e673ddb363"
+    },
+    {
+      "file": "haw_onwind.csv.gz",
+      "bytes": 949625,
+      "sha256": "1ef69cc15e704054abfd4cc8a8da86f5b1bb52ecd52347b09bbf8f9ee4d98440"
+    },
+    {
+      "file": "haw_solar.csv.gz",
+      "bytes": 950013,
+      "sha256": "64c5a36db35d797d3b2904e857da5b69e3af27c85df7f827baf978c21059200a"
+    },
+    {
+      "file": "haw_sst.csv.gz",
+      "bytes": 68044,
+      "sha256": "c8f0142cce5759fdf94a99832e419423372dc2ddf3a7bcaca954da7f8a849855"
+    },
+    {
+      "file": "haw_wave.csv.gz",
+      "bytes": 826891,
+      "sha256": "5db5ece3c36827353a3720f9bbc3976fbd681b3563e2e4551c6cea5db62ccbfb"
+    },
+    {
+      "file": "jobs_A.json",
+      "bytes": 5009,
+      "sha256": "12eb47d01d067645c2dd6be655156fa4b8eaf23e99c3b05b9c25999883561a7d"
+    },
+    {
+      "file": "jobs_B.json",
+      "bytes": 3534,
+      "sha256": "2d87b136d351514181edf3bf36ed8bf99896f1a888e3ed58fb53c0e135e294f7"
+    },
+    {
+      "file": "ocean_lp (1).py",
+      "bytes": 5323,
+      "sha256": "7f3fed186d849d7ba96edfd9945a2f61aec72a1c8c14a9f112e3436fb427b8c2"
+    },
+    {
+      "file": "profiles_hawaii.csv",
+      "bytes": 2525976,
+      "sha256": "0453bd0a1cdc055eb1bba55cba57c48ee0442a170fe4cfd4e9571d491e9e17c2"
+    },
+    {
+      "file": "profiles_scotland.csv",
+      "bytes": 2229671,
+      "sha256": "b47f6f53cff9460c2739fc4fe38924e3e64d9774f68f5b4f0028759a44738d29"
+    },
+    {
+      "file": "profiles_scotland_2010.csv",
+      "bytes": 760145,
+      "sha256": "bd9d97c7ef3f091a2123a79282cf96b424d220cee4334f6f835ea694d04e6ee6"
+    },
+    {
+      "file": "profiles_scotland_tcf30.csv",
+      "bytes": 2260426,
+      "sha256": "e5af4023d7ed4f4696e12ca7c72c6408d075180e1267b9f08b218cea181feeb5"
+    },
+    {
+      "file": "profiles_scotland_tcf40.csv",
+      "bytes": 2202514,
+      "sha256": "47ada9dadff990d245317d0bf8315c1f33cd68a3fc32ed2587b538284c40cf91"
+    },
+    {
+      "file": "results_A.json",
+      "bytes": 35109,
+      "sha256": "8b58972f015375f03eaeb19e3b2650f4df2ef07d06a4abcb018d973bdb551ad0"
+    },
+    {
+      "file": "results_B.json",
+      "bytes": 24342,
+      "sha256": "3b2ded05ac8943e9378aeaadfd1c5083cb7b9df5b6dd23c7dcdf6f0660fd7c83"
+    },
+    {
+      "file": "results_B_summary.csv",
+      "bytes": 2594,
+      "sha256": "be6b1220402abcf6a330321980f68b731b331aab30d74e6c8ac6579349e55b84"
+    },
+    {
+      "file": "sco_current.csv.gz",
+      "bytes": 155090,
+      "sha256": "595a794cd9adfebcddfbc913d0d06a9d719c2cc491900afa21f5f3dd5c189e1a"
+    },
+    {
+      "file": "sco_offwind.csv.gz",
+      "bytes": 919246,
+      "sha256": "4ccab501d1d4adc9ee91f8e4489a7f44bbc8626012b1b67aab4a39ab00d13ca9"
+    },
+    {
+      "file": "sco_onwind.csv.gz",
+      "bytes": 957964,
+      "sha256": "2a03e57c3ae508dd2682f75e4aa88f4d5112f92ebd19db772b3683547a6749bd"
+    },
+    {
+      "file": "sco_solar.csv.gz",
+      "bytes": 957849,
+      "sha256": "90db4a50514379f795bd49f8673dd1c2bfd429e077e51751b74d8390945fe9d7"
+    },
+    {
+      "file": "sco_wave.csv.gz",
+      "bytes": 871402,
+      "sha256": "20d2758944ea4e38b17ba03ecac67fa9fdfcc2efb45544622fa0098d9d53f667"
+    },
+    {
+      "file": "site_coords.json",
+      "bytes": 297,
+      "sha256": "64bfba74eb535d65ab3147bcb22993438b4fa1d225e3744f8cd8bc3c89803a29"
+    }
+  ]
+}

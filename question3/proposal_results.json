@@ -1,0 +1,734 @@
+{
+  "as_of": "2026-10-24",
+  "sources": {
+    "WEO2025": {
+      "url": "https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf",
+      "date": "2025",
+      "basis": "Q1 verified generation pathways, 2024 baseline 31,229 TWh. Rounded planning cases 60,000 and 80,000 TWh; not final electricity consumption."
+    },
+    "GWEC2026": {
+      "url": "https://www.gwec.net/news/gwec-report-fast-track-offshore-wind-to-help-prevent-future-energy-crises",
+      "date": "2026-06-09",
+      "basis": "Industry report: 92.5 GW offshore at end-2025, 9.3 GW commissioned in 2025, forecast 420 GW by 2035."
+    },
+    "GOWA2050": {
+      "url": "https://www.irena.org/News/articles/2025/Sep/Offshore-Wind-From-83-GW-Today-to-2000-GW-by-2050",
+      "date": "2025-09-09",
+      "basis": "IRENA discussion of Global Offshore Wind Alliance 2,000 GW target. A target and feasibility assessment, not current forecast."
+    },
+    "IRENA2465": {
+      "url": "https://www.irena.org/Digital-content/Digital-Story/2024/Jul/The-Role-of-Offshore-Wind-in-the-Energy-Transition/detail",
+      "date": "2024-07",
+      "basis": "IRENA 1.5-degree scenario: 2,465 GW offshore wind in 2050. Relevant external scale comparison, not endorsement of our allocation."
+    },
+    "OffshoreResource": {
+      "url": "https://www.iea.org/reports/offshore-wind-outlook-2019",
+      "date": "2019-11-14",
+      "basis": "Technical resource above 420,000 TWh/year and illustrative new-project capacity factors 40\u201350%; technical potential is not commercially available electricity."
+    },
+    "IRENACost2025": {
+      "url": "https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025",
+      "date": "2026-07",
+      "basis": "Previously verified in Q2. 2025 USD global averages offshore wind $78/MWh and installed cost $2,931/kW; tidal/wave estimates use an earlier-stage evidence base."
+    },
+    "ORE2022": {
+      "url": "https://cms.ore.catapult.org.uk/wp-content/uploads/2022/10/Tidal-stream-cost-reduction-report-T3.4.1-v1.0-for-ICOE.pdf",
+      "date": "2022-10",
+      "basis": "Model: \u00a378 \u00b125/MWh in 2012 pounds by 2035 assuming 2.6 GW global deployment, including 877 MW UK and 783 MW France. 1 GW UK/France instead corresponds to \u00a398 \u00b132/MWh."
+    },
+    "TidalPracticalResource": {
+      "url": "https://research-repository.st-andrews.ac.uk/handle/10023/24268",
+      "date": "2021",
+      "basis": "Coles et al., peer-reviewed practical UK/Channel Islands tidal-stream estimate: 11.5 GW and 34 TWh/year. Regional, not global."
+    },
+    "TidalSystem2026": {
+      "url": "https://marineenergyjournal.org/imej/article/view/318",
+      "date": "2026-07-31",
+      "basis": "Coles and Adcock GB dispatch model: replacing up to 5 GW offshore wind with tidal reduced gas generation 20% and dispatch costs/emissions 6.5% in the selected case. Does not include full comparative capital costs."
+    },
+    "OEE2026": {
+      "url": "https://www.oceanenergy-europe.eu/wp-content/uploads/2026/09/Ocean-Energy-Stats-Trends-2026-1.pdf",
+      "date": "2026-09",
+      "basis": "European tidal cumulative generation 127 GWh through 2025; not annual global output. Report is titled Ocean Energy Market Outlook 2025."
+    },
+    "DOEFloatTarget": {
+      "url": "https://www.energy.gov/cmei/systems/floating-offshore-wind-shot",
+      "date": "2022 initiative, accessed 2026-10-24",
+      "basis": "Published historical goal $45/MWh by 2035, not $74. A research target, not a bid or verified current cost."
+    },
+    "Hywind": {
+      "url": "https://www.equinor.com/news/hywind-5-years-world-first-floating-wind-farm",
+      "date": "2022/2023 five-year report",
+      "basis": "Operator reports 54% mean output over first five years of 30 MW pilot. Not a global fleet performance assumption."
+    },
+    "HywindMaintenance": {
+      "url": "https://www.equinor.com/news/uk/heavy-maintenance-campaign-completed-on-hywind-scotland-floating-offshore-wind-farm",
+      "date": "Operator project update, accessed 2026-10-24",
+      "basis": "Heavy maintenance on all five turbines is a reminder that historical mean output does not remove repair and access risks."
+    },
+    "Geothermal": {
+      "url": "https://www.iea.org/reports/the-future-of-geothermal-energy/executive-summary",
+      "date": "2024-12",
+      "basis": "Conditional lower-cost development case of up to 800 GW and almost 6,000 TWh by 2050; not the agency's baseline forecast."
+    },
+    "MarineEnvironment": {
+      "url": "https://www.pnnl.gov/publications/new-report-provides-update-environmental-effects-marine-renewable-energy",
+      "date": "2024",
+      "basis": "OES-Environmental synthesis: larger-array effects and turbine collision risks need further monitoring. Small demonstrations do not settle cumulative impacts."
+    },
+    "WaveResource2012": {
+      "url": "https://tethys-engineering.pnnl.gov/publications/quantifying-global-wave-power-resource",
+      "date": "2012",
+      "basis": "Gunn and Stock-Williams: 2.11 TW gross resource, 4.6% captured by the chosen converter configuration. Not a universal limit for every device."
+    },
+    "OTECResource2013": {
+      "url": "https://doi.org/10.1115/1.4023868",
+      "date": "2013",
+      "basis": "Rajagopalan and Nihous model. Abstract retrieved through author-hosted research record; 7 and 14 TW correspond to different extraction/environmental cases, not an economic supply forecast."
+    },
+    "NASA2024": {
+      "url": "https://www.nasa.gov/wp-content/uploads/2024/01/otps-sbsp-report-final-tagged-approved-1-8-24-tagged-v2.pdf",
+      "date": "2024-01",
+      "basis": "Previously reviewed Q2 conceptual space-to-Earth solar models. No commercial Earth power service established."
+    },
+    "SuppliedData": {
+      "url": "inputs/UPLOADS.md",
+      "date": "2026-10-24",
+      "basis": "User-supplied raw time series, processing script, profiles and LP results; provenance and corrections recorded in MODEL_AUDIT.md. Reproduction is not independent validation of ocean-model accuracy."
+    }
+  },
+  "portfolio": {
+    "policy": {
+      "total_TWh": 60000,
+      "rows": [
+        {
+          "id": "solar",
+          "name": "Solar",
+          "TWh": 24000,
+          "share": 0.4,
+          "GW": 13698.630136986301,
+          "capacity_factor": 0.2
+        },
+        {
+          "id": "land_wind",
+          "name": "Land-based wind",
+          "TWh": 12000,
+          "share": 0.2,
+          "GW": 3913.894324853229,
+          "capacity_factor": 0.35
+        },
+        {
+          "id": "offshore_wind",
+          "name": "Offshore wind",
+          "TWh": 8700,
+          "share": 0.145,
+          "GW": 2207.001522070015,
+          "capacity_factor": 0.45
+        },
+        {
+          "id": "tidal",
+          "name": "Tidal stream",
+          "TWh": 150,
+          "share": 0.0025,
+          "GW": 48.923679060665364,
+          "capacity_factor": 0.35
+        },
+        {
+          "id": "wave",
+          "name": "Wave",
+          "TWh": 100,
+          "share": 0.0016666666666666668,
+          "GW": 38.05175038051751,
+          "capacity_factor": 0.3
+        },
+        {
+          "id": "otec",
+          "name": "Ocean thermal",
+          "TWh": 50,
+          "share": 0.0008333333333333334,
+          "GW": 6.715014773032501,
+          "capacity_factor": 0.85
+        },
+        {
+          "id": "hydro",
+          "name": "Hydropower",
+          "TWh": 6000,
+          "share": 0.1,
+          "GW": 1522.0700152207,
+          "capacity_factor": 0.45
+        },
+        {
+          "id": "fission",
+          "name": "Fission",
+          "TWh": 6000,
+          "share": 0.1,
+          "GW": 805.8017727639001,
+          "capacity_factor": 0.85
+        },
+        {
+          "id": "geothermal",
+          "name": "Geothermal",
+          "TWh": 2400,
+          "share": 0.04,
+          "GW": 322.32070910556007,
+          "capacity_factor": 0.85
+        },
+        {
+          "id": "other",
+          "name": "Other clean generation",
+          "TWh": 600,
+          "share": 0.01,
+          "GW": null,
+          "capacity_factor": null
+        }
+      ],
+      "ocean_TWh": 9000,
+      "marine_TWh": 300,
+      "annual_growth_2024_2050": 0.025433330868135817,
+      "annual_added_output_TWh": 1106.576923076923,
+      "offshore_average_net_additions_GW_year": 84.58006088280061,
+      "offshore_build_multiple_2025": 9.094630202451677
+    },
+    "electrified": {
+      "total_TWh": 80000,
+      "rows": [
+        {
+          "id": "solar",
+          "name": "Solar",
+          "TWh": 32000,
+          "share": 0.4,
+          "GW": 18264.8401826484,
+          "capacity_factor": 0.2
+        },
+        {
+          "id": "land_wind",
+          "name": "Land-based wind",
+          "TWh": 16000,
+          "share": 0.2,
+          "GW": 5218.5257664709725,
+          "capacity_factor": 0.35
+        },
+        {
+          "id": "offshore_wind",
+          "name": "Offshore wind",
+          "TWh": 11600,
+          "share": 0.145,
+          "GW": 2942.6686960933534,
+          "capacity_factor": 0.45
+        },
+        {
+          "id": "tidal",
+          "name": "Tidal stream",
+          "TWh": 200,
+          "share": 0.0025,
+          "GW": 65.23157208088715,
+          "capacity_factor": 0.35
+        },
+        {
+          "id": "wave",
+          "name": "Wave",
+          "TWh": 133,
+          "share": 0.0016625,
+          "GW": 50.60882800608829,
+          "capacity_factor": 0.3
+        },
+        {
+          "id": "otec",
+          "name": "Ocean thermal",
+          "TWh": 67,
+          "share": 0.0008375,
+          "GW": 8.998119795863552,
+          "capacity_factor": 0.85
+        },
+        {
+          "id": "hydro",
+          "name": "Hydropower",
+          "TWh": 6400,
+          "share": 0.08,
+          "GW": 1623.5413495687467,
+          "capacity_factor": 0.45
+        },
+        {
+          "id": "fission",
+          "name": "Fission",
+          "TWh": 8800,
+          "share": 0.11,
+          "GW": 1181.8426000537202,
+          "capacity_factor": 0.85
+        },
+        {
+          "id": "geothermal",
+          "name": "Geothermal",
+          "TWh": 4000,
+          "share": 0.05,
+          "GW": 537.2011818426,
+          "capacity_factor": 0.85
+        },
+        {
+          "id": "other",
+          "name": "Other clean generation",
+          "TWh": 800,
+          "share": 0.01,
+          "GW": null,
+          "capacity_factor": null
+        }
+      ],
+      "ocean_TWh": 12000,
+      "marine_TWh": 400,
+      "annual_growth_2024_2050": 0.03684244077613008,
+      "annual_added_output_TWh": 1875.8076923076924,
+      "offshore_average_net_additions_GW_year": 114.00674784373413,
+      "offshore_build_multiple_2025": 12.2587900907241
+    }
+  },
+  "data_audit": {
+    "profiles_hawaii.csv": {
+      "hours": 26304,
+      "start": "2022-01-01 00:00:00",
+      "end": "2024-12-31 23:00:00",
+      "yearly_means": {
+        "2022": {
+          "offwind_floating": 0.3989237446459765,
+          "onwind": 0.2235115082400095,
+          "solar": 0.21559689497716894,
+          "wave": 0.2808092734754529,
+          "otec": 0.9190245834283892
+        },
+        "2023": {
+          "offwind_floating": 0.408453268682874,
+          "onwind": 0.230030469462418,
+          "solar": 0.2099762648401826,
+          "wave": 0.29070249292048655,
+          "otec": 0.9289097803203035
+        },
+        "2024": {
+          "offwind_floating": 0.4600173854018448,
+          "onwind": 0.2655194788033731,
+          "solar": 0.21126834016393442,
+          "wave": 0.27695832786380475,
+          "otec": 0.9165289714230215
+        }
+      },
+      "above_one_hours": {
+        "offwind_floating": 0,
+        "onwind": 0,
+        "solar": 0,
+        "wave": 0,
+        "otec": 6379
+      },
+      "sha256": "0453bd0a1cdc055eb1bba55cba57c48ee0442a170fe4cfd4e9571d491e9e17c2"
+    },
+    "profiles_scotland.csv": {
+      "hours": 26304,
+      "start": "2022-01-01 00:00:00",
+      "end": "2024-12-31 23:00:00",
+      "yearly_means": {
+        "2022": {
+          "offwind_floating": 0.5806128056703398,
+          "onwind": 0.34335186741816853,
+          "solar": 0.09184191324200913,
+          "wave": 0.31675933385205646,
+          "tidal": 0.36020366747831745
+        },
+        "2023": {
+          "offwind_floating": 0.5033682307973141,
+          "onwind": 0.29005502818345485,
+          "solar": 0.09528868721461187,
+          "wave": 0.2734611527700693,
+          "tidal": 0.35231842590469997
+        },
+        "2024": {
+          "offwind_floating": 0.5673554764653693,
+          "onwind": 0.3335311854427397,
+          "solar": 0.09179432832422586,
+          "wave": 0.28977169652831963,
+          "tidal": 0.3375121199866726
+        }
+      },
+      "above_one_hours": {
+        "offwind_floating": 0,
+        "onwind": 0,
+        "solar": 0,
+        "wave": 0,
+        "tidal": 0
+      },
+      "sha256": "b47f6f53cff9460c2739fc4fe38924e3e64d9774f68f5b4f0028759a44738d29"
+    },
+    "profiles_scotland_2010.csv": {
+      "hours": 8760,
+      "start": "2010-01-01 00:00:00",
+      "end": "2010-12-31 23:00:00",
+      "yearly_means": {
+        "2010": {
+          "offwind_floating": 0.4776794598231325,
+          "onwind": 0.2809752979042674,
+          "solar": 0.09283474200913241,
+          "wave": 0.2209578429629024,
+          "tidal": 0.35231842590469997
+        }
+      },
+      "above_one_hours": {
+        "offwind_floating": 0,
+        "onwind": 0,
+        "solar": 0,
+        "wave": 0,
+        "tidal": 0
+      },
+      "sha256": "bd9d97c7ef3f091a2123a79282cf96b424d220cee4334f6f835ea694d04e6ee6"
+    },
+    "profiles_scotland_tcf30.csv": {
+      "hours": 26304,
+      "start": "2022-01-01 00:00:00",
+      "end": "2024-12-31 23:00:00",
+      "yearly_means": {
+        "2022": {
+          "offwind_floating": 0.5806128056703398,
+          "onwind": 0.34335186741816853,
+          "solar": 0.09184191324200913,
+          "wave": 0.31675933385205646,
+          "tidal": 0.3099839845809926
+        },
+        "2023": {
+          "offwind_floating": 0.5033682307973141,
+          "onwind": 0.29005502818345485,
+          "solar": 0.09528868721461187,
+          "wave": 0.2734611527700693,
+          "tidal": 0.30140092326882667
+        },
+        "2024": {
+          "offwind_floating": 0.5673554764653693,
+          "onwind": 0.3335311854427397,
+          "solar": 0.09179432832422586,
+          "wave": 0.28977169652831963,
+          "tidal": 0.28864619845576966
+        }
+      },
+      "above_one_hours": {
+        "offwind_floating": 0,
+        "onwind": 0,
+        "solar": 0,
+        "wave": 0,
+        "tidal": 0
+      },
+      "sha256": "e5af4023d7ed4f4696e12ca7c72c6408d075180e1267b9f08b218cea181feeb5"
+    },
+    "profiles_scotland_tcf40.csv": {
+      "hours": 26304,
+      "start": "2022-01-01 00:00:00",
+      "end": "2024-12-31 23:00:00",
+      "yearly_means": {
+        "2022": {
+          "offwind_floating": 0.5806128056703398,
+          "onwind": 0.34335186741816853,
+          "solar": 0.09184191324200913,
+          "wave": 0.31675933385205646,
+          "tidal": 0.4097135112905169
+        },
+        "2023": {
+          "offwind_floating": 0.5033682307973141,
+          "onwind": 0.29005502818345485,
+          "solar": 0.09528868721461187,
+          "wave": 0.2734611527700693,
+          "tidal": 0.403179448936812
+        },
+        "2024": {
+          "offwind_floating": 0.5673554764653693,
+          "onwind": 0.3335311854427397,
+          "solar": 0.09179432832422586,
+          "wave": 0.28977169652831963,
+          "tidal": 0.38714226643995886
+        }
+      },
+      "above_one_hours": {
+        "offwind_floating": 0,
+        "onwind": 0,
+        "solar": 0,
+        "wave": 0,
+        "tidal": 0
+      },
+      "sha256": "47ada9dadff990d245317d0bf8315c1f33cd68a3fc32ed2587b538284c40cf91"
+    },
+    "2010_tide_equals_2023": true,
+    "worst_wind_week_2023": {
+      "start": "2023-06-01 05:00:00",
+      "end": "2023-06-08 04:00:00",
+      "means": {
+        "offwind_floating": 0.018522720667389747,
+        "onwind": 0.004858728465415226,
+        "solar": 0.19993464285714285,
+        "wave": 0.03434388315634758,
+        "tidal": 0.4892542252819561
+      }
+    },
+    "correlation_2022_2024": {
+      "offwind_floating": {
+        "offwind_floating": 1.0,
+        "wave": 0.4130265395258526,
+        "tidal": 0.011211616196155896
+      },
+      "wave": {
+        "offwind_floating": 0.4130265395258526,
+        "wave": 1.0,
+        "tidal": 0.024517173408685845
+      },
+      "tidal": {
+        "offwind_floating": 0.011211616196155896,
+        "wave": 0.024517173408685845,
+        "tidal": 1.0
+      }
+    },
+    "sco_current.csv.gz": {
+      "missing": {
+        "ocean_current_velocity": 120
+      },
+      "first": "2022-01-01 00:00:00",
+      "last": "2024-12-31 23:00:00"
+    },
+    "haw_sst.csv.gz": {
+      "missing": {
+        "sea_surface_temperature": 7830
+      },
+      "first": "2022-01-01 00:00:00",
+      "last": "2024-12-31 23:00:00"
+    }
+  },
+  "experiments": [
+    {
+      "status": "ok",
+      "cost_usd_mwh": 194.5561031872444,
+      "caps": {
+        "offwind_floating": 2.791370608171065,
+        "onwind": 0.0,
+        "solar": 2.9386926455401357,
+        "wave": 0.0,
+        "tidal": 0.0,
+        "batt_E": 15.235604876400187,
+        "batt_P": 1.0,
+        "ldes_E": 173.86160043759762,
+        "ldes_P": 0.9072989804628007,
+        "nuc": 0.0
+      },
+      "generation_GWh": {
+        "offwind_floating": 7999.950552509466,
+        "onwind": 0.0,
+        "solar": 1869.6707939581765,
+        "wave": 0.0,
+        "tidal": 0.0,
+        "nuclear": 0.0
+      },
+      "primary_generation_share": {
+        "offwind_floating": 0.8105630673838023,
+        "onwind": 0.0,
+        "solar": 0.1894369326161976,
+        "wave": 0.0,
+        "tidal": 0.0,
+        "nuclear": 0.0
+      },
+      "demand_GWh": 8760.0,
+      "unserved_GWh": 0.0,
+      "storage_loss_GWh": 1109.6213464676425,
+      "discarded_potential_GWh": 4891.954945506059,
+      "max_equation_error_GW": 1.4372947276797277e-12,
+      "max_constraint_error": 8.43769498715119e-15,
+      "energy_balance_error_GWh": 1.8189894035458565e-12,
+      "seconds": 17.52,
+      "attribution": "Used renewable generation attributed pro rata to available output each hour; not unique dispatch.",
+      "job": {
+        "id": "original_2023_reliability_check",
+        "site": "scotland",
+        "year": "2023",
+        "float_price": null,
+        "tidal_price": null
+      },
+      "costs": {
+        "solar": 46.2528,
+        "onwind": 129.276,
+        "offwind_floating": 247.60399999999998,
+        "tidal": 431.27950319999997,
+        "wave": 315.36,
+        "otec": 1355.55744,
+        "batt_E": 15.575354964120779,
+        "batt_P": 15.575354964120779,
+        "ldes_E": 2.7348231435813917,
+        "ldes_P": 164.0893886148835,
+        "nuc_fix": 1220.5575179999998,
+        "nuc_var": 12.0
+      },
+      "price_calibration": {},
+      "clipped_hours": {},
+      "profile_sha256": "b47f6f53cff9460c2739fc4fe38924e3e64d9774f68f5b4f0028759a44738d29",
+      "hours": 8760,
+      "profile_means": {
+        "offwind_floating": 0.5033682307973141,
+        "onwind": 0.29005502818345485,
+        "solar": 0.09528868721461187,
+        "wave": 0.2734611527700693,
+        "tidal": 0.35231842590469997
+      },
+      "note": "Exploratory isolated 1 GW flat-load case. Every hour served. Perfect foresight. No grid, reserves, explicit outages or resource limits."
+    },
+    {
+      "status": "ok",
+      "cost_usd_mwh": 220.00071591982962,
+      "caps": {
+        "offwind_floating": 0.5844119178840662,
+        "onwind": 4.3181249299632025,
+        "solar": 4.760463569704739,
+        "wave": 0.0,
+        "batt_E": 23.35242772294975,
+        "batt_P": 1.793735361280934,
+        "ldes_E": 124.24775406348037,
+        "ldes_P": 1.2724732938061254,
+        "nuc": 0.0
+      },
+      "generation_GWh": {
+        "offwind_floating": 4637.0129608279285,
+        "onwind": 16179.972250597197,
+        "solar": 7141.051281184857,
+        "wave": 0.0,
+        "nuclear": 0.0
+      },
+      "primary_generation_share": {
+        "offwind_floating": 0.16585617384302392,
+        "onwind": 0.5787234827765524,
+        "solar": 0.25542034338042363,
+        "wave": 0.0,
+        "nuclear": 0.0
+      },
+      "demand_GWh": 26304.0,
+      "unserved_GWh": 0.0,
+      "storage_loss_GWh": 1654.0364926099833,
+      "discarded_potential_GWh": 28756.687775656534,
+      "max_equation_error_GW": 2.4522606167920458e-12,
+      "max_constraint_error": 6.5503158452884236e-15,
+      "energy_balance_error_GWh": 0.0,
+      "seconds": 102.79,
+      "attribution": "Used renewable generation attributed pro rata to available output each hour; not unique dispatch.",
+      "job": {
+        "id": "scotland_3yr_no_tidal",
+        "site": "scotland",
+        "year": null,
+        "float_price": 74,
+        "tidal_price": null,
+        "exclude_tidal": true
+      },
+      "costs": {
+        "solar": 46.2528,
+        "onwind": 129.276,
+        "offwind_floating": 356.8307952842294,
+        "tidal": 431.27950319999997,
+        "wave": 315.36,
+        "otec": 1355.55744,
+        "batt_E": 15.575354964120779,
+        "batt_P": 15.575354964120779,
+        "ldes_E": 2.7348231435813917,
+        "ldes_P": 164.0893886148835,
+        "nuc_fix": 1220.5575179999998,
+        "nuc_var": 12.0
+      },
+      "price_calibration": {
+        "offwind_floating": {
+          "reference_lcoe_usd_mwh": 74,
+          "reference_2022_2024_mean": 0.5504609331177178,
+          "fixed_usd_kw_year": 356.8307952842294
+        }
+      },
+      "clipped_hours": {},
+      "profile_sha256": "b47f6f53cff9460c2739fc4fe38924e3e64d9774f68f5b4f0028759a44738d29",
+      "hours": 26304,
+      "profile_means": {
+        "offwind_floating": 0.5504609331177178,
+        "onwind": 0.3223229295316016,
+        "solar": 0.09297389902676398,
+        "wave": 0.29332748042558476
+      },
+      "note": "Exploratory isolated 1 GW flat-load case. Every hour served. Perfect foresight. No grid, reserves, explicit outages or resource limits."
+    },
+    {
+      "status": "ok",
+      "cost_usd_mwh": 212.8971301687024,
+      "caps": {
+        "offwind_floating": 0.03323715292990889,
+        "onwind": 3.668097984705267,
+        "solar": 1.2547852113700737,
+        "wave": 0.0,
+        "tidal": 1.0644915712750997,
+        "batt_E": 12.159582834358769,
+        "batt_P": 1.1444017835443914,
+        "ldes_E": 171.2987738128089,
+        "ldes_P": 1.1473987541392787,
+        "nuc": 0.0
+      },
+      "generation_GWh": {
+        "offwind_floating": 347.3351169660924,
+        "onwind": 19061.802114377642,
+        "solar": 2680.65232501606,
+        "wave": 0.0,
+        "tidal": 7553.494111312583,
+        "nuclear": 0.0
+      },
+      "primary_generation_share": {
+        "offwind_floating": 0.011717160651297224,
+        "onwind": 0.643039493467641,
+        "solar": 0.09043034351620964,
+        "wave": 0.0,
+        "tidal": 0.2548130023648521,
+        "nuclear": 0.0
+      },
+      "demand_GWh": 26304.0,
+      "unserved_GWh": 0.0,
+      "storage_loss_GWh": 3339.283667672375,
+      "discarded_potential_GWh": 14806.324665306707,
+      "max_equation_error_GW": 2.5941471193391408e-12,
+      "max_constraint_error": 1.1355361095866101e-12,
+      "energy_balance_error_GWh": 3.637978807091713e-12,
+      "seconds": 161.54,
+      "attribution": "Used renewable generation attributed pro rata to available output each hour; not unique dispatch.",
+      "job": {
+        "id": "scotland_3yr_tidal_140",
+        "site": "scotland",
+        "year": null,
+        "float_price": 74,
+        "tidal_price": 140,
+        "exclude_tidal": false
+      },
+      "costs": {
+        "solar": 46.2528,
+        "onwind": 129.276,
+        "offwind_floating": 356.8307952842294,
+        "tidal": 429.2399999999144,
+        "wave": 315.36,
+        "otec": 1355.55744,
+        "batt_E": 15.575354964120779,
+        "batt_P": 15.575354964120779,
+        "ldes_E": 2.7348231435813917,
+        "ldes_P": 164.0893886148835,
+        "nuc_fix": 1220.5575179999998,
+        "nuc_var": 12.0
+      },
+      "price_calibration": {
+        "offwind_floating": {
+          "reference_lcoe_usd_mwh": 74,
+          "reference_2022_2024_mean": 0.5504609331177178,
+          "fixed_usd_kw_year": 356.8307952842294
+        },
+        "tidal": {
+          "reference_lcoe_usd_mwh": 140,
+          "reference_2022_2024_mean": 0.3499999999999302,
+          "fixed_usd_kw_year": 429.2399999999144
+        }
+      },
+      "clipped_hours": {},
+      "profile_sha256": "b47f6f53cff9460c2739fc4fe38924e3e64d9774f68f5b4f0028759a44738d29",
+      "hours": 26304,
+      "profile_means": {
+        "offwind_floating": 0.5504609331177178,
+        "onwind": 0.3223229295316016,
+        "solar": 0.09297389902676398,
+        "wave": 0.29332748042558476,
+        "tidal": 0.3499999999999302
+      },
+      "note": "Exploratory isolated 1 GW flat-load case. Every hour served. Perfect foresight. No grid, reserves, explicit outages or resource limits."
+    }
+  ]
+}

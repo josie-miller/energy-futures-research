@@ -126,6 +126,28 @@ Original research reports are linked rather than copied into the repository. The
 - [moon](https://www.nasa.gov/lunar-surface-technology/)
 - [mars_day](https://science.nasa.gov/mars/facts/)
 
+### question3/proposal_results.json
+
+- [WEO2025](https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf): 2025; Q1 verified generation pathways, 2024 baseline 31,229 TWh. Rounded planning cases 60,000 and 80,000 TWh; not final electricity consumption.
+- [GWEC2026](https://www.gwec.net/news/gwec-report-fast-track-offshore-wind-to-help-prevent-future-energy-crises): 2026-06-09; Industry report: 92.5 GW offshore at end-2025, 9.3 GW commissioned in 2025, forecast 420 GW by 2035.
+- [GOWA2050](https://www.irena.org/News/articles/2025/Sep/Offshore-Wind-From-83-GW-Today-to-2000-GW-by-2050): 2025-09-09; IRENA discussion of Global Offshore Wind Alliance 2,000 GW target. A target and feasibility assessment, not current forecast.
+- [IRENA2465](https://www.irena.org/Digital-content/Digital-Story/2024/Jul/The-Role-of-Offshore-Wind-in-the-Energy-Transition/detail): 2024-07; IRENA 1.5-degree scenario: 2,465 GW offshore wind in 2050. Relevant external scale comparison, not endorsement of our allocation.
+- [OffshoreResource](https://www.iea.org/reports/offshore-wind-outlook-2019): 2019-11-14; Technical resource above 420,000 TWh/year and illustrative new-project capacity factors 40–50%; technical potential is not commercially available electricity.
+- [IRENACost2025](https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025): 2026-07; Previously verified in Q2. 2025 USD global averages offshore wind $78/MWh and installed cost $2,931/kW; tidal/wave estimates use an earlier-stage evidence base.
+- [ORE2022](https://cms.ore.catapult.org.uk/wp-content/uploads/2022/10/Tidal-stream-cost-reduction-report-T3.4.1-v1.0-for-ICOE.pdf): 2022-10; Model: £78 ±25/MWh in 2012 pounds by 2035 assuming 2.6 GW global deployment, including 877 MW UK and 783 MW France. 1 GW UK/France instead corresponds to £98 ±32/MWh.
+- [TidalPracticalResource](https://research-repository.st-andrews.ac.uk/handle/10023/24268): 2021; Coles et al., peer-reviewed practical UK/Channel Islands tidal-stream estimate: 11.5 GW and 34 TWh/year. Regional, not global.
+- [TidalSystem2026](https://marineenergyjournal.org/imej/article/view/318): 2026-07-31; Coles and Adcock GB dispatch model: replacing up to 5 GW offshore wind with tidal reduced gas generation 20% and dispatch costs/emissions 6.5% in the selected case. Does not include full comparative capital costs.
+- [OEE2026](https://www.oceanenergy-europe.eu/wp-content/uploads/2026/09/Ocean-Energy-Stats-Trends-2026-1.pdf): 2026-09; European tidal cumulative generation 127 GWh through 2025; not annual global output. Report is titled Ocean Energy Market Outlook 2025.
+- [DOEFloatTarget](https://www.energy.gov/cmei/systems/floating-offshore-wind-shot): 2022 initiative, accessed 2026-10-24; Published historical goal $45/MWh by 2035, not $74. A research target, not a bid or verified current cost.
+- [Hywind](https://www.equinor.com/news/hywind-5-years-world-first-floating-wind-farm): 2022/2023 five-year report; Operator reports 54% mean output over first five years of 30 MW pilot. Not a global fleet performance assumption.
+- [HywindMaintenance](https://www.equinor.com/news/uk/heavy-maintenance-campaign-completed-on-hywind-scotland-floating-offshore-wind-farm): Operator project update, accessed 2026-10-24; Heavy maintenance on all five turbines is a reminder that historical mean output does not remove repair and access risks.
+- [Geothermal](https://www.iea.org/reports/the-future-of-geothermal-energy/executive-summary): 2024-12; Conditional lower-cost development case of up to 800 GW and almost 6,000 TWh by 2050; not the agency's baseline forecast.
+- [MarineEnvironment](https://www.pnnl.gov/publications/new-report-provides-update-environmental-effects-marine-renewable-energy): 2024; OES-Environmental synthesis: larger-array effects and turbine collision risks need further monitoring. Small demonstrations do not settle cumulative impacts.
+- [WaveResource2012](https://tethys-engineering.pnnl.gov/publications/quantifying-global-wave-power-resource): 2012; Gunn and Stock-Williams: 2.11 TW gross resource, 4.6% captured by the chosen converter configuration. Not a universal limit for every device.
+- [OTECResource2013](https://doi.org/10.1115/1.4023868): 2013; Rajagopalan and Nihous model. Abstract retrieved through author-hosted research record; 7 and 14 TW correspond to different extraction/environmental cases, not an economic supply forecast.
+- [NASA2024](https://www.nasa.gov/wp-content/uploads/2024/01/otps-sbsp-report-final-tagged-approved-1-8-24-tagged-v2.pdf): 2024-01; Previously reviewed Q2 conceptual space-to-Earth solar models. No commercial Earth power service established.
+- [SuppliedData](inputs/UPLOADS.md): 2026-10-24; User-supplied raw time series, processing script, profiles and LP results; provenance and corrections recorded in MODEL_AUDIT.md. Reproduction is not independent validation of ocean-model accuracy.
+
 ## Boundaries
 
 WEO 2025 Annex A identifies CC BY-NC-SA 4.0, and Annex B CC BY 4.0. Retain the figure attributions. Other sources have their own terms. Company releases establish announcements, not independent verification. Historical sources are dated and must not be presented as fresh observations.
