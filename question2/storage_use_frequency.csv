@@ -1,0 +1,4 @@
+full_cycles_per_year,installed_USD_kWh,real_rate,life_years,annual_opex_fraction,usable_fraction,discharge_efficiency,round_trip_efficiency,charging_USD_MWh,asset_USD_per_delivered_MWh,charging_USD_per_delivered_MWh,total_USD_per_delivered_MWh
+350,140,0.07,15,0.02,0.8,0.95,0.88,40,68.3129603689508,45.45454545454545,113.76750582349625
+52,140,0.07,15,0.02,0.8,0.95,0.88,40,459.79877171409186,45.45454545454545,505.2533171686373
+10,140,0.07,15,0.02,0.8,0.95,0.88,40,2390.953612913278,45.45454545454545,2436.4081583678235

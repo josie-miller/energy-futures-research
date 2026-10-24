@@ -1,0 +1,5 @@
+case,dark_hours,load_kW,battery_kWh,battery_tonnes_at_200Wh_kg,basis
+Earth orbit: 35 min,0.5833333333333334,100,76.75438596491229,0.38377192982456143,Representative low-Earth-orbit eclipse
+Mars: 12.3 h night,12.3,100,1618.421052631579,8.092105263157894,Approximate half-sol
+Mars: 72 h no solar,72,100,9473.684210526315,47.368421052631575,"Analyst stress case, not a weather forecast"
+Moon: 14 d night,336,100,44210.52631578947,221.05263157894737,Illustrative non-polar site

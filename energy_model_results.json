@@ -1,0 +1,251 @@
+{
+  "as_of": "2026-10-24",
+  "sources": {
+    "weo": {
+      "url": "https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf",
+      "pages": "423, 429, 437; 2024 fleet capacity on page 423",
+      "title": "IEA World Energy Outlook 2025, Annex A",
+      "license": "Annex A: CC BY-NC-SA 4.0"
+    },
+    "lazard": {
+      "url": "https://lazard.com/media/kcfconhf/lazards-lcoeplus_vf.pdf",
+      "pages": "7 and associated notes",
+      "title": "Lazard LCOE+ v19, July 2026"
+    },
+    "irena": {
+      "url": "https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025",
+      "pages": "153\u2013156",
+      "title": "IRENA Renewable Power Generation Costs in 2025, published 2026"
+    },
+    "nasa_mars": {
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/02/iparch07-wp-mars-surface-power.pdf",
+      "pages": "2 and 6",
+      "title": "NASA Mars Surface Power, February 2025"
+    },
+    "leo": {
+      "url": "https://www.nasa.gov/wp-content/uploads/2023/05/162182main-sts-116-press-kit.pdf",
+      "title": "NASA STS-116 press kit; representative 35-minute eclipse"
+    },
+    "moon": {
+      "url": "https://www.nasa.gov/lunar-surface-technology/",
+      "title": "NASA Lunar Surface Technology; approximately 14-day night"
+    },
+    "mars_day": {
+      "url": "https://science.nasa.gov/mars/facts/",
+      "title": "NASA Mars facts; 24.6-hour sol"
+    }
+  },
+  "published_generation": [
+    {
+      "case": "2024 actual",
+      "generation_TWh": 31229,
+      "electricity_demand_TWh": 27290
+    },
+    {
+      "case": "2050 stated policies",
+      "generation_TWh": 58081,
+      "electricity_demand_TWh": 49657
+    },
+    {
+      "case": "2050 current policies",
+      "generation_TWh": 59426,
+      "electricity_demand_TWh": 50667
+    },
+    {
+      "case": "2050 net-zero pathway",
+      "generation_TWh": 80175,
+      "electricity_demand_TWh": null
+    }
+  ],
+  "regional_growth": [
+    {
+      "region": "China",
+      "demand_2024_TWh": 9102,
+      "demand_2050_TWh": 16131,
+      "increase_TWh": 7029
+    },
+    {
+      "region": "India",
+      "demand_2024_TWh": 1644,
+      "demand_2050_TWh": 4803,
+      "increase_TWh": 3159
+    },
+    {
+      "region": "Southeast Asia",
+      "demand_2024_TWh": 1317,
+      "demand_2050_TWh": 3197,
+      "increase_TWh": 1880
+    },
+    {
+      "region": "European Union",
+      "demand_2024_TWh": 2437,
+      "demand_2050_TWh": 4178,
+      "increase_TWh": 1741
+    },
+    {
+      "region": "United States",
+      "demand_2024_TWh": 4102,
+      "demand_2050_TWh": 5647,
+      "increase_TWh": 1545
+    },
+    {
+      "region": "Africa",
+      "demand_2024_TWh": 753,
+      "demand_2050_TWh": 2197,
+      "increase_TWh": 1444
+    },
+    {
+      "region": "Rest of world",
+      "demand_2024_TWh": 7935,
+      "demand_2050_TWh": 13504,
+      "increase_TWh": 5569
+    }
+  ],
+  "candidate": [
+    {
+      "technology": "Solar",
+      "share_assumed": 0.45,
+      "generation_TWh": 36000.0,
+      "capacity_factor_assumed": 0.18,
+      "capacity_2050_GW": 22831.0502283105,
+      "capacity_2024_GW_WEO": 2164,
+      "net_addition_GW_per_year_2024_2050": 794.8865472427116
+    },
+    {
+      "technology": "Wind",
+      "share_assumed": 0.3,
+      "generation_TWh": 24000.0,
+      "capacity_factor_assumed": 0.35,
+      "capacity_2050_GW": 7827.788649706458,
+      "capacity_2024_GW_WEO": 1131,
+      "net_addition_GW_per_year_2024_2050": 257.5687942194792
+    },
+    {
+      "technology": "Fission",
+      "share_assumed": 0.15,
+      "generation_TWh": 12000.0,
+      "capacity_factor_assumed": 0.85,
+      "capacity_2050_GW": 1611.6035455278002,
+      "capacity_2024_GW_WEO": 420,
+      "net_addition_GW_per_year_2024_2050": 45.83090559722309
+    },
+    {
+      "technology": "Hydro",
+      "share_assumed": 0.08,
+      "generation_TWh": 6400.0,
+      "capacity_factor_assumed": 0.4,
+      "capacity_2050_GW": 1826.4840182648402,
+      "capacity_2024_GW_WEO": 1437,
+      "net_addition_GW_per_year_2024_2050": 14.9801545486477
+    },
+    {
+      "technology": "Geothermal",
+      "share_assumed": 0.02,
+      "generation_TWh": 1600.0,
+      "capacity_factor_assumed": 0.85,
+      "capacity_2050_GW": 214.88047273704004,
+      "capacity_2024_GW_WEO": 15,
+      "net_addition_GW_per_year_2024_2050": 7.687710489886156
+    }
+  ],
+  "wave_assumptions": {
+    "real_rate": 0.07,
+    "life_years": 20,
+    "annual_opex_fraction": 0.04,
+    "crf": 0.09439292574325567,
+    "target_USD_MWh": 100,
+    "capex_threshold_at_40pct_USD_kW": 2607.2800935177524,
+    "cost_at_4000_and_40pct": 153.41658189869372,
+    "cost_at_4000_40pct_8pct_opex": 199.07868235531467
+  },
+  "space": [
+    {
+      "case": "Earth orbit: 35 min",
+      "dark_hours": 0.5833333333333334,
+      "load_kW": 100,
+      "battery_kWh": 76.75438596491229,
+      "battery_tonnes_at_200Wh_kg": 0.38377192982456143,
+      "basis": "Representative low-Earth-orbit eclipse"
+    },
+    {
+      "case": "Mars: 12.3 h night",
+      "dark_hours": 12.3,
+      "load_kW": 100,
+      "battery_kWh": 1618.421052631579,
+      "battery_tonnes_at_200Wh_kg": 8.092105263157894,
+      "basis": "Approximate half-sol"
+    },
+    {
+      "case": "Mars: 72 h no solar",
+      "dark_hours": 72,
+      "load_kW": 100,
+      "battery_kWh": 9473.684210526315,
+      "battery_tonnes_at_200Wh_kg": 47.368421052631575,
+      "basis": "Analyst stress case, not a weather forecast"
+    },
+    {
+      "case": "Moon: 14 d night",
+      "dark_hours": 336,
+      "load_kW": 100,
+      "battery_kWh": 44210.52631578947,
+      "battery_tonnes_at_200Wh_kg": 221.05263157894737,
+      "basis": "Illustrative non-polar site"
+    }
+  ],
+  "earth_storage": [
+    {
+      "load_MW": 100,
+      "hours": 4,
+      "battery_nameplate_MWh": 526.3157894736842,
+      "illustrative_capital_USD_million": 157.89473684210523
+    },
+    {
+      "load_MW": 100,
+      "hours": 12,
+      "battery_nameplate_MWh": 1578.9473684210527,
+      "illustrative_capital_USD_million": 473.6842105263159
+    },
+    {
+      "load_MW": 100,
+      "hours": 72,
+      "battery_nameplate_MWh": 9473.684210526315,
+      "illustrative_capital_USD_million": 2842.1052631578946
+    },
+    {
+      "load_MW": 100,
+      "hours": 336,
+      "battery_nameplate_MWh": 44210.52631578947,
+      "illustrative_capital_USD_million": 13263.157894736843
+    }
+  ],
+  "nasa_mars": [
+    {
+      "mission": "2009 DRA 5",
+      "solar_t": 22.5,
+      "fission_low_t": 6,
+      "fission_high_t": 8,
+      "load_note": "26 kW cargo / ~35 kW crew"
+    },
+    {
+      "mission": "2016 EMC",
+      "solar_t": 11.7,
+      "fission_low_t": 9,
+      "fission_high_t": 9,
+      "load_note": "26 kW cargo / 31 kW crew"
+    },
+    {
+      "mission": "2020 POD",
+      "solar_t": 11.22,
+      "fission_low_t": 7.93,
+      "fission_high_t": 7.93,
+      "load_note": "9 kW cargo / 9 kW crew"
+    }
+  ],
+  "limitations": [
+    "No hourly dispatch or reliability optimization",
+    "Candidate shares are analyst-selected",
+    "No plant retirement schedule",
+    "No spatial transmission model",
+    "Battery examples exclude complete mission hardware"
+  ]
+}

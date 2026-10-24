@@ -1,0 +1,5 @@
+sector,electricity_2024_EJ,electricity_2050_STEPS_EJ,electricity_2050_NZE_EJ,STEPS_added_TWh,NZE_added_TWh,source
+Buildings,49,86,73,10277.777777777777,6666.666666666667,WEO2025 rounded A.2 tables; Other is residual
+Industry,40,58,78,5000.0,10555.555555555557,WEO2025 rounded A.2 tables; Other is residual
+Transport,2,18,37,4444.444444444444,9722.222222222223,WEO2025 rounded A.2 tables; Other is residual
+Other,4,7,4,833.3333333333334,0.0,WEO2025 rounded A.2 tables; Other is residual

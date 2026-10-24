@@ -1,0 +1,9 @@
+technology,low_USD_MWh,high_USD_MWh,source,evidence
+Onshore wind,37,99,Lazard2026,modeled range
+Utility solar,40,98,Lazard2026,modeled range
+Gas combined cycle,51,129,Lazard2026,modeled range
+Solar + storage,61,156,Lazard2026,modeled range
+Conventional geothermal*,67,111,Lazard2026,modeled range
+Coal*,72,177,Lazard2026,modeled range
+Offshore wind,105,167,Lazard2026,modeled range
+New US nuclear**,175,255,Lazard2026,modeled range

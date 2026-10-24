@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="504pt" viewBox="0 0 864 504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-24T14:25:35.873816</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 864 504 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f3f3e9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 103.68 383.04 
+L 794.88 383.04 
+L 794.88 120.96 
+L 103.68 120.96 
+z
+" style="fill: #f3f3e9"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m4249c33017" d="M 0 0 
+L 0 3.5 
+" style="stroke: #60716a; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4249c33017" x="195.907566" y="383.04" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'" transform="translate(152.456707 398.398281)">350 cycles/year</text>
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'" transform="translate(161.951941 410.715875)">Almost daily</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m4249c33017" x="449.28" y="383.04" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'" transform="translate(409.328516 398.398281)">52 cycles/year</text>
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'" transform="translate(412.036406 410.715875)">About weekly</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m4249c33017" x="702.652434" y="383.04" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'" transform="translate(662.70095 398.398281)">10 cycles/year</text>
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'" transform="translate(678.579622 410.715875)">Rare use</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 103.68 383.04 
+L 794.88 383.04 
+" clip-path="url(#pc8c2ede1cd)" style="fill: none; stroke: #d6dfd2; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_4">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="100.18" y="387.219141" transform="rotate(-0 100.18 387.219141)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 103.68 337.061053 
+L 794.88 337.061053 
+" clip-path="url(#pc8c2ede1cd)" style="fill: none; stroke: #d6dfd2; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_5">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="100.18" y="341.240193" transform="rotate(-0 100.18 341.240193)">500</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 103.68 291.082105 
+L 794.88 291.082105 
+" clip-path="url(#pc8c2ede1cd)" style="fill: none; stroke: #d6dfd2; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_6">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="100.18" y="295.261246" transform="rotate(-0 100.18 295.261246)">1000</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 103.68 245.103158 
+L 794.88 245.103158 
+" clip-path="url(#pc8c2ede1cd)" style="fill: none; stroke: #d6dfd2; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="100.18" y="249.282299" transform="rotate(-0 100.18 249.282299)">1500</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 103.68 199.124211 
+L 794.88 199.124211 
+" clip-path="url(#pc8c2ede1cd)" style="fill: none; stroke: #d6dfd2; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="100.18" y="203.303351" transform="rotate(-0 100.18 203.303351)">2000</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <path d="M 103.68 153.145263 
+L 794.88 153.145263 
+" clip-path="url(#pc8c2ede1cd)" style="fill: none; stroke: #d6dfd2; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_9">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="100.18" y="157.324404" transform="rotate(-0 100.18 157.324404)">2500</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: middle" x="65.897344" y="252" transform="rotate(-90 65.897344 252)">Cost per MWh discharged from storage · $</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 135.098182 383.04 
+L 256.71695 383.04 
+L 256.71695 372.57818 
+L 135.098182 372.57818 
+z
+" clip-path="url(#pc8c2ede1cd)" style="fill: #007d69"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 388.470616 383.04 
+L 510.089384 383.04 
+L 510.089384 336.577969 
+L 388.470616 336.577969 
+z
+" clip-path="url(#pc8c2ede1cd)" style="fill: #6577be"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 641.84305 383.04 
+L 763.461818 383.04 
+L 763.461818 158.993035 
+L 641.84305 158.993035 
+z
+" clip-path="url(#pc8c2ede1cd)" style="fill: #bd532f"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 103.68 383.04 
+L 794.88 383.04 
+" style="fill: none; stroke: #c7d3c4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_11">
+    <text style="fill: #16332f; font: 700 11px 'DejaVu Sans'; text-anchor: middle" x="195.907566" y="367.060706" transform="rotate(-0 195.907566 367.060706)">$114</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #16332f; font: 700 11px 'DejaVu Sans'; text-anchor: middle" x="449.28" y="331.060495" transform="rotate(-0 449.28 331.060495)">$505</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #16332f; font: 700 11px 'DejaVu Sans'; text-anchor: middle" x="702.652434" y="153.475561" transform="rotate(-0 702.652434 153.475561)">$2,436</text>
+   </g>
+  </g>
+  <g id="text_14">
+   <text style="fill: #16332f; font: 700 22px 'DejaVu Sans'; text-anchor: start" x="38.88" y="29.316563" transform="rotate(-0 38.88 29.316563)">A battery used rarely is expensive per unit delivered</text>
+  </g>
+  <g id="text_15">
+   <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: start" x="38.88" y="58.758281" transform="rotate(-0 38.88 58.758281)">Same assumed battery cost and lifetime. The cost is spread over very different amounts of discharged electricity.</text>
+  </g>
+  <g id="text_16">
+   <text style="fill: #60716a; font: 8.5px 'DejaVu Sans'" transform="translate(38.88 465.208781)">Illustration using IRENA’s $140/kWh 2025 global four-hour battery cost anchor; other values are our assumptions: 7% real finance, 15 years,</text>
+   <text style="fill: #60716a; font: 8.5px 'DejaVu Sans'" transform="translate(38.88 476.664523)">2% annual operating cost, 80% usable energy, 95% discharge efficiency, 88% round-trip efficiency and $40/MWh charging electricity.</text>
+   <text style="fill: #60716a; font: 8.5px 'DejaVu Sans'" transform="translate(38.88 488.120266)">This is a cost of stored electricity, not the cost of an entire renewable portfolio. It excludes degradation/augmentation and does not size multi-day storage.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc8c2ede1cd">
+   <rect x="103.68" y="120.96" width="691.2" height="262.08"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,7 @@
+technology,annual_generation_TWh,assumed_capacity_factor,electrical_capacity_GW,evidence
+Solar,1000,0.2,570.7762557077625,explicit illustration; no hourly matching
+Onshore wind,1000,0.35,326.1578604044358,explicit illustration; no hourly matching
+Offshore wind,1000,0.45,253.67833587011668,explicit illustration; no hourly matching
+Hydro,1000,0.45,253.67833587011668,explicit illustration; no hourly matching
+Fission,1000,0.85,134.30029546065,explicit illustration; no hourly matching
+Geothermal,1000,0.85,134.30029546065,explicit illustration; no hourly matching

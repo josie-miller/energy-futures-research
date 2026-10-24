@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="468pt" viewBox="0 0 864 468" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-24T13:42:30.915936</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 468 
+L 864 468 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f3f3e9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 129.6 351 
+L 768.96 351 
+L 768.96 112.32 
+L 129.6 112.32 
+z
+" style="fill: #f3f3e9"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 129.6 351 
+L 129.6 112.32 
+" clip-path="url(#p7750ea9fc7)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="md9489ce20c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #60716a; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md9489ce20c" x="129.6" y="351" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="129.6" y="366.358281" transform="rotate(-0 129.6 366.358281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 245.847273 351 
+L 245.847273 112.32 
+" clip-path="url(#p7750ea9fc7)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#md9489ce20c" x="245.847273" y="351" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="245.847273" y="366.358281" transform="rotate(-0 245.847273 366.358281)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 362.094545 351 
+L 362.094545 112.32 
+" clip-path="url(#p7750ea9fc7)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#md9489ce20c" x="362.094545" y="351" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="362.094545" y="366.358281" transform="rotate(-0 362.094545 366.358281)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 478.341818 351 
+L 478.341818 112.32 
+" clip-path="url(#p7750ea9fc7)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#md9489ce20c" x="478.341818" y="351" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="478.341818" y="366.358281" transform="rotate(-0 478.341818 366.358281)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 594.589091 351 
+L 594.589091 112.32 
+" clip-path="url(#p7750ea9fc7)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#md9489ce20c" x="594.589091" y="351" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="594.589091" y="366.358281" transform="rotate(-0 594.589091 366.358281)">40</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 710.836364 351 
+L 710.836364 112.32 
+" clip-path="url(#p7750ea9fc7)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#md9489ce20c" x="710.836364" y="351" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="710.836364" y="366.358281" transform="rotate(-0 710.836364 366.358281)">50</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: middle" x="449.28" y="381.004219" transform="rotate(-0 449.28 381.004219)">Battery nameplate capacity · GWh</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="126.1" y="144.414217" transform="rotate(-0 126.1 144.414217)">4 hours</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="126.1" y="205.364166" transform="rotate(-0 126.1 205.364166)">12 hours</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="126.1" y="266.314115" transform="rotate(-0 126.1 266.314115)">3 days</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="126.1" y="327.264064" transform="rotate(-0 126.1 327.264064)">14 days</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 129.6 123.169091 
+L 135.718278 123.169091 
+L 135.718278 157.301062 
+L 129.6 157.301062 
+z
+" clip-path="url(#p7750ea9fc7)" style="fill: #007d69"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 129.6 184.11904 
+L 147.954833 184.11904 
+L 147.954833 218.251011 
+L 129.6 218.251011 
+z
+" clip-path="url(#p7750ea9fc7)" style="fill: #6577be"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 129.6 245.068989 
+L 239.728995 245.068989 
+L 239.728995 279.20096 
+L 129.6 279.20096 
+z
+" clip-path="url(#p7750ea9fc7)" style="fill: #bd532f"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 129.6 306.018938 
+L 643.535311 306.018938 
+L 643.535311 340.150909 
+L 129.6 340.150909 
+z
+" clip-path="url(#p7750ea9fc7)" style="fill: #8a688e"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 129.6 351 
+L 768.96 351 
+" style="fill: none; stroke: #ccd6cb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="141.530641" y="143.270389" transform="rotate(-0 141.530641 143.270389)">0.53 GWh</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="153.767196" y="204.220338" transform="rotate(-0 153.767196 204.220338)">1.58 GWh</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="245.541359" y="265.170287" transform="rotate(-0 245.541359 265.170287)">9.47 GWh</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="649.347675" y="326.120236" transform="rotate(-0 649.347675 326.120236)">44.21 GWh</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="fill: #16332f; font: 700 23px 'DejaVu Sans'; text-anchor: start" x="34.56" y="31.516406" transform="rotate(-0 34.56 31.516406)">Three days need 18× the storage of four hours</text>
+  </g>
+  <g id="text_17">
+   <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: start" x="34.56" y="52.818281" transform="rotate(-0 34.56 52.818281)">Same 100 MW continuous load. No generation during the stated gap. Other ways to cover the gap may be cheaper.</text>
+  </g>
+  <g id="text_18">
+   <text style="fill: #60716a; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 438.396523)">Our calculation: battery capacity = load × hours ÷ (80% usable fraction × 95% discharge efficiency).</text>
+   <text style="fill: #60716a; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 449.852266)">This is stored energy, not a complete storage design. Charging supply, battery power, losses, degradation and replacements must also be priced.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7750ea9fc7">
+   <rect x="129.6" y="112.32" width="639.36" height="238.68"/>
+  </clipPath>
+ </defs>
+</svg>

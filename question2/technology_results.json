@@ -1,0 +1,518 @@
+{
+  "as_of": "2026-10-24",
+  "sources": {
+    "WEO2025": {
+      "url": "https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf",
+      "pages": "417, 423, 429, 453\u2013456",
+      "basis": "Published scenarios and regional modeled costs; Annex A CC BY-NC-SA 4.0; Annex B CC BY 4.0"
+    },
+    "Lazard2026": {
+      "url": "https://www.lazard.com/media/kcfconhf/lazards-lcoeplus_vf.pdf",
+      "pages": "7, 11 and appendix",
+      "basis": "Unsubsidized modeled generation costs; 60% debt at 8%, 40% equity at 12%; nuclear based on Vogtle"
+    },
+    "IRENA2026": {
+      "url": "https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025",
+      "mirror": "https://tethys-engineering.pnnl.gov/sites/default/files/publications/Dardour-Zamora-2026.pdf",
+      "pages": "13\u201318, 141, 153\u2013156",
+      "basis": "2025 USD; commissioned renewable project cost estimates; emerging technology estimates have a different evidence base"
+    },
+    "NETL2025": {
+      "url": "https://netl.doe.gov/projects/files/CostandPerformanceBaselineFossilEnergyPlantsVolume1BituminousCoalNaturalGastoElectricity_052125.pdf",
+      "pages": "12\u201318; PDF pages 34\u201340",
+      "basis": "2023 USD; modeled US Midwest plants, 85% utilization; gas $3.42/MMBtu; CO2 transport/storage included"
+    },
+    "Nuclear2026": {
+      "url": "https://www.iea.org/reports/global-energy-review-2026/technology-nuclear",
+      "basis": "2025 capacity additions and retirements"
+    },
+    "GeothermalPotential": {
+      "url": "https://www.iea.org/reports/the-future-of-geothermal-energy/executive-summary",
+      "basis": "2024 conditional low-cost case, not a forecast"
+    },
+    "Fervo2026": {
+      "url": "https://fervoenergy.com/fervo-energy-declares-commercial-operation-at-cape-station-ahead-of-schedule-leading-the-race-for-next-generation-geothermal-energy/",
+      "date": "2026-10-01",
+      "basis": "Company reports first 33 MW unit commercial; remaining phase I units not yet commercial"
+    },
+    "SMR": {
+      "url": "https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy/executive-summary",
+      "basis": "2025 report: 40/120/190 GW in different 2050 cases, included within nuclear, not additional"
+    },
+    "OPG": {
+      "url": "https://www.opg.com/wp-content/uploads/2026/03/2025-Q4-OPG-PR-MDA-FS-FINAL.pdf",
+      "basis": "First Darlington SMR budget C$7.7bn including shared infrastructure, interest, escalation and contingency"
+    },
+    "FusionDOE": {
+      "url": "https://www.energy.gov/articles/energy-department-releases-finalized-fusion-science-and-technology-roadmap-accelerate",
+      "date": "2026-06-09",
+      "basis": "Development roadmap; commercial electricity is a goal"
+    },
+    "CFS": {
+      "url": "https://www.cfs.energy/technology/arc/",
+      "basis": "Company target: 400 MW early 2030s; no commercial operating cost"
+    },
+    "Helion": {
+      "url": "https://www.helionenergy.com/orion",
+      "basis": "Company target: at least 50 MW and initial operations in 2028"
+    },
+    "Grids": {
+      "url": "https://www.iea.org/reports/electricity-2026/grids",
+      "basis": "Project times: renewables 1\u20135 years, grids 5\u201315; scope and permitting matter"
+    }
+  },
+  "generation": [
+    {
+      "technology": "Solar PV",
+      "generation_2024_TWh": 2073,
+      "STEPS_2050_TWh": 20374,
+      "NZE_2050_TWh": 35509,
+      "STEPS_share_percent": 35.07859713159209,
+      "NZE_share_percent": 44.28936700966635,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Wind",
+      "generation_2024_TWh": 2533,
+      "STEPS_2050_TWh": 10991,
+      "NZE_2050_TWh": 23250,
+      "STEPS_share_percent": 18.92357225254386,
+      "NZE_share_percent": 28.999064546304957,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Hydro",
+      "generation_2024_TWh": 4448,
+      "STEPS_2050_TWh": 6383,
+      "NZE_2050_TWh": 7398,
+      "STEPS_share_percent": 10.98982455536234,
+      "NZE_share_percent": 9.227315247895229,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Fission",
+      "generation_2024_TWh": 2835,
+      "STEPS_2050_TWh": 5531,
+      "NZE_2050_TWh": 6853,
+      "STEPS_share_percent": 9.522907663435547,
+      "NZE_share_percent": 8.547552229497974,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Bioenergy",
+      "generation_2024_TWh": 760,
+      "STEPS_2050_TWh": 1575,
+      "NZE_2050_TWh": 2917,
+      "STEPS_share_percent": 2.7117301699350906,
+      "NZE_share_percent": 3.6382912379170564,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Concentrated solar",
+      "generation_2024_TWh": 20,
+      "STEPS_2050_TWh": 245,
+      "NZE_2050_TWh": 1209,
+      "STEPS_share_percent": 0.42182469310101406,
+      "NZE_share_percent": 1.5079513564078577,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Geothermal",
+      "generation_2024_TWh": 100,
+      "STEPS_2050_TWh": 452,
+      "NZE_2050_TWh": 825,
+      "STEPS_share_percent": 0.7782235154353403,
+      "NZE_share_percent": 1.028999064546305,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Marine",
+      "generation_2024_TWh": 1,
+      "STEPS_2050_TWh": 86,
+      "NZE_2050_TWh": 112,
+      "STEPS_share_percent": 0.1480690759456621,
+      "NZE_share_percent": 0.13969441845961958,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Gas without capture",
+      "generation_2024_TWh": 6785,
+      "STEPS_2050_TWh": 7516,
+      "NZE_2050_TWh": 205,
+      "STEPS_share_percent": 12.940548544274375,
+      "NZE_share_percent": 0.2556906766448394,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Coal without capture",
+      "generation_2024_TWh": 10797,
+      "STEPS_2050_TWh": 4569,
+      "NZE_2050_TWh": 0,
+      "STEPS_share_percent": 7.866600092973605,
+      "NZE_share_percent": 0.0,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Oil without capture",
+      "generation_2024_TWh": 757,
+      "STEPS_2050_TWh": 128,
+      "NZE_2050_TWh": 0,
+      "STEPS_share_percent": 0.2203818804772645,
+      "NZE_share_percent": 0.0,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Fossil fuels with capture",
+      "generation_2024_TWh": 1,
+      "STEPS_2050_TWh": 53,
+      "NZE_2050_TWh": 986,
+      "STEPS_share_percent": 0.09125187238511734,
+      "NZE_share_percent": 1.2298097910820083,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Hydrogen/ammonia generation",
+      "generation_2024_TWh": 0,
+      "STEPS_2050_TWh": 86,
+      "NZE_2050_TWh": 839,
+      "STEPS_share_percent": 0.1480690759456621,
+      "NZE_share_percent": 1.0464608668537574,
+      "source": "WEO2025 A.3b/c"
+    },
+    {
+      "technology": "Other / rounding residual",
+      "generation_2024_TWh": 119,
+      "STEPS_2050_TWh": 92,
+      "NZE_2050_TWh": 72,
+      "STEPS_share_percent": 0.15839947659303388,
+      "NZE_share_percent": 0.08980355472404115,
+      "source": "WEO2025 A.3b/c"
+    }
+  ],
+  "totals": [
+    31229,
+    58081,
+    80175
+  ],
+  "equal_output": [
+    {
+      "technology": "Solar",
+      "annual_generation_TWh": 1000,
+      "assumed_capacity_factor": 0.2,
+      "electrical_capacity_GW": 570.7762557077625,
+      "evidence": "explicit illustration; no hourly matching"
+    },
+    {
+      "technology": "Onshore wind",
+      "annual_generation_TWh": 1000,
+      "assumed_capacity_factor": 0.35,
+      "electrical_capacity_GW": 326.1578604044358,
+      "evidence": "explicit illustration; no hourly matching"
+    },
+    {
+      "technology": "Offshore wind",
+      "annual_generation_TWh": 1000,
+      "assumed_capacity_factor": 0.45,
+      "electrical_capacity_GW": 253.67833587011668,
+      "evidence": "explicit illustration; no hourly matching"
+    },
+    {
+      "technology": "Hydro",
+      "annual_generation_TWh": 1000,
+      "assumed_capacity_factor": 0.45,
+      "electrical_capacity_GW": 253.67833587011668,
+      "evidence": "explicit illustration; no hourly matching"
+    },
+    {
+      "technology": "Fission",
+      "annual_generation_TWh": 1000,
+      "assumed_capacity_factor": 0.85,
+      "electrical_capacity_GW": 134.30029546065,
+      "evidence": "explicit illustration; no hourly matching"
+    },
+    {
+      "technology": "Geothermal",
+      "annual_generation_TWh": 1000,
+      "assumed_capacity_factor": 0.85,
+      "electrical_capacity_GW": 134.30029546065,
+      "evidence": "explicit illustration; no hourly matching"
+    }
+  ],
+  "construction": [
+    {
+      "technology": "Solar PV",
+      "net_increase_2024_GW": 539,
+      "STEPS_average_net_GW_per_year": 540.1923076923077,
+      "NZE_average_net_GW_per_year": 847.5769230769231,
+      "source": "WEO2025 same capacity series"
+    },
+    {
+      "technology": "Wind",
+      "net_increase_2024_GW": 115,
+      "STEPS_average_net_GW_per_year": 109.76923076923077,
+      "NZE_average_net_GW_per_year": 264.2307692307692,
+      "source": "WEO2025 same capacity series"
+    },
+    {
+      "technology": "Fission",
+      "net_increase_2024_GW": 5,
+      "STEPS_average_net_GW_per_year": 14.0,
+      "NZE_average_net_GW_per_year": 25.346153846153847,
+      "source": "WEO2025 same capacity series"
+    },
+    {
+      "technology": "Hydro",
+      "net_increase_2024_GW": 27,
+      "STEPS_average_net_GW_per_year": 30.73076923076923,
+      "NZE_average_net_GW_per_year": 45.34615384615385,
+      "source": "WEO2025 same capacity series"
+    }
+  ],
+  "lazard": [
+    {
+      "technology": "Onshore wind",
+      "low_USD_MWh": 37,
+      "high_USD_MWh": 99,
+      "source": "Lazard2026",
+      "evidence": "modeled range"
+    },
+    {
+      "technology": "Utility solar",
+      "low_USD_MWh": 40,
+      "high_USD_MWh": 98,
+      "source": "Lazard2026",
+      "evidence": "modeled range"
+    },
+    {
+      "technology": "Gas combined cycle",
+      "low_USD_MWh": 51,
+      "high_USD_MWh": 129,
+      "source": "Lazard2026",
+      "evidence": "modeled range"
+    },
+    {
+      "technology": "Solar + storage",
+      "low_USD_MWh": 61,
+      "high_USD_MWh": 156,
+      "source": "Lazard2026",
+      "evidence": "modeled range"
+    },
+    {
+      "technology": "Conventional geothermal*",
+      "low_USD_MWh": 67,
+      "high_USD_MWh": 111,
+      "source": "Lazard2026",
+      "evidence": "modeled range"
+    },
+    {
+      "technology": "Coal*",
+      "low_USD_MWh": 72,
+      "high_USD_MWh": 177,
+      "source": "Lazard2026",
+      "evidence": "modeled range"
+    },
+    {
+      "technology": "Offshore wind",
+      "low_USD_MWh": 105,
+      "high_USD_MWh": 167,
+      "source": "Lazard2026",
+      "evidence": "modeled range"
+    },
+    {
+      "technology": "New US nuclear**",
+      "low_USD_MWh": 175,
+      "high_USD_MWh": 255,
+      "source": "Lazard2026",
+      "evidence": "modeled range"
+    }
+  ],
+  "irena": [
+    [
+      "Onshore wind",
+      33,
+      976,
+      0.36
+    ],
+    [
+      "Solar PV",
+      44,
+      667,
+      0.16
+    ],
+    [
+      "Hydro",
+      62,
+      2079,
+      0.43
+    ],
+    [
+      "Offshore wind",
+      78,
+      2931,
+      0.41
+    ],
+    [
+      "Bioenergy",
+      86,
+      3606,
+      0.78
+    ],
+    [
+      "Conventional geothermal",
+      89,
+      5997,
+      0.85
+    ],
+    [
+      "Concentrated solar",
+      115,
+      2418,
+      0.22
+    ]
+  ],
+  "regional_nuclear": [
+    {
+      "region": "United States",
+      "2024_modeled_USD_MWh": 110,
+      "source": "WEO2025 B.4b; repeat-build assumption, not completed project audit"
+    },
+    {
+      "region": "European Union",
+      "2024_modeled_USD_MWh": 165,
+      "source": "WEO2025 B.4b; repeat-build assumption, not completed project audit"
+    },
+    {
+      "region": "China",
+      "2024_modeled_USD_MWh": 70,
+      "source": "WEO2025 B.4b; repeat-build assumption, not completed project audit"
+    },
+    {
+      "region": "India",
+      "2024_modeled_USD_MWh": 75,
+      "source": "WEO2025 B.4b; repeat-build assumption, not completed project audit"
+    }
+  ],
+  "storage": [
+    {
+      "full_cycles_per_year": 350,
+      "installed_USD_kWh": 140,
+      "real_rate": 0.07,
+      "life_years": 15,
+      "annual_opex_fraction": 0.02,
+      "usable_fraction": 0.8,
+      "discharge_efficiency": 0.95,
+      "round_trip_efficiency": 0.88,
+      "charging_USD_MWh": 40,
+      "asset_USD_per_delivered_MWh": 68.3129603689508,
+      "charging_USD_per_delivered_MWh": 45.45454545454545,
+      "total_USD_per_delivered_MWh": 113.76750582349625
+    },
+    {
+      "full_cycles_per_year": 52,
+      "installed_USD_kWh": 140,
+      "real_rate": 0.07,
+      "life_years": 15,
+      "annual_opex_fraction": 0.02,
+      "usable_fraction": 0.8,
+      "discharge_efficiency": 0.95,
+      "round_trip_efficiency": 0.88,
+      "charging_USD_MWh": 40,
+      "asset_USD_per_delivered_MWh": 459.79877171409186,
+      "charging_USD_per_delivered_MWh": 45.45454545454545,
+      "total_USD_per_delivered_MWh": 505.2533171686373
+    },
+    {
+      "full_cycles_per_year": 10,
+      "installed_USD_kWh": 140,
+      "real_rate": 0.07,
+      "life_years": 15,
+      "annual_opex_fraction": 0.02,
+      "usable_fraction": 0.8,
+      "discharge_efficiency": 0.95,
+      "round_trip_efficiency": 0.88,
+      "charging_USD_MWh": 40,
+      "asset_USD_per_delivered_MWh": 2390.953612913278,
+      "charging_USD_per_delivered_MWh": 45.45454545454545,
+      "total_USD_per_delivered_MWh": 2436.4081583678235
+    }
+  ],
+  "frontier": [
+    {
+      "case": "SMR policy case",
+      "capacity_GW": 40,
+      "capacity_factor_assumed": 0.85,
+      "TWh_calculated": 297.84,
+      "status": "IEA capacity scenario; our energy conversion; subset of fission"
+    },
+    {
+      "case": "SMR stronger-support case",
+      "capacity_GW": 120,
+      "capacity_factor_assumed": 0.85,
+      "TWh_calculated": 893.52,
+      "status": "IEA capacity scenario; our energy conversion; subset of fission"
+    },
+    {
+      "case": "SMR lower-cost case",
+      "capacity_GW": 190,
+      "capacity_factor_assumed": 0.85,
+      "TWh_calculated": 1414.7399999999998,
+      "status": "IEA capacity scenario; our energy conversion; subset of fission"
+    },
+    {
+      "case": "Geothermal low-cost potential",
+      "capacity_GW": 800,
+      "capacity_factor_assumed": null,
+      "TWh_calculated": 6000,
+      "status": "IEA conditional market-potential study; approximate; not a WEO scenario increment"
+    }
+  ],
+  "fusion_scale_illustration": {
+    "share_of_80000_assumed": 0.01,
+    "TWh_target": 800,
+    "capacity_factor_assumed": 0.85,
+    "required_GW": 107.44023636852002,
+    "required_400MW_plants_rounded_up": 269,
+    "annual_net_GW_if_built_2035_2050": 7.162682424568001
+  },
+  "netl": [
+    {
+      "configuration": "F-class",
+      "no_capture_USD2023_MWh": 47,
+      "capture_95pct_USD2023_MWh": 84.3,
+      "capture_premium_percent": 79.36170212765956,
+      "source": "NETL2025 ES-6; includes CO2 transport/storage; 85% CF; gas $3.42/MMBtu"
+    },
+    {
+      "configuration": "H-class 1x1",
+      "no_capture_USD2023_MWh": 44.5,
+      "capture_95pct_USD2023_MWh": 81.5,
+      "capture_premium_percent": 83.14606741573034,
+      "source": "NETL2025 ES-6; includes CO2 transport/storage; 85% CF; gas $3.42/MMBtu"
+    },
+    {
+      "configuration": "H-class 2x1",
+      "no_capture_USD2023_MWh": 41.9,
+      "capture_95pct_USD2023_MWh": 77.8,
+      "capture_premium_percent": 85.68019093078757,
+      "source": "NETL2025 ES-6; includes CO2 transport/storage; 85% CF; gas $3.42/MMBtu"
+    }
+  ],
+  "solar_wind_shares": {
+    "STEPS": 0.5400216938413595,
+    "NZE": 0.7328843155597131
+  },
+  "old_candidate_review": {
+    "nuclear_15pct_of_80000_TWh": 12000,
+    "required_nuclear_GW_at_85pct": 1611.6035455278002,
+    "average_net_nuclear_GW_year": 45.83090559722309,
+    "geothermal_2pct_of_80000_TWh": 1600
+  },
+  "limitations": [
+    "No optimal mix or hourly reliability result",
+    "Scenario output is not a maximum or probability",
+    "Costs have different years, regions and evidence bases",
+    "Construction comparisons use net fleet changes; gross builds must replace retirements",
+    "No invented fusion commercial price or required output",
+    "No additive double count of SMRs, advanced geothermal or storage"
+  ]
+}

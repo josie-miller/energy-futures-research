@@ -1,0 +1,5 @@
+case,capacity_GW,capacity_factor_assumed,TWh_calculated,status
+SMR policy case,40,0.85,297.84,IEA capacity scenario; our energy conversion; subset of fission
+SMR stronger-support case,120,0.85,893.52,IEA capacity scenario; our energy conversion; subset of fission
+SMR lower-cost case,190,0.85,1414.7399999999998,IEA capacity scenario; our energy conversion; subset of fission
+Geothermal low-cost potential,800,,6000,IEA conditional market-potential study; approximate; not a WEO scenario increment

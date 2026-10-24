@@ -1,0 +1,8 @@
+region,demand_2024_TWh,demand_2050_TWh,added_TWh,annual_growth_percent,source
+China,9102,16131,7029,2.225356333668538,"WEO2025 Table A.16, stated policies"
+India,1644,4803,3159,4.20969064756842,"WEO2025 Table A.16, stated policies"
+Southeast Asia,1317,3197,1880,3.469827591141361,"WEO2025 Table A.16, stated policies"
+European Union,2437,4178,1741,2.0949692239841555,"WEO2025 Table A.16, stated policies"
+United States,4102,5647,1545,1.2370106571810258,"WEO2025 Table A.16, stated policies"
+Africa,753,2197,1444,4.204377766301826,"WEO2025 Table A.16, stated policies"
+Rest of world,7935,13504,5569,2.06606353737111,"WEO2025 Table A.16, stated policies"

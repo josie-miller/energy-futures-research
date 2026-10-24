@@ -1,0 +1,5 @@
+source,year,electricity_demand_TWh,status
+ElectricityFeb2026,2025,28200,historical estimate in February edition
+ElectricityFeb2026,2030,33600,"published forecast, February baseline"
+ElectricityJul2026,2025,28600,revised historical estimate
+ElectricityJul2026,2027,30700,published forecast

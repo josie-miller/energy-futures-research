@@ -1,0 +1,277 @@
+ENERGY FUTURES — CONTEXT HANDOFF FOR CODEX
+Prepared: 2026-10-24
+
+PURPOSE AND EVIDENCE BOUNDARY
+
+Continue the user's energy-futures research challenge. This handoff preserves the goals, questions, and sources in the available conversation and supplies a proposed research structure for continuing the work.
+
+The available conversation contains the user's requests but no completed research report, verified numerical dataset, model, or graphs. Do not claim any of those have already been completed. The question map and modeling methods below are proposed scaffolding, not previously validated findings or decisions. Do not invent personal details, a deadline, a budget, a required deliverable format, or an investment mandate.
+
+The user wants serious market research and technology evaluation grounded in numbers and sources. They want to answer the questions one at a time. Their latest request is to bundle the context for Codex; this document is that bundle.
+
+QUICK START — THE NEXT SUBSTANTIVE TASK
+
+Start with: “How can we model the demand of energy? What kind of growth will energy generation need to keep up with?”
+
+Build a sourced historical baseline and a transparent forward demand model before choosing a future energy mix. Distinguish electricity from total energy, identify sectors and regions driving growth, and show both annual energy requirements and the implications for generation capacity. Treat AI/data centers as one component of demand; the user explicitly asked to shift the emphasis away from AI toward overall energy consumption.
+
+A reasonable proposed scope is a global baseline through the latest complete data year, followed by scenarios for 2030, 2040, and 2050. These dates and global scope are working assumptions, not a user-approved specification. Explain them briefly and proceed unless the user steers otherwise. Use regional detail where a global average hides a material difference.
+
+USER'S CENTRAL INTEREST AND WORKING PREFERENCES
+
+- Explore an ambitious ocean-energy thesis. The user said: “I disagree. I believe OCEAN energy is the future,” and supplied Panthalassa's website.
+- Evaluate whether ocean energy could become a major contributor, including possible connections with nuclear power and water access.
+- Preserve creativity, while testing the thesis against evidence and competing technologies. A useful result can identify a valuable niche, a conditional path to scale, or evidence against a claim.
+- Use numerical models, baseline graphs, traceable sources, and explicit assumptions.
+- Evaluate technologies technically and commercially: cost, reliability, deployment speed, market size, financing, and adoption.
+- Answer one research question at a time rather than attempting every challenge prompt at once.
+- Do not assume that future demand is dominated by AI. That was an initial question, not an established fact, and the user subsequently broadened the focus.
+- Treat ocean power plus nuclear as a hypothesis to evaluate, not a demonstrated synergy.
+
+HOW THE DISCUSSION DEVELOPED
+
+1. The user asked to read Casey Handmer's “Energy Predictions 2025” and interpreted it as arguing that solar is the future.
+2. They questioned storage: “shouldn't this be a big issue like arent batteries not good at storage?”
+3. They proposed ocean energy as an alternative and supplied Panthalassa's website, requesting research.
+4. They asked where energy demand comes from, whether AI might dominate it, and whether its growth could be modeled numerically.
+5. They then explicitly asked to focus less on AI and more on increasing energy consumption, with baseline graphs.
+6. They asked for future modeling that could assess ocean energy's potential role and possible coupling with nuclear, reasoning that nuclear needs water.
+7. They requested serious market research and technology evaluation.
+8. They proposed an analytical sequence: model demand; evaluate competing technologies and cost efficiency; determine a cost-optimal mix; identify what comes next.
+9. They supplied four overarching challenge prompts and asked to map the questions needed to answer each, working through them one at a time.
+10. They requested this context bundle for moving the work into Codex.
+
+USER-SUPPLIED SOURCES
+
+A. Casey Handmer, “Energy Predictions 2025”:
+https://caseyhandmer.wordpress.com/2025/12/08/energy-predictions-2025/
+
+B. Panthalassa:
+https://panthalassa.com/
+
+Read both sources directly before attributing specific claims to them. Their full contents and any prior research results are not included in the available transcript. Treat an opinion article as a thesis and a company website as company evidence. Independently verify technical performance, costs, financing, deployment status, and market claims where possible.
+
+THE FOUR CHALLENGE PROMPTS — USER'S WORDING
+
+1. “What will the future energy mix be: solar, fission, fusion or something else? Does the answer change in orbit, on the Moon or on Mars?”
+
+2. “Will fission or fusion reach nth-of-a-kind deployment at scale as data centers, electric vehicles and industry push demand up? Which companies pull ahead, what capital stack pays for it, and will utilities adopt it quickly or stick with traditional sources?”
+
+3. “What is the learning rate for battery technology, and what are the bottlenecks to producing grid-scale batteries?”
+
+4. “What does the future cost of energy mean for manufacturing, data centers, chemical processing and other industries? What becomes possible as the cost per watt falls by orders of magnitude?”
+
+PROPOSED QUESTION MAP
+
+These questions organize future research. They are not answers. Follow the user's preferred sequence, beginning with demand under Prompt 1. Storage and nuclear research can later feed back into the energy-mix model; the model should evolve as evidence improves.
+
+PROMPT 1 — FUTURE ENERGY MIX ON EARTH AND IN SPACE
+
+1A. Demand: how much energy will be needed?
+- What are historical primary energy, final energy, electricity consumption, and electricity generation? How do their accounting boundaries differ?
+- Which sectors use energy today: industry, buildings, transportation, data centers, and other uses? Which categories overlap?
+- Where is demand growing geographically, and why?
+- How do population, incomes, industrial output, efficiency, electrification, climate, and new uses affect demand?
+- Which existing uses move from fuels to electricity? How does increased conversion efficiency change total energy requirements?
+- How much growth comes from data centers, EVs, cooling, industrial electrification, hydrogen, or other emerging loads? Which estimates are evidenced versus speculative?
+- What do credible scenarios imply for 2030, 2040, and 2050? How sensitive are results to the main assumptions?
+- What is the difference between annual demand growth and growth in peak load? How much demand can shift in time or location?
+
+1B. Supply: what generation must be built?
+- How much existing generation remains available, and how much retires?
+- How much new annual generation is needed for growth, replacement, and any specified decarbonization objective?
+- What installed capacity, construction pace, storage, and network infrastructure does this imply?
+- Which technologies can meet electricity, heat, fuel, and feedstock needs?
+- Compare solar, wind, hydro, geothermal, wave, tidal, fission, and fusion; retain relevant incumbent fossil technologies as benchmarks.
+- Distinguish commercial deployments, demonstrations, prototypes, and concepts. What has each actually demonstrated?
+- What are resource availability, geographic limits, capacity factors, variability, controllability, reliability, and environmental constraints?
+- What are current costs and plausible future costs, including capital, financing, fuel, maintenance, replacement, and decommissioning?
+- What limits manufacturing and deployment speed: materials, factories, skilled labor, permits, connections, or unresolved engineering?
+
+1C. Mix: what combination serves demand at the lowest acceptable cost?
+- What reliability and emissions requirements should the comparison satisfy?
+- Which technologies complement one another across hours, seasons, and locations?
+- How much storage, transmission, backup, overbuilding, and flexible demand does each portfolio require?
+- Which portfolios minimize total delivered system cost under those constraints?
+- How do results change with geography, weather years, financing, construction delays, technology learning, and fuel prices?
+- Under what measurable conditions does ocean energy win a share? What would disprove that case?
+- What can be deployed in time, even if another technology eventually has lower costs?
+
+1D. Space: does the answer change by environment?
+- Orbit: which orbit, mission, lifetime, load, eclipse pattern, launch mass, radiation environment, heat-rejection requirement, and maintenance constraint?
+- Moon: which site and illumination pattern, darkness duration, dust, temperature range, landing mass, storage requirement, and resupply plan?
+- Mars: which location, seasons, dust conditions, load, transport constraints, local resources, and redundancy requirements?
+- How do solar plus storage, fission, and other technically plausible systems compare on delivered mass, dependable power, lifetime energy, and mission risk?
+- Is power consumed locally or transmitted elsewhere? Include transmission equipment and losses if relevant.
+- Which technologies are deployable within the mission timeframe, and which remain speculative?
+
+Expected outputs: demand scenarios, generation requirements, a technology comparison, conditional least-cost portfolios, and separate space assessments. Do not extrapolate terrestrial $/MWh rankings directly to space.
+
+PROMPT 2 — FISSION/FUSION DEPLOYMENT, COMPANIES, FINANCING, UTILITIES
+
+2A. What would deployment at scale mean?
+- Define first-of-a-kind and nth-of-a-kind in measurable terms: repeated design, completed projects, operating experience, costs, construction time, and annual deployment capacity.
+- Separate existing reactor life extensions, new large reactors, light-water SMRs, advanced fission designs, and different fusion approaches.
+- Which engineering, fuel-cycle, licensing, construction, and operating milestones remain for each?
+- For fusion, distinguish plasma results from sustained net electricity exported after total plant energy use, maintainability, and commercial operation.
+- What evidence demonstrates repeatability rather than a single successful experiment or plant?
+
+2B. Which companies and projects could lead?
+- What is actually operating, under construction, financed, licensed, contracted, or only announced?
+- Which firms have credible technical evidence, experienced teams, qualified suppliers, manufacturing capability, customers, and sufficient financial runway?
+- Which company claims can be independently corroborated?
+- How do economics change with construction delays, interest during construction, availability, fuel, maintenance, plant lifetime, and decommissioning?
+- Are projected savings from modularity, factories, and repeated builds supported by evidence?
+- Where are the supply bottlenecks: enrichment or specialized fuels, components, materials, crews, testing, or regulatory capacity?
+
+2C. What capital stack and adoption mechanism work?
+- What funds research, demonstration, first commercial deployment, and repeated deployment?
+- What roles can grants, venture equity, strategic investors, government guarantees, customer commitments, utility balance sheets, and project debt play?
+- Which risks can lenders accept, and which need guarantees, equity, contracts, or public support?
+- Who bears overruns, delays, performance shortfalls, fuel risk, and changing demand?
+- How do regulated utilities, competitive generators, data-center buyers, and industrial customers make different decisions?
+- How do cost, completion date, reliability, regulation, and alternatives affect adoption?
+- What realistic deployment curves follow from these constraints, and what evidence would invalidate them?
+
+Expected outputs: separate fission and fusion evidence maps, deployment scenarios, company comparisons, financing structures, and utility adoption analysis. An announced purchase agreement is not the same as a financed operating project.
+
+PROMPT 3 — BATTERY LEARNING AND GRID-SCALE BOTTLENECKS
+
+3A. What service and cost are being measured?
+- Is the use frequency response, daily shifting, overnight supply, multiday resilience, or seasonal balancing?
+- Which chemistries and alternative storage technologies fit each use?
+- Are quoted costs for cells, packs, installed systems, or lifetime delivered energy?
+- How do efficiency, degradation, usable depth of discharge, calendar/cycle life, replacement, safety, and financing affect economics?
+
+3B. What is the learning rate?
+- What consistent historical price and cumulative-production data exist for each chemistry and system boundary?
+- How much cost change reflects learning versus mineral prices, subsidies, manufacturing utilization, product mix, or exchange rates?
+- What is the observed cost reduction per doubling of cumulative production, and how uncertain is it?
+- Does a constant learning rate remain credible as technology matures?
+- What learning transfers from EV batteries to grid storage, and what does not?
+
+3C. What limits manufacturing and deployment?
+- Are bottlenecks in mining, refining, active materials, cells, packs, power electronics, transformers, labor, or factory yield?
+- How much announced factory capacity becomes usable, qualified production?
+- What limits installation after manufacturing: interconnection, permitting, construction, insurance, safety requirements, or financing?
+- How many GW and GWh does each modeled portfolio require, and by when?
+- Can production and deployment reach those volumes at the assumed price?
+- When are transmission, flexible loads, pumped hydro, thermal storage, other long-duration storage, or firm generation more economical?
+
+Expected outputs: learning-curve estimates with uncertainty, installed-system economics by duration, and a bottleneck map tied to the demand and generation scenarios. Avoid a blanket conclusion that batteries are either good or bad at storage.
+
+PROMPT 4 — WHAT CHEAPER ENERGY ENABLES
+
+4A. What becomes cheaper?
+- Is the relevant metric equipment $/W, wholesale electricity, dependable delivered electricity $/MWh, or useful heat at a particular temperature?
+- Does cheap power occur only at certain hours, or reliably around the clock?
+- How much cost reduction is plausible, where, and by when? Treat orders-of-magnitude declines as a scenario to test, not an assumption.
+
+4B. Which industries benefit, and at what threshold?
+- What share of total cost is energy for manufacturing, computing, chemicals, metals, desalination, hydrogen, and synthetic fuels?
+- Which need electricity, heat, fuels, feedstocks, or combinations?
+- How does cheaper energy affect cost per unit of product after capital, labor, materials, logistics, and utilization?
+- At what energy prices do specific processes become competitive?
+- Which operations can follow variable supply or relocate near resources? What does flexibility cost?
+- What constraints remain even with very cheap energy: equipment, materials, water, land, networks, communications, permits, or customers?
+
+4C. What changes in markets and investment?
+- What new demand becomes economical, and how does that feed back into the demand model?
+- Which industries relocate or integrate with generation?
+- Who captures the value: generators, technology suppliers, industrial operators, infrastructure owners, or customers?
+- What market size, capital requirements, margins, and adoption timelines follow under each scenario?
+- Which conclusions survive less favorable energy prices, lower utilization, or slower adoption?
+
+Expected outputs: industry cost curves and competitiveness thresholds, flexible-demand opportunities, and an assessment of value capture. Cheaper energy does not automatically make the whole product cheaper by the same percentage.
+
+OCEAN-ENERGY AND NUCLEAR HYPOTHESES TO TEST THROUGHOUT
+
+- Distinguish wave, tidal stream, tidal range, ocean thermal energy conversion, and salinity-gradient concepts. Offshore wind and floating nuclear may share marine locations but are separate technologies.
+- Verify Panthalassa's current design, intended product, customers, deployment evidence, business model, and economics directly. Do not assume its market is selling electricity into an onshore grid.
+- Compare exporting power, using power offshore, producing fuels, and serving island/coastal loads where relevant. Each has different infrastructure and reliability needs.
+- Measure economic resource, accessible sites, and deployment constraints; theoretical ocean resource is not an addressable market.
+- Evaluate marine survivability, corrosion, biofouling, moorings, cables, installation vessels, maintenance access, repair intervals, weather downtime, insurance, and environmental permissions.
+- Distinguish component efficiency from net delivered electricity and whole-system availability.
+- Test whether ocean output complements solar/wind with time-series evidence. Predictability does not by itself imply dispatchability or adequacy.
+- For coastal nuclear, distinguish the reactor's energy source from its heat sink. Evaluate actual cooling design, water withdrawals versus consumption, thermal discharge, materials, coastal hazards, and regulation.
+- Nuclear cooling arrangements vary. Water access alone does not establish a benefit from combining nuclear with wave generation or placing a reactor at sea.
+- Test specific shared benefits and costs: substations, cables, ports, offshore operations, cooling, industrial heat, desalination, or flexible customers.
+- Compare any hybrid against the two systems operating separately and against other ways to serve the same load.
+
+MODELING CONVENTIONS AND SIMPLE STARTING EQUATIONS
+
+These are methodological starting points, not completed models or predictions.
+
+1. Keep units and accounting boundaries explicit.
+   Power: W, MW, GW. Energy: Wh, MWh, TWh, EJ.
+   1 TWh = 0.0036 EJ. A constant 1 GW for a 365-day year supplies 8.76 TWh.
+   Primary energy, final energy, useful energy, electricity demand, and electricity generation are different quantities. Storage charging and network losses must be accounted for consistently.
+
+2. Start with sector activity and intensity where data permit:
+   D(r,s,t) = Activity(r,s,t) × EnergyIntensity(r,s,t)
+   Total demand sums compatible regional/sector values.
+   Electrification changes carriers and efficiencies; model that explicitly to avoid double counting.
+
+3. Use simple growth curves only as transparent sensitivities:
+   D(t) = D(base) × (1 + g)^(t - base)
+   Label the assumed growth rate and explain its basis. An extrapolation is not an independent forecast.
+
+4. Convert annual generation to illustrative installed capacity:
+   Capacity_GW = AnnualGeneration_TWh / (8.76 × CapacityFactor)
+   This equation alone cannot establish hourly reliability or firm capacity.
+   Gross build requirements also include retirements and replacements; generation requirements include losses, storage losses, and curtailment where applicable.
+
+5. Storage sizing needs power and duration:
+   EnergyCapacity_MWh = DischargePower_MW × Duration_hours
+   Nameplate sizing must additionally account for usable capacity, losses, reserve requirements, and degradation.
+
+6. Learning curves:
+   Cost(Q) = Cost(Q0) × (Q/Q0)^b
+   Learning rate = 1 - 2^b
+   Q is cumulative production measured consistently; b is estimated from data, not chosen to force a result.
+
+7. Compare equivalent economic services.
+   Use real currency in a stated base year; document location, financing, lifetime, utilization, and cost boundaries.
+   Plant-level LCOE does not by itself measure the cost of a reliable delivered system.
+   Distinguish observed costs, contract prices, company targets, model outputs, and forecasts.
+
+8. Product economics:
+   EnergyCostPerUnit = EnergyUsePerUnit × DeliveredEnergyPrice
+   Add non-energy costs and any utilization effects. Test whether the claimed energy price is available when the process needs it.
+
+RESEARCH AND SOURCE STANDARDS
+
+- Prioritize primary sources: statistical agencies, system operators, regulators, peer-reviewed technical work, official technical reports, company filings, and independently documented project results.
+- Potential sources to locate include IEA, EIA, Eurostat, national statistical agencies, IRENA, IAEA, relevant energy laboratories, nuclear regulators, grid operators, and space agencies. These are research leads, not sources already checked for this handoff.
+- Use company announcements to establish what was announced; seek independent evidence for performance and economics.
+- Track publication date, data year, forecast vintage, geography, units, methodology, and uncertainty. Confirm the latest available editions before using current figures.
+- Separate measured observations, official scenarios, company claims, and your own assumptions in tables and graphs.
+- Do not mix policy scenarios and unconditional forecasts. Explain what each scenario assumes.
+- Avoid adding overlapping sector categories, such as data centers counted both within buildings/services and separately.
+- Do not confuse annual generation, installed capacity, peak load, and dependable capacity.
+- Do not confuse theoretical resource, economically recoverable resource, feasible deployment, and company revenue opportunity.
+- Do not treat project announcements, memoranda, orders, financing, construction, and operating capacity as equivalent.
+- Quantify uncertainty with ranges and sensitivity analysis, and state what evidence could change the conclusion.
+
+PROPOSED FIRST DELIVERABLE — DEMAND BASELINE ONLY
+
+1. A source ledger with URL, publication date, data vintage, units, geography, definitions, and limitations.
+2. A consistent historical dataset for total energy and electricity, with sector and regional breakdowns where available.
+3. A baseline graph of historical energy and electricity trends with clear accounting boundaries. Use separate charts or explicitly indexed series if units or definitions differ.
+4. A graph/table showing which sectors and regions drive incremental demand.
+5. Low, central, and high demand pathways through 2050, separating published scenarios from illustrative assumptions.
+6. A table translating annual electricity needs into illustrative generation-capacity requirements at stated capacity factors, with clear limits on what this says about reliability.
+7. A short interpretation: where growth comes from, how much generation must be added, and which uncertainties matter most for the later technology comparison.
+8. Reproducible data and code where feasible. Do not silently fabricate missing data or present interpolations as observations.
+
+Use the existing Codex repository's conventions and instructions if one is provided. Otherwise a lightweight data-processing and plotting workflow is sufficient; no technology stack has been selected. First inspect the environment and preserve existing work.
+
+WHAT COMES AFTER DEMAND?
+
+Proceed to technology capability and cost, then system combinations, then deployment and financing feasibility. Integrate the dedicated nuclear and battery work into the mix model, and finally quantify industrial implications and induced demand. This is a proposed analytical sequence that addresses the user's “what comes after?” question without preselecting the winner.
+
+FIRST INSTRUCTION TO CODEX
+
+“Read this context and continue the energy-futures research. Start with the first question only: How can we model future energy demand, and how much generation growth will be required? Build a sourced historical baseline and transparent scenarios through 2050, clearly distinguishing electricity from total energy. Identify regional and sector drivers, keep AI as one component, and produce baseline graphs with reproducible calculations. Use current primary sources, separate evidence from assumptions, and explain uncertainties. Keep ocean energy and possible nuclear integration as hypotheses to evaluate later. Do not assume a winning technology or try to answer all four prompts at once.”
+
+END OF HANDOFF

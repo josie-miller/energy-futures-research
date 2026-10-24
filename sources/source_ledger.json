@@ -1,0 +1,139 @@
+{
+  "question1/demand_results.json": {
+    "WEO2025": {
+      "url": "https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf",
+      "title": "IEA World Energy Outlook 2025",
+      "date": "2025-11-12",
+      "tables": "A.1a-c, A.2a-c, A.3a-c, A.5b, A.16–17",
+      "boundary": "TFC includes non-energy uses; generation is gross",
+      "license": "Annex A: CC BY-NC-SA 4.0"
+    },
+    "ElectricityFeb2026": {
+      "url": "https://www.iea.org/reports/electricity-2026/demand",
+      "date": "2026-02-06",
+      "boundary": "Electricity demand; February baseline"
+    },
+    "ElectricityJul2026": {
+      "url": "https://www.iea.org/reports/electricity-mid-year-update-2026/executive-summary",
+      "date": "2026-07-23",
+      "boundary": "Electricity consumption; revised July baseline"
+    },
+    "ElectrificationSep2026": {
+      "url": "https://iea.blob.core.windows.net/assets/1c696cc3-e251-46a9-8d4d-9edb2a4e806a/Electrification.pdf",
+      "date": "2026-09-22",
+      "pages": "27, 29, 50–51",
+      "boundary": "Final energy consumption excludes non-energy uses"
+    },
+    "DNV2026": {
+      "url": "https://www.dnv.com/energy-transition-outlook/2026/",
+      "date": "2026",
+      "boundary": "Published electricity-demand growth; full data not obtained"
+    },
+    "AI2026": {
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary%C2%A0",
+      "date": "2026",
+      "boundary": "Data-centre facility electricity; subset of total demand"
+    },
+    "GER2026": {
+      "url": "https://www.iea.org/reports/global-energy-review-2026/key-findings",
+      "date": "2026",
+      "boundary": "Annual growth in total energy and electricity"
+    }
+  },
+  "question2/technology_results.json": {
+    "WEO2025": {
+      "url": "https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf",
+      "pages": "417, 423, 429, 453–456",
+      "basis": "Published scenarios and regional modeled costs; Annex A CC BY-NC-SA 4.0; Annex B CC BY 4.0"
+    },
+    "Lazard2026": {
+      "url": "https://www.lazard.com/media/kcfconhf/lazards-lcoeplus_vf.pdf",
+      "pages": "7, 11 and appendix",
+      "basis": "Unsubsidized modeled generation costs; 60% debt at 8%, 40% equity at 12%; nuclear based on Vogtle"
+    },
+    "IRENA2026": {
+      "url": "https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025",
+      "mirror": "https://tethys-engineering.pnnl.gov/sites/default/files/publications/Dardour-Zamora-2026.pdf",
+      "pages": "13–18, 141, 153–156",
+      "basis": "2025 USD; commissioned renewable project cost estimates; emerging technology estimates have a different evidence base"
+    },
+    "NETL2025": {
+      "url": "https://netl.doe.gov/projects/files/CostandPerformanceBaselineFossilEnergyPlantsVolume1BituminousCoalNaturalGastoElectricity_052125.pdf",
+      "pages": "12–18; PDF pages 34–40",
+      "basis": "2023 USD; modeled US Midwest plants, 85% utilization; gas $3.42/MMBtu; CO2 transport/storage included"
+    },
+    "Nuclear2026": {
+      "url": "https://www.iea.org/reports/global-energy-review-2026/technology-nuclear",
+      "basis": "2025 capacity additions and retirements"
+    },
+    "GeothermalPotential": {
+      "url": "https://www.iea.org/reports/the-future-of-geothermal-energy/executive-summary",
+      "basis": "2024 conditional low-cost case, not a forecast"
+    },
+    "Fervo2026": {
+      "url": "https://fervoenergy.com/fervo-energy-declares-commercial-operation-at-cape-station-ahead-of-schedule-leading-the-race-for-next-generation-geothermal-energy/",
+      "date": "2026-10-01",
+      "basis": "Company reports first 33 MW unit commercial; remaining phase I units not yet commercial"
+    },
+    "SMR": {
+      "url": "https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy/executive-summary",
+      "basis": "2025 report: 40/120/190 GW in different 2050 cases, included within nuclear, not additional"
+    },
+    "OPG": {
+      "url": "https://www.opg.com/wp-content/uploads/2026/03/2025-Q4-OPG-PR-MDA-FS-FINAL.pdf",
+      "basis": "First Darlington SMR budget C$7.7bn including shared infrastructure, interest, escalation and contingency"
+    },
+    "FusionDOE": {
+      "url": "https://www.energy.gov/articles/energy-department-releases-finalized-fusion-science-and-technology-roadmap-accelerate",
+      "date": "2026-06-09",
+      "basis": "Development roadmap; commercial electricity is a goal"
+    },
+    "CFS": {
+      "url": "https://www.cfs.energy/technology/arc/",
+      "basis": "Company target: 400 MW early 2030s; no commercial operating cost"
+    },
+    "Helion": {
+      "url": "https://www.helionenergy.com/orion",
+      "basis": "Company target: at least 50 MW and initial operations in 2028"
+    },
+    "Grids": {
+      "url": "https://www.iea.org/reports/electricity-2026/grids",
+      "basis": "Project times: renewables 1–5 years, grids 5–15; scope and permitting matter"
+    }
+  },
+  "energy_model_results.json": {
+    "weo": {
+      "url": "https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf",
+      "pages": "423, 429, 437; 2024 fleet capacity on page 423",
+      "title": "IEA World Energy Outlook 2025, Annex A",
+      "license": "Annex A: CC BY-NC-SA 4.0"
+    },
+    "lazard": {
+      "url": "https://lazard.com/media/kcfconhf/lazards-lcoeplus_vf.pdf",
+      "pages": "7 and associated notes",
+      "title": "Lazard LCOE+ v19, July 2026"
+    },
+    "irena": {
+      "url": "https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025",
+      "pages": "153–156",
+      "title": "IRENA Renewable Power Generation Costs in 2025, published 2026"
+    },
+    "nasa_mars": {
+      "url": "https://www.nasa.gov/wp-content/uploads/2025/02/iparch07-wp-mars-surface-power.pdf",
+      "pages": "2 and 6",
+      "title": "NASA Mars Surface Power, February 2025"
+    },
+    "leo": {
+      "url": "https://www.nasa.gov/wp-content/uploads/2023/05/162182main-sts-116-press-kit.pdf",
+      "title": "NASA STS-116 press kit; representative 35-minute eclipse"
+    },
+    "moon": {
+      "url": "https://www.nasa.gov/lunar-surface-technology/",
+      "title": "NASA Lunar Surface Technology; approximately 14-day night"
+    },
+    "mars_day": {
+      "url": "https://science.nasa.gov/mars/facts/",
+      "title": "NASA Mars facts; 24.6-hour sol"
+    }
+  }
+}

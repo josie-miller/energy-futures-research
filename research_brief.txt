@@ -1,0 +1,61 @@
+ENERGY FUTURES / QUESTION 1 / RESEARCH DESIGN
+Prepared 24 October 2026. Scope: global demand, regional decomposition, 2030/2040/2050.
+
+DECISION TO SUPPORT
+Estimate how much electricity, heat and fuel will be required, where and when, before comparing supply technologies. Keep the ocean-energy thesis open for later testing.
+
+WHAT IS VERIFIED IN THIS FIRST PASS
+IEA Electricity Mid-Year Update 2026 (23 July 2026) reports 2025 world electricity consumption of about 28,600 TWh and projects about 30,700 TWh in 2027. Its annual growth forecasts are 3.6% for 2026 and 3.8% for 2027. These are reported historical estimates and forecasts, respectively, not our model results.
+https://www.iea.org/reports/electricity-mid-year-update-2026/executive-summary
+
+The February 2026 edition used a 28,200 TWh 2025 baseline. Keep this older vintage separate; do not splice its 2030 level into a July-based curve without reconciliation.
+https://www.iea.org/reports/electricity-2026/demand
+
+Global Energy Review 2026 reports 2025 total energy demand growth of 1.3%. This is a different quantity from electricity consumption; do not add the two.
+https://www.iea.org/reports/global-energy-review-2026/key-findings
+
+RESEARCH QUESTIONS AND ACCEPTANCE CRITERIA
+1. What exactly is being measured? Establish primary energy, final energy, useful services, electricity consumption and generation as separate series. Document EJ/TWh, geographic coverage, non-energy feedstocks, self-generation, losses and each source's boundary. Output: reconciled 2010-2025 baseline. Do not infer final demand from primary energy by a single conversion factor.
+2. Where is growth? Use disjoint regions: China, India, United States, EU27, Southeast Asia, rest of world. Compare current TWh, added TWh, growth rate and electricity per person. Avoid treating a high percentage on a small base as a large absolute market. Output: regional growth waterfall with complete global coverage.
+3. Which activities cause it? Industry by output and process; buildings by floor area, occupancy, climate and appliance ownership; transport by vehicle stock and distance. Data centers must be a separately modeled subcategory removed from the relevant buildings/services baseline, not an extra overlapping sector. Hydrogen/e-fuels need a transformation ledger so input electricity and output fuel are not counted twice in final energy. Output: sector contributions to incremental TWh.
+4. How do efficiency and electrification change it? For each service, model activity x electricity intensity, alongside fuel displacement. End-use technologies need adoption, retirement and intensity trajectories. Output: changes attributable to service growth, technology switching and efficiency; use a declared decomposition order or a method that handles interactions.
+5. When does load occur? Build regional hourly demand profiles, normalized to annual energy, for several weather years. Compare peaks, load-duration curves and flexible share. Do not add national peaks as if they were coincident; there is no single interconnected global grid. Output: annual TWh, regional peak GW and hourly load traces.
+6. What generation must be added? Reconcile end-use demand to net and gross generation. Add only losses absent from the chosen demand boundary. Model retirements, life extensions and any early phaseout separately. Output: annual output needed from new plants and commissioning pace; technology-specific capacity and reliability are the handoff to questions 2 and 3.
+
+MODEL SPECIFICATION
+Annual electricity = sum over region and service of activity x electricity per unit of activity.
+Population and income drive service activity; climate modifies heating/cooling; adoption and efficiency modify electricity intensity. Maintain fuel/heat demand in parallel. A GDP/intensity model provides a cross-check, not a second demand stream to add.
+Simplified net-generation balance at a consistent boundary: required generation = final electricity use + network losses + net storage losses + other electricity use excluded from final demand - net imports. Global net imports cancel; regional ones do not. Plant own-use bridges net to gross generation. Curtailment reduces usable potential output; do not silently count it as end-use demand or add it twice.
+Output from new plants = target usable generation - usable output from surviving existing plants (bounded below at zero). Surviving output depends on retirements, operating availability and utilization. Early fossil phaseout is an explicit scenario choice, not demand growth.
+Annual capacity equivalent in GW = TWh / (8.76 x capacity factor). This assumes a 365-day full operating year; completion timing matters for first-year output. Capacity factor is not firm capacity or capacity credit.
+
+SCENARIO DESIGN
+Vary service growth, energy efficiency, electrification and new industrial uses separately before combining coherent cases. Faster electrification can raise electricity use while lowering final energy. Use IEA World Energy Outlook 2025 CPS/STEPS/NZE as conditional benchmarks after checking boundaries, base years and policy assumptions; they are not probabilities. The IEA lists WEO 2026 for November 2026, so it is not used here as published evidence.
+https://www.iea.org/reports/world-energy-outlook-2025/executive-summary
+https://www.iea.org/events/world-energy-outlook-2026
+Use the September 2026 Electrification report for sector assumptions in the next research pass.
+https://www.iea.org/reports/electrification
+
+FIRST WORKING MODEL: TRANSPARENT SENSITIVITY ONLY
+D(year) = 28,600 x (1 + g)^(year - 2025), for g = 2%, 3%, 4%.
+The growth rates are analyst-selected test values, not a calibrated low/central/high forecast or confidence interval. The curves retain the IEA reported-consumption boundary. No arbitrary loss factor is added. The separate 2027 published forecast is not used to fit the curves. See demand_model.py and demand_sensitivity.csv for exact arithmetic.
+
+CONCRETE COMPARISONS (ALL INPUTS BELOW ARE ASSUMED)
+10 million EVs x 12,000 km/year x 0.18 kWh/km at the charger = 21.6 TWh/year.
+100 million households x 2,000 additional kWh/year = 200 TWh/year.
+100 GW of data-center facility load x 85% load factor x 8,760 hours = 744.6 TWh/year. Facility load already includes cooling and other overhead; do not multiply by PUE again.
+These examples illustrate scaling and are not forecasts or additive sector estimates. EV charging may be included in household metering, so an actual model must allocate it once.
+100 TWh of useful heat: a 90%-efficient gas boiler uses 111.1 TWh of gas; a heat pump with seasonal COP 3 uses 33.3 TWh of electricity. At this service boundary, the switch adds electricity, removes gas, and lowers final purchased energy. It does not by itself quantify primary energy or emissions.
+1,000 TWh/year of generator output corresponds to 571 GW at 20% capacity factor, 285 GW at 40%, or 127 GW at 90%. These are generic energy equivalents, not technology rankings or equally reliable systems.
+100 TWh/year of regional demand has a peak of 14.3 GW at 80% load factor or 28.5 GW at 40%. Same annual energy, very different peak requirement.
+
+NEXT EVIDENCE TO COLLECT
+Historical energy balances and electricity generation/consumption; consistent regional sector shares; population/income/activity pathways; technology stocks and turnover; hourly load and weather; existing plant age and retirement data. Back-test the model on held-out years and report regional/sector residuals. Publish an assumption ledger and sensitivities in TWh, not merely verbal low/high labels.
+
+STATUS
+Completed: sourced anchors, concrete research specification, editable Figma canvas, reproducible scaling prototype.
+Not yet completed: reconciled historical dataset, calibrated regional/sector forecast, published-scenario harmonization, hourly adequacy model or technology economics. Those are subsequent research tasks, not findings implied by the current curves.
+
+FIGMA WORKSPACE
+https://www.figma.com/design/ozvOZDQZTTiUgPA6kCsGxv
+Boards: research specification (3:2), growth sensitivity (3:58), concrete comparisons (3:117). All charts and text are editable.

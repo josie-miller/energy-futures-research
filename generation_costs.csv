@@ -1,0 +1,8 @@
+technology,low_USD_MWh,high_USD_MWh,source
+Onshore wind,37,99,Lazard 2026 p7
+Utility solar,40,98,Lazard 2026 p7
+Gas combined cycle,51,129,Lazard 2026 p7
+Solar + storage,61,156,Lazard 2026 p7
+Geothermal*,67,111,Lazard 2026 p7
+Offshore wind,105,167,Lazard 2026 p7
+New US nuclear**,175,255,Lazard 2026 p7

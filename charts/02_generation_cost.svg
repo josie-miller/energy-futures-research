@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="504pt" viewBox="0 0 864 504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-24T13:42:30.719369</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 864 504 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f3f3e9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 207.36 383.04 
+L 786.24 383.04 
+L 786.24 110.88 
+L 207.36 110.88 
+z
+" style="fill: #f3f3e9"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 207.36 383.04 
+L 207.36 110.88 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m7f81e7ee8e" d="M 0 0 
+L 0 3.5 
+" style="stroke: #60716a; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m7f81e7ee8e" x="207.36" y="383.04" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="207.36" y="398.398281" transform="rotate(-0 207.36 398.398281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 310.731429 383.04 
+L 310.731429 110.88 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m7f81e7ee8e" x="310.731429" y="383.04" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="310.731429" y="398.398281" transform="rotate(-0 310.731429 398.398281)">50</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 414.102857 383.04 
+L 414.102857 110.88 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m7f81e7ee8e" x="414.102857" y="383.04" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="414.102857" y="398.398281" transform="rotate(-0 414.102857 398.398281)">100</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 517.474286 383.04 
+L 517.474286 110.88 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m7f81e7ee8e" x="517.474286" y="383.04" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="517.474286" y="398.398281" transform="rotate(-0 517.474286 398.398281)">150</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 620.845714 383.04 
+L 620.845714 110.88 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m7f81e7ee8e" x="620.845714" y="383.04" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="620.845714" y="398.398281" transform="rotate(-0 620.845714 398.398281)">200</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 724.217143 383.04 
+L 724.217143 110.88 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #d9e0d6; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m7f81e7ee8e" x="724.217143" y="383.04" style="fill: #60716a; stroke: #60716a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: middle" x="724.217143" y="398.398281" transform="rotate(-0 724.217143 398.398281)">250</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: middle" x="496.8" y="413.044219" transform="rotate(-0 496.8 413.044219)">Unsubsidized generation cost · US dollars per MWh</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="203.86" y="127.43005" transform="rotate(-0 203.86 127.43005)">Onshore wind</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="203.86" y="168.666413" transform="rotate(-0 203.86 168.666413)">Utility solar</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="203.86" y="209.902777" transform="rotate(-0 203.86 209.902777)">Gas combined cycle</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="203.86" y="251.139141" transform="rotate(-0 203.86 251.139141)">Solar + storage</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17"/>
+     <g id="text_12">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="203.86" y="292.375504" transform="rotate(-0 203.86 292.375504)">Geothermal*</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18"/>
+     <g id="text_13">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="203.86" y="333.611868" transform="rotate(-0 203.86 333.611868)">Offshore wind</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_19"/>
+     <g id="text_14">
+      <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="203.86" y="374.848232" transform="rotate(-0 203.86 374.848232)">New US nuclear**</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_20">
+    <path d="M 283.854857 123.250909 
+L 412.035429 123.250909 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #007d69; stroke-width: 12"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 290.057143 164.487273 
+L 409.968 164.487273 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #007d69; stroke-width: 12"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 312.798857 205.723636 
+L 474.058286 205.723636 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #bd532f; stroke-width: 12"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 333.473143 246.96 
+L 529.878857 246.96 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #6577be; stroke-width: 12"/>
+   </g>
+   <g id="line2d_24">
+    <path d="M 345.877714 288.196364 
+L 436.844571 288.196364 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #6577be; stroke-width: 12"/>
+   </g>
+   <g id="line2d_25">
+    <path d="M 424.44 329.432727 
+L 552.620571 329.432727 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #6577be; stroke-width: 12"/>
+   </g>
+   <g id="line2d_26">
+    <path d="M 569.16 370.669091 
+L 734.554286 370.669091 
+" clip-path="url(#p4b0116e01a)" style="fill: none; stroke: #bd532f; stroke-width: 12"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 207.36 383.04 
+L 786.24 383.04 
+" style="fill: none; stroke: #ccd6cb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="275.585143" y="126.286222" transform="rotate(-0 275.585143 126.286222)">37</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="420.305143" y="126.286222" transform="rotate(-0 420.305143 126.286222)">99</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="281.787429" y="167.522585" transform="rotate(-0 281.787429 167.522585)">40</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="418.237714" y="167.522585" transform="rotate(-0 418.237714 167.522585)">98</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="304.529143" y="208.758949" transform="rotate(-0 304.529143 208.758949)">51</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="482.328" y="208.758949" transform="rotate(-0 482.328 208.758949)">129</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="325.203429" y="249.995313" transform="rotate(-0 325.203429 249.995313)">61</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="538.148571" y="249.995313" transform="rotate(-0 538.148571 249.995313)">156</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="337.608" y="291.231676" transform="rotate(-0 337.608 291.231676)">67</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="445.114286" y="291.231676" transform="rotate(-0 445.114286 291.231676)">111</text>
+   </g>
+   <g id="text_25">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="416.170286" y="332.46804" transform="rotate(-0 416.170286 332.46804)">105</text>
+   </g>
+   <g id="text_26">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="560.890286" y="332.46804" transform="rotate(-0 560.890286 332.46804)">167</text>
+   </g>
+   <g id="text_27">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: end" x="560.890286" y="373.704403" transform="rotate(-0 560.890286 373.704403)">175</text>
+   </g>
+   <g id="text_28">
+    <text style="fill: #16332f; font: 11px 'DejaVu Sans'; text-anchor: start" x="742.824" y="373.704403" transform="rotate(-0 742.824 373.704403)">255</text>
+   </g>
+  </g>
+  <g id="text_29">
+   <text style="fill: #16332f; font: 700 23px 'DejaVu Sans'; text-anchor: start" x="34.56" y="32.596406" transform="rotate(-0 34.56 32.596406)">Solar and wind start cheap. Reliability costs more.</text>
+  </g>
+  <g id="text_30">
+   <text style="fill: #60716a; font: 11px 'DejaVu Sans'; text-anchor: start" x="34.56" y="56.238281" transform="rotate(-0 34.56 56.238281)">These ranges price generation. They do not buy the same hours of service.</text>
+  </g>
+  <g id="text_31">
+   <text style="fill: #60716a; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 461.680781)">Source: Lazard LCOE+ v19, July 2026, p. 7. Solar + storage is not a guarantee of continuous supply.</text>
+   <text style="fill: #60716a; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 473.136523)">*Geothermal uses older estimates adjusted for inflation. **US nuclear is based on Vogtle 3 &amp; 4; it does not describe all countries or existing reactors.</text>
+   <text style="fill: #60716a; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 484.592266)">Common financing basis: 60% debt at 8%, 40% equity at 12%. Network, reliability and emissions differences still need a system comparison.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4b0116e01a">
+   <rect x="207.36" y="110.88" width="578.88" height="272.16"/>
+  </clipPath>
+ </defs>
+</svg>
