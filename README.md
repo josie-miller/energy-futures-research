@@ -2,7 +2,7 @@
 
 **What should we build to supply future energy demand—and does the answer change in orbit, on the Moon or on Mars?**
 
-Research as of 24 October 2026. The final product will be an experimental visual website inspired by The Pudding. This repository contains the research and reproducible graphics that will support it; the website has not been built yet.
+Research as of 24 October 2026. **Current work split: Q2 evaluates technologies and companies; the user is developing Q3, the proposed mix.** The final product will be an experimental visual website inspired by The Pudding. This repository contains the research and reproducible graphics that will support it; the website has not been built yet.
 
 ## Start here
 
@@ -11,9 +11,10 @@ Research as of 24 October 2026. The final product will be an experimental visual
 | [Research handoff and current positions](CLAUDE_SCIENCE_ENERGY_CONTEXT.md) | Project scope, findings, assumptions, design direction and open work |
 | [Katie handoff](katie%20handoff.md) | Build Question 1, the demand chapter, into the visual website |
 | [Question 1: Demand](question1/ANSWER.md) | How much electricity, what growth, which uses, where and when? |
-| [Question 2: Technologies](question2/ANSWER.md) | What can supply it, at what cost, how much, and how fast? |
+| [Question 2: Technologies](question2/ANSWER.md) | 27 standardized technology categories: evidence, costs, companies, scale, limits and geopolitics |
+| [Q2 cost and scale appendix](question2/COST_AND_SCALE.md) | Common-source cost comparisons and reproducible capacity calculations |
 | [Current scope](RESEARCH_SCOPE.md) | Landscape first, then an ambitious ocean-focused proposal |
-| [Companies, funding and geopolitics](question2/LANDSCAPE.md) | Ten selected company records and the mechanisms affecting deployment |
+| [Companies, funding and geopolitics](question2/LANDSCAPE.md) | 28 selected company/project profiles: ownership, funding, delivery and geopolitical constraints |
 | [Review of supplied evidence](question2/EVIDENCE_REVIEW.md) | What the technical evidence supports and which comparisons need revision |
 | [Source index](sources/README.md) | Original reports and source metadata |
 | [Initial Figma canvas](https://www.figma.com/design/ozvOZDQZTTiUgPA6kCsGxv) | Three early research boards; later charts have not been uploaded |

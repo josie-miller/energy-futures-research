@@ -101,6 +101,575 @@
       "basis": "Project times: renewables 1–5 years, grids 5–15; scope and permitting matter"
     }
   },
+  "question2/company_profiles.json": {
+    "lazard": {
+      "title": "Lazard LCOE+ v19, p. 7",
+      "url": "https://www.lazard.com/media/kcfconhf/lazards-lcoeplus_vf.pdf",
+      "publication_or_record_date": "2026-07",
+      "source_type": "cost model",
+      "checked": "2026-10-24"
+    },
+    "irena": {
+      "title": "IRENA renewable power generation costs in 2025",
+      "url": "https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025",
+      "publication_or_record_date": "2026-07",
+      "source_type": "international agency cost study",
+      "checked": "2026-10-24"
+    },
+    "weo": {
+      "title": "IEA WEO 2025, Annex A and B",
+      "url": "https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf",
+      "publication_or_record_date": "2025",
+      "source_type": "international agency scenarios",
+      "checked": "2026-10-24"
+    },
+    "supply": {
+      "title": "IEA manufacturing concentration and trade",
+      "url": "https://www.iea.org/reports/energy-technology-perspectives-2026/supply-chain-risks-and-industrial-competitiveness",
+      "publication_or_record_date": "2026",
+      "source_type": "international agency analysis",
+      "checked": "2026-10-24"
+    },
+    "grids": {
+      "title": "IEA Electricity 2026: grids",
+      "url": "https://www.iea.org/reports/electricity-2026/grids",
+      "publication_or_record_date": "2026",
+      "source_type": "international agency analysis",
+      "checked": "2026-10-24"
+    },
+    "haleu": {
+      "title": "DOE enrichment awards",
+      "url": "https://www.energy.gov/articles/us-department-energy-awards-27-billion-restore-american-uranium-enrichment",
+      "publication_or_record_date": "2026-01-05",
+      "source_type": "government funding announcement",
+      "checked": "2026-10-24"
+    },
+    "tidalpolicy": {
+      "title": "UK AR7 allocation results",
+      "url": "https://www.gov.uk/government/news/new-auction-delivers-unprecedented-clean-homegrown-power",
+      "publication_or_record_date": "2026-02",
+      "source_type": "government procurement outcome",
+      "checked": "2026-10-24"
+    },
+    "geopotential": {
+      "title": "IEA next-generation geothermal potential",
+      "url": "https://www.iea.org/reports/the-future-of-geothermal-energy/executive-summary",
+      "publication_or_record_date": "2024",
+      "source_type": "conditional technology scenario",
+      "checked": "2026-10-24"
+    },
+    "smrscale": {
+      "title": "IEA small reactor scenarios",
+      "url": "https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy/executive-summary",
+      "publication_or_record_date": "2025",
+      "source_type": "international agency scenarios",
+      "checked": "2026-10-24"
+    },
+    "fusionroadmap": {
+      "title": "DOE fusion roadmap",
+      "url": "https://www.energy.gov/articles/energy-department-releases-finalized-fusion-science-and-technology-roadmap-accelerate",
+      "publication_or_record_date": "2026-06-09",
+      "source_type": "government R&D roadmap",
+      "checked": "2026-10-24"
+    },
+    "netl": {
+      "title": "NETL fossil plant baseline, May 2025, ES-6",
+      "url": "https://netl.doe.gov/projects/files/CostandPerformanceBaselineFossilEnergyPlantsVolume1BituminousCoalNaturalGastoElectricity_052125.pdf",
+      "publication_or_record_date": "2025-05",
+      "source_type": "government engineering cost model",
+      "checked": "2026-10-24"
+    },
+    "firstsolar": {
+      "title": "First Solar 2025 annual report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000098/fslr2025annualreportpdf.pdf",
+      "publication_or_record_date": "2025 reporting year",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "firstsolarlisting": {
+      "title": "First Solar 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000021/fslr-20251231.htm",
+      "publication_or_record_date": "2026-02",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "longi": {
+      "title": "LONGi 2025 results",
+      "url": "https://www.longi.com/en/news/annual-report-2025/",
+      "publication_or_record_date": "2026-04-29",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "longiowners": {
+      "title": "LONGi 2026 interim report, p. 243",
+      "url": "https://static.longi.com/LON_Gi_Interim_Report_2026_7690cedede.pdf",
+      "publication_or_record_date": "2026-06-30 reporting date",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "oxford": {
+      "title": "Oxford PV first commercial shipment",
+      "url": "https://www.oxfordpv.com/press-releases/oxford-pv-solar-technology-patent",
+      "publication_or_record_date": "2024-09-05",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "oxfordfund": {
+      "title": "Oxford PV historical financing",
+      "url": "https://www.alexa-capital.com/engagements/oxford-pv",
+      "publication_or_record_date": "2019",
+      "source_type": "transaction adviser disclosure",
+      "checked": "2026-10-24"
+    },
+    "oxfordboard": {
+      "title": "Oxford PV board and company",
+      "url": "https://www.oxfordpv.com/about-us",
+      "publication_or_record_date": "undated, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "vestas": {
+      "title": "Vestas annual report 2025, pp. 27 and 43",
+      "url": "https://www.vestas.com/content/dam/vestas-com/global/en/investor/reports-and-presentations/financial/2025/fy-2025/Vestas%20Annual%20Report%202025.pdf",
+      "publication_or_record_date": "2026-02-05",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "equinorowners": {
+      "title": "Equinor shareholders",
+      "url": "https://www.equinor.com/investors/our-shareholders",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "hywind": {
+      "title": "Hywind Tampen project",
+      "url": "https://www.equinor.com/energy/hywind-tampen",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "enova": {
+      "title": "Norway industrial initiative, p. 71",
+      "url": "https://www.regjeringen.no/contentassets/1c3d3319e6a946f2b57633c0c5fcc25b/roadmap_the-green-industrial-initiative_singlepages_web.pdf",
+      "publication_or_record_date": "2022",
+      "source_type": "government support record",
+      "checked": "2026-10-24"
+    },
+    "westinghouse": {
+      "title": "Cameco: Westinghouse ownership",
+      "url": "https://www.cameco.com/businesses/westinghouse-nuclear",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "edf": {
+      "title": "EDF 2025 registration document",
+      "url": "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-urd-edf-2025-en.pdf",
+      "publication_or_record_date": "2026-04-02",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "edfowners": {
+      "title": "French state becomes sole EDF shareholder",
+      "url": "https://presse.economie.gouv.fr/08062023-letat-redevient-lactionnaire-unique-dedf/",
+      "publication_or_record_date": "2023-06-08",
+      "source_type": "government ownership disclosure",
+      "checked": "2026-10-24"
+    },
+    "khnpowners": {
+      "title": "KEPCO subsidiaries: KHNP 100%",
+      "url": "https://www.kepco.co.kr/home/about/orgaznization/subsidiaries/group-company/conts.do",
+      "publication_or_record_date": "2025-12-31 reporting date",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "khnp": {
+      "title": "KHNP Barakah operating milestones",
+      "url": "https://www.khnp.co.kr/eng/contents.do?key=560",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "barakahowners": {
+      "title": "KEPCO overseas businesses and Barakah project ownership",
+      "url": "https://www.kepco.co.kr/eng/business/overseas/business-overview.do",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "geh": {
+      "title": "Hitachi: US and Japanese nuclear venture ownership",
+      "url": "https://www.hitachi.com/en/press/articles/2025/10/1028b/",
+      "publication_or_record_date": "2025-10-28",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "opg": {
+      "title": "OPG 2025 financial report: Darlington project budget",
+      "url": "https://www.opg.com/wp-content/uploads/2026/03/2025-Q4-OPG-PR-MDA-FS-FINAL.pdf",
+      "publication_or_record_date": "2026-03",
+      "source_type": "issuer financial report",
+      "checked": "2026-10-24"
+    },
+    "cnsc": {
+      "title": "CNSC Darlington project record",
+      "url": "https://www.cnsc-ccsn.gc.ca/eng/reactors/new-reactor-power-plant-projects/new-reactor-power-plant-facilities/darlington-new-nuclear-project/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "regulator",
+      "checked": "2026-10-24"
+    },
+    "terraequity": {
+      "title": "TerraPower $650m financing",
+      "url": "https://www.terrapower.com/terrapower-announces-650-million-fundraise",
+      "publication_or_record_date": "2025-06-18",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "terrabuild": {
+      "title": "TerraPower construction start",
+      "url": "https://www.terrapower.com/TerraPower-Commences-Construction-on-Americas-First-Utility-Scale-Advanced-Nuclear-Power-Plant",
+      "publication_or_record_date": "2026-04-23",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "nrc": {
+      "title": "NRC authorizes Kemmerer construction permit",
+      "url": "https://content.govdelivery.com/accounts/USNRC/bulletins/40ca5a7?reqfrom=share",
+      "publication_or_record_date": "2026-03-04",
+      "source_type": "regulator announcement",
+      "checked": "2026-10-24"
+    },
+    "xenergy": {
+      "title": "X-energy Q2 2026 results",
+      "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-reports-second-quarter-2026-results",
+      "publication_or_record_date": "2026 Q2",
+      "source_type": "issuer financial report",
+      "checked": "2026-10-24"
+    },
+    "xenergyfund": {
+      "title": "X-energy $700m Series C-1",
+      "url": "https://x-energy.com/media/news-releases/x-energy-closes-upsized-700-million-series-c-1-financing-round-to-accelerate-the-development-of-advanced-small-modular-nuclear-technology",
+      "publication_or_record_date": "2025",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "xenergyowners": {
+      "title": "X-energy IPO registration statement",
+      "url": "https://investors.x-energy.com/static-files/7ac1a9af-0265-4863-95d9-e1acd08099fd",
+      "publication_or_record_date": "2026-04-15",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "cfsfund": {
+      "title": "CFS $1bn financing announcement",
+      "url": "https://www.cfs.energy/news-and-media/commonwealth-fusion-systems-raises-another-1-billion-bringing-total-capital-raised-to-4-billion/",
+      "publication_or_record_date": "2026-07-30",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "cfsarc": {
+      "title": "CFS ARC power plant",
+      "url": "https://www.cfs.energy/technology/arc/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "helionfund": {
+      "title": "Helion Series G, updated final close",
+      "url": "https://www.helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power",
+      "publication_or_record_date": "2026-06-04; updated 2026-09",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "helion": {
+      "title": "Helion Orion project",
+      "url": "https://www.helionenergy.com/orion",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "fervofin": {
+      "title": "Fervo Q2 2026 results",
+      "url": "https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-reports-second-quarter-2026-results",
+      "publication_or_record_date": "2026 Q2",
+      "source_type": "issuer financial report",
+      "checked": "2026-10-24"
+    },
+    "fervo": {
+      "title": "Fervo first Cape Station unit commercial operation",
+      "url": "https://fervoenergy.com/fervo-energy-declares-commercial-operation-at-cape-station-ahead-of-schedule-leading-the-race-for-next-generation-geothermal-energy/",
+      "publication_or_record_date": "2026-10-01",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "eavor": {
+      "title": "Eavor first power at Geretsried",
+      "url": "https://eavor.com/press-releases/eavor-technologies-achieves-first-electricity-production-at-geretsried-site/",
+      "publication_or_record_date": "2025-12-04",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "eavorvisit": {
+      "title": "Geothermal Alliance Bavaria site visit",
+      "url": "https://geothermie-allianz.de/en/eavor-sitevisit-geretsried/",
+      "publication_or_record_date": "2026-03",
+      "source_type": "research organization firsthand site report",
+      "checked": "2026-10-24"
+    },
+    "eavorfund": {
+      "title": "Eavor Canada Growth Fund commitment",
+      "url": "https://eavor.com/press-releases/canada-growth-fund-announces-additional-investment-in-eavor-technologies-a-calgary-based-advanced-geothermal-technology-company/",
+      "publication_or_record_date": "2025-06-03",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "quaise": {
+      "title": "Quaise $180m Series B close",
+      "url": "https://www.quaise.com/news/quaise-energy-closes-180-million-series-b-with-35-million-investment-by-nabors-industries",
+      "publication_or_record_date": "2026-08-27",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "quaiseowners": {
+      "title": "Nabors investment and 14% ownership in Quaise",
+      "url": "https://investor.nabors.com/2026-08-27-Nabors-Expands-Geothermal-Growth-Platform-with-35-Million-Strategic-Investment-in-Quaise-Energy",
+      "publication_or_record_date": "2026-08-27",
+      "source_type": "investor disclosure",
+      "checked": "2026-10-24"
+    },
+    "catl": {
+      "title": "CATL 2025 results",
+      "url": "https://www.catl.com/en/news/6773.html",
+      "publication_or_record_date": "2026-03-10",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "catlowners": {
+      "title": "CATL annual report 2025, pp. 83, 277",
+      "url": "https://www.catl.com/en/uploads/1/file/public/202603/20260311182739_3924pj798y.pdf",
+      "publication_or_record_date": "2025-12-31 reporting date",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "formfund": {
+      "title": "Form Energy Series G",
+      "url": "https://formenergy.com/form-energy-secures-750m-in-series-g-financing/",
+      "publication_or_record_date": "2026-08-12",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "formstatus": {
+      "title": "Great River Energy resource plan: Cambridge pilot",
+      "url": "https://greatriverenergy.com/wp-content/uploads/2026/05/2026-2040-GRE-IRP-FINAL-4-24-2026.pdf",
+      "publication_or_record_date": "2026-04-24",
+      "source_type": "customer planning filing",
+      "checked": "2026-10-24"
+    },
+    "hydrofund": {
+      "title": "Hydrostor $230m financing announcement",
+      "url": "https://hydrostor.ca/hydrostor-secures-230-million-to-progress-advanced-compressed-air-energy-storage-projects/",
+      "publication_or_record_date": "2026-08-12",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "hydrobackers": {
+      "title": "Hydrostor 2025 investor financing",
+      "url": "https://hydrostor.ca/hydrostor-announces-200-million-in-funding-from-leading-investors-to-accelerate-canadian-and-global-deployment-of-its-advanced-compressed-air-energy-storage-projects/",
+      "publication_or_record_date": "2025-02-13",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "hydro": {
+      "title": "Hydrostor Goderich reference project",
+      "url": "https://hydrostor.ca/project/the-goderich-a-caes-facility/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "rondofund": {
+      "title": "Rondo $60m financing",
+      "url": "https://www.prnewswire.com/news-releases/rondo-energy-secures-60-million-from-global-giants-and-leading-climate-investors-to-speed-industrial-decarbonization-301901797.html",
+      "publication_or_record_date": "2023-08-16",
+      "source_type": "company-issued release",
+      "checked": "2026-10-24"
+    },
+    "rondo": {
+      "title": "Rondo 100 MWh heat battery operation",
+      "url": "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
+      "publication_or_record_date": "2025-10-16",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "panthalassa": {
+      "title": "Panthalassa $140m financing and product plan",
+      "url": "https://www.prnewswire.com/news-releases/panthalassa-raises-140-million-to-power-ai-at-sea-302761078.html",
+      "publication_or_record_date": "2026-05-04",
+      "source_type": "company-issued release",
+      "checked": "2026-10-24"
+    },
+    "corpowerfund": {
+      "title": "CorPower €32m Series B1",
+      "url": "https://corpowerocean.com/corpower-ocean-secures-eur-32m-series-b1-funding-to-commercialise-wave-energy/",
+      "publication_or_record_date": "2024-10",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "corpowergrants": {
+      "title": "CorPower 2025 review: grants and investors",
+      "url": "https://corpowerocean.com/a-big-year-for-corpower-ocean/",
+      "publication_or_record_date": "2026-01-01",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "corpower": {
+      "title": "CorPower projects and schedules",
+      "url": "https://corpowerocean.com/projects/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "orbital": {
+      "title": "Orbital O2 launch and finance",
+      "url": "https://www.orbitalmarine.com/orbital-marine-power-launches-o2/",
+      "publication_or_record_date": "2021",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "orbitalfuture": {
+      "title": "Orbital EURO-TIDES decision",
+      "url": "https://www.orbitalmarine.com/european-commission-approval-for-landmark-tidal-energy-array/",
+      "publication_or_record_date": "2026-10-13",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "ampeakowners": {
+      "title": "Ampeak beneficial-owner notification",
+      "url": "https://ampeak.energy/ultimate-beneficial-owner-notification/",
+      "publication_or_record_date": "2026-02-17",
+      "source_type": "issuer ownership disclosure",
+      "checked": "2026-10-24"
+    },
+    "ampeak": {
+      "title": "Ampeak 2025 results",
+      "url": "https://ampeak.energy/final-results-for-the-year-ended-31-december-2025/",
+      "publication_or_record_date": "2026-06-26",
+      "source_type": "issuer financial report",
+      "checked": "2026-10-24"
+    },
+    "meygen": {
+      "title": "MeyGen project and CfD awards",
+      "url": "https://saerenewables.com/tidal-stream/meygen/",
+      "publication_or_record_date": "legacy project page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "meygenturbines": {
+      "title": "MeyGen four turbines and maintenance",
+      "url": "https://ampeak.energy/category/meygen-news/",
+      "publication_or_record_date": "2025-12-18 update",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "minesto": {
+      "title": "Minesto 2026 interim report",
+      "url": "https://attachment.news.eu.nasdaq.com/a1d2e534ec21e1bf99eeb720fa31329d8",
+      "publication_or_record_date": "2026-08",
+      "source_type": "issuer financial report",
+      "checked": "2026-10-24"
+    },
+    "minestofund": {
+      "title": "Minesto proposed SEK130m rights issue",
+      "url": "https://mfn.se/cis/a/minesto/minesto-ab-minesto-intends-to-carry-out-a-rights-issue-of-approximately-sek-130-million-f19aab7c",
+      "publication_or_record_date": "2026-10-21",
+      "source_type": "issuer announcement distributed via MFN",
+      "checked": "2026-10-24"
+    },
+    "minestoowners": {
+      "title": "Minesto shareholder table",
+      "url": "https://www.minesto.com/investor/aktien/",
+      "publication_or_record_date": "2025-05-19 table",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "globalotec": {
+      "title": "Global OTEC Bahamas study",
+      "url": "https://globalotec.co/the-bahamas-explores-ocean-thermal-energy-for-data-centres-and-water-supply-as-global-otec-leads-technical-studies/",
+      "publication_or_record_date": "2026-09-23",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "otec": {
+      "title": "EIA ocean thermal technology and operating demonstration",
+      "url": "https://www.eia.gov/energyexplained/hydropower/ocean-thermal-energy-conversion.php",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "government technical explainer",
+      "checked": "2026-10-24"
+    },
+    "sweetch": {
+      "title": "Sweetch OPUS-1 demonstrator",
+      "url": "https://www.sweetch.energy/industrial-projects/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "sweetchfund": {
+      "title": "Sweetch €25m Series A",
+      "url": "https://assets-global.website-files.com/6527b5a78159fe64a0eb7cdf/658048131232d2d65a376e14_121823%20PR%20SWEETCH%20ENERGY.pdf",
+      "publication_or_record_date": "2023-12-18",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "kwater": {
+      "title": "K-water Sihwa project",
+      "url": "https://www.kwater.or.kr/eng/busi/project03Page.do?s_mid=1192",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "tidaltech": {
+      "title": "PNNL tidal energy explanation",
+      "url": "https://www.pnnl.gov/explainer-articles/tidal-energy",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "national laboratory",
+      "checked": "2026-10-24"
+    },
+    "flow": {
+      "title": "DICP Dalian flow battery grid connection",
+      "url": "https://english.dicp.cas.cn/news/rn/202210/t20221018_321685.html",
+      "publication_or_record_date": "2022-10-18",
+      "source_type": "technology developer research institute",
+      "checked": "2026-10-24"
+    },
+    "nuceraowners": {
+      "title": "thyssenkrupp nucera shareholder structure",
+      "url": "https://investors.thyssenkrupp-nucera.com/investors/share",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "neomfinance": {
+      "title": "NEOM financial close",
+      "url": "https://www.acwapower.com/en/media-center/latest-news/neom-green-hydrogen-company-completes-financial-close-at-a-total-investment-value-of-usd-84-billion-in-the-world-s-largest-carbon-free-green-hydrogen-plant/",
+      "publication_or_record_date": "2023-05-22",
+      "source_type": "project sponsor disclosure",
+      "checked": "2026-10-24"
+    },
+    "neom": {
+      "title": "ACWA NEOM project schedule and current cost field",
+      "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "project sponsor disclosure",
+      "checked": "2026-10-24"
+    },
+    "space": {
+      "title": "NASA space solar cost study",
+      "url": "https://ntrs.nasa.gov/api/citations/20230018600/downloads/OTPS%20SBSP%20Report%20Final_Tagged_Approved_1_5_24.pdf",
+      "publication_or_record_date": "2024-01",
+      "source_type": "government concept cost model",
+      "checked": "2026-10-24"
+    }
+  },
   "energy_model_results.json": {
     "weo": {
       "url": "https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf",

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="561.6pt" viewBox="0 0 864 561.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-24T15:02:25.729735</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 561.6 
+L 864 561.6 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f5f4ed"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 190.08 415.584 
+L 794.88 415.584 
+L 794.88 146.016 
+L 190.08 146.016 
+z
+" style="fill: #f5f4ed"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 190.08 415.584 
+L 190.08 146.016 
+" clip-path="url(#pf5bc96975e)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m04adcc114d" d="M 0 0 
+L 0 3.5 
+" style="stroke: #596d64; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m04adcc114d" x="190.08" y="415.584" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="190.08" y="430.942281" transform="rotate(-0 190.08 430.942281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 308.668235 415.584 
+L 308.668235 146.016 
+" clip-path="url(#pf5bc96975e)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m04adcc114d" x="308.668235" y="415.584" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="308.668235" y="430.942281" transform="rotate(-0 308.668235 430.942281)">100</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 427.256471 415.584 
+L 427.256471 146.016 
+" clip-path="url(#pf5bc96975e)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m04adcc114d" x="427.256471" y="415.584" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="427.256471" y="430.942281" transform="rotate(-0 427.256471 430.942281)">200</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 545.844706 415.584 
+L 545.844706 146.016 
+" clip-path="url(#pf5bc96975e)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m04adcc114d" x="545.844706" y="415.584" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="545.844706" y="430.942281" transform="rotate(-0 545.844706 430.942281)">300</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 664.432941 415.584 
+L 664.432941 146.016 
+" clip-path="url(#pf5bc96975e)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m04adcc114d" x="664.432941" y="415.584" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="664.432941" y="430.942281" transform="rotate(-0 664.432941 430.942281)">400</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 783.021176 415.584 
+L 783.021176 146.016 
+" clip-path="url(#pf5bc96975e)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m04adcc114d" x="783.021176" y="415.584" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="783.021176" y="430.942281" transform="rotate(-0 783.021176 430.942281)">500</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: middle" x="492.48" y="445.588219" transform="rotate(-0 492.48 445.588219)">Generation cost · 2025 US dollars per MWh</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <defs>
+       <path id="m19cc46e5f3" d="M 0 0 
+L -3.5 0 
+" style="stroke: #193932; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m19cc46e5f3" x="190.08" y="173.786106" style="fill: #193932; stroke: #193932; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: end" x="183.08" y="177.965246" transform="rotate(-0 183.08 177.965246)">Onshore wind</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m19cc46e5f3" x="190.08" y="227.293053" style="fill: #193932; stroke: #193932; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: end" x="183.08" y="231.472193" transform="rotate(-0 183.08 231.472193)">Solar PV</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m19cc46e5f3" x="190.08" y="280.8" style="fill: #193932; stroke: #193932; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: end" x="183.08" y="284.979141" transform="rotate(-0 183.08 284.979141)">Offshore wind</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m19cc46e5f3" x="190.08" y="334.306947" style="fill: #193932; stroke: #193932; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: end" x="183.08" y="338.486088" transform="rotate(-0 183.08 338.486088)">Tidal stream</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m19cc46e5f3" x="190.08" y="387.813894" style="fill: #193932; stroke: #193932; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: end" x="183.08" y="391.993035" transform="rotate(-0 183.08 391.993035)">Wave</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 190.08 158.269091 
+L 229.214118 158.269091 
+L 229.214118 189.30312 
+L 190.08 189.30312 
+z
+" clip-path="url(#pf5bc96975e)" style="fill: #087f72; opacity: 0.9"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 190.08 211.776038 
+L 242.258824 211.776038 
+L 242.258824 242.810067 
+L 190.08 242.810067 
+z
+" clip-path="url(#pf5bc96975e)" style="fill: #087f72; opacity: 0.9"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 190.08 265.282985 
+L 282.578824 265.282985 
+L 282.578824 296.317015 
+L 190.08 296.317015 
+z
+" clip-path="url(#pf5bc96975e)" style="fill: #087f72; opacity: 0.9"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 190.08 318.789933 
+L 614.625882 318.789933 
+L 614.625882 349.823962 
+L 190.08 349.823962 
+z
+" clip-path="url(#pf5bc96975e)" style="fill: url(#hffa962cfef); opacity: 0.9"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 190.08 372.29688 
+L 728.470588 372.29688 
+L 728.470588 403.330909 
+L 190.08 403.330909 
+z
+" clip-path="url(#pf5bc96975e)" style="fill: url(#hffa962cfef); opacity: 0.9"/>
+   </g>
+   <g id="text_13">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="238.701176" y="176.821418" transform="rotate(-0 238.701176 176.821418)">33</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="251.745882" y="230.328365" transform="rotate(-0 251.745882 230.328365)">44</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="292.065882" y="283.835312" transform="rotate(-0 292.065882 283.835312)">78</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="624.112941" y="337.34226" transform="rotate(-0 624.112941 337.34226)">358</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="737.957647" y="390.849207" transform="rotate(-0 737.957647 390.849207)">454</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="fill: #193932; font: 700 23px 'DejaVu Sans'; text-anchor: start" x="38.88" y="45.556406" transform="rotate(-0 38.88 45.556406)">Wave and tidal power still have high estimated costs</text>
+  </g>
+  <g id="text_19">
+   <text style="fill: #596d64; font: 12px 'DejaVu Sans'" transform="translate(38.88 82.126125)">Green: averages for established renewable projects commissioned in 2025.</text>
+   <text style="fill: #596d64; font: 12px 'DejaVu Sans'" transform="translate(38.88 99.21075)">Orange: early marine estimates with a smaller and less certain evidence base.</text>
+  </g>
+  <g id="text_20">
+   <text style="fill: #596d64; font: 9.5px 'DejaVu Sans'" transform="translate(38.88 498.045344)">Source: IRENA Renewable Power Generation Costs in 2025 (2026), pp. 13–16 and 153–156.</text>
+   <text style="fill: #596d64; font: 9.5px 'DejaVu Sans'" transform="translate(38.88 511.570672)">Generation costs, not prices for identical hourly supply. Offshore wind is wind, not wave/tidal energy.</text>
+   <text style="fill: #596d64; font: 9.5px 'DejaVu Sans'" transform="translate(38.88 525.096)">Conditional learning estimates at 2 GW cumulative deployment: tidal ~140 and wave ~120 US$/MWh; not current offers.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf5bc96975e">
+   <rect x="190.08" y="146.016" width="604.8" height="269.568"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="hffa962cfef" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#b75b35"/>
+   <path d="M -36 36 
+L 36 -36 
+M -30 42 
+L 42 -30 
+M -24 48 
+L 48 -24 
+M -18 54 
+L 54 -18 
+M -12 60 
+L 60 -12 
+M -6 66 
+L 66 -6 
+M 0 72 
+L 72 0 
+M 6 78 
+L 78 6 
+M 12 84 
+L 84 12 
+M 18 90 
+L 90 18 
+M 24 96 
+L 96 24 
+M 30 102 
+L 102 30 
+M 36 108 
+L 108 36 
+" style="fill: #000000; stroke: #000000; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>

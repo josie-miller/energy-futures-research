@@ -1,6 +1,6 @@
 # First map the landscape. Then propose an ocean-focused system.
 
-User direction, updated 24 October 2026.
+User direction, updated 24 October 2026. **The user is working on Q3. Codex’s current assignment is Q2: standardized technology and company evaluation, then updating GitHub. Q2 does not choose a portfolio.**
 
 ## What we are doing now
 
@@ -15,7 +15,7 @@ User direction, updated 24 October 2026.
 7. How much demand could it meet, by when, and what annual construction would that require?
 8. How do trade policy, fuel dependence, national industrial policy and international relationships change cost or delivery?
 
-Use [the technology comparison](question2/ANSWER.md), [the initial company map](question2/LANDSCAPE.md), and [the review of the supplied technical evidence](question2/EVIDENCE_REVIEW.md) together. None replaces the others.
+Use [the technology comparison](question2/ANSWER.md), [the expanded company records](question2/LANDSCAPE.md), and [the review of the supplied technical evidence](question2/EVIDENCE_REVIEW.md) together. None replaces the others.
 
 ## What comes next
 

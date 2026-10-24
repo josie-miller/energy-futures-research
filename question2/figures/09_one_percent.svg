@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="540pt" viewBox="0 0 864 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-24T15:02:25.849280</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 864 540 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f5f4ed"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 267.84 405 
+L 803.52 405 
+L 803.52 140.4 
+L 267.84 140.4 
+z
+" style="fill: #f5f4ed"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 267.84 405 
+L 267.84 140.4 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="mcc0bcbc9e5" d="M 0 0 
+L 0 3.5 
+" style="stroke: #596d64; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mcc0bcbc9e5" x="267.84" y="405" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="267.84" y="420.358281" transform="rotate(-0 267.84 420.358281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 367.04 405 
+L 367.04 140.4 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mcc0bcbc9e5" x="367.04" y="405" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="367.04" y="420.358281" transform="rotate(-0 367.04 420.358281)">100</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 466.24 405 
+L 466.24 140.4 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mcc0bcbc9e5" x="466.24" y="405" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="466.24" y="420.358281" transform="rotate(-0 466.24 420.358281)">200</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 565.44 405 
+L 565.44 140.4 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mcc0bcbc9e5" x="565.44" y="405" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="565.44" y="420.358281" transform="rotate(-0 565.44 420.358281)">300</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 664.64 405 
+L 664.64 140.4 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mcc0bcbc9e5" x="664.64" y="405" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="664.64" y="420.358281" transform="rotate(-0 664.64 420.358281)">400</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 763.84 405 
+L 763.84 140.4 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #d8dfd5; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mcc0bcbc9e5" x="763.84" y="405" style="fill: #596d64; stroke: #596d64; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="fill: #596d64; font: 11px 'DejaVu Sans'; text-anchor: middle" x="763.84" y="420.358281" transform="rotate(-0 763.84 420.358281)">500</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: middle" x="535.68" y="435.004219" transform="rotate(-0 535.68 435.004219)">Installed electrical capacity required · GW</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13">
+      <defs>
+       <path id="m69fe909dc3" d="M 0 0 
+L -3.5 0 
+" style="stroke: #193932; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m69fe909dc3" x="267.84" y="152.427273" style="fill: #193932; stroke: #193932; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'" transform="translate(232.807187 151.283445)">Solar</text>
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'" transform="translate(94.947969 163.601038)">20% average output assumed</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m69fe909dc3" x="267.84" y="212.563636" style="fill: #193932; stroke: #193932; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'" transform="translate(185.232187 211.419808)">Onshore wind</text>
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'" transform="translate(94.947969 223.737402)">35% average output assumed</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m69fe909dc3" x="267.84" y="272.7" style="fill: #193932; stroke: #193932; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'" transform="translate(184.45875 271.556172)">Offshore wind</text>
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'" transform="translate(94.947969 283.873766)">45% average output assumed</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m69fe909dc3" x="267.84" y="332.836364" style="fill: #193932; stroke: #193932; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'" transform="translate(117.657812 331.692536)">Wave or tidal (illustration)</text>
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'" transform="translate(94.947969 344.010129)">35% average output assumed</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m69fe909dc3" x="267.84" y="392.972727" style="fill: #193932; stroke: #193932; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'" transform="translate(142.416406 391.828899)">Fission or geothermal</text>
+      <text style="fill: #193932; font: 11px 'DejaVu Sans'" transform="translate(94.947969 404.146493)">85% average output assumed</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_18">
+    <path d="M 607.566027 152.427273 
+L 720.808037 152.427273 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #466caa; stroke-width: 14"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 461.969159 212.563636 
+L 526.678878 212.563636 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #466caa; stroke-width: 14"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 418.829346 272.7 
+L 469.159127 272.7 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #466caa; stroke-width: 14"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 461.969159 332.836364 
+L 526.678878 332.836364 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #087f72; stroke-width: 14"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 347.775536 392.972727 
+L 374.420714 392.972727 
+" clip-path="url(#p8fb10dff13)" style="fill: none; stroke: #466caa; stroke-width: 14"/>
+   </g>
+   <g id="text_13">
+    <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: end" x="599.630027" y="155.462585" transform="rotate(-0 599.630027 155.462585)">342</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="728.744037" y="155.462585" transform="rotate(-0 728.744037 155.462585)">457 GW</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: end" x="454.033159" y="215.598949" transform="rotate(-0 454.033159 215.598949)">196</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="534.614878" y="215.598949" transform="rotate(-0 534.614878 215.598949)">261 GW</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: end" x="410.893346" y="275.735312" transform="rotate(-0 410.893346 275.735312)">152</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="477.095127" y="275.735312" transform="rotate(-0 477.095127 275.735312)">203 GW</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: end" x="454.033159" y="335.871676" transform="rotate(-0 454.033159 335.871676)">196</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="534.614878" y="335.871676" transform="rotate(-0 534.614878 335.871676)">261 GW</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #193932; font: 11px 'DejaVu Sans'; text-anchor: end" x="339.839536" y="396.00804" transform="rotate(-0 339.839536 396.00804)">81</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="382.356714" y="396.00804" transform="rotate(-0 382.356714 396.00804)">107 GW</text>
+   </g>
+  </g>
+  <g id="text_23">
+   <text style="fill: #193932; font: 700 23px 'DejaVu Sans'; text-anchor: start" x="38.88" y="44.476406" transform="rotate(-0 38.88 44.476406)">Even 1% of future demand means a large fleet</text>
+  </g>
+  <g id="text_24">
+   <text style="fill: #596d64; font: 12px 'DejaVu Sans'" transform="translate(38.88 79.318125)">1% of our two Q1 planning cases = 600–800 TWh of electricity per year.</text>
+   <text style="fill: #596d64; font: 12px 'DejaVu Sans'" transform="translate(38.88 96.40275)">Every range supplies the same annual amount; availability by hour still differs.</text>
+  </g>
+  <g id="text_25">
+   <text style="fill: #596d64; font: 9.5px 'DejaVu Sans'" transform="translate(38.88 483.249344)">Calculation: capacity (GW) = annual electricity (TWh) / [8.76 × average-output fraction].</text>
+   <text style="fill: #596d64; font: 9.5px 'DejaVu Sans'" transform="translate(38.88 496.774672)">Fractions are explicit illustrations, not company guarantees. Solar is on an AC plant basis.</text>
+   <text style="fill: #596d64; font: 9.5px 'DejaVu Sans'" transform="translate(38.88 510.3)">No siting, transmission loss, retirement, construction-rate, cost or hourly-reliability claim is implied.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8fb10dff13">
+   <rect x="267.84" y="140.4" width="535.68" height="264.6"/>
+  </clipPath>
+ </defs>
+</svg>

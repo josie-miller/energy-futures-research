@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1080pt" height="720pt" viewBox="0 0 1080 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-24T15:02:25.589389</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720 
+L 1080 720 
+L 1080 0 
+L 0 0 
+z
+" style="fill: #f5f4ed"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 48.6 112.614085 
+L 1031.4 112.614085 
+L 1031.4 145.977465 
+L 48.6 145.977465 
+z
+" clip-path="url(#p62f316ebb9)" style="fill: #e9ede3; stroke: #e9ede3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 48.6 183.6 
+L 1031.4 183.6 
+L 1031.4 216.96338 
+L 48.6 216.96338 
+z
+" clip-path="url(#p62f316ebb9)" style="fill: #e9ede3; stroke: #e9ede3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 48.6 254.585915 
+L 1031.4 254.585915 
+L 1031.4 287.949296 
+L 48.6 287.949296 
+z
+" clip-path="url(#p62f316ebb9)" style="fill: #e9ede3; stroke: #e9ede3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 48.6 325.571831 
+L 1031.4 325.571831 
+L 1031.4 358.935211 
+L 48.6 358.935211 
+z
+" clip-path="url(#p62f316ebb9)" style="fill: #e9ede3; stroke: #e9ede3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 48.6 396.557746 
+L 1031.4 396.557746 
+L 1031.4 429.921127 
+L 48.6 429.921127 
+z
+" clip-path="url(#p62f316ebb9)" style="fill: #e9ede3; stroke: #e9ede3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 48.6 467.543662 
+L 1031.4 467.543662 
+L 1031.4 500.907042 
+L 48.6 500.907042 
+z
+" clip-path="url(#p62f316ebb9)" style="fill: #e9ede3; stroke: #e9ede3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 48.6 538.529577 
+L 1031.4 538.529577 
+L 1031.4 571.892958 
+L 48.6 571.892958 
+z
+" clip-path="url(#p62f316ebb9)" style="fill: #e9ede3; stroke: #e9ede3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="132.331087" transform="rotate(-0 58.428 132.331087)">LONGi · solar modules</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #087f72; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="132.05515" transform="rotate(-0 377.838 132.05515)">Factory deliveries</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="131.917181" transform="rotate(-0 657.936 131.917181)">86.58 GW modules shipped in 2025</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="167.824045" transform="rotate(-0 58.428 167.824045)">Vestas · wind turbines</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #087f72; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="167.548107" transform="rotate(-0 377.838 167.548107)">Factory deliveries</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="167.410139" transform="rotate(-0 657.936 167.410139)">14.54 GW delivered in 2025</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="203.317003" transform="rotate(-0 58.428 203.317003)">Fervo · Cape Station</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #466caa; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="203.041065" transform="rotate(-0 377.838 203.041065)">Early operation</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="202.903096" transform="rotate(-0 657.936 202.903096)">33 MW net commercial output reported</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="238.80996" transform="rotate(-0 58.428 238.80996)">Eavor · Geretsried</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #466caa; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="238.534023" transform="rotate(-0 377.838 238.534023)">Early operation</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="238.396054" transform="rotate(-0 657.936 238.396054)">First loop feeds grid; economics under review</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="274.302918" transform="rotate(-0 58.428 274.302918)">Orbital · O2</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #466caa; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="274.026981" transform="rotate(-0 377.838 274.026981)">Early operation</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="273.889012" transform="rotate(-0 657.936 273.889012)">2 MW operating tidal turbine</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="309.752907" transform="rotate(-0 58.428 309.752907)">Hydrostor · Goderich</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #466caa; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="309.519938" transform="rotate(-0 377.838 309.519938)">Early operation</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="309.38197" transform="rotate(-0 657.936 309.38197)">1.75 MW discharge; small storage reference</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="345.288834" transform="rotate(-0 58.428 345.288834)">CorPower · C4</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #9b7a30; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="345.012896" transform="rotate(-0 377.838 345.012896)">Demonstration</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="344.874927" transform="rotate(-0 657.936 344.874927)">Grid-connected wave demonstration</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="380.738823" transform="rotate(-0 58.428 380.738823)">Minesto · Dragon</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: #9b7a30; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="380.505854" transform="rotate(-0 377.838 380.505854)">Demonstration</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="380.367885" transform="rotate(-0 657.936 380.367885)">Extended grid-connected testing reported</text>
+   </g>
+   <g id="text_25">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="416.274749" transform="rotate(-0 58.428 416.274749)">Sweetch · OPUS-1</text>
+   </g>
+   <g id="text_26">
+    <text style="fill: #9b7a30; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="415.998812" transform="rotate(-0 377.838 415.998812)">Demonstration</text>
+   </g>
+   <g id="text_27">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="415.860843" transform="rotate(-0 657.936 415.860843)">Real-water demonstrator; scale unproven</text>
+   </g>
+   <g id="text_28">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="451.767707" transform="rotate(-0 58.428 451.767707)">TerraPower · Natrium</text>
+   </g>
+   <g id="text_29">
+    <text style="fill: #b75b35; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="451.491769" transform="rotate(-0 377.838 451.491769)">Construction / development</text>
+   </g>
+   <g id="text_30">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="451.353801" transform="rotate(-0 657.936 451.353801)">Construction authorized; plant not operating</text>
+   </g>
+   <g id="text_31">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="487.260665" transform="rotate(-0 58.428 487.260665)">GEH / OPG · BWRX-300</text>
+   </g>
+   <g id="text_32">
+    <text style="fill: #b75b35; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="486.984727" transform="rotate(-0 377.838 486.984727)">Construction / development</text>
+   </g>
+   <g id="text_33">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="486.846758" transform="rotate(-0 657.936 486.846758)">300 MW first unit under construction</text>
+   </g>
+   <g id="text_34">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="522.710654" transform="rotate(-0 58.428 522.710654)">Form · Cambridge</text>
+   </g>
+   <g id="text_35">
+    <text style="fill: #b75b35; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="522.477685" transform="rotate(-0 377.838 522.477685)">Construction / development</text>
+   </g>
+   <g id="text_36">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="522.339716" transform="rotate(-0 657.936 522.339716)">Customer acceptance not verified in this review</text>
+   </g>
+   <g id="text_37">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="558.24658" transform="rotate(-0 58.428 558.24658)">CFS / Helion · fusion</text>
+   </g>
+   <g id="text_38">
+    <text style="fill: #b75b35; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="557.970643" transform="rotate(-0 377.838 557.970643)">Construction / development</text>
+   </g>
+   <g id="text_39">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="557.832674" transform="rotate(-0 657.936 557.832674)">Commercial net-electric output unverified</text>
+   </g>
+   <g id="text_40">
+    <text style="fill: #193932; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="58.428" y="593.739538" transform="rotate(-0 58.428 593.739538)">Global OTEC · Bahamas</text>
+   </g>
+   <g id="text_41">
+    <text style="fill: #b75b35; font: 10px 'DejaVu Sans'; text-anchor: start" x="377.838" y="593.4636" transform="rotate(-0 377.838 593.4636)">Construction / development</text>
+   </g>
+   <g id="text_42">
+    <text style="fill: #193932; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="657.936" y="593.325632" transform="rotate(-0 657.936 593.325632)">Feasibility study; not a power plant</text>
+   </g>
+  </g>
+  <g id="text_43">
+   <text style="fill: #193932; font: 700 23px 'DejaVu Sans'; text-anchor: start" x="48.6" y="46.276406" transform="rotate(-0 48.6 46.276406)">A funded company is not yet a working power station</text>
+  </g>
+  <g id="text_44">
+   <text style="fill: #596d64; font: 12px 'DejaVu Sans'; text-anchor: start" x="48.6" y="64.8" transform="rotate(-0 48.6 64.8)">Selected project evidence as of 24 October 2026. These are different milestones—not readiness scores.</text>
+  </g>
+  <g id="text_45">
+   <text style="fill: #596d64; font: 9px 'DejaVu Sans'; text-anchor: start" x="59.4" y="100.8" transform="rotate(-0 59.4 100.8)">NAMED PRODUCT / PROJECT</text>
+  </g>
+  <g id="text_46">
+   <text style="fill: #596d64; font: 9px 'DejaVu Sans'; text-anchor: start" x="378" y="100.8" transform="rotate(-0 378 100.8)">EVIDENCE CATEGORY</text>
+  </g>
+  <g id="text_47">
+   <text style="fill: #596d64; font: 9px 'DejaVu Sans'; text-anchor: start" x="658.8" y="100.8" transform="rotate(-0 658.8 100.8)">WHAT THE RECORD ESTABLISHES</text>
+  </g>
+  <g id="text_48">
+   <text style="fill: #596d64; font: 9px 'DejaVu Sans'" transform="translate(48.6 633.173063)">Sources: issuer filings, project/operator disclosures, NRC/CNSC and the Geothermal Alliance Bavaria site visit.</text>
+   <text style="fill: #596d64; font: 9px 'DejaVu Sans'" transform="translate(48.6 645.986531)">Company claims and unverified acceptance are identified. Factory GW, generator MW and storage MW are not interchangeable.</text>
+   <text style="fill: #596d64; font: 9px 'DejaVu Sans'" transform="translate(48.6 658.8)">Early operation does not establish long lifetime or repeatable cost. Full source mapping: landscape_figure_data.json.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p62f316ebb9">
+   <rect x="48.6" y="108" width="982.8" height="504"/>
+  </clipPath>
+ </defs>
+</svg>

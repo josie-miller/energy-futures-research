@@ -1,0 +1,198 @@
+{
+  "as_of": "2026-10-24",
+  "evidence_map": [
+    {
+      "label": "LONGi \u00b7 solar modules",
+      "state": "Factory deliveries",
+      "detail": "86.58 GW modules shipped in 2025",
+      "sources": [
+        "longi"
+      ]
+    },
+    {
+      "label": "Vestas \u00b7 wind turbines",
+      "state": "Factory deliveries",
+      "detail": "14.54 GW delivered in 2025",
+      "sources": [
+        "vestas"
+      ]
+    },
+    {
+      "label": "Fervo \u00b7 Cape Station",
+      "state": "Early operation",
+      "detail": "33 MW net commercial output reported",
+      "sources": [
+        "fervo"
+      ]
+    },
+    {
+      "label": "Eavor \u00b7 Geretsried",
+      "state": "Early operation",
+      "detail": "First loop feeds grid; economics under review",
+      "sources": [
+        "eavorvisit"
+      ]
+    },
+    {
+      "label": "Orbital \u00b7 O2",
+      "state": "Early operation",
+      "detail": "2 MW operating tidal turbine",
+      "sources": [
+        "orbital",
+        "orbitalfuture"
+      ]
+    },
+    {
+      "label": "Hydrostor \u00b7 Goderich",
+      "state": "Early operation",
+      "detail": "1.75 MW discharge; small storage reference",
+      "sources": [
+        "hydro"
+      ]
+    },
+    {
+      "label": "CorPower \u00b7 C4",
+      "state": "Demonstration",
+      "detail": "Grid-connected wave demonstration",
+      "sources": [
+        "corpower"
+      ]
+    },
+    {
+      "label": "Minesto \u00b7 Dragon",
+      "state": "Demonstration",
+      "detail": "Extended grid-connected testing reported",
+      "sources": [
+        "minesto"
+      ]
+    },
+    {
+      "label": "Sweetch \u00b7 OPUS-1",
+      "state": "Demonstration",
+      "detail": "Real-water demonstrator; scale unproven",
+      "sources": [
+        "sweetch"
+      ]
+    },
+    {
+      "label": "TerraPower \u00b7 Natrium",
+      "state": "Construction / development",
+      "detail": "Construction authorized; plant not operating",
+      "sources": [
+        "nrc",
+        "terrabuild"
+      ]
+    },
+    {
+      "label": "GEH / OPG \u00b7 BWRX-300",
+      "state": "Construction / development",
+      "detail": "300 MW first unit under construction",
+      "sources": [
+        "cnsc"
+      ]
+    },
+    {
+      "label": "Form \u00b7 Cambridge",
+      "state": "Construction / development",
+      "detail": "Customer acceptance not verified in this review",
+      "sources": [
+        "formstatus"
+      ]
+    },
+    {
+      "label": "CFS / Helion \u00b7 fusion",
+      "state": "Construction / development",
+      "detail": "Commercial net-electric output unverified",
+      "sources": [
+        "cfsarc",
+        "helion",
+        "fusionroadmap"
+      ]
+    },
+    {
+      "label": "Global OTEC \u00b7 Bahamas",
+      "state": "Construction / development",
+      "detail": "Feasibility study; not a power plant",
+      "sources": [
+        "globalotec"
+      ]
+    }
+  ],
+  "cost_comparison": {
+    "source_ids": [
+      "irena"
+    ],
+    "rows": [
+      {
+        "technology": "Onshore wind",
+        "usd2025_mwh": 33,
+        "basis": "commissioned-project average"
+      },
+      {
+        "technology": "Solar PV",
+        "usd2025_mwh": 44,
+        "basis": "commissioned-project average"
+      },
+      {
+        "technology": "Offshore wind",
+        "usd2025_mwh": 78,
+        "basis": "commissioned-project average"
+      },
+      {
+        "technology": "Tidal stream",
+        "usd2025_mwh": 358,
+        "basis": "early-sector estimate"
+      },
+      {
+        "technology": "Wave",
+        "usd2025_mwh": 454,
+        "basis": "early-sector estimate"
+      }
+    ]
+  },
+  "one_percent_experiment": {
+    "source": "Our arithmetic using the Q1 60000/80000 TWh planning cases; not a forecast",
+    "rows": [
+      {
+        "technology": "Solar",
+        "assumed_average_output_fraction": 0.2,
+        "low_twh": 600,
+        "high_twh": 800,
+        "low_gw": 342.4657534246575,
+        "high_gw": 456.62100456621005
+      },
+      {
+        "technology": "Onshore wind",
+        "assumed_average_output_fraction": 0.35,
+        "low_twh": 600,
+        "high_twh": 800,
+        "low_gw": 195.69471624266146,
+        "high_gw": 260.9262883235486
+      },
+      {
+        "technology": "Offshore wind",
+        "assumed_average_output_fraction": 0.45,
+        "low_twh": 600,
+        "high_twh": 800,
+        "low_gw": 152.20700152207002,
+        "high_gw": 202.94266869609334
+      },
+      {
+        "technology": "Wave or tidal (illustration)",
+        "assumed_average_output_fraction": 0.35,
+        "low_twh": 600,
+        "high_twh": 800,
+        "low_gw": 195.69471624266146,
+        "high_gw": 260.9262883235486
+      },
+      {
+        "technology": "Fission or geothermal",
+        "assumed_average_output_fraction": 0.85,
+        "low_twh": 600,
+        "high_twh": 800,
+        "low_gw": 80.58017727639002,
+        "high_gw": 107.44023636852002
+      }
+    ]
+  }
+}

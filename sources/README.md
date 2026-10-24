@@ -32,6 +32,90 @@ Original research reports are linked rather than copied into the repository. The
 - [Helion](https://www.helionenergy.com/orion): Company target: at least 50 MW and initial operations in 2028
 - [Grids](https://www.iea.org/reports/electricity-2026/grids): Project times: renewables 1–5 years, grids 5–15; scope and permitting matter
 
+### question2/company_profiles.json
+
+- [lazard](https://www.lazard.com/media/kcfconhf/lazards-lcoeplus_vf.pdf): 2026-07; cost model
+- [irena](https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025): 2026-07; international agency cost study
+- [weo](https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf): 2025; international agency scenarios
+- [supply](https://www.iea.org/reports/energy-technology-perspectives-2026/supply-chain-risks-and-industrial-competitiveness): 2026; international agency analysis
+- [grids](https://www.iea.org/reports/electricity-2026/grids): 2026; international agency analysis
+- [haleu](https://www.energy.gov/articles/us-department-energy-awards-27-billion-restore-american-uranium-enrichment): 2026-01-05; government funding announcement
+- [tidalpolicy](https://www.gov.uk/government/news/new-auction-delivers-unprecedented-clean-homegrown-power): 2026-02; government procurement outcome
+- [geopotential](https://www.iea.org/reports/the-future-of-geothermal-energy/executive-summary): 2024; conditional technology scenario
+- [smrscale](https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy/executive-summary): 2025; international agency scenarios
+- [fusionroadmap](https://www.energy.gov/articles/energy-department-releases-finalized-fusion-science-and-technology-roadmap-accelerate): 2026-06-09; government R&D roadmap
+- [netl](https://netl.doe.gov/projects/files/CostandPerformanceBaselineFossilEnergyPlantsVolume1BituminousCoalNaturalGastoElectricity_052125.pdf): 2025-05; government engineering cost model
+- [firstsolar](https://www.sec.gov/Archives/edgar/data/1274494/000127449426000098/fslr2025annualreportpdf.pdf): 2025 reporting year; issuer filing
+- [firstsolarlisting](https://www.sec.gov/Archives/edgar/data/1274494/000127449426000021/fslr-20251231.htm): 2026-02; issuer filing
+- [longi](https://www.longi.com/en/news/annual-report-2025/): 2026-04-29; company disclosure
+- [longiowners](https://static.longi.com/LON_Gi_Interim_Report_2026_7690cedede.pdf): 2026-06-30 reporting date; issuer filing
+- [oxford](https://www.oxfordpv.com/press-releases/oxford-pv-solar-technology-patent): 2024-09-05; company disclosure
+- [oxfordfund](https://www.alexa-capital.com/engagements/oxford-pv): 2019; transaction adviser disclosure
+- [oxfordboard](https://www.oxfordpv.com/about-us): undated, checked 2026-10-24; company disclosure
+- [vestas](https://www.vestas.com/content/dam/vestas-com/global/en/investor/reports-and-presentations/financial/2025/fy-2025/Vestas%20Annual%20Report%202025.pdf): 2026-02-05; issuer filing
+- [equinorowners](https://www.equinor.com/investors/our-shareholders): current page, checked 2026-10-24; company disclosure
+- [hywind](https://www.equinor.com/energy/hywind-tampen): current page, checked 2026-10-24; company disclosure
+- [enova](https://www.regjeringen.no/contentassets/1c3d3319e6a946f2b57633c0c5fcc25b/roadmap_the-green-industrial-initiative_singlepages_web.pdf): 2022; government support record
+- [westinghouse](https://www.cameco.com/businesses/westinghouse-nuclear): current page, checked 2026-10-24; company disclosure
+- [edf](https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-urd-edf-2025-en.pdf): 2026-04-02; issuer filing
+- [edfowners](https://presse.economie.gouv.fr/08062023-letat-redevient-lactionnaire-unique-dedf/): 2023-06-08; government ownership disclosure
+- [khnpowners](https://www.kepco.co.kr/home/about/orgaznization/subsidiaries/group-company/conts.do): 2025-12-31 reporting date; company disclosure
+- [khnp](https://www.khnp.co.kr/eng/contents.do?key=560): current page, checked 2026-10-24; company disclosure
+- [barakahowners](https://www.kepco.co.kr/eng/business/overseas/business-overview.do): current page, checked 2026-10-24; company disclosure
+- [geh](https://www.hitachi.com/en/press/articles/2025/10/1028b/): 2025-10-28; company disclosure
+- [opg](https://www.opg.com/wp-content/uploads/2026/03/2025-Q4-OPG-PR-MDA-FS-FINAL.pdf): 2026-03; issuer financial report
+- [cnsc](https://www.cnsc-ccsn.gc.ca/eng/reactors/new-reactor-power-plant-projects/new-reactor-power-plant-facilities/darlington-new-nuclear-project/): current page, checked 2026-10-24; regulator
+- [terraequity](https://www.terrapower.com/terrapower-announces-650-million-fundraise): 2025-06-18; company disclosure
+- [terrabuild](https://www.terrapower.com/TerraPower-Commences-Construction-on-Americas-First-Utility-Scale-Advanced-Nuclear-Power-Plant): 2026-04-23; company disclosure
+- [nrc](https://content.govdelivery.com/accounts/USNRC/bulletins/40ca5a7?reqfrom=share): 2026-03-04; regulator announcement
+- [xenergy](https://investors.x-energy.com/news-releases/news-release-details/x-energy-reports-second-quarter-2026-results): 2026 Q2; issuer financial report
+- [xenergyfund](https://x-energy.com/media/news-releases/x-energy-closes-upsized-700-million-series-c-1-financing-round-to-accelerate-the-development-of-advanced-small-modular-nuclear-technology): 2025; company disclosure
+- [xenergyowners](https://investors.x-energy.com/static-files/7ac1a9af-0265-4863-95d9-e1acd08099fd): 2026-04-15; issuer filing
+- [cfsfund](https://www.cfs.energy/news-and-media/commonwealth-fusion-systems-raises-another-1-billion-bringing-total-capital-raised-to-4-billion/): 2026-07-30; company disclosure
+- [cfsarc](https://www.cfs.energy/technology/arc/): current page, checked 2026-10-24; company disclosure
+- [helionfund](https://www.helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power): 2026-06-04; updated 2026-09; company disclosure
+- [helion](https://www.helionenergy.com/orion): current page, checked 2026-10-24; company disclosure
+- [fervofin](https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-reports-second-quarter-2026-results): 2026 Q2; issuer financial report
+- [fervo](https://fervoenergy.com/fervo-energy-declares-commercial-operation-at-cape-station-ahead-of-schedule-leading-the-race-for-next-generation-geothermal-energy/): 2026-10-01; company disclosure
+- [eavor](https://eavor.com/press-releases/eavor-technologies-achieves-first-electricity-production-at-geretsried-site/): 2025-12-04; company disclosure
+- [eavorvisit](https://geothermie-allianz.de/en/eavor-sitevisit-geretsried/): 2026-03; research organization firsthand site report
+- [eavorfund](https://eavor.com/press-releases/canada-growth-fund-announces-additional-investment-in-eavor-technologies-a-calgary-based-advanced-geothermal-technology-company/): 2025-06-03; company disclosure
+- [quaise](https://www.quaise.com/news/quaise-energy-closes-180-million-series-b-with-35-million-investment-by-nabors-industries): 2026-08-27; company disclosure
+- [quaiseowners](https://investor.nabors.com/2026-08-27-Nabors-Expands-Geothermal-Growth-Platform-with-35-Million-Strategic-Investment-in-Quaise-Energy): 2026-08-27; investor disclosure
+- [catl](https://www.catl.com/en/news/6773.html): 2026-03-10; company disclosure
+- [catlowners](https://www.catl.com/en/uploads/1/file/public/202603/20260311182739_3924pj798y.pdf): 2025-12-31 reporting date; issuer filing
+- [formfund](https://formenergy.com/form-energy-secures-750m-in-series-g-financing/): 2026-08-12; company disclosure
+- [formstatus](https://greatriverenergy.com/wp-content/uploads/2026/05/2026-2040-GRE-IRP-FINAL-4-24-2026.pdf): 2026-04-24; customer planning filing
+- [hydrofund](https://hydrostor.ca/hydrostor-secures-230-million-to-progress-advanced-compressed-air-energy-storage-projects/): 2026-08-12; company disclosure
+- [hydrobackers](https://hydrostor.ca/hydrostor-announces-200-million-in-funding-from-leading-investors-to-accelerate-canadian-and-global-deployment-of-its-advanced-compressed-air-energy-storage-projects/): 2025-02-13; company disclosure
+- [hydro](https://hydrostor.ca/project/the-goderich-a-caes-facility/): current page, checked 2026-10-24; company disclosure
+- [rondofund](https://www.prnewswire.com/news-releases/rondo-energy-secures-60-million-from-global-giants-and-leading-climate-investors-to-speed-industrial-decarbonization-301901797.html): 2023-08-16; company-issued release
+- [rondo](https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery): 2025-10-16; company disclosure
+- [panthalassa](https://www.prnewswire.com/news-releases/panthalassa-raises-140-million-to-power-ai-at-sea-302761078.html): 2026-05-04; company-issued release
+- [corpowerfund](https://corpowerocean.com/corpower-ocean-secures-eur-32m-series-b1-funding-to-commercialise-wave-energy/): 2024-10; company disclosure
+- [corpowergrants](https://corpowerocean.com/a-big-year-for-corpower-ocean/): 2026-01-01; company disclosure
+- [corpower](https://corpowerocean.com/projects/): current page, checked 2026-10-24; company disclosure
+- [orbital](https://www.orbitalmarine.com/orbital-marine-power-launches-o2/): 2021; company disclosure
+- [orbitalfuture](https://www.orbitalmarine.com/european-commission-approval-for-landmark-tidal-energy-array/): 2026-10-13; company disclosure
+- [ampeakowners](https://ampeak.energy/ultimate-beneficial-owner-notification/): 2026-02-17; issuer ownership disclosure
+- [ampeak](https://ampeak.energy/final-results-for-the-year-ended-31-december-2025/): 2026-06-26; issuer financial report
+- [meygen](https://saerenewables.com/tidal-stream/meygen/): legacy project page, checked 2026-10-24; company disclosure
+- [meygenturbines](https://ampeak.energy/category/meygen-news/): 2025-12-18 update; company disclosure
+- [minesto](https://attachment.news.eu.nasdaq.com/a1d2e534ec21e1bf99eeb720fa31329d8): 2026-08; issuer financial report
+- [minestofund](https://mfn.se/cis/a/minesto/minesto-ab-minesto-intends-to-carry-out-a-rights-issue-of-approximately-sek-130-million-f19aab7c): 2026-10-21; issuer announcement distributed via MFN
+- [minestoowners](https://www.minesto.com/investor/aktien/): 2025-05-19 table; company disclosure
+- [globalotec](https://globalotec.co/the-bahamas-explores-ocean-thermal-energy-for-data-centres-and-water-supply-as-global-otec-leads-technical-studies/): 2026-09-23; company disclosure
+- [otec](https://www.eia.gov/energyexplained/hydropower/ocean-thermal-energy-conversion.php): current page, checked 2026-10-24; government technical explainer
+- [sweetch](https://www.sweetch.energy/industrial-projects/): current page, checked 2026-10-24; company disclosure
+- [sweetchfund](https://assets-global.website-files.com/6527b5a78159fe64a0eb7cdf/658048131232d2d65a376e14_121823%20PR%20SWEETCH%20ENERGY.pdf): 2023-12-18; company disclosure
+- [kwater](https://www.kwater.or.kr/eng/busi/project03Page.do?s_mid=1192): current page, checked 2026-10-24; company disclosure
+- [tidaltech](https://www.pnnl.gov/explainer-articles/tidal-energy): current page, checked 2026-10-24; national laboratory
+- [flow](https://english.dicp.cas.cn/news/rn/202210/t20221018_321685.html): 2022-10-18; technology developer research institute
+- [nuceraowners](https://investors.thyssenkrupp-nucera.com/investors/share): current page, checked 2026-10-24; company disclosure
+- [neomfinance](https://www.acwapower.com/en/media-center/latest-news/neom-green-hydrogen-company-completes-financial-close-at-a-total-investment-value-of-usd-84-billion-in-the-world-s-largest-carbon-free-green-hydrogen-plant/): 2023-05-22; project sponsor disclosure
+- [neom](https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/): current page, checked 2026-10-24; project sponsor disclosure
+- [space](https://ntrs.nasa.gov/api/citations/20230018600/downloads/OTPS%20SBSP%20Report%20Final_Tagged_Approved_1_5_24.pdf): 2024-01; government concept cost model
+
 ### energy_model_results.json
 
 - [weo](https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf): 423, 429, 437; 2024 fleet capacity on page 423

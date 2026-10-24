@@ -1,0 +1,1078 @@
+{
+  "as_of": "2026-10-24",
+  "selection": "Selected evidence-rich manufacturers, developers and project operators; not exhaustive or a market-share ranking. Private control not inferred from named investors.",
+  "records": [
+    {
+      "id": "longi",
+      "name": "LONGi",
+      "family": "Solar",
+      "ownership": "Public, Shanghai 601012. June 2026 filing identifies Li Zhenguo and Li Xiyan as actual controllers, together holding 19.105%.",
+      "funding": "Equipment sales, operating cash and debt; disclosed CNY2.4bn technology-innovation green bond in its 2025 results. These finance the company, not every customer solar farm.",
+      "evidence": "Reports 86.58 GW of module shipments in 2025; 22.87 GW of back-contact module sales. Shipments are factory output, not installed AC generating capacity.",
+      "cost": "No company-specific electricity price assigned. Solar benchmark: US$44/MWh global 2025 commissioned projects; module selling price excludes installation and finance.",
+      "demand": "Already supplies equipment at tens of GW per year. Higher efficiency can lower land and installation needs per watt.",
+      "limitations": "Industry losses and price competition can weaken warranties and expansion even when solar technology is sound.",
+      "geopolitics": "Chinese supply chains, import restrictions and local-content rules change delivered prices; company reports adapting its US supply chain.",
+      "next_evidence": "Financial health, warranty provision, factory yields and delivered project prices.",
+      "source_ids": [
+        "longi",
+        "longiowners",
+        "irena"
+      ]
+    },
+    {
+      "id": "firstsolar",
+      "name": "First Solar",
+      "family": "Solar",
+      "ownership": "Public, Nasdaq FSLR; owned by public shareholders. A controlling shareholder was not established in this review.",
+      "funding": "2025 filing reports US$5.2bn revenue and US$2.4bn net cash; manufacturing tax credits support margins. Customer sales and corporate finance support factories.",
+      "evidence": "Commercial cadmium-telluride modules. Reports 17.5 GW sold in 2025.",
+      "cost": "Use the same solar plant benchmark as LONGi, not the manufacturer’s revenue divided by shipped watts as electricity cost.",
+      "demand": "A large non-silicon supply route for utility solar. Factory sales do not specify when customer plants connect.",
+      "limitations": "Manufacturing execution, material supply, module performance and customer project delivery.",
+      "geopolitics": "US manufacturing incentives and tariffs affect its competitive position; diversification can reduce dependence on crystalline-silicon supply chains.",
+      "next_evidence": "Comparable site-specific output, installed cost, contracted delivery and policy sensitivity.",
+      "source_ids": [
+        "firstsolar",
+        "firstsolarlisting",
+        "irena"
+      ]
+    },
+    {
+      "id": "oxford",
+      "name": "Oxford PV",
+      "family": "Tandem solar",
+      "ownership": "Private UK/German company. Board represents strategic and financial investors; current percentages and control were not verified.",
+      "funding": "Historical £65m 2019 financing involved Goldwind, Equinor, Legal & General and Meyer Burger. This is a dated event, not a current cap table or cash balance.",
+      "evidence": "Reported first commercial shipment of perovskite-silicon modules in September 2024.",
+      "cost": "No independently established commercial fleet electricity cost found; do not apply a laboratory efficiency record as a cost reduction.",
+      "demand": "More electricity from constrained roof or land area; eventual contribution sits inside solar, not on top of it.",
+      "limitations": "Long outdoor life, moisture/heat tolerance, production yield, encapsulation and warranty backing.",
+      "geopolitics": "European manufacturing and intellectual property may diversify supply; industrial scale still competes with large Asian manufacturers.",
+      "next_evidence": "Multi-year full-size outdoor results, degradation guarantees and price per delivered lifetime kWh.",
+      "source_ids": [
+        "oxford",
+        "oxfordfund",
+        "oxfordboard"
+      ]
+    },
+    {
+      "id": "vestas",
+      "name": "Vestas",
+      "family": "Wind",
+      "ownership": "Public, Nasdaq Copenhagen VWS. 2025 annual report states 100% free float and names BlackRock at 8.61% as notified July 2025; this is not majority control.",
+      "funding": "Equipment and service revenue, corporate financing and customer orders; 2025 group revenue €18.822bn, rather than venture funding.",
+      "evidence": "201 GW cumulatively installed by end-2025; 14.537 GW delivered during 2025. Cumulative installations are not a current operating-fleet audit.",
+      "cost": "Onshore benchmark US$33/MWh global 2025; offshore US$78/MWh. Neither is a Vestas quote.",
+      "demand": "Existing production and service network supports substantial near-term expansion.",
+      "limitations": "Permitting, grid connections, repairs, blade reliability, offshore factory ramp and installation vessels.",
+      "geopolitics": "Trade barriers and local manufacturing requirements can change supplier eligibility and cost.",
+      "next_evidence": "Annual deliveries, turbine availability, warranty costs and the customer’s final project budget.",
+      "source_ids": [
+        "vestas",
+        "irena"
+      ]
+    },
+    {
+      "id": "equinor",
+      "name": "Equinor / Hywind",
+      "family": "Floating offshore wind",
+      "ownership": "Listed company; Norwegian state owns 67%. Hywind Tampen has several field partners; Equinor is not the sole project owner.",
+      "funding": "Corporate and partner capital; government roadmap records NOK2.3bn Enova support for Hywind Tampen. This is historical project support.",
+      "evidence": "Hywind Tampen fully operating since 2023; 11 turbines upgraded to 94.6 MW total turbine rating. Export infrastructure was not upgraded by the same amount.",
+      "cost": "No current standardized floating-wind price established here. The US$78/MWh offshore benchmark must not be treated as a floating-wind quote.",
+      "demand": "Accesses deep-water wind near coastal or offshore demand; output remains weather-dependent.",
+      "limitations": "Moorings, dynamic cables, marine maintenance, ports and financing.",
+      "geopolitics": "Norwegian industrial policy and oil-and-gas supply-chain expertise support deployment; procurement and seabed access vary by country.",
+      "next_evidence": "Actual annual energy, maintenance expenditure and competitive repeat-project bids.",
+      "source_ids": [
+        "equinorowners",
+        "hywind",
+        "enova",
+        "irena"
+      ]
+    },
+    {
+      "id": "westinghouse",
+      "name": "Westinghouse",
+      "family": "Large fission",
+      "ownership": "Brookfield consortium owns 51%; Cameco owns 49%. Supplier ownership is separate from the utilities that own reactors.",
+      "funding": "Parent equity and established fuel/service revenue; each new plant requires separate project finance and customer commitments.",
+      "evidence": "Established reactor, fuel and service supplier. Operating AP1000 projects demonstrate the design; a new country still has construction risk.",
+      "cost": "US Vogtle-based new nuclear benchmark US$175–255/MWh; IEA repeat-build country assumptions are lower. Neither is a universal vendor price.",
+      "demand": "Large plants and lifetime support can supply dependable generation; construction and retirement rates determine expansion.",
+      "limitations": "Financing during long builds, project management, local skills and nuclear-qualified components.",
+      "geopolitics": "Export approvals, sovereign relationships and fuel diversification influence contracts and schedules.",
+      "next_evidence": "Project-specific completed cost, schedule, financing and repeat-build performance.",
+      "source_ids": [
+        "westinghouse",
+        "lazard",
+        "weo"
+      ]
+    },
+    {
+      "id": "edf",
+      "name": "EDF",
+      "family": "Large fission",
+      "ownership": "French state sole shareholder following 2023 nationalization. Individual foreign projects have separate ownership arrangements.",
+      "funding": "Utility cash flow, debt and state-backed industrial policy; government ownership is not unlimited free capital.",
+      "evidence": "Large operating nuclear fleet. Filing reports Flamanville 3 connected in December 2024 and reached full nominal output in December 2025.",
+      "cost": "Existing operations, life extensions and new EPR builds have different costs. No single EDF electricity cost assigned.",
+      "demand": "Keeping productive plants operating and completing repeat builds both matter for supply.",
+      "limitations": "Construction delays, refurbishment, component manufacturing, outages and cooling-water conditions.",
+      "geopolitics": "French and UK nuclear policy, financing structures and cross-border industrial cooperation shape delivery.",
+      "next_evidence": "Plant-level availability and completed costs; distinguish generation milestones from sustained annual output.",
+      "source_ids": [
+        "edf",
+        "edfowners",
+        "weo"
+      ]
+    },
+    {
+      "id": "khnp",
+      "name": "KHNP / KEPCO",
+      "family": "Large fission",
+      "ownership": "KHNP is 100% owned by KEPCO in its end-2025 subsidiary disclosure. At Barakah, project and operating companies are ENEC 82%, KEPCO 18%.",
+      "funding": "Utility group resources and customer/project finance. A reactor vendor and the plant’s equity owners are different entities.",
+      "evidence": "Four APR1400 units at Barakah entered commercial operation between 2021 and September 2024: 5.6 GW nameplate total.",
+      "cost": "No harmonized completed-project electricity cost established here. Avoid comparing an export construction contract with Vogtle’s full financed cost.",
+      "demand": "Repeated large reactors provide an operating counterexample to treating all nuclear construction as a US project.",
+      "limitations": "Local construction capability, financing, supplier capacity and country-specific licensing.",
+      "geopolitics": "Bilateral nuclear agreements, export finance and technology/IP permissions affect accessible markets.",
+      "next_evidence": "Comparable all-in costs and schedules for the next export project.",
+      "source_ids": [
+        "khnpowners",
+        "khnp",
+        "barakahowners"
+      ]
+    },
+    {
+      "id": "geh",
+      "name": "GE Vernova Hitachi / OPG",
+      "family": "Light-water SMR",
+      "ownership": "US venture: GE Vernova 60%, Hitachi 40%. Its Japanese sister venture has different ownership. OPG is the Darlington project owner, not the reactor vendor.",
+      "funding": "Corporate development plus OPG’s project capital. First-unit C$7.7bn budget includes shared infrastructure, interest, contingency and escalation.",
+      "evidence": "300 MW BWRX-300 at Darlington is under construction; CNSC records construction authorization and a subsequent operating-license application.",
+      "cost": "C$7.7bn / 300 MW ≈ C$25,700/kW with that broad first-unit boundary. It is not an overnight price or a repeat-unit forecast.",
+      "demand": "If operated at an assumed 85% annual output, one 300 MW unit yields about 2.23 TWh/year.",
+      "limitations": "First-build execution, licensing, manufacturing scale and finance; conventional light-water fuel avoids assuming every SMR needs HALEU.",
+      "geopolitics": "Canadian procurement and US/Japanese supply chains support deployment; each new jurisdiction needs authorization.",
+      "next_evidence": "First operating unit and subsequent-unit cost reductions with identical accounting.",
+      "source_ids": [
+        "geh",
+        "opg",
+        "cnsc"
+      ]
+    },
+    {
+      "id": "terrapower",
+      "name": "TerraPower",
+      "family": "Advanced fission",
+      "ownership": "Private developer founded by Bill Gates. Exact current voting control not established.",
+      "funding": "June 2025 US$650m equity round included Gates, HD Hyundai and NVentures. DOE demonstration support is distinct from corporate equity.",
+      "evidence": "NRC authorized construction permit issuance in March 2026; company announced nuclear plant construction in April. These are achieved milestones, not operating generation.",
+      "cost": "No completed Natrium plant cost or verified electricity price yet.",
+      "demand": "345 MW design plus heat storage; temporary higher output from storage is not extra continuous reactor energy.",
+      "limitations": "HALEU fuel, sodium systems, plant integration, licensing to operate and on-budget construction.",
+      "geopolitics": "US nuclear policy and non-Russian enrichment capacity affect the schedule; international industrial investors can support manufacturing.",
+      "next_evidence": "Fuel deliveries, construction progress, operating authorization and full plant cost.",
+      "source_ids": [
+        "terraequity",
+        "nrc",
+        "terrabuild",
+        "haleu"
+      ]
+    },
+    {
+      "id": "xenergy",
+      "name": "X-energy",
+      "family": "Advanced fission",
+      "ownership": "Public, Nasdaq XE following April 2026 IPO. Founder Kamal Ghaffarian and Amazon appear in financing/registration records; current voting percentages not asserted here.",
+      "funding": "Q2 results report about US$1.1bn net IPO proceeds. Earlier US$700m Series C-1 was anchored by Amazon; customer agreements are not additional equity.",
+      "evidence": "Xe-100 reactor and TRISO fuel development; no operating commercial Xe-100 fleet established in this review.",
+      "cost": "No verified operating-fleet price; do not substitute a proposed SMR average for this design.",
+      "demand": "Modules target electricity and industrial heat; planned deployments are conditional on licensing, fuel and construction.",
+      "limitations": "Fuel production/qualification, first plant construction and project finance.",
+      "geopolitics": "Domestic fuel policy, industrial heat customers and strategic computing buyers influence deployment.",
+      "next_evidence": "Regulator milestones, fuel factory throughput and a completed customer plant.",
+      "source_ids": [
+        "xenergy",
+        "xenergyfund",
+        "xenergyowners",
+        "haleu"
+      ]
+    },
+    {
+      "id": "cfs",
+      "name": "Commonwealth Fusion Systems",
+      "family": "Fusion",
+      "ownership": "Private company; full cap table and voting control not established.",
+      "funding": "July 2026 company announcement reports US$1bn new equity, US$4bn cumulative. Google and Eni also have power-buying relationships.",
+      "evidence": "SPARC is a fusion demonstration; ARC is a proposed power plant. Neither establishes sustained net commercial grid electricity.",
+      "cost": "Commercial electricity cost unverified; fundraising and a power agreement do not establish a delivered price.",
+      "demand": "ARC targets roughly 400 MW in the early 2030s. At assumed 85% output this would be 2.98 TWh/year, not current supply.",
+      "limitations": "Net plant output, neutron damage, maintenance, tritium supply/breeding and plant construction.",
+      "geopolitics": "National R&D support and specialized magnet/fuel supply chains matter; export partnerships can expand industrial capacity.",
+      "next_evidence": "Independent net-electric performance, fuel balance, duty cycle and a complete plant budget.",
+      "source_ids": [
+        "cfsfund",
+        "cfsarc",
+        "fusionroadmap"
+      ]
+    },
+    {
+      "id": "helion",
+      "name": "Helion",
+      "family": "Fusion",
+      "ownership": "Private company; exact control and investor percentages not verified.",
+      "funding": "Series G announcement updated to US$500m closed in September 2026, led by Thrive Capital.",
+      "evidence": "Orion target: at least 50 MW and initial operations in 2028. No independently verified commercial net-electric operating record established here.",
+      "cost": "No verified commercial cost. A prospective power contract is not evidence of the cost of fulfilling it.",
+      "demand": "50 MW at an assumed 85% average output would produce 0.37 TWh/year. That availability is an assumption, not demonstrated performance.",
+      "limitations": "Net electric gain, repetition rate, component survival, maintenance and fuel cycle.",
+      "geopolitics": "Public R&D support and strategic power customers can accelerate development without removing technical risk.",
+      "next_evidence": "Independent metered net output and sustained operation before relying on the deployment date.",
+      "source_ids": [
+        "helionfund",
+        "helion",
+        "fusionroadmap"
+      ]
+    },
+    {
+      "id": "fervo",
+      "name": "Fervo",
+      "family": "Enhanced geothermal",
+      "ownership": "Public after May 2026 IPO. Current controlling voting interest not established in this review.",
+      "funding": "Q2 filing reports US$2.2bn gross IPO proceeds and US$421m project debt for Cape Station’s first phase. Corporate equity and project debt fund different needs.",
+      "evidence": "Company reports 33 MW net commercially operating at Cape Station on 1 October 2026; remaining first-phase units were still commissioning.",
+      "cost": "No independently verified fleet-average EGS cost. Conventional geothermal’s US$89/MWh is a comparator, not a Fervo price.",
+      "demand": "33 MW at assumed 85% annual output is 0.246 TWh/year. Larger announced phases are future capacity.",
+      "limitations": "Drilling cost, sustained reservoir flow/temperature, pumping, induced seismicity and repeatability.",
+      "geopolitics": "Oilfield drilling skills and equipment transfer to geothermal; water and subsurface permitting remain local.",
+      "next_evidence": "Multi-year net output, well decline, pumping load and repeated project construction costs.",
+      "source_ids": [
+        "fervofin",
+        "fervo",
+        "irena"
+      ]
+    },
+    {
+      "id": "eavor",
+      "name": "Eavor",
+      "family": "Closed-loop geothermal",
+      "ownership": "Private Canadian developer; exact voting ownership not verified. Disclosed investors include Canada Growth Fund, bp Ventures, Chubu, Temasek, OMV and Microsoft’s climate fund.",
+      "funding": "June 2025 CGF commitment up to about C$138m: C$89m at financial close and about C$48m milestone-dependent; not all unconditional cash.",
+      "evidence": "Geretsried first grid power reported December 2025. A March 2026 research-group visit confirms the first of four planned loops operating; economics still being evaluated.",
+      "cost": "Commercial repeat-project cost unverified. Avoid treating planned full output as measured output from the first loop.",
+      "demand": "Can supply heat and electricity without relying on natural reservoir permeability; useful heat and electric output must be accounted separately.",
+      "limitations": "Drilling length/cost, heat transfer, thermal decline and site temperature.",
+      "geopolitics": "Canadian capital and European project support help early builds; heat-network access can determine the customer market.",
+      "next_evidence": "Annual net output, sustained heat extraction and full construction/operating cost.",
+      "source_ids": [
+        "eavorfund",
+        "eavor",
+        "eavorvisit"
+      ]
+    },
+    {
+      "id": "quaise",
+      "name": "Quaise",
+      "family": "Superhot geothermal",
+      "ownership": "Private; Nabors disclosed 14% fully diluted ownership and largest-shareholder status in August 2026. This is not majority control.",
+      "funding": "US$180m Series B final close includes Nabors’ US$35m investment; US$280m total funding reported. Do not add the US$35m twice.",
+      "evidence": "Drilling and project development; no operating Quaise power plant verified. Millimeter-wave drilling and the whole geothermal plant are separate engineering tests.",
+      "cost": "No demonstrated commercial electricity cost.",
+      "demand": "Project Obsidian initial 50 MW target; later expansion is conditional. Deep heat resources are not a construction forecast.",
+      "limitations": "Deep hot-hole drilling, casing/materials, well completion, reservoir management and net conversion performance.",
+      "geopolitics": "Drilling-contractor partnership supports equipment and execution; site permitting and technology supply chains still matter.",
+      "next_evidence": "Full-depth wells and sustained net power at known cost.",
+      "source_ids": [
+        "quaise",
+        "quaiseowners"
+      ]
+    },
+    {
+      "id": "catl",
+      "name": "CATL",
+      "family": "Batteries",
+      "ownership": "Public in Shenzhen and Hong Kong. End-2025 filing identifies Xiamen Ruiting, controlled by Zeng Yuqun, as controlling shareholder with 22.45%.",
+      "funding": "Large sales/cash-generating manufacturing business and public capital; 2025 revenue RMB423.7bn. Not a venture-stage project.",
+      "evidence": "2025 lithium-ion sales 661 GWh across uses; this includes vehicle batteries and must not be called 661 GWh of grid storage.",
+      "cost": "IRENA four-hour installed storage benchmark US$140/kWh in 2025. This is a system-level global benchmark, not CATL cell price.",
+      "demand": "Daily shifting, fast grid response and backup. Storage consumes charging electricity and is not new primary generation.",
+      "limitations": "Duration, degradation, efficiency, safety, grid connection and mineral supply.",
+      "geopolitics": "Chinese manufacturing concentration, trade restrictions and localization rules affect customer access and cost. Sodium-ion can change material needs, but needs its own evidence.",
+      "next_evidence": "Stationary-system delivered price, guaranteed cycles, installed capacity and usable energy.",
+      "source_ids": [
+        "catl",
+        "catlowners",
+        "irena",
+        "supply"
+      ]
+    },
+    {
+      "id": "form",
+      "name": "Form Energy",
+      "family": "Multi-day batteries",
+      "ownership": "Private company; full cap table and control not verified.",
+      "funding": "August 2026 US$750m Series G led by T. Rowe Price; backers include Sequoia, Breakthrough Energy Ventures and GE Vernova.",
+      "evidence": "Iron-air systems target 100-hour discharge. Great River Energy’s April 2026 filing awaited remaining Cambridge modules and expected operation by year-end; completed acceptance not verified here.",
+      "cost": "Installed price and operating-fleet performance not independently established. Low material cost does not establish full system cost.",
+      "demand": "Addresses multi-day shortfalls. The announced 80 GWh backlog is contracted storage energy, not operating GW or annual generation.",
+      "limitations": "Round-trip losses, footprint, cycle life, manufacturing yield, recharge time and capacity-payment economics.",
+      "geopolitics": "US manufacturing support and utility procurement help establish an early market.",
+      "next_evidence": "Customer-confirmed commissioning, discharge tests, efficiency and complete installed cost.",
+      "source_ids": [
+        "formfund",
+        "formstatus"
+      ]
+    },
+    {
+      "id": "hydrostor",
+      "name": "Hydrostor",
+      "family": "Compressed-air storage",
+      "ownership": "Private Canadian developer. Disclosed backers include Goldman Sachs Alternatives, Canada Growth Fund and CPP Investments; ownership percentages not established.",
+      "funding": "Announced US$230m financing in August 2026. A separate 2025 announcement named US$200m investor financing; do not sum without reconciling instruments and overlap.",
+      "evidence": "Goderich has operated since 2019: 1.75 MW discharge, more than 10 MWh physical storage, 7 MWh contracted.",
+      "cost": "No verified repeat-project electricity delivery cost established; large proposed plants cannot inherit a pilot price.",
+      "demand": "Long discharge and grid services; stores electricity rather than adding primary energy.",
+      "limitations": "Cavern geology, civil works, compressors, efficiency, permits and project finance.",
+      "geopolitics": "Canadian institutional capital and long-duration procurement in different markets help revenue certainty.",
+      "next_evidence": "Completed large-scale construction cost, guaranteed usable energy and measured round-trip efficiency.",
+      "source_ids": [
+        "hydrobackers",
+        "hydrofund",
+        "hydro"
+      ]
+    },
+    {
+      "id": "rondo",
+      "name": "Rondo Energy",
+      "family": "Heat storage",
+      "ownership": "Private company; exact ownership percentages not verified.",
+      "funding": "2023 US$60m financing included Microsoft’s climate fund, Rio Tinto, Aramco Ventures, SABIC, SCG, TITAN, BEV and other investors. Historical round, not current cash.",
+      "evidence": "Company reported a 100 MWh heat battery in commercial operation in October 2025, delivering industrial steam.",
+      "cost": "No independently verified heat price here. Claimed >97% efficiency is electricity-to-heat, not electricity-to-electricity.",
+      "demand": "Stores cheap electricity for industrial heat; can replace fuel use while increasing electricity demand.",
+      "limitations": "Charging price/window, heat delivery temperature, customer process integration and full installation cost.",
+      "geopolitics": "Industrial customers, electricity tariffs, carbon prices and domestic fuel prices determine competitiveness.",
+      "next_evidence": "Metered heat, charging energy, availability and a delivered heat contract.",
+      "source_ids": [
+        "rondofund",
+        "rondo"
+      ]
+    },
+    {
+      "id": "panthalassa",
+      "name": "Panthalassa",
+      "family": "Wave-powered computing",
+      "ownership": "Private public-benefit corporation; founder and investor identities do not establish voting control.",
+      "funding": "May 2026 US$140m Series B led by Peter Thiel; announcement names John Doerr, TIME Ventures and industrial participants.",
+      "evidence": "Wave-powered offshore computing concept with announced 2026 pilot and 2027 commercialization targets; commercial operating performance not independently verified.",
+      "cost": "Need cost per useful compute task including hardware, communications, maintenance and losses. Grid electricity cost alone is the wrong product comparison.",
+      "demand": "Could serve workloads suitable for offshore operation and data links; cannot directly supply every grid customer.",
+      "limitations": "Storm survival, energy variability, salt/corrosion, computing utilization, heat removal, repair and communications.",
+      "geopolitics": "Maritime jurisdiction, shipping/fisheries, data rules, chips and satellite access affect deployment.",
+      "next_evidence": "Metered wave input/net power, useful compute output, uptime, repair cost and lifecycle economics.",
+      "source_ids": [
+        "panthalassa"
+      ]
+    },
+    {
+      "id": "corpower",
+      "name": "CorPower Ocean",
+      "family": "Wave electricity",
+      "ownership": "Private Swedish developer; current control/percentages not verified.",
+      "funding": "€32m Series B1 in 2024 led by NordicNinja, SEB Greentech and EIT InnoEnergy. Separate EU grant and EIC equity pre-commitment support early arrays; commitments are not all received cash.",
+      "evidence": "C4 demonstrated grid export in Portugal. Company schedule: 10 MW VianaWave investment decision in 2027, operations in 2029/30.",
+      "cost": "No bankable CorPower fleet price established. IRENA’s early-wave estimate US$454/MWh is a sector reference, not this company’s bid.",
+      "demand": "Potential coastal power and complementary weather patterns; seasonal/storm performance and local resource govern output.",
+      "limitations": "Survival, device availability, maintenance vessels, arrays, cables and financing.",
+      "geopolitics": "EU demonstration grants and regional industrial policy can fund learning before unsubsidized competitiveness.",
+      "next_evidence": "Independent annual generation, availability, repair spend and array-level cost.",
+      "source_ids": [
+        "corpowerfund",
+        "corpowergrants",
+        "corpower",
+        "irena"
+      ]
+    },
+    {
+      "id": "orbital",
+      "name": "Orbital Marine Power",
+      "family": "Tidal stream",
+      "ownership": "Private Scottish developer; exact current shareholder control not verified.",
+      "funding": "O2 used EU/Scottish support and a £7m Abundance construction debenture. These are project funding records, not current equity valuation.",
+      "evidence": "O2 is an operating 2 MW turbine. October 2026 EURO-TIDES announcement advances a four-turbine array targeting 2028, subject to investment completion.",
+      "cost": "No verified commercial fleet price. Sector early-tidal estimate US$358/MWh is not an Orbital contract.",
+      "demand": "Predictable local generation in strong currents; slack tides still require complementary supply.",
+      "limitations": "Limited suitable channels, maintenance, cable access, marine ecology and scale economics.",
+      "geopolitics": "UK price-support contracts and EU demonstrations create early demand; public procurement continuity matters.",
+      "next_evidence": "Metered annual output, fleet maintenance and contracted costs for the next array.",
+      "source_ids": [
+        "orbital",
+        "orbitalfuture",
+        "irena",
+        "tidalpolicy"
+      ]
+    },
+    {
+      "id": "ampeak",
+      "name": "Ampeak Energy / MeyGen",
+      "family": "Tidal stream",
+      "ownership": "AIM-listed AMP, formerly SIMEC Atlantis Energy. February 2026 notification gives Patrick Hughes an indirect 29.6% interest through Landpad/SUEH. That is a dated substantial holding.",
+      "funding": "Existing generation revenue, public-market finance and supported power contracts. Expansion still needs project finance; parent battery projects are separate.",
+      "evidence": "MeyGen’s installed four-turbine array is 6 MW; servicing affects availability. Expansion awards for 59 MW are not an operating fleet.",
+      "cost": "No harmonized completed-array electricity cost verified. A support contract price is revenue, not production cost.",
+      "demand": "Operating-array evidence is valuable for learning; planned expansion is small relative to global demand.",
+      "limitations": "Underwater repairs, availability, financing and repeating arrays at viable sites.",
+      "geopolitics": "UK Contracts for Difference support early economics; ownership changes and finance affect delivery.",
+      "next_evidence": "Annual output and maintenance record, and expansion financial close. Do not mistake cumulative GWh for one year of output.",
+      "source_ids": [
+        "ampeakowners",
+        "ampeak",
+        "meygen",
+        "meygenturbines"
+      ]
+    },
+    {
+      "id": "minesto",
+      "name": "Minesto",
+      "family": "Tidal kites",
+      "ownership": "Public, Nasdaq First North. October 2026 financing notice identifies Corespring New Technology as largest shareholder; older percentage table is dated May 2025.",
+      "funding": "October 21 notice proposes about SEK130m rights issue, dependent on later approvals; about 60% covered by undertakings/guarantee. Proposed proceeds are not cash received.",
+      "evidence": "Company reports extended grid-connected Dragon tests in the Faroes, including the 1.2 MW Dragon 12. Demonstration is not an operating multi-unit commercial farm.",
+      "cost": "Commercial fleet electricity cost not verified.",
+      "demand": "Underwater kites seek to use lower-speed tidal sites, potentially expanding usable locations.",
+      "limitations": "Tethers, control, marine servicing, annual availability and financing.",
+      "geopolitics": "Island utilities and public demonstration support provide entry markets; local ecological and navigation permissions remain.",
+      "next_evidence": "Independent annual energy, maintenance, repeat sales and completed equity financing.",
+      "source_ids": [
+        "minesto",
+        "minestofund",
+        "minestoowners"
+      ]
+    },
+    {
+      "id": "globalotec",
+      "name": "Global OTEC",
+      "family": "Ocean thermal",
+      "ownership": "Privately held developer; current ownership/control not verified in reviewed sources.",
+      "funding": "Named project support: September 2026 Bahamas study commissioned by Expertise France and financed by the EU. A study budget is not financing for a completed power plant.",
+      "evidence": "Bahamas feasibility work and floating-platform development; no commercial Global OTEC electricity fleet established here.",
+      "cost": "No current independently verified commercial price. Tropical diesel displacement is a relevant comparator, not the cheapest mainland solar alone.",
+      "demand": "Potential continuous tropical power plus cooling/water services, if site and economics work.",
+      "limitations": "Small temperature difference, pumping loads, heat exchangers, large deep-water pipe and storm survivability.",
+      "geopolitics": "Island fuel-import dependence and development finance create demand; coastal jurisdiction and environmental consent affect projects.",
+      "next_evidence": "Sustained net power after pumps, pipe reliability and separately priced electricity/water/cooling.",
+      "source_ids": [
+        "globalotec",
+        "otec"
+      ]
+    },
+    {
+      "id": "sweetch",
+      "name": "Sweetch Energy",
+      "family": "Salinity-gradient power",
+      "ownership": "Private French company; full cap table and voting rights not verified.",
+      "funding": "€25m Series A in December 2023 led by Crédit Mutuel Impact’s fund; participants included CNR and EDF Pulse Ventures alongside existing financial investors.",
+      "evidence": "OPUS-1 is an operating demonstrator in the Rhône delta. Company estimate of roughly 500 MW installable locally is potential, not its present plant output.",
+      "cost": "No independently established commercial fleet price.",
+      "demand": "Could use natural river/seawater salinity differences or some industrial streams; useful output is limited by site flow and net energy balance.",
+      "limitations": "Membrane fouling/life, intake/filtration/pumping power, available freshwater and ecological constraints.",
+      "geopolitics": "French utilities and public support help demonstration; water rights and drought influence site availability.",
+      "next_evidence": "Net exported power after all water handling, membrane replacement costs and annual operation.",
+      "source_ids": [
+        "sweetch",
+        "sweetchfund"
+      ]
+    },
+    {
+      "id": "nucera",
+      "name": "thyssenkrupp nucera / NEOM project",
+      "family": "Hydrogen",
+      "ownership": "Listed nucera: thyssenkrupp 50.19%, De Nora 25.85%, Saudi PIF 6%, remainder free float. Customer NGHC is an equal ACWA/Air Products/NEOM venture.",
+      "funding": "NGHC’s 2023 financial close: US$8.4bn project value and US$6.1bn non-recourse financing, with 30-year Air Products offtake. This is customer project finance, not nucera equity.",
+      "evidence": "Large electrolyser deployment underway. Sponsor’s current page targets first product in 2027; do not reuse the old end-2026 operating target.",
+      "cost": "Current ACWA project page lists US$9.046bn project cost, versus US$8.4bn financial close. Boundaries/reconciliation need checking; neither is a hydrogen unit price.",
+      "demand": "Serves chemical/feedstock and fuel demand; electrolysis adds electricity demand. Returning hydrogen to electricity incurs further losses.",
+      "limitations": "Low-cost clean power, electrolyser utilization, water, conversion/transport and customers willing to pay.",
+      "geopolitics": "Saudi industrial strategy, export markets, clean-fuel certification and shipping routes affect delivery.",
+      "next_evidence": "Commissioning, metered hydrogen yield, firm end customers and reconciled project cost.",
+      "source_ids": [
+        "nuceraowners",
+        "neomfinance",
+        "neom"
+      ]
+    }
+  ],
+  "sources": {
+    "lazard": {
+      "title": "Lazard LCOE+ v19, p. 7",
+      "url": "https://www.lazard.com/media/kcfconhf/lazards-lcoeplus_vf.pdf",
+      "publication_or_record_date": "2026-07",
+      "source_type": "cost model",
+      "checked": "2026-10-24"
+    },
+    "irena": {
+      "title": "IRENA renewable power generation costs in 2025",
+      "url": "https://www.irena.org/Publications/2026/Jul/Renewable-Power-Generation-Costs-in-2025",
+      "publication_or_record_date": "2026-07",
+      "source_type": "international agency cost study",
+      "checked": "2026-10-24"
+    },
+    "weo": {
+      "title": "IEA WEO 2025, Annex A and B",
+      "url": "https://iea.blob.core.windows.net/assets/5306bae2-1f99-402f-8d14-542bfa0ae96e/WorldEnergyOutlook2025.pdf",
+      "publication_or_record_date": "2025",
+      "source_type": "international agency scenarios",
+      "checked": "2026-10-24"
+    },
+    "supply": {
+      "title": "IEA manufacturing concentration and trade",
+      "url": "https://www.iea.org/reports/energy-technology-perspectives-2026/supply-chain-risks-and-industrial-competitiveness",
+      "publication_or_record_date": "2026",
+      "source_type": "international agency analysis",
+      "checked": "2026-10-24"
+    },
+    "grids": {
+      "title": "IEA Electricity 2026: grids",
+      "url": "https://www.iea.org/reports/electricity-2026/grids",
+      "publication_or_record_date": "2026",
+      "source_type": "international agency analysis",
+      "checked": "2026-10-24"
+    },
+    "haleu": {
+      "title": "DOE enrichment awards",
+      "url": "https://www.energy.gov/articles/us-department-energy-awards-27-billion-restore-american-uranium-enrichment",
+      "publication_or_record_date": "2026-01-05",
+      "source_type": "government funding announcement",
+      "checked": "2026-10-24"
+    },
+    "tidalpolicy": {
+      "title": "UK AR7 allocation results",
+      "url": "https://www.gov.uk/government/news/new-auction-delivers-unprecedented-clean-homegrown-power",
+      "publication_or_record_date": "2026-02",
+      "source_type": "government procurement outcome",
+      "checked": "2026-10-24"
+    },
+    "geopotential": {
+      "title": "IEA next-generation geothermal potential",
+      "url": "https://www.iea.org/reports/the-future-of-geothermal-energy/executive-summary",
+      "publication_or_record_date": "2024",
+      "source_type": "conditional technology scenario",
+      "checked": "2026-10-24"
+    },
+    "smrscale": {
+      "title": "IEA small reactor scenarios",
+      "url": "https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy/executive-summary",
+      "publication_or_record_date": "2025",
+      "source_type": "international agency scenarios",
+      "checked": "2026-10-24"
+    },
+    "fusionroadmap": {
+      "title": "DOE fusion roadmap",
+      "url": "https://www.energy.gov/articles/energy-department-releases-finalized-fusion-science-and-technology-roadmap-accelerate",
+      "publication_or_record_date": "2026-06-09",
+      "source_type": "government R&D roadmap",
+      "checked": "2026-10-24"
+    },
+    "netl": {
+      "title": "NETL fossil plant baseline, May 2025, ES-6",
+      "url": "https://netl.doe.gov/projects/files/CostandPerformanceBaselineFossilEnergyPlantsVolume1BituminousCoalNaturalGastoElectricity_052125.pdf",
+      "publication_or_record_date": "2025-05",
+      "source_type": "government engineering cost model",
+      "checked": "2026-10-24"
+    },
+    "firstsolar": {
+      "title": "First Solar 2025 annual report",
+      "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000098/fslr2025annualreportpdf.pdf",
+      "publication_or_record_date": "2025 reporting year",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "firstsolarlisting": {
+      "title": "First Solar 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1274494/000127449426000021/fslr-20251231.htm",
+      "publication_or_record_date": "2026-02",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "longi": {
+      "title": "LONGi 2025 results",
+      "url": "https://www.longi.com/en/news/annual-report-2025/",
+      "publication_or_record_date": "2026-04-29",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "longiowners": {
+      "title": "LONGi 2026 interim report, p. 243",
+      "url": "https://static.longi.com/LON_Gi_Interim_Report_2026_7690cedede.pdf",
+      "publication_or_record_date": "2026-06-30 reporting date",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "oxford": {
+      "title": "Oxford PV first commercial shipment",
+      "url": "https://www.oxfordpv.com/press-releases/oxford-pv-solar-technology-patent",
+      "publication_or_record_date": "2024-09-05",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "oxfordfund": {
+      "title": "Oxford PV historical financing",
+      "url": "https://www.alexa-capital.com/engagements/oxford-pv",
+      "publication_or_record_date": "2019",
+      "source_type": "transaction adviser disclosure",
+      "checked": "2026-10-24"
+    },
+    "oxfordboard": {
+      "title": "Oxford PV board and company",
+      "url": "https://www.oxfordpv.com/about-us",
+      "publication_or_record_date": "undated, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "vestas": {
+      "title": "Vestas annual report 2025, pp. 27 and 43",
+      "url": "https://www.vestas.com/content/dam/vestas-com/global/en/investor/reports-and-presentations/financial/2025/fy-2025/Vestas%20Annual%20Report%202025.pdf",
+      "publication_or_record_date": "2026-02-05",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "equinorowners": {
+      "title": "Equinor shareholders",
+      "url": "https://www.equinor.com/investors/our-shareholders",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "hywind": {
+      "title": "Hywind Tampen project",
+      "url": "https://www.equinor.com/energy/hywind-tampen",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "enova": {
+      "title": "Norway industrial initiative, p. 71",
+      "url": "https://www.regjeringen.no/contentassets/1c3d3319e6a946f2b57633c0c5fcc25b/roadmap_the-green-industrial-initiative_singlepages_web.pdf",
+      "publication_or_record_date": "2022",
+      "source_type": "government support record",
+      "checked": "2026-10-24"
+    },
+    "westinghouse": {
+      "title": "Cameco: Westinghouse ownership",
+      "url": "https://www.cameco.com/businesses/westinghouse-nuclear",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "edf": {
+      "title": "EDF 2025 registration document",
+      "url": "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-urd-edf-2025-en.pdf",
+      "publication_or_record_date": "2026-04-02",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "edfowners": {
+      "title": "French state becomes sole EDF shareholder",
+      "url": "https://presse.economie.gouv.fr/08062023-letat-redevient-lactionnaire-unique-dedf/",
+      "publication_or_record_date": "2023-06-08",
+      "source_type": "government ownership disclosure",
+      "checked": "2026-10-24"
+    },
+    "khnpowners": {
+      "title": "KEPCO subsidiaries: KHNP 100%",
+      "url": "https://www.kepco.co.kr/home/about/orgaznization/subsidiaries/group-company/conts.do",
+      "publication_or_record_date": "2025-12-31 reporting date",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "khnp": {
+      "title": "KHNP Barakah operating milestones",
+      "url": "https://www.khnp.co.kr/eng/contents.do?key=560",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "barakahowners": {
+      "title": "KEPCO overseas businesses and Barakah project ownership",
+      "url": "https://www.kepco.co.kr/eng/business/overseas/business-overview.do",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "geh": {
+      "title": "Hitachi: US and Japanese nuclear venture ownership",
+      "url": "https://www.hitachi.com/en/press/articles/2025/10/1028b/",
+      "publication_or_record_date": "2025-10-28",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "opg": {
+      "title": "OPG 2025 financial report: Darlington project budget",
+      "url": "https://www.opg.com/wp-content/uploads/2026/03/2025-Q4-OPG-PR-MDA-FS-FINAL.pdf",
+      "publication_or_record_date": "2026-03",
+      "source_type": "issuer financial report",
+      "checked": "2026-10-24"
+    },
+    "cnsc": {
+      "title": "CNSC Darlington project record",
+      "url": "https://www.cnsc-ccsn.gc.ca/eng/reactors/new-reactor-power-plant-projects/new-reactor-power-plant-facilities/darlington-new-nuclear-project/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "regulator",
+      "checked": "2026-10-24"
+    },
+    "terraequity": {
+      "title": "TerraPower $650m financing",
+      "url": "https://www.terrapower.com/terrapower-announces-650-million-fundraise",
+      "publication_or_record_date": "2025-06-18",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "terrabuild": {
+      "title": "TerraPower construction start",
+      "url": "https://www.terrapower.com/TerraPower-Commences-Construction-on-Americas-First-Utility-Scale-Advanced-Nuclear-Power-Plant",
+      "publication_or_record_date": "2026-04-23",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "nrc": {
+      "title": "NRC authorizes Kemmerer construction permit",
+      "url": "https://content.govdelivery.com/accounts/USNRC/bulletins/40ca5a7?reqfrom=share",
+      "publication_or_record_date": "2026-03-04",
+      "source_type": "regulator announcement",
+      "checked": "2026-10-24"
+    },
+    "xenergy": {
+      "title": "X-energy Q2 2026 results",
+      "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-reports-second-quarter-2026-results",
+      "publication_or_record_date": "2026 Q2",
+      "source_type": "issuer financial report",
+      "checked": "2026-10-24"
+    },
+    "xenergyfund": {
+      "title": "X-energy $700m Series C-1",
+      "url": "https://x-energy.com/media/news-releases/x-energy-closes-upsized-700-million-series-c-1-financing-round-to-accelerate-the-development-of-advanced-small-modular-nuclear-technology",
+      "publication_or_record_date": "2025",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "xenergyowners": {
+      "title": "X-energy IPO registration statement",
+      "url": "https://investors.x-energy.com/static-files/7ac1a9af-0265-4863-95d9-e1acd08099fd",
+      "publication_or_record_date": "2026-04-15",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "cfsfund": {
+      "title": "CFS $1bn financing announcement",
+      "url": "https://www.cfs.energy/news-and-media/commonwealth-fusion-systems-raises-another-1-billion-bringing-total-capital-raised-to-4-billion/",
+      "publication_or_record_date": "2026-07-30",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "cfsarc": {
+      "title": "CFS ARC power plant",
+      "url": "https://www.cfs.energy/technology/arc/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "helionfund": {
+      "title": "Helion Series G, updated final close",
+      "url": "https://www.helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power",
+      "publication_or_record_date": "2026-06-04; updated 2026-09",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "helion": {
+      "title": "Helion Orion project",
+      "url": "https://www.helionenergy.com/orion",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "fervofin": {
+      "title": "Fervo Q2 2026 results",
+      "url": "https://ir.fervoenergy.com/news-releases/news-release-details/fervo-energy-reports-second-quarter-2026-results",
+      "publication_or_record_date": "2026 Q2",
+      "source_type": "issuer financial report",
+      "checked": "2026-10-24"
+    },
+    "fervo": {
+      "title": "Fervo first Cape Station unit commercial operation",
+      "url": "https://fervoenergy.com/fervo-energy-declares-commercial-operation-at-cape-station-ahead-of-schedule-leading-the-race-for-next-generation-geothermal-energy/",
+      "publication_or_record_date": "2026-10-01",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "eavor": {
+      "title": "Eavor first power at Geretsried",
+      "url": "https://eavor.com/press-releases/eavor-technologies-achieves-first-electricity-production-at-geretsried-site/",
+      "publication_or_record_date": "2025-12-04",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "eavorvisit": {
+      "title": "Geothermal Alliance Bavaria site visit",
+      "url": "https://geothermie-allianz.de/en/eavor-sitevisit-geretsried/",
+      "publication_or_record_date": "2026-03",
+      "source_type": "research organization firsthand site report",
+      "checked": "2026-10-24"
+    },
+    "eavorfund": {
+      "title": "Eavor Canada Growth Fund commitment",
+      "url": "https://eavor.com/press-releases/canada-growth-fund-announces-additional-investment-in-eavor-technologies-a-calgary-based-advanced-geothermal-technology-company/",
+      "publication_or_record_date": "2025-06-03",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "quaise": {
+      "title": "Quaise $180m Series B close",
+      "url": "https://www.quaise.com/news/quaise-energy-closes-180-million-series-b-with-35-million-investment-by-nabors-industries",
+      "publication_or_record_date": "2026-08-27",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "quaiseowners": {
+      "title": "Nabors investment and 14% ownership in Quaise",
+      "url": "https://investor.nabors.com/2026-08-27-Nabors-Expands-Geothermal-Growth-Platform-with-35-Million-Strategic-Investment-in-Quaise-Energy",
+      "publication_or_record_date": "2026-08-27",
+      "source_type": "investor disclosure",
+      "checked": "2026-10-24"
+    },
+    "catl": {
+      "title": "CATL 2025 results",
+      "url": "https://www.catl.com/en/news/6773.html",
+      "publication_or_record_date": "2026-03-10",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "catlowners": {
+      "title": "CATL annual report 2025, pp. 83, 277",
+      "url": "https://www.catl.com/en/uploads/1/file/public/202603/20260311182739_3924pj798y.pdf",
+      "publication_or_record_date": "2025-12-31 reporting date",
+      "source_type": "issuer filing",
+      "checked": "2026-10-24"
+    },
+    "formfund": {
+      "title": "Form Energy Series G",
+      "url": "https://formenergy.com/form-energy-secures-750m-in-series-g-financing/",
+      "publication_or_record_date": "2026-08-12",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "formstatus": {
+      "title": "Great River Energy resource plan: Cambridge pilot",
+      "url": "https://greatriverenergy.com/wp-content/uploads/2026/05/2026-2040-GRE-IRP-FINAL-4-24-2026.pdf",
+      "publication_or_record_date": "2026-04-24",
+      "source_type": "customer planning filing",
+      "checked": "2026-10-24"
+    },
+    "hydrofund": {
+      "title": "Hydrostor $230m financing announcement",
+      "url": "https://hydrostor.ca/hydrostor-secures-230-million-to-progress-advanced-compressed-air-energy-storage-projects/",
+      "publication_or_record_date": "2026-08-12",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "hydrobackers": {
+      "title": "Hydrostor 2025 investor financing",
+      "url": "https://hydrostor.ca/hydrostor-announces-200-million-in-funding-from-leading-investors-to-accelerate-canadian-and-global-deployment-of-its-advanced-compressed-air-energy-storage-projects/",
+      "publication_or_record_date": "2025-02-13",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "hydro": {
+      "title": "Hydrostor Goderich reference project",
+      "url": "https://hydrostor.ca/project/the-goderich-a-caes-facility/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "rondofund": {
+      "title": "Rondo $60m financing",
+      "url": "https://www.prnewswire.com/news-releases/rondo-energy-secures-60-million-from-global-giants-and-leading-climate-investors-to-speed-industrial-decarbonization-301901797.html",
+      "publication_or_record_date": "2023-08-16",
+      "source_type": "company-issued release",
+      "checked": "2026-10-24"
+    },
+    "rondo": {
+      "title": "Rondo 100 MWh heat battery operation",
+      "url": "https://www.rondo.com/news-press/rondo-powers-up-worlds-largest-industrial-heat-battery",
+      "publication_or_record_date": "2025-10-16",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "panthalassa": {
+      "title": "Panthalassa $140m financing and product plan",
+      "url": "https://www.prnewswire.com/news-releases/panthalassa-raises-140-million-to-power-ai-at-sea-302761078.html",
+      "publication_or_record_date": "2026-05-04",
+      "source_type": "company-issued release",
+      "checked": "2026-10-24"
+    },
+    "corpowerfund": {
+      "title": "CorPower €32m Series B1",
+      "url": "https://corpowerocean.com/corpower-ocean-secures-eur-32m-series-b1-funding-to-commercialise-wave-energy/",
+      "publication_or_record_date": "2024-10",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "corpowergrants": {
+      "title": "CorPower 2025 review: grants and investors",
+      "url": "https://corpowerocean.com/a-big-year-for-corpower-ocean/",
+      "publication_or_record_date": "2026-01-01",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "corpower": {
+      "title": "CorPower projects and schedules",
+      "url": "https://corpowerocean.com/projects/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "orbital": {
+      "title": "Orbital O2 launch and finance",
+      "url": "https://www.orbitalmarine.com/orbital-marine-power-launches-o2/",
+      "publication_or_record_date": "2021",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "orbitalfuture": {
+      "title": "Orbital EURO-TIDES decision",
+      "url": "https://www.orbitalmarine.com/european-commission-approval-for-landmark-tidal-energy-array/",
+      "publication_or_record_date": "2026-10-13",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "ampeakowners": {
+      "title": "Ampeak beneficial-owner notification",
+      "url": "https://ampeak.energy/ultimate-beneficial-owner-notification/",
+      "publication_or_record_date": "2026-02-17",
+      "source_type": "issuer ownership disclosure",
+      "checked": "2026-10-24"
+    },
+    "ampeak": {
+      "title": "Ampeak 2025 results",
+      "url": "https://ampeak.energy/final-results-for-the-year-ended-31-december-2025/",
+      "publication_or_record_date": "2026-06-26",
+      "source_type": "issuer financial report",
+      "checked": "2026-10-24"
+    },
+    "meygen": {
+      "title": "MeyGen project and CfD awards",
+      "url": "https://saerenewables.com/tidal-stream/meygen/",
+      "publication_or_record_date": "legacy project page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "meygenturbines": {
+      "title": "MeyGen four turbines and maintenance",
+      "url": "https://ampeak.energy/category/meygen-news/",
+      "publication_or_record_date": "2025-12-18 update",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "minesto": {
+      "title": "Minesto 2026 interim report",
+      "url": "https://attachment.news.eu.nasdaq.com/a1d2e534ec21e1bf99eeb720fa31329d8",
+      "publication_or_record_date": "2026-08",
+      "source_type": "issuer financial report",
+      "checked": "2026-10-24"
+    },
+    "minestofund": {
+      "title": "Minesto proposed SEK130m rights issue",
+      "url": "https://mfn.se/cis/a/minesto/minesto-ab-minesto-intends-to-carry-out-a-rights-issue-of-approximately-sek-130-million-f19aab7c",
+      "publication_or_record_date": "2026-10-21",
+      "source_type": "issuer announcement distributed via MFN",
+      "checked": "2026-10-24"
+    },
+    "minestoowners": {
+      "title": "Minesto shareholder table",
+      "url": "https://www.minesto.com/investor/aktien/",
+      "publication_or_record_date": "2025-05-19 table",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "globalotec": {
+      "title": "Global OTEC Bahamas study",
+      "url": "https://globalotec.co/the-bahamas-explores-ocean-thermal-energy-for-data-centres-and-water-supply-as-global-otec-leads-technical-studies/",
+      "publication_or_record_date": "2026-09-23",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "otec": {
+      "title": "EIA ocean thermal technology and operating demonstration",
+      "url": "https://www.eia.gov/energyexplained/hydropower/ocean-thermal-energy-conversion.php",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "government technical explainer",
+      "checked": "2026-10-24"
+    },
+    "sweetch": {
+      "title": "Sweetch OPUS-1 demonstrator",
+      "url": "https://www.sweetch.energy/industrial-projects/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "sweetchfund": {
+      "title": "Sweetch €25m Series A",
+      "url": "https://assets-global.website-files.com/6527b5a78159fe64a0eb7cdf/658048131232d2d65a376e14_121823%20PR%20SWEETCH%20ENERGY.pdf",
+      "publication_or_record_date": "2023-12-18",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "kwater": {
+      "title": "K-water Sihwa project",
+      "url": "https://www.kwater.or.kr/eng/busi/project03Page.do?s_mid=1192",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "tidaltech": {
+      "title": "PNNL tidal energy explanation",
+      "url": "https://www.pnnl.gov/explainer-articles/tidal-energy",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "national laboratory",
+      "checked": "2026-10-24"
+    },
+    "flow": {
+      "title": "DICP Dalian flow battery grid connection",
+      "url": "https://english.dicp.cas.cn/news/rn/202210/t20221018_321685.html",
+      "publication_or_record_date": "2022-10-18",
+      "source_type": "technology developer research institute",
+      "checked": "2026-10-24"
+    },
+    "nuceraowners": {
+      "title": "thyssenkrupp nucera shareholder structure",
+      "url": "https://investors.thyssenkrupp-nucera.com/investors/share",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "company disclosure",
+      "checked": "2026-10-24"
+    },
+    "neomfinance": {
+      "title": "NEOM financial close",
+      "url": "https://www.acwapower.com/en/media-center/latest-news/neom-green-hydrogen-company-completes-financial-close-at-a-total-investment-value-of-usd-84-billion-in-the-world-s-largest-carbon-free-green-hydrogen-plant/",
+      "publication_or_record_date": "2023-05-22",
+      "source_type": "project sponsor disclosure",
+      "checked": "2026-10-24"
+    },
+    "neom": {
+      "title": "ACWA NEOM project schedule and current cost field",
+      "url": "https://acwapower.com/en/what-we-do/projects/neom-green-hydrogen-project/",
+      "publication_or_record_date": "current page, checked 2026-10-24",
+      "source_type": "project sponsor disclosure",
+      "checked": "2026-10-24"
+    },
+    "space": {
+      "title": "NASA space solar cost study",
+      "url": "https://ntrs.nasa.gov/api/citations/20230018600/downloads/OTPS%20SBSP%20Report%20Final_Tagged_Approved_1_5_24.pdf",
+      "publication_or_record_date": "2024-01",
+      "source_type": "government concept cost model",
+      "checked": "2026-10-24"
+    }
+  }
+}

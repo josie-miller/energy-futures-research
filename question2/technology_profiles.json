@@ -1,0 +1,538 @@
+{
+  "as_of": "2026-10-24",
+  "scope": "Q2 technology evaluation; Q3 portfolio design is being developed by the user. Earth first; space comparison boundary only.",
+  "records": [
+    {
+      "id": "solar",
+      "name": "Solar photovoltaics",
+      "group": "Generation",
+      "service": "Converts sunlight directly to electricity. Silicon and cadmium-telluride are established products.",
+      "status": "Commercial at scale",
+      "evidence": "Large factories and operating fleets. LONGi reports 86.58 GW of modules shipped in 2025; First Solar reports 17.5 GW sold. These are manufacturer DC module figures, not measured electricity or AC plant capacity.",
+      "companies": "LONGi: public, founder-controlled in its June 2026 filing; sales and debt finance factories. First Solar: public shareholders; sales, corporate capital and US manufacturing credits. Plant developers raise separate project capital.",
+      "cost": "US$44/MWh: global average estimate for projects commissioned in 2025. US$40–98/MWh: modeled US new builds in 2026. Generation only; not all-hours supply.",
+      "demand_and_timing": "IEA 2050 scenarios: 20,374–35,509 TWh/year, or 35.1–44.3% of each scenario total. Main near-term growth option, subject to connections and demand at generating hours.",
+      "limitations": "Night, seasonal variation, midday surplus, land/roofs, transmission and financing. More panel efficiency does not remove these constraints.",
+      "geopolitics": "China-centered supply chains make tariffs, import restrictions and local manufacturing policy economically important.",
+      "assessment": "Very strong evidence of scalable generation. Compare delivered local projects and hourly value, not just module efficiency.",
+      "source_ids": [
+        "longi",
+        "firstsolar",
+        "longiowners",
+        "irena",
+        "lazard",
+        "weo",
+        "supply"
+      ]
+    },
+    {
+      "id": "tandem",
+      "name": "Perovskite-silicon tandem solar",
+      "group": "Generation",
+      "service": "Adds a second light-absorbing layer to capture more energy per unit area.",
+      "status": "Early commercial shipments",
+      "evidence": "Oxford PV reported first commercial shipment in 2024. A laboratory cell record, factory module result and multi-year field performance are different evidence.",
+      "companies": "Oxford PV is private; historical backers include Goldwind, Equinor and Legal & General. Exact current control was not verified. LONGi also pursues higher-efficiency solar; that does not make all its output tandem.",
+      "cost": "No independently established commercial fleet electricity cost. Higher efficiency helps only if price, yield and lifetime preserve the gain.",
+      "demand_and_timing": "Potentially increases solar output where land or installation cost matters. Included within the solar scenario totals; no separate verified 2050 share.",
+      "limitations": "Outdoor degradation, moisture/heat, encapsulation, large-area manufacturing yield and warranty backing.",
+      "geopolitics": "European R&D/manufacturing and international intellectual property compete with established Asian scale.",
+      "assessment": "Credible solar improvement to track. Require full-module lifetime and cost evidence before claiming a system-wide breakthrough.",
+      "source_ids": [
+        "oxford",
+        "oxfordfund",
+        "oxfordboard"
+      ]
+    },
+    {
+      "id": "onshore",
+      "name": "Onshore wind",
+      "group": "Generation",
+      "service": "Converts wind into electricity using land-based turbines.",
+      "status": "Commercial at scale",
+      "evidence": "Vestas reported 201 GW cumulatively installed by end-2025, across onshore and offshore models. Historical installations are not all necessarily still operating.",
+      "companies": "Vestas: listed, broadly held; sales, services and corporate finance. Other major suppliers include Chinese and European manufacturers; the detailed ledger does not claim an exhaustive supplier ranking.",
+      "cost": "US$33/MWh global commissioned-project average in 2025; US$37–99/MWh modeled US new builds in 2026.",
+      "demand_and_timing": "IEA all-wind scenarios: 10,991–23,250 TWh/year in 2050, 18.9–29.0% of respective totals. Do not allocate the full total separately to onshore and offshore wind.",
+      "limitations": "Wind variation, land access, permitting, transmission, turbine reliability and maintenance.",
+      "geopolitics": "Local-content rules, trade restrictions and manufacturing location change project bids and eligibility.",
+      "assessment": "A strong low-cost generation benchmark. Evaluate regional wind resource and production timing alongside buildability.",
+      "source_ids": [
+        "vestas",
+        "irena",
+        "lazard",
+        "weo"
+      ]
+    },
+    {
+      "id": "offshore",
+      "name": "Fixed-bottom offshore wind",
+      "group": "Generation",
+      "service": "Wind turbines anchored to the seabed; an ocean-sited wind technology, distinct from wave and tidal energy.",
+      "status": "Commercial at scale",
+      "evidence": "Commercial offshore turbines and fleets exist; new projects still carry installation and repair risk.",
+      "companies": "Vestas is a detailed supplier example. Developers, utilities and infrastructure investors finance individual farms separately from turbine manufacturers.",
+      "cost": "US$78/MWh global 2025 commissioned-project average; US$105–167/MWh modeled US 2026 projects. Geographic and financial differences explain part of the gap.",
+      "demand_and_timing": "Part of the all-wind 2050 totals. Can serve large coastal demand, with build rates limited by ports, vessels, cables and connections.",
+      "limitations": "Marine construction, access in poor weather, seabed conditions, cable failures and financing.",
+      "geopolitics": "Seabed leasing, national procurement and industrial policy strongly affect whether projects proceed.",
+      "assessment": "Established generation with more demanding construction economics than onshore wind. Use local bids; do not transfer its cost to floating wind.",
+      "source_ids": [
+        "vestas",
+        "irena",
+        "lazard",
+        "weo"
+      ]
+    },
+    {
+      "id": "floatingwind",
+      "name": "Floating offshore wind",
+      "group": "Generation",
+      "service": "Places wind turbines on floating foundations moored in deep water.",
+      "status": "Early commercial arrays",
+      "evidence": "Hywind Tampen operates with 11 turbines, 94.6 MW combined turbine rating. Operator notes export infrastructure was not upgraded with the turbines.",
+      "companies": "Equinor: 67% Norwegian state-owned listed company; project partners and historical Enova support. State ownership, project subsidy and project ownership are distinct.",
+      "cost": "No standardized repeat-project cost verified in this review. Fixed-bottom/global offshore averages are comparators, not floating-wind quotations.",
+      "demand_and_timing": "Potential access to deep-water wind near coastal loads. Still a small operating base relative to established wind; no separate forecast assigned.",
+      "limitations": "Floating foundations, moorings, dynamic cables, ports, towing/repair and financial risk.",
+      "geopolitics": "Countries with deep coastlines and offshore industrial capability may support early projects; seabed and environmental permissions remain local.",
+      "assessment": "Technically demonstrated at array scale. Repeated construction and maintenance costs are the main commercial test.",
+      "source_ids": [
+        "hywind",
+        "equinorowners",
+        "enova",
+        "irena"
+      ]
+    },
+    {
+      "id": "hydro",
+      "name": "Hydropower and pumped storage",
+      "group": "Generation / storage",
+      "service": "Natural river inflow supplies hydro generation. Pumped storage moves previously generated electricity through a water cycle and consumes net energy.",
+      "status": "Commercial at scale",
+      "evidence": "Large global operating fleets; reservoirs can shift output, subject to water availability and operating rules.",
+      "companies": "Examples include utility/public operators such as EDF and K-water. Ownership and funding are typically project-specific public or utility capital plus debt.",
+      "cost": "Conventional hydro: US$62/MWh global 2025 commissioned-project average. This is not a cost for every dam or pumped-storage discharge.",
+      "demand_and_timing": "IEA hydro generation: 6,383–7,398 TWh/year in 2050, 11.0–9.2% of respective scenarios. Do not add pumped-storage output as new primary energy.",
+      "limitations": "Geography, drought, competing water uses, ecosystems, displacement and civil works.",
+      "geopolitics": "Transboundary river agreements and public investment shape access and operation.",
+      "assessment": "Important established benchmark; expansion is site-constrained. Evaluate natural inflow and storage services separately.",
+      "source_ids": [
+        "irena",
+        "weo",
+        "edf",
+        "kwater"
+      ]
+    },
+    {
+      "id": "fission",
+      "name": "Large nuclear fission",
+      "group": "Generation",
+      "service": "Splits atomic nuclei to provide heat, usually producing electricity through steam turbines.",
+      "status": "Commercial at scale; delivery varies",
+      "evidence": "Long operating record. KHNP/KEPCO’s four Barakah units entered service in 2021–24. New construction performance varies strongly across countries and projects.",
+      "companies": "Westinghouse: Brookfield 51%, Cameco 49%. EDF: French state. KHNP: KEPCO subsidiary. Utilities/governments finance plants; reactor suppliers are not automatically plant owners.",
+      "cost": "US$175–255/MWh modeled new US nuclear based on Vogtle. IEA repeat-build 2024 assumptions: China 70, India 75, US 110, EU 165 US$/MWh. Existing plant operating costs are a separate category.",
+      "demand_and_timing": "IEA total fission, including SMRs: 5,531–6,853 TWh/year in 2050, 9.5–8.5%. New builds and retaining existing plants both affect supply.",
+      "limitations": "Upfront capital, long construction, outages, workforce/components, fuel, cooling and waste provisions.",
+      "geopolitics": "Government finance, export agreements and fuel suppliers shape costs and schedules; national industry matters as much as reactor design.",
+      "assessment": "Proven large-scale generation. Evaluate the actual builder, country, finance and completed cost before comparing economics.",
+      "source_ids": [
+        "westinghouse",
+        "edfowners",
+        "khnpowners",
+        "khnp",
+        "lazard",
+        "weo"
+      ]
+    },
+    {
+      "id": "smr",
+      "name": "Small light-water reactors",
+      "group": "Generation",
+      "service": "Smaller reactors using familiar water-cooled technology, with a proposed path to repeated manufacture.",
+      "status": "Named Western design under construction",
+      "evidence": "GE Vernova Hitachi’s 300 MW BWRX-300 at Darlington is under construction. Regulatory approval to construct is not permission to operate or proof of fleet cost.",
+      "companies": "US technology venture: GE Vernova 60%, Hitachi 40%. OPG owns Darlington and finances the project; technology supplier and plant owner differ.",
+      "cost": "OPG first-unit budget C$7.7bn includes shared infrastructure, interest, contingency and escalation. Equivalent C$25,700/kW is not an overnight or repeated-unit price.",
+      "demand_and_timing": "IEA broad SMR cases: 40–190 GW in 2050; at our assumed 85% output, 298–1,415 TWh/year. These are subsets of fission, not extra output to add.",
+      "limitations": "First-build cost, licensing, manufacturing orders and economies of repetition. Smaller size alone does not guarantee cheap electricity.",
+      "geopolitics": "Public procurement can establish first orders; supply-chain localization and licensing differ by market.",
+      "assessment": "Concrete construction evidence makes this a serious option. The key economic test is the cost of successive completed units.",
+      "source_ids": [
+        "geh",
+        "opg",
+        "cnsc",
+        "smrscale"
+      ]
+    },
+    {
+      "id": "advancedfission",
+      "name": "Advanced fission: sodium and high-temperature designs",
+      "group": "Generation / heat",
+      "service": "Uses different coolants, fuels or heat delivery. TerraPower Natrium and X-energy Xe-100 are different designs, not interchangeable products.",
+      "status": "Construction / pre-commercial development",
+      "evidence": "TerraPower received NRC construction authorization in March 2026 and announced plant construction in April. No operating commercial Xe-100 fleet verified here.",
+      "companies": "TerraPower: private, Gates-founded, US$650m 2025 equity round. X-energy: public since April 2026, about US$1.1bn net IPO proceeds; Amazon earlier investor/customer. Exact current private control unknown.",
+      "cost": "No completed commercial price for these designs. Do not turn funding rounds or proposed contract prices into verified production costs.",
+      "demand_and_timing": "Natrium’s 345 MW reactor plus storage can vary delivery; temporary storage output is not extra reactor energy. Future output is inside fission scenarios.",
+      "limitations": "HALEU and fuel fabrication for relevant designs, materials, first construction, maintenance and full plant licensing.",
+      "geopolitics": "US enrichment investment and industrial-policy support address supply risk; fuel availability remains design-specific.",
+      "assessment": "Potentially useful electricity and industrial heat, but cost and repeatability remain open. Track construction and fuel deliveries rather than announced pipeline alone.",
+      "source_ids": [
+        "terraequity",
+        "nrc",
+        "terrabuild",
+        "xenergy",
+        "xenergyfund",
+        "haleu"
+      ]
+    },
+    {
+      "id": "fusion",
+      "name": "Fusion",
+      "group": "Generation",
+      "service": "Combines light nuclei; different companies pursue magnetic confinement, pulsed systems and other designs.",
+      "status": "No verified commercial net-electric plant in this review",
+      "evidence": "CFS SPARC and Helion’s machines address important technical steps. Plasma/target gain is not the electricity balance of an entire power station.",
+      "companies": "CFS: private, reports US$4bn cumulative funding after July 2026 round; Google and Eni are investors/buyers. Helion: private, US$500m Series G close reported September 2026, Thrive-led.",
+      "cost": "No verified commercial electricity price. Target prices lack an operating fleet basis.",
+      "demand_and_timing": "CFS targets ~400 MW ARC early next decade; Helion targets ≥50 MW Orion from 2028. To supply 1% of 80,000 TWh/year at assumed 85% output requires ~107 GW, or ~269 plants of 400 MW.",
+      "limitations": "Net electricity, repetition/duty cycle, materials life, maintainability and fuel cycle; tritium requirements differ by design.",
+      "geopolitics": "National R&D, specialized components, fuel and strategic power buyers can support development; they cannot establish performance.",
+      "assessment": "Potentially important later; present supply contribution cannot be inferred from fundraising or first-plant targets. Require sustained net electricity and credible repeat-plant cost.",
+      "source_ids": [
+        "cfsfund",
+        "cfsarc",
+        "helionfund",
+        "helion",
+        "fusionroadmap"
+      ]
+    },
+    {
+      "id": "geothermal",
+      "name": "Conventional and enhanced geothermal",
+      "group": "Generation / heat",
+      "service": "Uses underground heat. Conventional plants exploit suitable reservoirs; enhanced systems create or improve flow pathways.",
+      "status": "Conventional commercial; enhanced early commercial output",
+      "evidence": "Fervo reports first Cape Station unit operating at 33 MW net in October 2026. The full announced development was not all operating.",
+      "companies": "Fervo is public after May 2026 IPO; reports US$2.2bn gross IPO proceeds and US$421m project debt for first phase. Equity and debt are separate financing categories.",
+      "cost": "Conventional geothermal global 2025 average US$89/MWh. Do not label this a measured Fervo/EGS cost. IEA’s ~US$50/MWh by 2035 is a conditional improvement case.",
+      "demand_and_timing": "IEA all-geothermal 2050 output 452–825 TWh. Separate next-generation study reaches nearly 6,000 TWh under strong cost/technology assumptions; these cases cannot be added together.",
+      "limitations": "Well cost, sustained flow/temperature, pumping, induced seismicity, water and drilling supply.",
+      "geopolitics": "Oilfield expertise can transfer; local subsurface/water permitting and industrial-policy support affect pace.",
+      "assessment": "Among the strongest emerging dependable-power candidates in this comparison because early net output exists. Long reservoir performance and repeat-build cost still need proof.",
+      "source_ids": [
+        "fervo",
+        "fervofin",
+        "irena",
+        "geopotential",
+        "weo"
+      ]
+    },
+    {
+      "id": "closedloop",
+      "name": "Closed-loop geothermal",
+      "group": "Generation / heat",
+      "service": "Circulates fluid in sealed underground wells, extracting heat without requiring a naturally permeable reservoir.",
+      "status": "Early grid output",
+      "evidence": "Eavor reported first Geretsried power in December 2025; a March 2026 research visit confirmed the first loop operating and economic assessment ongoing.",
+      "companies": "Eavor: private; Canada Growth Fund, energy companies and other investors. June 2025 CGF commitment up to ~C$138m included a milestone-dependent portion.",
+      "cost": "No verified commercial fleet cost. The amount of useful heat versus electricity changes the business case.",
+      "demand_and_timing": "Potentially broadens eligible geothermal sites. No separate verified global contribution; stays inside geothermal totals.",
+      "limitations": "Drilling cost/length, thermal transfer, long-term heat decline and site temperature.",
+      "geopolitics": "Canadian capital, European support and district-heat infrastructure can create early markets.",
+      "assessment": "Promising with actual first output; distinguish operating first loop from planned full-site output.",
+      "source_ids": [
+        "eavor",
+        "eavorvisit",
+        "eavorfund"
+      ]
+    },
+    {
+      "id": "superhot",
+      "name": "Superhot geothermal and new drilling",
+      "group": "Generation / heat",
+      "service": "Seeks much hotter rock; new drilling methods may make deep heat accessible.",
+      "status": "Drilling / project development",
+      "evidence": "Quaise has drilling and power-project plans; no operating Quaise power plant verified here.",
+      "companies": "Private Quaise closed US$180m Series B in August 2026; Nabors’ US$35m investment is included and gives 14% fully diluted ownership, not majority control.",
+      "cost": "No demonstrated commercial electricity price. Hotter rock does not by itself establish a cheaper completed plant.",
+      "demand_and_timing": "Quaise’s initial Obsidian target is 50 MW; later expansion is conditional. Do not translate theoretical heat resources into buildable 2050 output.",
+      "limitations": "Deep drilling, well completion, extreme-temperature materials, reservoir design and sustained net output.",
+      "geopolitics": "Drilling-contractor partnerships help industrial execution; sites still need permits and qualified suppliers.",
+      "assessment": "High potential with substantial remaining engineering. Keep separate from Fervo’s current operating evidence.",
+      "source_ids": [
+        "quaise",
+        "quaiseowners"
+      ]
+    },
+    {
+      "id": "wave",
+      "name": "Wave electricity exported to a grid",
+      "group": "Generation",
+      "service": "Captures wave motion and sends electricity ashore or to a nearby load.",
+      "status": "Grid-connected demonstrations / small deployments",
+      "evidence": "CorPower C4 has demonstrated grid export. Its 10 MW VianaWave array is planned, with company-targeted operation in 2029/30.",
+      "companies": "CorPower: private Swedish company, €32m 2024 equity round led by NordicNinja/SEB/EIT InnoEnergy, plus distinct EU support. Detailed control not verified.",
+      "cost": "IRENA early-wave estimate ~US$454/MWh; conditional European learning estimate ~US$120/MWh at 2 GW cumulative deployment. The latter is not a current quote or guaranteed learning curve.",
+      "demand_and_timing": "IEA all-marine 2050 scenarios 86–112 TWh/year. Wave has no separate verified forecast here; resource potential can exceed the scenario, but delivery must be shown.",
+      "limitations": "Storm survival, corrosion, fatigue, marine repairs, arrays/cables, annual output and financing.",
+      "geopolitics": "Demonstration grants and guaranteed-price procurement help early learning; permits, fisheries and ports constrain sites.",
+      "assessment": "Credible physical generation, still weak commercial cost evidence. Compare complete array cost and metered annual output with local alternatives.",
+      "source_ids": [
+        "corpower",
+        "corpowerfund",
+        "corpowergrants",
+        "irena",
+        "weo"
+      ]
+    },
+    {
+      "id": "wavecompute",
+      "name": "Wave-powered offshore computing",
+      "group": "Generation plus end-use service",
+      "service": "Uses wave electricity on a floating computer and exports data rather than electricity.",
+      "status": "Commercial system performance unverified",
+      "evidence": "Panthalassa’s May 2026 announcement described pilots and future commercialization; independently verified commercial output/uptime was not established.",
+      "companies": "Private public-benefit corporation; US$140m Series B led by Peter Thiel, with other financial and industrial investors. Ownership percentages undisclosed here.",
+      "cost": "No verified complete cost per useful compute job. Avoided export cables may help, but communications, utilization and offshore maintenance add costs.",
+      "demand_and_timing": "Addresses only computing workloads compatible with the location and communications. It does not directly meet general grid demand.",
+      "limitations": "Variable waves, uptime, compute hardware, cooling, corrosion, storms, repairs, satellite links and data constraints.",
+      "geopolitics": "Maritime permissions, chip supply/export rules, data rules and communications access affect the model.",
+      "assessment": "A distinct customer proposition worth evaluating. Compare the same compute service onshore and offshore, including equipment replacement and downtime.",
+      "source_ids": [
+        "panthalassa"
+      ]
+    },
+    {
+      "id": "tidalstream",
+      "name": "Tidal-stream turbines and kites",
+      "group": "Generation",
+      "service": "Extracts moving-water energy from tidal currents; predictable timing does not mean constant output.",
+      "status": "Operating turbines / small arrays",
+      "evidence": "Orbital O2 is 2 MW; MeyGen has 6 MW installed; Minesto reports extended Dragon tests. Planned arrays and contracted future MW remain separate.",
+      "companies": "Orbital is private. MeyGen owner Ampeak is listed, with a dated 29.6% indirect Hughes holding. Minesto is public; Corespring named largest shareholder. Grants, equity, debt and supported power prices all appear.",
+      "cost": "IRENA early-stage tidal-stream estimate ~US$358/MWh; conditional learning value ~US$140/MWh at 2 GW cumulative European deployment. No universal company bid.",
+      "demand_and_timing": "Part of 86–112 TWh/year marine scenarios. 1% of a 60,000–80,000 TWh world would need 196–261 GW at an assumed 35% average output, far above current small arrays.",
+      "limitations": "Usable channels, slack tides, underwater maintenance, cables, ecological effects and repeated-array finance.",
+      "geopolitics": "UK AR7 awarded 20.9 MW of tidal contracts; these create revenue support, not immediate generation. Regional procurement continuity matters.",
+      "assessment": "Stronger deployment evidence than an unbuilt concept; cost and location constrain scale. Evaluate site-level annual production and servicing.",
+      "source_ids": [
+        "orbital",
+        "orbitalfuture",
+        "meygen",
+        "meygenturbines",
+        "ampeakowners",
+        "minesto",
+        "minestofund",
+        "irena",
+        "weo",
+        "tidalpolicy"
+      ]
+    },
+    {
+      "id": "tidalrange",
+      "name": "Tidal range: barrages and lagoons",
+      "group": "Generation",
+      "service": "Uses the water-level difference across an embankment, like coastal hydropower.",
+      "status": "Operating large reference plants",
+      "evidence": "K-water’s Sihwa plant has 254 MW installed. This is a different technology from free-stream turbines and must not inherit their cost or readiness label.",
+      "companies": "K-water is the project operator; EDF operates another established tidal-range reference. These are infrastructure/public-utility models; full financing structures were not audited in this pass.",
+      "cost": "No current comparable new-build cost established here. Reusing an existing embankment differs from constructing a new lagoon.",
+      "demand_and_timing": "Potential regional output at suitable tidal ranges. No separate defensible global contribution assigned.",
+      "limitations": "Large civil works, estuary ecology, sediment, navigation, fisheries and site availability; production varies through tidal cycles.",
+      "geopolitics": "Public planning and coastal/environmental consent dominate the development path.",
+      "assessment": "Technically established in selected locations; site economics and environmental acceptability decide new expansion.",
+      "source_ids": [
+        "kwater",
+        "tidaltech"
+      ]
+    },
+    {
+      "id": "otec",
+      "name": "Ocean thermal energy conversion",
+      "group": "Generation, potentially water/cooling",
+      "service": "Uses warm surface water and cold deep water to run a heat engine; typically needs about 20°C temperature difference.",
+      "status": "Small demonstrations; larger projects in development",
+      "evidence": "EIA documents a 105 kW Hawaii demonstration operating from 2015. Global OTEC’s September 2026 Bahamas work is a feasibility study, not a generating plant.",
+      "companies": "Global OTEC is private; exact control not verified. The Bahamas study is EU-financed and Expertise France-commissioned; study funding does not finance full construction.",
+      "cost": "No independently verified current commercial fleet cost. Evaluate tropical island electricity, cooling and water separately, with a clear allocation of shared costs.",
+      "demand_and_timing": "Could supply steady local power in suitable tropical waters. No credible delivered global 2050 share established in this review.",
+      "limitations": "Low heat-engine efficiency, pumping energy, heat exchangers, huge deep-water pipes, biofouling and storms.",
+      "geopolitics": "Fuel-import-dependent islands and development banks are potential early customers/funders; coastal jurisdiction and environmental review matter.",
+      "assessment": "Interesting local multi-service opportunity. Require sustained net output after pumps and a complete project budget.",
+      "source_ids": [
+        "otec",
+        "globalotec"
+      ]
+    },
+    {
+      "id": "salinity",
+      "name": "Salinity-gradient power",
+      "group": "Generation",
+      "service": "Extracts energy from mixing fresh and salty water, often using membranes.",
+      "status": "Operating demonstrator",
+      "evidence": "Sweetch’s OPUS-1 tests real-water operation in the Rhône delta. A company’s estimate of 500 MW local potential is not present installed output.",
+      "companies": "Private Sweetch; 2023 €25m Series A led by Crédit Mutuel Impact’s fund with CNR, EDF Pulse Ventures and financial investors. Exact control not verified.",
+      "cost": "No independently verified commercial fleet cost. Lab membrane power density omits plant-level water handling and replacement costs.",
+      "demand_and_timing": "Potential at suitable estuaries or industrial streams; no verified contribution to global demand assigned.",
+      "limitations": "Membrane life/fouling, intake/filtration/pumping, freshwater flow, drought and ecological limits.",
+      "geopolitics": "Utility partners and public R&D support aid pilots; water rights and cross-sector water demand constrain deployment.",
+      "assessment": "An early candidate, not yet a proven bulk supply industry. Measure net exported electricity and replacement costs.",
+      "source_ids": [
+        "sweetch",
+        "sweetchfund"
+      ]
+    },
+    {
+      "id": "batteries",
+      "name": "Lithium-ion and sodium-ion batteries",
+      "group": "Storage",
+      "service": "Shifts electricity in time; does not create primary energy. Sodium-ion changes materials and performance tradeoffs.",
+      "status": "Lithium-ion commercial at scale; sodium-ion earlier",
+      "evidence": "CATL reports 661 GWh lithium-ion sales across applications in 2025 and expects wider sodium-ion adoption from 2026. Vehicle sales cannot be counted as grid installations.",
+      "companies": "CATL is public; end-2025 filing identifies Zeng-controlled Xiamen Ruiting at 22.45% as controlling shareholder. Sales, cash flow and public capital support factories.",
+      "cost": "IRENA 2025 global four-hour installed system cost: US$140/kWh. Delivered electricity cost also depends on charging price, cycles, efficiency and replacement.",
+      "demand_and_timing": "Useful for daily shifting and grid response. Required GW, usable GWh and hours depend on the actual hourly demand/supply gap.",
+      "limitations": "Duration, degradation, fire management, mineral supply and connection. Cheap cell cost does not establish cheap seasonal storage.",
+      "geopolitics": "Manufacturing concentration and import/localization rules change price and access; chemistry changes some material exposures.",
+      "assessment": "Strong established daily-storage option. Treat sodium-ion economics separately until delivery and lifetime evidence exist.",
+      "source_ids": [
+        "catl",
+        "catlowners",
+        "irena",
+        "supply"
+      ]
+    },
+    {
+      "id": "ironair",
+      "name": "Iron-air multi-day batteries",
+      "group": "Storage",
+      "service": "Stores electricity through reversible iron chemistry, targeting long discharge at low energy-capacity cost.",
+      "status": "Early deployments; acceptance evidence incomplete",
+      "evidence": "Form targets 100-hour discharge. Great River Energy’s April 2026 plan still anticipated end-2026 commercial operation of Cambridge; no later acceptance record verified here.",
+      "companies": "Private Form Energy: US$750m Series G announced August 2026, T. Rowe Price-led. Backlog is not an operating storage fleet.",
+      "cost": "No independently verified complete installed fleet cost. A low materials cost or US$/kWh target excludes some project and operating questions.",
+      "demand_and_timing": "Can address multi-day weather gaps if performance and prices hold. Quantify MW, usable MWh, recharge time and frequency, rather than a generation share.",
+      "limitations": "Round-trip losses, footprint, manufacturing yield, lifetime and economics of infrequent use.",
+      "geopolitics": "US industrial support and utility capacity procurement can fund early installations.",
+      "assessment": "Potentially important for reliability. Require customer-accepted performance and a full installed price before assuming cheap multi-day coverage.",
+      "source_ids": [
+        "formfund",
+        "formstatus"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "name": "Compressed-air and flow-battery storage",
+      "group": "Storage",
+      "service": "Compressed air stores mechanical energy; flow batteries store energy in liquid electrolytes. They are different long-duration approaches.",
+      "status": "Operating references; scale and economics vary",
+      "evidence": "Hydrostor Goderich: 1.75 MW discharge, >10 MWh physical storage, 7 MWh contracted, in service 2019. DICP reports Dalian 100 MW/400 MWh vanadium-flow phase connected in 2022.",
+      "companies": "Hydrostor: private, backed by Goldman Sachs Alternatives, CPP Investments and Canada Growth Fund; announced US$230m financing in 2026. Dalian technology involves DICP/Rongke; full ownership/funding not audited here.",
+      "cost": "No common verified fleet price assigned. Compare complete installed power equipment plus energy capacity, efficiency, maintenance and charging cost.",
+      "demand_and_timing": "Can shift electricity for longer durations and reduce some supply gaps. Does not add primary generation.",
+      "limitations": "Caverns/civil works for compressed air; electrolyte, pumps, membranes and footprint for flow batteries; both depend on utilization.",
+      "geopolitics": "Local geology, planning, domestic manufacturing and long-duration procurement determine where projects are financeable.",
+      "assessment": "Serious alternatives to compare by discharge duration and site. Do not assume a small reference proves a much larger project’s cost.",
+      "source_ids": [
+        "hydro",
+        "hydrofund",
+        "hydrobackers",
+        "flow"
+      ]
+    },
+    {
+      "id": "heatstorage",
+      "name": "Industrial heat storage",
+      "group": "Storage / industrial heat",
+      "service": "Uses electricity to heat a storage material and later supplies steam or hot air.",
+      "status": "Early commercial industrial units",
+      "evidence": "Rondo announced a 100 MWh heat unit in commercial operation in October 2025. Company efficiency claims describe electricity-to-heat conversion.",
+      "companies": "Private Rondo; historical investors include Microsoft’s climate fund, Rio Tinto, Aramco Ventures, SCG, TITAN and climate funds. Industrial buyers are also strategic partners.",
+      "cost": "No verified general delivered heat price here. Compare US$/MWh of useful heat at the required temperature, including electricity and installation.",
+      "demand_and_timing": "Can replace industrial fuels while adding electricity demand. Stored thermal MWh must not be counted as delivered electrical MWh.",
+      "limitations": "Charging tariff and hours, process temperature, integration, standby losses and heat demand.",
+      "geopolitics": "Industrial energy/carbon policy and local gas/electricity price ratios change competitiveness.",
+      "assessment": "Concrete early operating evidence. Evaluate for the specific factory heat service; it is not automatically a cheap electric grid battery.",
+      "source_ids": [
+        "rondo",
+        "rondofund"
+      ]
+    },
+    {
+      "id": "hydrogen",
+      "name": "Hydrogen and ammonia from electricity",
+      "group": "Energy carrier / feedstock",
+      "service": "Uses electricity to make hydrogen; may convert it to ammonia for transport or use. Consumes energy rather than creating a new source.",
+      "status": "Commercial components; large clean-fuel projects scaling",
+      "evidence": "NEOM project remains a commissioning/development case: sponsor now targets first product in 2027. Large project approval is not present fuel output.",
+      "companies": "nucera ownership: thyssenkrupp 50.19%, De Nora 25.85%, PIF 6%. NGHC customer project is equal ACWA/Air Products/NEOM ownership; financed separately, with an Air Products offtake contract.",
+      "cost": "No universal delivered hydrogen price used. NEOM financial-close value US$8.4bn differs from current ACWA project-cost field US$9.046bn; reconciliation is unresolved. These are project totals, not US$/kg.",
+      "demand_and_timing": "Can address feedstock/fuel demand and some long storage needs. Electrolysis increases demand from Q1; do not count its output as free additional electricity.",
+      "limitations": "Clean electricity price/utilization, conversion losses, storage/transport, water and paying customers.",
+      "geopolitics": "Export strategy, certification, subsidies, shipping and energy-security objectives shape early markets.",
+      "assessment": "Useful for specific fuel/chemical services. Electricity-to-hydrogen-to-electricity needs a complete cost and efficiency comparison.",
+      "source_ids": [
+        "nuceraowners",
+        "neomfinance",
+        "neom"
+      ]
+    },
+    {
+      "id": "ccs",
+      "name": "Gas, coal and carbon capture",
+      "group": "Generation",
+      "service": "Burns fuel for controllable electricity; capture adds equipment and a CO2 transport/storage chain.",
+      "status": "Fossil generation mature; integrated capture less widespread",
+      "evidence": "Gas/coal plants operate at scale. A capture percentage at the stack is not a whole fuel-chain emissions reduction.",
+      "companies": "Utilities and independent generators buy turbine/boiler and capture systems; fuel suppliers and CO2 network owners introduce separate dependencies. No selected startup ownership implies ownership of the whole chain.",
+      "cost": "2026 US modeled gas US$51–129/MWh. NETL H-class 2×1 comparison in 2023 dollars: US$41.9/MWh without capture, US$77.8/MWh with 95% capture including CO2 transport/storage, at 85% utilization and assumed gas price.",
+      "demand_and_timing": "IEA 2050 unabated fossil output differs sharply: 12,213 TWh in stated policies versus 205 TWh in net zero. Captured fossil output: 53 versus 986 TWh. These are policy-dependent outcomes.",
+      "limitations": "Fuel prices, upstream methane, remaining CO2, capture energy penalty, storage availability, water and utilization.",
+      "geopolitics": "LNG pipelines/trade, fuel-import exposure, carbon policy and CO2 infrastructure determine local economics.",
+      "assessment": "Essential comparison benchmark. Do not call a plant low-emissions solely because a high stack-capture rate is modeled.",
+      "source_ids": [
+        "lazard",
+        "netl",
+        "weo"
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Bioenergy and concentrated solar power",
+      "group": "Generation / heat",
+      "service": "Bioenergy burns or processes biological feedstocks. Concentrated solar power uses mirrors and heat, often with thermal storage.",
+      "status": "Commercial, resource-specific",
+      "evidence": "Both have operating plants, but neither shares the scale or site flexibility of ordinary solar PV.",
+      "companies": "Utilities, infrastructure developers and industrial/feedstock owners finance projects; no detailed company/control audit for these two families in this pass.",
+      "cost": "2025 global commissioned averages: bioenergy US$86/MWh; concentrated solar US$115/MWh. These are separate project groups, not interchangeable services.",
+      "demand_and_timing": "IEA 2050: bioenergy 1,575–2,917 TWh; concentrated solar 245–1,209 TWh. Biomass carbon benefits depend on sourcing and land-use accounting.",
+      "limitations": "Bioenergy: sustainable feedstock and competing land/material uses. Concentrated solar: strong direct sunlight, thermal plant cost, water and maintenance.",
+      "geopolitics": "Feedstock trade, land policy and regional industrial support affect deployment; import dependence can reappear through fuels.",
+      "assessment": "Keep as site-specific benchmarks. Neither an assumed carbon-neutral biomass supply nor a globally portable solar-thermal price is justified.",
+      "source_ids": [
+        "irena",
+        "weo"
+      ]
+    },
+    {
+      "id": "space",
+      "name": "Solar power in space",
+      "group": "Generation in orbit / transmission to Earth",
+      "service": "Solar panels supplying a spacecraft and orbital systems beaming power to Earth provide different services.",
+      "status": "Orbital solar established; large Earth-delivery system unproven",
+      "evidence": "NASA’s 2024 study models two conceptual space-to-Earth designs, not operating utilities. It does not evaluate every later proposal.",
+      "companies": "Space agencies, spacecraft suppliers and private developers have different procurement models. A current space-company ownership/funding audit is reserved for the separate space comparison.",
+      "cost": "NASA concept estimates: US$0.61 and US$1.59/kWh in FY2022 dollars. These are design-specific modeled lifecycle costs, not present commercial bids or a universal limit.",
+      "demand_and_timing": "No verified meaningful Earth-grid supply contribution assigned. Lunar/Mars local power must be modeled against local loads, storage, delivered mass and replacement constraints.",
+      "limitations": "Launch/manufacture, deployment, beam losses/receivers, maintenance and orbital environment; in-space loads also need thermal rejection.",
+      "geopolitics": "Launch access, export controls, spectrum and international coordination affect deployment.",
+      "assessment": "Separate in-space use from Earth delivery. The Earth technology assessment cannot settle Moon/Mars choices by copying terrestrial US$/MWh.",
+      "source_ids": [
+        "space"
+      ]
+    }
+  ]
+}

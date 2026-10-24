@@ -10,21 +10,21 @@
     },
     {
       "path": "CLAUDE_SCIENCE_ENERGY_CONTEXT.md",
-      "bytes": 41768,
-      "sha256": "3bd13aa35e4ac89b1556408f4bb972f8ff6c83f39789a9a3a081285e108213ad",
-      "git_blob_sha": "082884e350e63d1e3af5155cb13b03f191f6ba99"
+      "bytes": 42300,
+      "sha256": "87641e4036d15bdd9fb034e53d1854b18e3762104507420d8933f3f82ee689d2",
+      "git_blob_sha": "3f886a6d1a635877b050ede06ae157b98e2715f2"
     },
     {
       "path": "README.md",
-      "bytes": 5636,
-      "sha256": "f8767b5f607ba9ddb7f7e98f3c96d2d94aea4777000f8974b4e955f8cf6eaed6",
-      "git_blob_sha": "0bf4f928d9e95c893f2a7f4c7f2a3d541420e7cc"
+      "bytes": 5946,
+      "sha256": "ef51b596ebb71ab590647e6c3cffd995355a81b48d846c350dcfda311bfde2c1",
+      "git_blob_sha": "9a2aa5f6b322bc9281fe408ce22ed8cf5f78d558"
     },
     {
       "path": "RESEARCH_SCOPE.md",
-      "bytes": 2955,
-      "sha256": "a81689970802021fa7971ef7358ad22b0440898722532e576a86461c5266fcb8",
-      "git_blob_sha": "82772c39c1d23c67df027d2121f156b667157a1a"
+      "bytes": 3129,
+      "sha256": "0d392a54e44feef429c902724a179d9c112fee6d05104d0d027191d3fb48263b",
+      "git_blob_sha": "2964a5507fab41a39e410b69391d010a381a5757"
     },
     {
       "path": "candidate_build.csv",
@@ -340,9 +340,15 @@
     },
     {
       "path": "question2/ANSWER.md",
-      "bytes": 25311,
-      "sha256": "008074d6153bfa89cc2d944d71246befe7dec5c2f2f8e3b9515d73f4a2642f0e",
-      "git_blob_sha": "d18314e532818d7e35602eb11229ff0db964863e"
+      "bytes": 63794,
+      "sha256": "0e3fe43564d9faced013268b9a1bc33dc14b438011f052f397f4dd50ed265a3b",
+      "git_blob_sha": "2e43009be139be1baf0ec48504bb811976f00bd3"
+    },
+    {
+      "path": "question2/COST_AND_SCALE.md",
+      "bytes": 19845,
+      "sha256": "18af1f8390a22c28a1eef6daaad4e678085310a745139f67e50a2c20455b9dab",
+      "git_blob_sha": "092a3717063a5a9abe573ace3218c884e7e96223"
     },
     {
       "path": "question2/EVIDENCE_REVIEW.md",
@@ -352,15 +358,27 @@
     },
     {
       "path": "question2/LANDSCAPE.md",
-      "bytes": 11732,
-      "sha256": "032e2e4d0ef0ac0a1d32774307d774801b8ee1dd703a7f9063f4fea6887c41eb",
-      "git_blob_sha": "63807f1094a261297ed7a91283d58c6f7c1b40cf"
+      "bytes": 56391,
+      "sha256": "ac5742a6fb953d2b5c49275fb0d00090424de0d6d9db179fee2382f2709f7f93",
+      "git_blob_sha": "348c73305f69ce896cfcb7d5c14bfcd13d4c22fa"
+    },
+    {
+      "path": "question2/METHODS.md",
+      "bytes": 6762,
+      "sha256": "603537665103b2ce0d31f4ea537219aa5ab8f379a265dddcdbff7fc2b1b1c96a",
+      "git_blob_sha": "9f447886525e2a3831e9f1eec26a064ff7c289fc"
     },
     {
       "path": "question2/commissioned_renewable_costs.csv",
       "bytes": 320,
       "sha256": "f77ac3f05ff92295cdd7d754f648c9520a45b0323fe3053eb285fbafb746ece6",
       "git_blob_sha": "ecb783a464f2a0a316b654ca312148a3fe4336b7"
+    },
+    {
+      "path": "question2/company_profiles.json",
+      "bytes": 61729,
+      "sha256": "e3c32aedd282660286178294d8fb6687bae07c37cc5ac70cb543f2de53ac4a79",
+      "git_blob_sha": "5e3cb08dc7c03fbeaa4665a14f35746db5d59322"
     },
     {
       "path": "question2/construction_scale.csv",
@@ -453,6 +471,42 @@
       "git_blob_sha": "b72d132cdb2148b7822bc259a07ce4ce503902da"
     },
     {
+      "path": "question2/figures/07_project_evidence.png",
+      "bytes": 333946,
+      "sha256": "8477a0a2a4516dba1ec10b8e4e4cec2d10f668e93655cb885e5b5545daa73adc",
+      "git_blob_sha": "23e117e77a0ea422933cb6ea6ccd82380a5de4d9"
+    },
+    {
+      "path": "question2/figures/07_project_evidence.svg",
+      "bytes": 13221,
+      "sha256": "3991e39d1ff609c25caf137941b0745cd3d2ff3bf787823a0ed5d42a4ab2ce22",
+      "git_blob_sha": "d8d22fc7e6df1288d161753f0469d551892d1b0b"
+    },
+    {
+      "path": "question2/figures/08_ocean_cost_evidence.png",
+      "bytes": 149607,
+      "sha256": "8367f5a768b1a0695103a2abad1729305aa81b6514bf34768977a673a095b1e7",
+      "git_blob_sha": "c0186d60e0542213442a3b5691342deb1f365311"
+    },
+    {
+      "path": "question2/figures/08_ocean_cost_evidence.svg",
+      "bytes": 11393,
+      "sha256": "3cfdc2f7c9261c9243e29683086eef8a9a5d3174a6c4bc8947abd6626f0000d4",
+      "git_blob_sha": "c28e84ebb69963d2fd333fb8ba59b91ce5469a02"
+    },
+    {
+      "path": "question2/figures/09_one_percent.png",
+      "bytes": 185857,
+      "sha256": "e8ea446e4ff7317d48ba9406ef0907057d860355d3521a9f1d39a88c36aa04b2",
+      "git_blob_sha": "9f0eb3ca4718f8fc5ab4d3ae8bd3f310550be3de"
+    },
+    {
+      "path": "question2/figures/09_one_percent.svg",
+      "bytes": 11974,
+      "sha256": "548fa09f6ec15879f2042a6eb8b45fd67533fb2b882cc6cf1370e77c892cd3e7",
+      "git_blob_sha": "bc123db2d479a17e7683f77e4dd7f41373e14063"
+    },
+    {
       "path": "question2/gas_carbon_capture.csv",
       "bytes": 425,
       "sha256": "e8c1fddb2a0b1d8c9384f562f57fcd86bb40bb16cfd1a1b27cf9d97204c8c964",
@@ -463,6 +517,18 @@
       "bytes": 1219,
       "sha256": "dcdb631f0a8c75b6bad3936ce8a0a14d57ae37bee1e3906038bdff6ee5c9f323",
       "git_blob_sha": "93d6c9be404a267354cdd6ff8c94e8a7083ac427"
+    },
+    {
+      "path": "question2/landscape_analysis.py",
+      "bytes": 19725,
+      "sha256": "9cc995b610765a65839ce56b17b7e9b3cb6b614d6484fb61320136c5b8d2ef0a",
+      "git_blob_sha": "8bf9d2a70157d509212d5f6bb71dbce3230837e1"
+    },
+    {
+      "path": "question2/landscape_figure_data.json",
+      "bytes": 4897,
+      "sha256": "868380c2fd40fd3dd3ff57d484ed13da49734a444ab066756e1940107d58e02e",
+      "git_blob_sha": "d3a0cdb39b09f4398853979749f9f27cb8bf01fd"
     },
     {
       "path": "question2/new_build_cost_ranges.csv",
@@ -495,6 +561,12 @@
       "git_blob_sha": "01073dfba36604e71178a9b9de9824b8f3570d7b"
     },
     {
+      "path": "question2/technology_profiles.json",
+      "bytes": 41625,
+      "sha256": "56649bc9b6604e353d4f26775a3f035451de57e44397e599a1b941f6229cf05e",
+      "git_blob_sha": "08d11d26968005eb12f0a69fe0a9ef61226c5d6b"
+    },
+    {
       "path": "question2/technology_results.json",
       "bytes": 16294,
       "sha256": "b97d7fbdce3e0518d9cb46649ce1f692630ff2ad3d6a3316b5d1d6ab80936da8",
@@ -520,15 +592,15 @@
     },
     {
       "path": "sources/README.md",
-      "bytes": 5012,
-      "sha256": "a0c2ebc7a9bde846d5546e3833ee03451625737fef4dc458c505f5a0ff8d77c1",
-      "git_blob_sha": "a69162a645545cdf6458b52a26fcfb973861e5b6"
+      "bytes": 16701,
+      "sha256": "c1b1c82570469413de05304a1d4b2785d288d91274fa92d87a9d03b16f77a426",
+      "git_blob_sha": "8bae736da31b9d4e25e2efece4ec8aa4f643e49e"
     },
     {
       "path": "sources/source_ledger.json",
-      "bytes": 6470,
-      "sha256": "8b85447a86a753c6a4659ad9bfe85bc849c8a7b6fbf93b7e8812a32791278506",
-      "git_blob_sha": "d82f22ecc0ccef351550a2ceb9a3f8a5b27e56ca"
+      "bytes": 31847,
+      "sha256": "bab6149ee0683514bed0a78a7e1b291f2723b25c8098c302610343d0ad54e4be",
+      "git_blob_sha": "4058dbabe634b30d3a50aea245e5d0a9ca1fb36f"
     },
     {
       "path": "space_storage.csv",
